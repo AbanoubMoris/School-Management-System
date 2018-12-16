@@ -16,12 +16,8 @@ namespace SMS
 
     public partial class Login : Form
     {
+
         MyMessageBox MBOX;
-        //string connection thomasLaptop
-        //string stringConnection = @"Data Source=DESKTOP-TIFITP1\SQLEXPRESS;Initial Catalog=Teacher;Integrated Security=True;";
-        //string connection thomasPC
-        //string stringConnection = @"Data Source=THOMAS-PC\SQLEXPRESS;Initial Catalog=Teacher;Integrated Security=True;";
-        //Abanoub PC
         string stringConnection = StringConnection.ConnectionString();
         SmtpClient client;
         MailMessage msg;
@@ -43,7 +39,7 @@ namespace SMS
             client.Send(msg);
             MessageBox.Show("An Email With Your Password Has Been Sent!");
         }
-        
+
 
         bool strongPass = false, correctPhone = false, validMail = false;
         bool ChoosedAdmin = false;
@@ -53,6 +49,7 @@ namespace SMS
         public Login()
         {
             InitializeComponent();
+            this.Width = 350;
             ChoosePanel.Visible = true;
             panel1.Visible = false;
         }
@@ -61,14 +58,54 @@ namespace SMS
         {
 
         }
+        //******************************Animation**********************************
+        private void timer1_Tick(object sender, EventArgs e)
+        {
+            if (hidden == false)
+            {
+                if (this.Width >= 700)
+                    timer1.Enabled = false;
+                this.Width += 20;
+            }
+            else
+            {
+                if (this.Width <= 390)
+                    timer1.Enabled = false;
+                this.Width -= 20;
+            }
+        }
 
+        bool hidden = false;
         private void bunifuCustomLabel2_Click(object sender, EventArgs e)
         {
+
+
             ChoosePanel.Visible = false;
-            LoginPanel.Visible = false;
+            //LoginPanel.Visible = false;
             panel1.Visible = false;
-            SignupPanel.Visible = true;
+
+            if (SignupPanel.Visible == true)
+            {
+
+                timer1.Enabled = true;
+                hidden = true;
+                bunifuTransition1.HideSync(SignupPanel, true);
+                SignupPanel.Visible = false;
+                bunifuImageButton1.Location = new Point(324, 3);
+
+            }
+            else
+            {
+                hidden = false;
+                timer1.Enabled = true;
+                bunifuTransition1.ShowSync(SignupPanel, true);
+                bunifuImageButton1.Location = new Point(703, 0);
+            }
+            //SignupPanel.Visible = true;
         }
+        //******************************Animation**********************************
+
+
 
         private void bunifuImageButton1_Click(object sender, EventArgs e)
         {
@@ -151,7 +188,7 @@ namespace SMS
             dayReg.Location = new Point(84, 265);
             monthReg.Location = new Point(171, 265);
             yearReg.Location = new Point(258, 265);
-         
+
         }
 
 
@@ -201,7 +238,7 @@ namespace SMS
                 if (bunifuMetroTextbox2.Text == "" || bunifuMetroTextbox1.Text == "")
                 {
                     MBOX = new MyMessageBox("You can't leave anything empty!");
-                   
+
                 }
                 else
                 {
@@ -220,7 +257,7 @@ namespace SMS
                                 this.Hide();
                                 login = true;
                                 MBOX = new MyMessageBox("Welcome " + username + '!');
-                                
+
                                 if (ChoosedTeacher)
                                 {
                                     Teachers_Form Ta = new Teachers_Form(username);
@@ -240,9 +277,9 @@ namespace SMS
                             }
 
                         }
-                        
-                       
-                 
+
+
+
                         if (!login) MBOX = new MyMessageBox("Wrong username or password!");
                         bunifuMetroTextbox2.Text = bunifuMetroTextbox1.Text = "";
                     }
@@ -252,13 +289,12 @@ namespace SMS
 
         private void bunifuFlatButton2_Click(object sender, EventArgs e)
         {
-            
-            
+
             //register
             if (teacherIsClicked) register("Teacher");
             else register("Parent");
-       }
-       
+        }
+
 
         private void bunifuCustomLabel3_Click(object sender, EventArgs e)
         {
@@ -295,7 +331,7 @@ namespace SMS
         {
             if (teacherIsClicked) forgetPass("Teacher");
             else if (studentIsClicked) forgetPass("Student");
-            else if(parentIsClicked) forgetPass("Parent");
+            else if (parentIsClicked) forgetPass("Parent");
         }
 
         private void bunifuImageButton1_Click_1(object sender, EventArgs e)
@@ -316,10 +352,10 @@ namespace SMS
 
         private void bunifuMetroTextbox2_Leave(object sender, EventArgs e)
         {
-            if(bunifuMetroTextbox2.Text == "")
+            if (bunifuMetroTextbox2.Text == "")
             {
-            bunifuMetroTextbox2.Text = "USERNAME";
-            bunifuMetroTextbox2.ForeColor = Color.Gray;
+                bunifuMetroTextbox2.Text = "USERNAME";
+                bunifuMetroTextbox2.ForeColor = Color.Gray;
             }
         }
 
@@ -557,18 +593,20 @@ namespace SMS
             SignupPanel.Visible = false;
         }
 
+
+
         bool usernameExists = false;
 
         //register fn
-       void register(string tableName)
+        void register(string tableName)
         {
             strongPass = false;
             correctPhone = false;
             validMail = false;
             usernameExists = false;
-            if (usernameReg.Text == "" || passReg.Text == "" || addressReg.Text == "" || mobileReg.Text == "" || emailReg.Text == "" || dayReg.Text=="" || monthReg.Text=="" || yearReg.Text=="")
+            if (usernameReg.Text == "" || passReg.Text == "" || addressReg.Text == "" || mobileReg.Text == "" || emailReg.Text == "" || dayReg.Text == "" || monthReg.Text == "" || yearReg.Text == "")
             {
-                if (ChoosedTeacher) 
+                if (ChoosedTeacher)
                 {
                     if (courseYouTeachReg.Text == "") MBOX = new MyMessageBox("Please dont leave anything blank!");
                 }
@@ -582,10 +620,10 @@ namespace SMS
                 if (passReg.Text.Count() < 6)
                 {
 
-                   MBOX = new MyMessageBox ("Please Enter stronger password");
+                    MBOX = new MyMessageBox("Please Enter stronger password");
 
                 }
-                else strongPass = true; 
+                else strongPass = true;
 
                 if (mobileReg.Text.Count() != 11) MBOX = new MyMessageBox("Please make sure you entered 11 numbers in your phone!");
                 else correctPhone = true;
@@ -619,19 +657,44 @@ namespace SMS
                             }
                             cmd.ExecuteNonQuery();
                             MBOX = new MyMessageBox("Registered Successfully!");
-                           
+
+                            if (SignupPanel.Visible == true)
+                            {
+
+                                timer1.Enabled = true;
+                                hidden = true;
+                                bunifuTransition1.HideSync(SignupPanel, true);
+                                SignupPanel.Visible = false;
+                                bunifuImageButton1.Location = new Point(324, 3);
+
+                            }
+
+                            //**********************************
+                            if (SignupPanel.Visible == true)
+                            {
+
+                                timer1.Enabled = true;
+                                hidden = true;
+                                bunifuTransition1.HideSync(SignupPanel, true);
+                                SignupPanel.Visible = false;
+                                bunifuImageButton1.Location = new Point(324, 3);
+
+                            }
+
+
                             ChoosePanel.Visible = false;
                             SignupPanel.Visible = false;
                             panel1.Visible = false;
                             LoginPanel.Visible = false;
                             LoginPanel.Visible = true;
-                            usernameReg.Text = passReg.Text = addressReg.Text = emailReg.Text = dayReg.Text = monthReg.Text = yearReg.Text = mobileReg.Text = courseYouTeachReg.Text ="";
+                            usernameReg.Text = passReg.Text = addressReg.Text = emailReg.Text = dayReg.Text = monthReg.Text = yearReg.Text = mobileReg.Text = courseYouTeachReg.Text = "";
                             maleReg.Checked = false;
                             femaleReg.Checked = false;
-                        }else
+                        }
+                        else
                         {
                             MBOX = new MyMessageBox("Username Exists, Please choose another one!");
-                       
+
                         }
 
                     }
@@ -639,5 +702,5 @@ namespace SMS
             }
         }
     }
-    
+
 }

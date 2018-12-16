@@ -11,29 +11,34 @@ using System.Data.SqlClient;
 
 namespace SMS
 {
-    
+
     public partial class Admin : Form
     {
         bool isclicked1 = false;
         bool isclicked2 = false;
-        bool isclicked3= false;
+        bool isclicked3 = false;
 
         //string connection for thomas pc
+        bool hidden = false;
         string stringConnection = StringConnection.ConnectionString();
         public Admin()
         {
             InitializeComponent();
+            timer1.Enabled = true;
+            hidden = true;
             AdminFunctions MyFn = new AdminFunctions();
             PPanel.AutoScroll = true;
             TPanel.AutoScroll = true;
             SPan.AutoScroll = true;
-            MyFn.TeacherData(TPanel); 
+            MyFn.TeacherData(TPanel);
             MyFn.ParentData(PPanel);
             MyFn.StudentData(SPan);
-            
-            
+
+
+
+
         }
-       
+
         public string TeacherName
         {
             get { return label8.Text; }
@@ -143,7 +148,7 @@ namespace SMS
 
         private void button1_Click(object sender, EventArgs e)
         {
-            SlidePanel.Location = new Point(button1.Location.X - 10, button1.Location.Y);
+            SlidePanel.Location = new Point(1, button1.Location.Y);
             DashBoardPanel.Visible = true;
             TeachersPanel.Visible = false;
             StudentsPanel.Visible = false;
@@ -161,7 +166,7 @@ namespace SMS
         }
         private void button2_Click(object sender, EventArgs e)
         {
-            SlidePanel.Location = new Point(button2.Location.X - 10, button2.Location.Y);
+            SlidePanel.Location = new Point(1, button2.Location.Y);
             DashBoardPanel.Visible = false;
             ParentPanel.Visible = false;
             StudentsPanel.Visible = false;
@@ -170,7 +175,7 @@ namespace SMS
             TeachersPanel.Visible = true;
             // TeacherDetailsPanel.Visible = true;
             TeachersPanel.BringToFront();
-            
+
             //TeacherDetailsPanel.BringToFront();
 
             //TeacherForm T = new TeacherForm();
@@ -180,7 +185,7 @@ namespace SMS
 
         private void button3_Click(object sender, EventArgs e)
         {
-            SlidePanel.Location = new Point(button3.Location.X - 10, button3.Location.Y);
+            SlidePanel.Location = new Point(1, button3.Location.Y);
             DashBoardPanel.Visible = false;
             TeachersPanel.Visible = false;
             StudentsPanel.Visible = false;
@@ -194,7 +199,7 @@ namespace SMS
 
         private void button4_Click(object sender, EventArgs e)
         {
-            SlidePanel.Location = new Point(button4.Location.X - 10, button4.Location.Y);
+            SlidePanel.Location = new Point(1, button4.Location.Y);
             DashBoardPanel.Visible = false;
             TeachersPanel.Visible = false;
             ParentPanel.Visible = false;
@@ -208,7 +213,7 @@ namespace SMS
 
         private void button5_Click(object sender, EventArgs e)
         {
-            SlidePanel.Location = new Point(button5.Location.X - 10, button5.Location.Y);
+            SlidePanel.Location = new Point(1, button5.Location.Y);
             DashBoardPanel.Visible = false;
             TeachersPanel.Visible = false;
             ParentPanel.Visible = false;
@@ -224,7 +229,7 @@ namespace SMS
 
         private void button6_Click(object sender, EventArgs e)
         {
-            SlidePanel.Location = new Point(button6.Location.X - 10, button6.Location.Y);
+            SlidePanel.Location = new Point(1, button6.Location.Y);
             DashBoardPanel.Visible = false;
             TeachersPanel.Visible = false;
             ParentPanel.Visible = false;
@@ -267,7 +272,7 @@ namespace SMS
 
         private void button7_Click(object sender, EventArgs e)
         {
-            if (isclicked1==false)
+            if (isclicked1 == false)
             {
                 button7.ForeColor = Color.Green;
                 button8.ForeColor = Color.White;
@@ -276,23 +281,23 @@ namespace SMS
                 Teachers_chart.Visible = false;
                 Students_chart.Visible = false;
                 All_chart.Titles.Add("All DashBroud chart");
-                
+
                 SqlConnection con = new SqlConnection(stringConnection);
                 con.Open();
                 SqlCommand cmd1 = new SqlCommand("select count(Name) from Teacher", con);
                 int count1 = (int)cmd1.ExecuteScalar();
-                All_chart.Series["s1"].Points.AddXY("Teachers",count1);
-                
+                All_chart.Series["s1"].Points.AddXY("Teachers", count1);
+
 
                 SqlCommand cmd2 = new SqlCommand("select count(Name) from Student", con);
                 int count2 = (int)cmd2.ExecuteScalar();
-                All_chart.Series["s1"].Points.AddXY("Students",count2);
-              
+                All_chart.Series["s1"].Points.AddXY("Students", count2);
+
 
                 SqlCommand cmd3 = new SqlCommand("select count(Course_Name) from Course", con);
                 int count3 = (int)cmd3.ExecuteScalar();
-                All_chart.Series["s1"].Points.AddXY("Courses",count3);
-              
+                All_chart.Series["s1"].Points.AddXY("Courses", count3);
+
                 con.Close();
             }
             else
@@ -305,7 +310,7 @@ namespace SMS
                 Students_chart.Visible = false;
             }
             isclicked1 = true;
-      }
+        }
 
         private void button8_Click(object sender, EventArgs e)
         {
@@ -318,17 +323,17 @@ namespace SMS
                 Teachers_chart.Visible = true;
                 Students_chart.Visible = false;
                 Teachers_chart.Titles.Add("Teachers DashBroud chart");
-                
+
                 SqlConnection con = new SqlConnection(stringConnection);
                 con.Open();
                 SqlCommand cmd1 = new SqlCommand("select count(Gender) from Teacher where Gender like 'Male'", con);
                 int count1 = (int)cmd1.ExecuteScalar();
                 Teachers_chart.Series["s1"].Points.AddXY("Male", count1);
-                
+
                 SqlCommand cmd2 = new SqlCommand("select count(Gender) from Teacher where Gender like 'Female'", con);
                 int count2 = (int)cmd2.ExecuteScalar();
                 Teachers_chart.Series["s1"].Points.AddXY("Female", count2);
-                
+
                 con.Close();
             }
             else
@@ -360,11 +365,11 @@ namespace SMS
                 SqlCommand cmd1 = new SqlCommand("select count(Gender) from Student where Gender like 'Male'", con);
                 int count1 = (int)cmd1.ExecuteScalar();
                 Students_chart.Series["s1"].Points.AddXY("Male", (count1));
-               
+
                 SqlCommand cmd2 = new SqlCommand("select count(Gender) from Student where Gender like 'Female'", con);
                 int count2 = (int)cmd2.ExecuteScalar();
                 Students_chart.Series["s1"].Points.AddXY("Female", (count2));
-             
+
                 con.Close();
                 Students_chart.Visible = true;
             }
@@ -395,7 +400,7 @@ namespace SMS
             results_pnl.Visible = true;
             using (SqlConnection con = new SqlConnection(stringConnection))
             {
-                using (SqlCommand cmd = new SqlCommand("select Name , Grade from  Student , Student_Course where Course_ID = 2 and Stud_ID = Student_ID",con))
+                using (SqlCommand cmd = new SqlCommand("select Name , Grade from  Student , Student_Course where Course_ID = 2 and Stud_ID = Student_ID", con))
                 {
                     con.Open();
                     SqlDataReader reader = cmd.ExecuteReader();
@@ -611,6 +616,184 @@ namespace SMS
             lgin.Show();
             this.Hide();
         }
+        private void pictureBox21_Click(object sender, EventArgs e)
+        {
+            if (!hidden)
+            {
+                timer1.Enabled = true;
+                hidden = true;
+                // panel1.Visible = false;
+
+            }
+            else
+            {
+                bunifuTransition1.HideSync(panel1);
+                bunifuTransition1.ShowSync(panel1);
+                hidden = false;
+                timer1.Enabled = true;
+            }
+        }
+
+        private void timer1_Tick(object sender, EventArgs e)
+        {
+            if (hidden == false)
+            {
+                if (panel1.Width >= 210)
+                    timer1.Enabled = false;
+                panel1.Width += 10;
+                TeachersPanel.Left += 10;
+                GradesPanel.Left += 10;
+                StudentsPanel.Left += 10;
+                SubjectPanel.Left += 10;
+                ParentPanel.Left += 10;
+                DashBoardPanel.Left += 10;
+            }
+            else
+            {
+                if (panel1.Width <= 60)
+                    timer1.Enabled = false;
+                panel1.Width -= 10;
+                TeachersPanel.Left -= 10;
+                GradesPanel.Left -= 10;
+                StudentsPanel.Left -= 10;
+                SubjectPanel.Left -= 10;
+                ParentPanel.Left -= 10;
+                DashBoardPanel.Left -= 10;
+            }
+        }
+
+        private void pictureBox15_Click(object sender, EventArgs e)
+        {
+            SlidePanel.Location = new Point(1, button1.Location.Y);
+            DashBoardPanel.Visible = true;
+            TeachersPanel.Visible = false;
+            StudentsPanel.Visible = false;
+            SubjectPanel.Visible = false;
+            GradesPanel.Visible = false;
+            ParentPanel.Visible = false;
+            //  TeacherDetailsPanel.Visible = false;
+            //*****************************************************
+            All_chart.Visible = false;
+            Teachers_chart.Visible = false;
+            Students_chart.Visible = false;
+            button7.ForeColor = Color.White;
+            button8.ForeColor = Color.White;
+            button9.ForeColor = Color.White;
+        }
+
+        private void pictureBox16_Click(object sender, EventArgs e)
+        {
+            SlidePanel.Location = new Point(1, button2.Location.Y);
+            DashBoardPanel.Visible = false;
+            ParentPanel.Visible = false;
+            StudentsPanel.Visible = false;
+            SubjectPanel.Visible = false;
+            GradesPanel.Visible = false;
+            TeachersPanel.Visible = true;
+            // TeacherDetailsPanel.Visible = true;
+            TeachersPanel.BringToFront();
+
+            //TeacherDetailsPanel.BringToFront();
+
+            //TeacherForm T = new TeacherForm();
+            //T.ShowDialog();
+            //*****************************************************
+        }
+
+        private void pictureBox17_Click(object sender, EventArgs e)
+        {
+            SlidePanel.Location = new Point(1, button3.Location.Y);
+            DashBoardPanel.Visible = false;
+            TeachersPanel.Visible = false;
+            StudentsPanel.Visible = false;
+            SubjectPanel.Visible = false;
+            //TeacherDetailsPanel.Visible = false;
+            GradesPanel.Visible = false;
+            ParentPanel.Visible = true;
+            ParentPanel.BringToFront();
+            //*****************************************************
+        }
+
+        private void pictureBox18_Click(object sender, EventArgs e)
+        {
+            SlidePanel.Location = new Point(1, button4.Location.Y);
+            DashBoardPanel.Visible = false;
+            TeachersPanel.Visible = false;
+            ParentPanel.Visible = false;
+            SubjectPanel.Visible = false;
+            // TeacherDetailsPanel.Visible = false;
+            GradesPanel.Visible = false;
+            StudentsPanel.Visible = true;
+            StudentsPanel.BringToFront();
+            //*****************************************************
+        }
+
+        private void pictureBox19_Click(object sender, EventArgs e)
+        {
+            SlidePanel.Location = new Point(1, button5.Location.Y);
+            DashBoardPanel.Visible = false;
+            TeachersPanel.Visible = false;
+            ParentPanel.Visible = false;
+            StudentsPanel.Visible = false;
+            // TeacherDetailsPanel.Visible = false;
+            GradesPanel.Visible = false;
+            SubjectPanel.Visible = true;
+            SubjectPanel.AutoScroll = true;
+
+            SubjectPanel.BringToFront();
+            //*****************************************************
+        }
+
+        private void pictureBox20_Click(object sender, EventArgs e)
+        {
+            SlidePanel.Location = new Point(1, button6.Location.Y);
+            DashBoardPanel.Visible = false;
+            TeachersPanel.Visible = false;
+            ParentPanel.Visible = false;
+            StudentsPanel.Visible = false;
+            //    TeacherDetailsPanel.Visible = false;
+            SubjectPanel.Visible = false;
+            GradesPanel.Visible = true;
+            GradesPanel.BringToFront();
+            //*****************************************************
+            results_pnl.Visible = false;
+            // isclicked = true;
+        }
+
+        bool contact = false;
+        private void pictureBox22_Click(object sender, EventArgs e)
+        {
+            if (!contact)
+            {
+                contact = true;
+                panel3.Visible = false;
+                timer2.Enabled = true;
+
+            }
+            else
+            {
+                contact = false;
+                panel3.Visible = true;
+                timer2.Enabled = true;
+            }
+        }
+        private void timer2_Tick(object sender, EventArgs e)
+        {
+            if (contact == false)
+            {
+                if (panel3.Height >= 260)
+                    timer2.Enabled = false;
+                panel3.Height += 20;
+
+            }
+            else
+            {
+                if (panel3.Height <= 0)
+                    timer2.Enabled = false;
+                panel3.Height -= 20;
+
+            }
+        }
     }
-    
+
 }

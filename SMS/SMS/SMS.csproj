@@ -164,129 +164,6 @@
     </None>
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\user.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\51decf5a3f5b86718da705b2a809469f.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\kisspng-schoolyard-drawing-cartoon-school-building-material-png-5a95d904d800f3.7046775115197698608848 %281%29.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\kisspng-computer-icons-shutdown-button-icon-transparent-shutdown-5ab0c4b236dd68.2558556415215341302247.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\kisspng-computer-icons-button-sleep-mode-symbol-on-off-5ac7d87504b2d2.5348980615230465170193.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\kisspng-chemistry-chemical-formula-teacher-science-cartoon-chemistry-teacher-5a9479a2162212.3353910415196799060907.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\kisspng-symbol-science-atom-chemistry-clip-art-png-free-atom-download-images-5abb014abc5fd1.7376547215222050027716.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\kisspng-mathematics-subtraction-addition-operation-mathema-maths-5b0faa4be4df23.1836823815277532919375 %281%29.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\kisspng-lettering-alphabet-cursive-font-alphabets-5ac98749a6c862.3892344615231568096832.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\kisspng-flag-of-germany-map-flag-of-austria-germany-5ad82e2d51f152.6943555115241170373357.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\kisspng-flag-of-spain-map-english-spain-flag-vector-icon-5abb04c82031a0.1994794715222058961319.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\kisspng-thutmose-amarna-nefertiti-bust-ancient-egypt-faiyu-tupac-5ac58ae2a2ce43.9714283115228955866669.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\kisspng-world-map-english-language-vector-world-geography-map-5a68dcb358df32.777637161516821683364.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\kisspng-arabic-alphabet-learning-class-course-arabic-alphabet-cliparts-5aafe2a7e62579.2829841415214762639427.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\b16faae3f6e40d9040e1c124d862a2eb.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\Formal_meeting_Copy-128.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\teachers-thumbs-up.jpg" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\energy.jpg" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\24-128.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\on_time_-128.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\Technology_Mix_-_Final-22-128.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\_Data_Management-128.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\Grades-Transcript-Education-Exam-128.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\851-128.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\Project_management_Product_Status_Account-128.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\select_all-128.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\download %281%29.jpg" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\tuition-centre-private-tutor-2.jpg" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\d7656c4cf1ec9b34bea0fafea62b48bed0cbf641.jpg" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\images.jpg" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\download.jpg" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\depositphotos_43727773-stock-photo-composition-with-glasses-and-books.jpg" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\Grades-In-Rigorous-Courses.gif" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\calendar-128.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\student-7-128.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\kisspng-family-silhouette-father-parents-5ac75b450c9873.8758492015230144690516.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\kisspng-computer-icons-login-user-system-administrator-ima-editing-mafsyah-template-5b75843b07ec75.8860585515344282190325.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\kisspng-professor-teacher-student-clip-art-cartoon-bald-old-man-professor-teacher-5a84e1651eaf61.4488191115186578931257.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\kisspng-student-learning-education-vector-students-5a6c15371b3d71.8537361215170327591116.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\3badfb6c96f92b6bbcefe3f487f357db.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\if_Exit_132037.png" />
-  </ItemGroup>
-  <ItemGroup>
     <BootstrapperPackage Include=".NETFramework,Version=v4.5.2">
       <Visible>False</Visible>
       <ProductName>Microsoft .NET Framework 4.5.2 %28x86 and x64%29</ProductName>
@@ -299,7 +176,196 @@
     </BootstrapperPackage>
   </ItemGroup>
   <ItemGroup>
+    <None Include="Resources\24-128.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\51decf5a3f5b86718da705b2a809469f.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\116-128.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\851-128.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\b16faae3f6e40d9040e1c124d862a2eb.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\calendar-128.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\d7656c4cf1ec9b34bea0fafea62b48bed0cbf641.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\depositphotos_43727773-stock-photo-composition-with-glasses-and-books.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\download %281%29.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\download.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\energy.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Formal_meeting_Copy-128.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Grades-In-Rigorous-Courses.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Grades-Transcript-Education-Exam-128.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\iconfinder__53ui_2303158.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\iconfinder_code__bar__barcode__price_2538674.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\iconfinder_Dashboard_82136.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\iconfinder_education_teacher_43194.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\iconfinder_facebook_317746.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\iconfinder_Github_1298743.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\iconfinder_ic_dashboard_48px_352300.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\iconfinder_infinity_3688475.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\iconfinder_katomic_3364.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\iconfinder_nerd_43200.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\iconfinder_Skype_1298711.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\iconfinder_Teacher-Male_84158.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\iconfinder_twitter_294655.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\iconfinder_WhatsApp_1298775.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\iconfinder_Youtube_1298778.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\if_Exit_132037.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\images.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\kisspng-arabic-alphabet-learning-class-course-arabic-alphabet-cliparts-5aafe2a7e62579.2829841415214762639427.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\kisspng-chemistry-chemical-formula-teacher-science-cartoon-chemistry-teacher-5a9479a2162212.3353910415196799060907.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\kisspng-computer-icons-button-sleep-mode-symbol-on-off-5ac7d87504b2d2.5348980615230465170193.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\kisspng-computer-icons-login-user-system-administrator-ima-editing-mafsyah-template-5b75843b07ec75.8860585515344282190325.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\kisspng-computer-icons-shutdown-button-icon-transparent-shutdown-5ab0c4b236dd68.2558556415215341302247.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\kisspng-family-silhouette-father-parents-5ac75b450c9873.8758492015230144690516.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\kisspng-flag-of-germany-map-flag-of-austria-germany-5ad82e2d51f152.6943555115241170373357.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\kisspng-flag-of-spain-map-english-spain-flag-vector-icon-5abb04c82031a0.1994794715222058961319.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\kisspng-lettering-alphabet-cursive-font-alphabets-5ac98749a6c862.3892344615231568096832.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\kisspng-mathematics-subtraction-addition-operation-mathema-maths-5b0faa4be4df23.1836823815277532919375 %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\kisspng-professor-teacher-student-clip-art-cartoon-bald-old-man-professor-teacher-5a84e1651eaf61.4488191115186578931257.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\kisspng-schoolyard-drawing-cartoon-school-building-material-png-5a95d904d800f3.7046775115197698608848 %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\kisspng-student-learning-education-vector-students-5a6c15371b3d71.8537361215170327591116.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\kisspng-symbol-science-atom-chemistry-clip-art-png-free-atom-download-images-5abb014abc5fd1.7376547215222050027716.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\kisspng-thutmose-amarna-nefertiti-bust-ancient-egypt-faiyu-tupac-5ac58ae2a2ce43.9714283115228955866669.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\kisspng-world-map-english-language-vector-world-geography-map-5a68dcb358df32.777637161516821683364.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\nature-galaxy-milky-way-night-567584.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\night-stars-clouds-42393.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\on_time_-128.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pexels-photo-417122.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pexels-photo-924824.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pexels-photo-4171221.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pexels-photo-9248241.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Project_management_Product_Status_Account-128.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\select_all-128.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\student-7-128.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\teachers-thumbs-up.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Technology_Mix_-_Final-22-128.png" />
+  </ItemGroup>
+  <ItemGroup>
     <None Include="Resources\title_bar.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\tuition-centre-private-tutor-2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\user.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\_Data_Management-128.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\3badfb6c96f92b6bbcefe3f487f357db.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

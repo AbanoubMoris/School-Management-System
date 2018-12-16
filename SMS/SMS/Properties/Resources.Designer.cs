@@ -63,9 +63,19 @@ namespace SMS.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap _116_128 {
+            get {
+                object obj = ResourceManager.GetObject("_116_128", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap _24_128 {
             get {
-                object obj = ResourceManager.GetObject("24-128", resourceCulture);
+                object obj = ResourceManager.GetObject("_24_128", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -75,7 +85,7 @@ namespace SMS.Properties {
         /// </summary>
         internal static System.Drawing.Bitmap _3badfb6c96f92b6bbcefe3f487f357db {
             get {
-                object obj = ResourceManager.GetObject("3badfb6c96f92b6bbcefe3f487f357db", resourceCulture);
+                object obj = ResourceManager.GetObject("_3badfb6c96f92b6bbcefe3f487f357db", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -85,7 +95,7 @@ namespace SMS.Properties {
         /// </summary>
         internal static System.Drawing.Bitmap _51decf5a3f5b86718da705b2a809469f {
             get {
-                object obj = ResourceManager.GetObject("51decf5a3f5b86718da705b2a809469f", resourceCulture);
+                object obj = ResourceManager.GetObject("_51decf5a3f5b86718da705b2a809469f", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -95,7 +105,7 @@ namespace SMS.Properties {
         /// </summary>
         internal static System.Drawing.Bitmap _851_128 {
             get {
-                object obj = ResourceManager.GetObject("851-128", resourceCulture);
+                object obj = ResourceManager.GetObject("_851_128", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -105,7 +115,7 @@ namespace SMS.Properties {
         /// </summary>
         internal static System.Drawing.Bitmap _Data_Management_128 {
             get {
-                object obj = ResourceManager.GetObject("_Data_Management-128", resourceCulture);
+                object obj = ResourceManager.GetObject("_Data_Management_128", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -125,7 +135,7 @@ namespace SMS.Properties {
         /// </summary>
         internal static System.Drawing.Bitmap calendar_128 {
             get {
-                object obj = ResourceManager.GetObject("calendar-128", resourceCulture);
+                object obj = ResourceManager.GetObject("calendar_128", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -145,7 +155,7 @@ namespace SMS.Properties {
         /// </summary>
         internal static System.Drawing.Bitmap depositphotos_43727773_stock_photo_composition_with_glasses_and_books {
             get {
-                object obj = ResourceManager.GetObject("depositphotos_43727773-stock-photo-composition-with-glasses-and-books", resourceCulture);
+                object obj = ResourceManager.GetObject("depositphotos_43727773_stock_photo_composition_with_glasses_and_books", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -165,7 +175,7 @@ namespace SMS.Properties {
         /// </summary>
         internal static System.Drawing.Bitmap download__1_ {
             get {
-                object obj = ResourceManager.GetObject("download (1)", resourceCulture);
+                object obj = ResourceManager.GetObject("download__1_", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -185,7 +195,7 @@ namespace SMS.Properties {
         /// </summary>
         internal static System.Drawing.Bitmap Formal_meeting_Copy_128 {
             get {
-                object obj = ResourceManager.GetObject("Formal_meeting_Copy-128", resourceCulture);
+                object obj = ResourceManager.GetObject("Formal_meeting_Copy_128", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -195,7 +205,7 @@ namespace SMS.Properties {
         /// </summary>
         internal static System.Drawing.Bitmap Grades_In_Rigorous_Courses {
             get {
-                object obj = ResourceManager.GetObject("Grades-In-Rigorous-Courses", resourceCulture);
+                object obj = ResourceManager.GetObject("Grades_In_Rigorous_Courses", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -205,7 +215,157 @@ namespace SMS.Properties {
         /// </summary>
         internal static System.Drawing.Bitmap Grades_Transcript_Education_Exam_128 {
             get {
-                object obj = ResourceManager.GetObject("Grades-Transcript-Education-Exam-128", resourceCulture);
+                object obj = ResourceManager.GetObject("Grades_Transcript_Education_Exam_128", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap iconfinder__53ui_2303158 {
+            get {
+                object obj = ResourceManager.GetObject("iconfinder__53ui_2303158", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap iconfinder_code__bar__barcode__price_2538674 {
+            get {
+                object obj = ResourceManager.GetObject("iconfinder_code__bar__barcode__price_2538674", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap iconfinder_Dashboard_82136 {
+            get {
+                object obj = ResourceManager.GetObject("iconfinder_Dashboard_82136", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap iconfinder_education_teacher_43194 {
+            get {
+                object obj = ResourceManager.GetObject("iconfinder_education_teacher_43194", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap iconfinder_facebook_317746 {
+            get {
+                object obj = ResourceManager.GetObject("iconfinder_facebook_317746", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap iconfinder_Github_1298743 {
+            get {
+                object obj = ResourceManager.GetObject("iconfinder_Github_1298743", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap iconfinder_ic_dashboard_48px_352300 {
+            get {
+                object obj = ResourceManager.GetObject("iconfinder_ic_dashboard_48px_352300", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap iconfinder_infinity_3688475 {
+            get {
+                object obj = ResourceManager.GetObject("iconfinder_infinity_3688475", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap iconfinder_katomic_3364 {
+            get {
+                object obj = ResourceManager.GetObject("iconfinder_katomic_3364", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap iconfinder_nerd_43200 {
+            get {
+                object obj = ResourceManager.GetObject("iconfinder_nerd_43200", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap iconfinder_Skype_1298711 {
+            get {
+                object obj = ResourceManager.GetObject("iconfinder_Skype_1298711", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap iconfinder_Teacher_Male_84158 {
+            get {
+                object obj = ResourceManager.GetObject("iconfinder_Teacher_Male_84158", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap iconfinder_twitter_294655 {
+            get {
+                object obj = ResourceManager.GetObject("iconfinder_twitter_294655", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap iconfinder_WhatsApp_1298775 {
+            get {
+                object obj = ResourceManager.GetObject("iconfinder_WhatsApp_1298775", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap iconfinder_Youtube_1298778 {
+            get {
+                object obj = ResourceManager.GetObject("iconfinder_Youtube_1298778", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -235,8 +395,8 @@ namespace SMS.Properties {
         /// </summary>
         internal static System.Drawing.Bitmap kisspng_arabic_alphabet_learning_class_course_arabic_alphabet_cliparts_5aafe2a7e62579_2829841415214762639427 {
             get {
-                object obj = ResourceManager.GetObject("kisspng-arabic-alphabet-learning-class-course-arabic-alphabet-cliparts-5aafe2a7e6" +
-                        "2579.2829841415214762639427", resourceCulture);
+                object obj = ResourceManager.GetObject("kisspng_arabic_alphabet_learning_class_course_arabic_alphabet_cliparts_5aafe2a7e6" +
+                        "2579_2829841415214762639427", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -246,8 +406,8 @@ namespace SMS.Properties {
         /// </summary>
         internal static System.Drawing.Bitmap kisspng_chemistry_chemical_formula_teacher_science_cartoon_chemistry_teacher_5a9479a2162212_3353910415196799060907 {
             get {
-                object obj = ResourceManager.GetObject("kisspng-chemistry-chemical-formula-teacher-science-cartoon-chemistry-teacher-5a94" +
-                        "79a2162212.3353910415196799060907", resourceCulture);
+                object obj = ResourceManager.GetObject("kisspng_chemistry_chemical_formula_teacher_science_cartoon_chemistry_teacher_5a94" +
+                        "79a2162212_3353910415196799060907", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -257,7 +417,7 @@ namespace SMS.Properties {
         /// </summary>
         internal static System.Drawing.Bitmap kisspng_computer_icons_button_sleep_mode_symbol_on_off_5ac7d87504b2d2_5348980615230465170193 {
             get {
-                object obj = ResourceManager.GetObject("kisspng-computer-icons-button-sleep-mode-symbol-on-off-5ac7d87504b2d2.53489806152" +
+                object obj = ResourceManager.GetObject("kisspng_computer_icons_button_sleep_mode_symbol_on_off_5ac7d87504b2d2_53489806152" +
                         "30465170193", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
@@ -268,8 +428,8 @@ namespace SMS.Properties {
         /// </summary>
         internal static System.Drawing.Bitmap kisspng_computer_icons_login_user_system_administrator_ima_editing_mafsyah_template_5b75843b07ec75_8860585515344282190325 {
             get {
-                object obj = ResourceManager.GetObject("kisspng-computer-icons-login-user-system-administrator-ima-editing-mafsyah-templa" +
-                        "te-5b75843b07ec75.8860585515344282190325", resourceCulture);
+                object obj = ResourceManager.GetObject("kisspng_computer_icons_login_user_system_administrator_ima_editing_mafsyah_templa" +
+                        "te_5b75843b07ec75_8860585515344282190325", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -279,7 +439,7 @@ namespace SMS.Properties {
         /// </summary>
         internal static System.Drawing.Bitmap kisspng_computer_icons_shutdown_button_icon_transparent_shutdown_5ab0c4b236dd68_2558556415215341302247 {
             get {
-                object obj = ResourceManager.GetObject("kisspng-computer-icons-shutdown-button-icon-transparent-shutdown-5ab0c4b236dd68.2" +
+                object obj = ResourceManager.GetObject("kisspng_computer_icons_shutdown_button_icon_transparent_shutdown_5ab0c4b236dd68_2" +
                         "558556415215341302247", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
@@ -290,7 +450,7 @@ namespace SMS.Properties {
         /// </summary>
         internal static System.Drawing.Bitmap kisspng_family_silhouette_father_parents_5ac75b450c9873_8758492015230144690516 {
             get {
-                object obj = ResourceManager.GetObject("kisspng-family-silhouette-father-parents-5ac75b450c9873.8758492015230144690516", resourceCulture);
+                object obj = ResourceManager.GetObject("kisspng_family_silhouette_father_parents_5ac75b450c9873_8758492015230144690516", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -300,7 +460,7 @@ namespace SMS.Properties {
         /// </summary>
         internal static System.Drawing.Bitmap kisspng_flag_of_germany_map_flag_of_austria_germany_5ad82e2d51f152_6943555115241170373357 {
             get {
-                object obj = ResourceManager.GetObject("kisspng-flag-of-germany-map-flag-of-austria-germany-5ad82e2d51f152.69435551152411" +
+                object obj = ResourceManager.GetObject("kisspng_flag_of_germany_map_flag_of_austria_germany_5ad82e2d51f152_69435551152411" +
                         "70373357", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
@@ -311,7 +471,7 @@ namespace SMS.Properties {
         /// </summary>
         internal static System.Drawing.Bitmap kisspng_flag_of_spain_map_english_spain_flag_vector_icon_5abb04c82031a0_1994794715222058961319 {
             get {
-                object obj = ResourceManager.GetObject("kisspng-flag-of-spain-map-english-spain-flag-vector-icon-5abb04c82031a0.199479471" +
+                object obj = ResourceManager.GetObject("kisspng_flag_of_spain_map_english_spain_flag_vector_icon_5abb04c82031a0_199479471" +
                         "5222058961319", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
@@ -322,7 +482,7 @@ namespace SMS.Properties {
         /// </summary>
         internal static System.Drawing.Bitmap kisspng_lettering_alphabet_cursive_font_alphabets_5ac98749a6c862_3892344615231568096832 {
             get {
-                object obj = ResourceManager.GetObject("kisspng-lettering-alphabet-cursive-font-alphabets-5ac98749a6c862.3892344615231568" +
+                object obj = ResourceManager.GetObject("kisspng_lettering_alphabet_cursive_font_alphabets_5ac98749a6c862_3892344615231568" +
                         "096832", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
@@ -333,8 +493,8 @@ namespace SMS.Properties {
         /// </summary>
         internal static System.Drawing.Bitmap kisspng_mathematics_subtraction_addition_operation_mathema_maths_5b0faa4be4df23_1836823815277532919375__1_ {
             get {
-                object obj = ResourceManager.GetObject("kisspng-mathematics-subtraction-addition-operation-mathema-maths-5b0faa4be4df23.1" +
-                        "836823815277532919375 (1)", resourceCulture);
+                object obj = ResourceManager.GetObject("kisspng_mathematics_subtraction_addition_operation_mathema_maths_5b0faa4be4df23_1" +
+                        "836823815277532919375__1_", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -344,8 +504,8 @@ namespace SMS.Properties {
         /// </summary>
         internal static System.Drawing.Bitmap kisspng_professor_teacher_student_clip_art_cartoon_bald_old_man_professor_teacher_5a84e1651eaf61_4488191115186578931257 {
             get {
-                object obj = ResourceManager.GetObject("kisspng-professor-teacher-student-clip-art-cartoon-bald-old-man-professor-teacher" +
-                        "-5a84e1651eaf61.4488191115186578931257", resourceCulture);
+                object obj = ResourceManager.GetObject("kisspng_professor_teacher_student_clip_art_cartoon_bald_old_man_professor_teacher" +
+                        "_5a84e1651eaf61_4488191115186578931257", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -355,8 +515,8 @@ namespace SMS.Properties {
         /// </summary>
         internal static System.Drawing.Bitmap kisspng_schoolyard_drawing_cartoon_school_building_material_png_5a95d904d800f3_7046775115197698608848__1_ {
             get {
-                object obj = ResourceManager.GetObject("kisspng-schoolyard-drawing-cartoon-school-building-material-png-5a95d904d800f3.70" +
-                        "46775115197698608848 (1)", resourceCulture);
+                object obj = ResourceManager.GetObject("kisspng_schoolyard_drawing_cartoon_school_building_material_png_5a95d904d800f3_70" +
+                        "46775115197698608848__1_", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -366,7 +526,7 @@ namespace SMS.Properties {
         /// </summary>
         internal static System.Drawing.Bitmap kisspng_student_learning_education_vector_students_5a6c15371b3d71_8537361215170327591116 {
             get {
-                object obj = ResourceManager.GetObject("kisspng-student-learning-education-vector-students-5a6c15371b3d71.853736121517032" +
+                object obj = ResourceManager.GetObject("kisspng_student_learning_education_vector_students_5a6c15371b3d71_853736121517032" +
                         "7591116", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
@@ -377,8 +537,8 @@ namespace SMS.Properties {
         /// </summary>
         internal static System.Drawing.Bitmap kisspng_symbol_science_atom_chemistry_clip_art_png_free_atom_download_images_5abb014abc5fd1_7376547215222050027716 {
             get {
-                object obj = ResourceManager.GetObject("kisspng-symbol-science-atom-chemistry-clip-art-png-free-atom-download-images-5abb" +
-                        "014abc5fd1.7376547215222050027716", resourceCulture);
+                object obj = ResourceManager.GetObject("kisspng_symbol_science_atom_chemistry_clip_art_png_free_atom_download_images_5abb" +
+                        "014abc5fd1_7376547215222050027716", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -388,7 +548,7 @@ namespace SMS.Properties {
         /// </summary>
         internal static System.Drawing.Bitmap kisspng_thutmose_amarna_nefertiti_bust_ancient_egypt_faiyu_tupac_5ac58ae2a2ce43_9714283115228955866669 {
             get {
-                object obj = ResourceManager.GetObject("kisspng-thutmose-amarna-nefertiti-bust-ancient-egypt-faiyu-tupac-5ac58ae2a2ce43.9" +
+                object obj = ResourceManager.GetObject("kisspng_thutmose_amarna_nefertiti_bust_ancient_egypt_faiyu_tupac_5ac58ae2a2ce43_9" +
                         "714283115228955866669", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
@@ -399,8 +559,28 @@ namespace SMS.Properties {
         /// </summary>
         internal static System.Drawing.Bitmap kisspng_world_map_english_language_vector_world_geography_map_5a68dcb358df32_777637161516821683364 {
             get {
-                object obj = ResourceManager.GetObject("kisspng-world-map-english-language-vector-world-geography-map-5a68dcb358df32.7776" +
+                object obj = ResourceManager.GetObject("kisspng_world_map_english_language_vector_world_geography_map_5a68dcb358df32_7776" +
                         "37161516821683364", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap nature_galaxy_milky_way_night_567584 {
+            get {
+                object obj = ResourceManager.GetObject("nature_galaxy_milky_way_night_567584", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap night_stars_clouds_42393 {
+            get {
+                object obj = ResourceManager.GetObject("night_stars_clouds_42393", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -410,7 +590,47 @@ namespace SMS.Properties {
         /// </summary>
         internal static System.Drawing.Bitmap on_time__128 {
             get {
-                object obj = ResourceManager.GetObject("on_time_-128", resourceCulture);
+                object obj = ResourceManager.GetObject("on_time__128", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap pexels_photo_417122 {
+            get {
+                object obj = ResourceManager.GetObject("pexels_photo_417122", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap pexels_photo_4171221 {
+            get {
+                object obj = ResourceManager.GetObject("pexels_photo_4171221", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap pexels_photo_924824 {
+            get {
+                object obj = ResourceManager.GetObject("pexels_photo_924824", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap pexels_photo_9248241 {
+            get {
+                object obj = ResourceManager.GetObject("pexels_photo_9248241", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -420,7 +640,7 @@ namespace SMS.Properties {
         /// </summary>
         internal static System.Drawing.Bitmap Project_management_Product_Status_Account_128 {
             get {
-                object obj = ResourceManager.GetObject("Project_management_Product_Status_Account-128", resourceCulture);
+                object obj = ResourceManager.GetObject("Project_management_Product_Status_Account_128", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -430,7 +650,7 @@ namespace SMS.Properties {
         /// </summary>
         internal static System.Drawing.Bitmap select_all_128 {
             get {
-                object obj = ResourceManager.GetObject("select_all-128", resourceCulture);
+                object obj = ResourceManager.GetObject("select_all_128", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -440,7 +660,7 @@ namespace SMS.Properties {
         /// </summary>
         internal static System.Drawing.Bitmap student_7_128 {
             get {
-                object obj = ResourceManager.GetObject("student-7-128", resourceCulture);
+                object obj = ResourceManager.GetObject("student_7_128", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -450,7 +670,7 @@ namespace SMS.Properties {
         /// </summary>
         internal static System.Drawing.Bitmap teachers_thumbs_up {
             get {
-                object obj = ResourceManager.GetObject("teachers-thumbs-up", resourceCulture);
+                object obj = ResourceManager.GetObject("teachers_thumbs_up", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -460,7 +680,7 @@ namespace SMS.Properties {
         /// </summary>
         internal static System.Drawing.Bitmap Technology_Mix___Final_22_128 {
             get {
-                object obj = ResourceManager.GetObject("Technology_Mix_-_Final-22-128", resourceCulture);
+                object obj = ResourceManager.GetObject("Technology_Mix___Final_22_128", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -480,7 +700,7 @@ namespace SMS.Properties {
         /// </summary>
         internal static System.Drawing.Bitmap tuition_centre_private_tutor_2 {
             get {
-                object obj = ResourceManager.GetObject("tuition-centre-private-tutor-2", resourceCulture);
+                object obj = ResourceManager.GetObject("tuition_centre_private_tutor_2", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
