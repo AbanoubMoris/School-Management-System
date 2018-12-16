@@ -1,0 +1,247 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="Technology_Mix_-_Final-22-128" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Technology_Mix_-_Final-22-128.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="kisspng-world-map-english-language-vector-world-geography-map-5a68dcb358df32.777637161516821683364" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\kisspng-world-map-english-language-vector-world-geography-map-5a68dcb358df32.777637161516821683364.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="kisspng-flag-of-spain-map-english-spain-flag-vector-icon-5abb04c82031a0.1994794715222058961319" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\kisspng-flag-of-spain-map-english-spain-flag-vector-icon-5abb04c82031a0.1994794715222058961319.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Grades-In-Rigorous-Courses" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Grades-In-Rigorous-Courses.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="calendar-128" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\calendar-128.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="851-128" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\851-128.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="student-7-128" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\student-7-128.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="download" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\download.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="51decf5a3f5b86718da705b2a809469f" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\51decf5a3f5b86718da705b2a809469f.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="24-128" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\24-128.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="tuition-centre-private-tutor-2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\tuition-centre-private-tutor-2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="kisspng-computer-icons-shutdown-button-icon-transparent-shutdown-5ab0c4b236dd68.2558556415215341302247" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\kisspng-computer-icons-shutdown-button-icon-transparent-shutdown-5ab0c4b236dd68.2558556415215341302247.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="3badfb6c96f92b6bbcefe3f487f357db" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\3badfb6c96f92b6bbcefe3f487f357db.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="select_all-128" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\select_all-128.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="kisspng-professor-teacher-student-clip-art-cartoon-bald-old-man-professor-teacher-5a84e1651eaf61.4488191115186578931257" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\kisspng-professor-teacher-student-clip-art-cartoon-bald-old-man-professor-teacher-5a84e1651eaf61.4488191115186578931257.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="kisspng-chemistry-chemical-formula-teacher-science-cartoon-chemistry-teacher-5a9479a2162212.3353910415196799060907" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\kisspng-chemistry-chemical-formula-teacher-science-cartoon-chemistry-teacher-5a9479a2162212.3353910415196799060907.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="user" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\user.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_Data_Management-128" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\_Data_Management-128.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="kisspng-symbol-science-atom-chemistry-clip-art-png-free-atom-download-images-5abb014abc5fd1.7376547215222050027716" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\kisspng-symbol-science-atom-chemistry-clip-art-png-free-atom-download-images-5abb014abc5fd1.7376547215222050027716.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="kisspng-schoolyard-drawing-cartoon-school-building-material-png-5a95d904d800f3.7046775115197698608848 (1)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\kisspng-schoolyard-drawing-cartoon-school-building-material-png-5a95d904d800f3.7046775115197698608848 (1).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="b16faae3f6e40d9040e1c124d862a2eb" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\b16faae3f6e40d9040e1c124d862a2eb.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="kisspng-mathematics-subtraction-addition-operation-mathema-maths-5b0faa4be4df23.1836823815277532919375 (1)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\kisspng-mathematics-subtraction-addition-operation-mathema-maths-5b0faa4be4df23.1836823815277532919375 (1).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Formal_meeting_Copy-128" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Formal_meeting_Copy-128.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="d7656c4cf1ec9b34bea0fafea62b48bed0cbf641" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\d7656c4cf1ec9b34bea0fafea62b48bed0cbf641.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="kisspng-lettering-alphabet-cursive-font-alphabets-5ac98749a6c862.3892344615231568096832" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\kisspng-lettering-alphabet-cursive-font-alphabets-5ac98749a6c862.3892344615231568096832.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="kisspng-student-learning-education-vector-students-5a6c15371b3d71.8537361215170327591116" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\kisspng-student-learning-education-vector-students-5a6c15371b3d71.8537361215170327591116.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="kisspng-arabic-alphabet-learning-class-course-arabic-alphabet-cliparts-5aafe2a7e62579.2829841415214762639427" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\kisspng-arabic-alphabet-learning-class-course-arabic-alphabet-cliparts-5aafe2a7e62579.2829841415214762639427.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="depositphotos_43727773-stock-photo-composition-with-glasses-and-books" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\depositphotos_43727773-stock-photo-composition-with-glasses-and-books.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="download (1)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\download (1).jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="images" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\images.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="teachers-thumbs-up" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\teachers-thumbs-up.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="kisspng-computer-icons-button-sleep-mode-symbol-on-off-5ac7d87504b2d2.5348980615230465170193" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\kisspng-computer-icons-button-sleep-mode-symbol-on-off-5ac7d87504b2d2.5348980615230465170193.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="kisspng-family-silhouette-father-parents-5ac75b450c9873.8758492015230144690516" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\kisspng-family-silhouette-father-parents-5ac75b450c9873.8758492015230144690516.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="kisspng-thutmose-amarna-nefertiti-bust-ancient-egypt-faiyu-tupac-5ac58ae2a2ce43.9714283115228955866669" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\kisspng-thutmose-amarna-nefertiti-bust-ancient-egypt-faiyu-tupac-5ac58ae2a2ce43.9714283115228955866669.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="energy" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\energy.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Project_management_Product_Status_Account-128" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Project_management_Product_Status_Account-128.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="if_Exit_132037" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\if_Exit_132037.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="kisspng-flag-of-germany-map-flag-of-austria-germany-5ad82e2d51f152.6943555115241170373357" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\kisspng-flag-of-germany-map-flag-of-austria-germany-5ad82e2d51f152.6943555115241170373357.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="kisspng-computer-icons-login-user-system-administrator-ima-editing-mafsyah-template-5b75843b07ec75.8860585515344282190325" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\kisspng-computer-icons-login-user-system-administrator-ima-editing-mafsyah-template-5b75843b07ec75.8860585515344282190325.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="on_time_-128" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\on_time_-128.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Grades-Transcript-Education-Exam-128" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Grades-Transcript-Education-Exam-128.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="title_bar" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\title_bar.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+</root>

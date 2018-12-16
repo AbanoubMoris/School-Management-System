@@ -1,0 +1,234 @@
+E:\C++\SMS\SMS\bin\Debug\SMS.exe.config
+E:\C++\SMS\SMS\obj\Debug\SMS.csprojResolveAssemblyReference.cache
+E:\C++\SMS\SMS\obj\Debug\SMS.Form1.resources
+E:\C++\SMS\SMS\obj\Debug\SMS.Properties.Resources.resources
+E:\C++\SMS\SMS\obj\Debug\SMS.Teachers.resources
+E:\C++\SMS\SMS\obj\Debug\SMS.csproj.GenerateResource.Cache
+E:\C++\SMS\SMS\bin\Debug\SMS.exe
+E:\C++\SMS\SMS\bin\Debug\SMS.pdb
+E:\C++\SMS\SMS\obj\Debug\SMS.exe
+E:\C++\SMS\SMS\obj\Debug\SMS.pdb
+E:\C++\SMS\SMS\obj\Debug\SMS.TeacherForm.resources
+C:\Users\lap shop\Documents\GitHub\School-managment-system\SMS\SMS\bin\Debug\SMS.exe.config
+C:\Users\lap shop\Documents\GitHub\School-managment-system\SMS\SMS\obj\Debug\SMS.exe
+C:\Users\lap shop\Documents\GitHub\School-managment-system\SMS\SMS\obj\Debug\SMS.pdb
+C:\Users\lap shop\Documents\GitHub\School-managment-system\SMS\SMS\bin\Debug\SMS.exe
+C:\Users\lap shop\Documents\GitHub\School-managment-system\SMS\SMS\bin\Debug\SMS.pdb
+C:\Users\lap shop\Documents\GitHub\School-managment-system\SMS\SMS\obj\Debug\SMS.csprojResolveAssemblyReference.cache
+C:\Users\lap shop\Documents\GitHub\School-managment-system\SMS\SMS\obj\Debug\SMS.Properties.Resources.resources
+C:\Users\lap shop\Documents\GitHub\School-managment-system\SMS\SMS\obj\Debug\SMS.Teachers.resources
+C:\Users\lap shop\Documents\GitHub\School-managment-system\SMS\SMS\obj\Debug\SMS.csproj.GenerateResource.Cache
+C:\Users\lap shop\Documents\GitHub\School-managment-system\SMS\SMS\obj\Debug\SMS.Admin.resources
+C:\Users\hs\Documents\GitHub\project\School-managment-system\SMS\SMS\bin\Debug\SMS.exe.config
+C:\Users\hs\Documents\GitHub\project\School-managment-system\SMS\SMS\bin\Debug\SMS.exe
+C:\Users\hs\Documents\GitHub\project\School-managment-system\SMS\SMS\bin\Debug\SMS.pdb
+C:\Users\hs\Documents\GitHub\project\School-managment-system\SMS\SMS\obj\Debug\SMS.csprojAssemblyReference.cache
+C:\Users\hs\Documents\GitHub\project\School-managment-system\SMS\SMS\obj\Debug\SMS.Admin.resources
+C:\Users\hs\Documents\GitHub\project\School-managment-system\SMS\SMS\obj\Debug\SMS.Properties.Resources.resources
+C:\Users\hs\Documents\GitHub\project\School-managment-system\SMS\SMS\obj\Debug\SMS.Teachers.resources
+C:\Users\hs\Documents\GitHub\project\School-managment-system\SMS\SMS\obj\Debug\SMS.csproj.GenerateResource.cache
+C:\Users\hs\Documents\GitHub\project\School-managment-system\SMS\SMS\obj\Debug\SMS.csproj.CoreCompileInputs.cache
+C:\Users\hs\Documents\GitHub\project\School-managment-system\SMS\SMS\obj\Debug\SMS.exe
+C:\Users\hs\Documents\GitHub\project\School-managment-system\SMS\SMS\obj\Debug\SMS.pdb
+C:\Users\hs\Documents\GitHub\School-managment-system\SMS\SMS\bin\Debug\SMS.exe.config
+C:\Users\hs\Documents\GitHub\School-managment-system\SMS\SMS\bin\Debug\SMS.exe
+C:\Users\hs\Documents\GitHub\School-managment-system\SMS\SMS\bin\Debug\SMS.pdb
+C:\Users\hs\Documents\GitHub\School-managment-system\SMS\SMS\obj\Debug\SMS.Admin.resources
+C:\Users\hs\Documents\GitHub\School-managment-system\SMS\SMS\obj\Debug\SMS.Properties.Resources.resources
+C:\Users\hs\Documents\GitHub\School-managment-system\SMS\SMS\obj\Debug\SMS.Student_Form.resources
+C:\Users\hs\Documents\GitHub\School-managment-system\SMS\SMS\obj\Debug\SMS.Teachers_Form.resources
+C:\Users\hs\Documents\GitHub\School-managment-system\SMS\SMS\obj\Debug\SMS.Teachers.resources
+C:\Users\hs\Documents\GitHub\School-managment-system\SMS\SMS\obj\Debug\SMS.csproj.GenerateResource.Cache
+C:\Users\hs\Documents\GitHub\School-managment-system\SMS\SMS\obj\Debug\SMS.exe
+C:\Users\hs\Documents\GitHub\School-managment-system\SMS\SMS\obj\Debug\SMS.pdb
+C:\Users\hs\Documents\GitHub\School-managment-system\SMS\SMS\obj\Debug\SMS.csprojResolveAssemblyReference.cache
+C:\Users\lap shop\Documents\GitHub\School-managment-system\SMS\SMS\obj\Debug\SMS.Student_Form.resources
+C:\Users\lap shop\Documents\GitHub\School-managment-system\SMS\SMS\obj\Debug\SMS.Teachers_Form.resources
+C:\Users\lap shop\Documents\GitHub\School-managment-system\SMS\SMS\obj\Debug\SMS.Parent.resources
+C:\Users\lap shop\Documents\GitHub\School-managment-system\SMS\SMS\obj\Debug\SMS.Login.resources
+C:\Users\DELL\Downloads\Compressed\School-managment-system-master\SMS\SMS\bin\Debug\SMS.exe.config
+C:\Users\DELL\Downloads\Compressed\School-managment-system-master\SMS\SMS\obj\Debug\SMS.exe
+C:\Users\DELL\Downloads\Compressed\School-managment-system-master\SMS\SMS\obj\Debug\SMS.pdb
+C:\Users\DELL\Downloads\Compressed\School-managment-system-master\SMS\SMS\bin\Debug\SMS.exe
+C:\Users\DELL\Downloads\Compressed\School-managment-system-master\SMS\SMS\bin\Debug\SMS.pdb
+C:\Users\DELL\Downloads\Compressed\School-managment-system-master\SMS\SMS\obj\Debug\SMS.csprojResolveAssemblyReference.cache
+C:\Users\DELL\Downloads\Compressed\School-managment-system-master\SMS\SMS\obj\Debug\SMS.Admin.resources
+C:\Users\DELL\Downloads\Compressed\School-managment-system-master\SMS\SMS\obj\Debug\SMS.Login.resources
+C:\Users\DELL\Downloads\Compressed\School-managment-system-master\SMS\SMS\obj\Debug\SMS.Parent.resources
+C:\Users\DELL\Downloads\Compressed\School-managment-system-master\SMS\SMS\obj\Debug\SMS.Properties.Resources.resources
+C:\Users\DELL\Downloads\Compressed\School-managment-system-master\SMS\SMS\obj\Debug\SMS.Student_Form.resources
+C:\Users\DELL\Downloads\Compressed\School-managment-system-master\SMS\SMS\obj\Debug\SMS.Teachers_Form.resources
+C:\Users\DELL\Downloads\Compressed\School-managment-system-master\SMS\SMS\obj\Debug\SMS.Teachers.resources
+C:\Users\DELL\Downloads\Compressed\School-managment-system-master\SMS\SMS\obj\Debug\SMS.csproj.GenerateResource.Cache
+C:\Users\Thomas\Desktop\School-managment-system-master\SMS\SMS\bin\Debug\SMS.exe.config
+C:\Users\Thomas\Desktop\School-managment-system-master\SMS\SMS\obj\Debug\SMS.exe
+C:\Users\Thomas\Desktop\School-managment-system-master\SMS\SMS\obj\Debug\SMS.pdb
+C:\Users\Thomas\Desktop\School-managment-system-master\SMS\SMS\bin\Debug\SMS.exe
+C:\Users\Thomas\Desktop\School-managment-system-master\SMS\SMS\bin\Debug\SMS.pdb
+C:\Users\Thomas\Desktop\School-managment-system-master\SMS\SMS\obj\Debug\SMS.csprojResolveAssemblyReference.cache
+C:\Users\Thomas\Desktop\School-managment-system-master\SMS\SMS\obj\Debug\SMS.Admin.resources
+C:\Users\Thomas\Desktop\School-managment-system-master\SMS\SMS\obj\Debug\SMS.Login.resources
+C:\Users\Thomas\Desktop\School-managment-system-master\SMS\SMS\obj\Debug\SMS.Parent.resources
+C:\Users\Thomas\Desktop\School-managment-system-master\SMS\SMS\obj\Debug\SMS.Properties.Resources.resources
+C:\Users\Thomas\Desktop\School-managment-system-master\SMS\SMS\obj\Debug\SMS.Student_Form.resources
+C:\Users\Thomas\Desktop\School-managment-system-master\SMS\SMS\obj\Debug\SMS.Teachers_Form.resources
+C:\Users\Thomas\Desktop\School-managment-system-master\SMS\SMS\obj\Debug\SMS.Teachers.resources
+C:\Users\Thomas\Desktop\School-managment-system-master\SMS\SMS\obj\Debug\SMS.csproj.GenerateResource.Cache
+G:\SMS\SMS\bin\Debug\SMS.exe.config
+G:\SMS\SMS\obj\Debug\SMS.exe
+G:\SMS\SMS\obj\Debug\SMS.pdb
+C:\Users\lap shop\Documents\GitHub\School_management_System\SMS\SMS\bin\Debug\SMS.exe.config
+C:\Users\lap shop\Documents\GitHub\School_management_System\SMS\SMS\obj\Debug\SMS.exe
+C:\Users\lap shop\Documents\GitHub\School_management_System\SMS\SMS\obj\Debug\SMS.pdb
+C:\Users\lap shop\Documents\GitHub\School_management_System\SMS\SMS\bin\Debug\SMS.exe
+C:\Users\lap shop\Documents\GitHub\School_management_System\SMS\SMS\bin\Debug\SMS.pdb
+C:\Users\lap shop\Documents\GitHub\School_management_System\SMS\SMS\obj\Debug\SMS.csprojResolveAssemblyReference.cache
+C:\Users\lap shop\Documents\GitHub\School_management_System\SMS\SMS\obj\Debug\SMS.Admin.resources
+C:\Users\lap shop\Documents\GitHub\School_management_System\SMS\SMS\obj\Debug\SMS.Login.resources
+C:\Users\lap shop\Documents\GitHub\School_management_System\SMS\SMS\obj\Debug\SMS.Parent.resources
+C:\Users\lap shop\Documents\GitHub\School_management_System\SMS\SMS\obj\Debug\SMS.Properties.Resources.resources
+C:\Users\lap shop\Documents\GitHub\School_management_System\SMS\SMS\obj\Debug\SMS.Student_Form.resources
+C:\Users\lap shop\Documents\GitHub\School_management_System\SMS\SMS\obj\Debug\SMS.Teachers_Form.resources
+C:\Users\lap shop\Documents\GitHub\School_management_System\SMS\SMS\obj\Debug\SMS.Teachers.resources
+C:\Users\lap shop\Documents\GitHub\School_management_System\SMS\SMS\obj\Debug\SMS.csproj.GenerateResource.Cache
+C:\Users\DELL\Desktop\school manegment system\School_management_System-master\SMS\SMS\bin\Debug\SMS.exe.config
+C:\Users\DELL\Desktop\school manegment system\School_management_System-master\SMS\SMS\obj\Debug\SMS.exe
+C:\Users\DELL\Desktop\school manegment system\School_management_System-master\SMS\SMS\obj\Debug\SMS.pdb
+C:\Users\DELL\Desktop\school manegment system\School_management_System-master\SMS\SMS\bin\Debug\SMS.exe
+C:\Users\DELL\Desktop\school manegment system\School_management_System-master\SMS\SMS\bin\Debug\SMS.pdb
+C:\Users\DELL\Desktop\school manegment system\School_management_System-master\SMS\SMS\obj\Debug\SMS.Admin.resources
+C:\Users\DELL\Desktop\school manegment system\School_management_System-master\SMS\SMS\obj\Debug\SMS.Login.resources
+C:\Users\DELL\Desktop\school manegment system\School_management_System-master\SMS\SMS\obj\Debug\SMS.Parent.resources
+C:\Users\DELL\Desktop\school manegment system\School_management_System-master\SMS\SMS\obj\Debug\SMS.Properties.Resources.resources
+C:\Users\DELL\Desktop\school manegment system\School_management_System-master\SMS\SMS\obj\Debug\SMS.Student_Form.resources
+C:\Users\DELL\Desktop\school manegment system\School_management_System-master\SMS\SMS\obj\Debug\SMS.Teachers_Form.resources
+C:\Users\DELL\Desktop\school manegment system\School_management_System-master\SMS\SMS\obj\Debug\SMS.Teachers.resources
+C:\Users\DELL\Desktop\school manegment system\School_management_System-master\SMS\SMS\obj\Debug\SMS.csproj.GenerateResource.Cache
+C:\Users\DELL\Desktop\school manegment system\School_management_System-master\SMS\SMS\obj\Debug\SMS.csprojResolveAssemblyReference.cache
+D:\SMS\School_management_System\SMS\SMS\bin\Debug\SMS.exe.config
+D:\SMS\School_management_System\SMS\SMS\obj\Debug\SMS.exe
+D:\SMS\School_management_System\SMS\SMS\obj\Debug\SMS.pdb
+D:\SMS\School_management_System\SMS\SMS\bin\Debug\SMS.exe
+D:\SMS\School_management_System\SMS\SMS\bin\Debug\SMS.pdb
+D:\SMS\School_management_System\SMS\SMS\obj\Debug\SMS.csprojResolveAssemblyReference.cache
+D:\SMS\School_management_System\SMS\SMS\obj\Debug\SMS.Admin.resources
+D:\SMS\School_management_System\SMS\SMS\obj\Debug\SMS.Login.resources
+D:\SMS\School_management_System\SMS\SMS\obj\Debug\SMS.Parent.resources
+D:\SMS\School_management_System\SMS\SMS\obj\Debug\SMS.Properties.Resources.resources
+D:\SMS\School_management_System\SMS\SMS\obj\Debug\SMS.Student_Form.resources
+D:\SMS\School_management_System\SMS\SMS\obj\Debug\SMS.Teachers_Form.resources
+D:\SMS\School_management_System\SMS\SMS\obj\Debug\SMS.Teachers.resources
+D:\SMS\School_management_System\SMS\SMS\obj\Debug\SMS.csproj.GenerateResource.Cache
+C:\Users\lap shop\Documents\GitHub\School_management_System\SMS\SMS\obj\Debug\SMS.MyMessageBox.resources
+C:\Users\lap shop\Desktop\El-h5aa\SMS\SMS\bin\Debug\SMS.exe.config
+C:\Users\lap shop\Desktop\El-h5aa\SMS\SMS\obj\Debug\SMS.exe
+C:\Users\lap shop\Desktop\El-h5aa\SMS\SMS\obj\Debug\SMS.pdb
+C:\Users\lap shop\Desktop\El-h5aa\SMS\SMS\obj\Debug\SMS.csprojResolveAssemblyReference.cache
+C:\Users\lap shop\Desktop\El-h5aa\SMS\SMS\obj\Debug\SMS.Admin.resources
+C:\Users\lap shop\Desktop\El-h5aa\SMS\SMS\obj\Debug\SMS.Login.resources
+C:\Users\lap shop\Desktop\El-h5aa\SMS\SMS\obj\Debug\SMS.MyMessageBox.resources
+C:\Users\lap shop\Desktop\El-h5aa\SMS\SMS\obj\Debug\SMS.Parent.resources
+C:\Users\lap shop\Desktop\El-h5aa\SMS\SMS\obj\Debug\SMS.Properties.Resources.resources
+C:\Users\lap shop\Desktop\El-h5aa\SMS\SMS\obj\Debug\SMS.Student_Form.resources
+C:\Users\lap shop\Desktop\El-h5aa\SMS\SMS\obj\Debug\SMS.Teachers_Form.resources
+C:\Users\lap shop\Desktop\El-h5aa\SMS\SMS\obj\Debug\SMS.Teachers.resources
+C:\Users\lap shop\Desktop\El-h5aa\SMS\SMS\obj\Debug\SMS.csproj.GenerateResource.Cache
+C:\Users\lap shop\Desktop\El-h5aa\SMS\SMS\bin\Debug\SMS.exe
+C:\Users\lap shop\Desktop\El-h5aa\SMS\SMS\bin\Debug\SMS.pdb
+C:\Users\DELL\Desktop\School_management_System\SMS\SMS\bin\Debug\SMS.exe.config
+C:\Users\DELL\Desktop\School_management_System\SMS\SMS\obj\Debug\SMS.exe
+C:\Users\DELL\Desktop\School_management_System\SMS\SMS\obj\Debug\SMS.pdb
+C:\Users\DELL\Desktop\School_management_System\SMS\SMS\bin\Debug\SMS.exe
+C:\Users\DELL\Desktop\School_management_System\SMS\SMS\bin\Debug\SMS.pdb
+C:\Users\DELL\Desktop\School_management_System\SMS\SMS\obj\Debug\SMS.csprojResolveAssemblyReference.cache
+C:\Users\DELL\Desktop\School_management_System\SMS\SMS\obj\Debug\SMS.Admin.resources
+C:\Users\DELL\Desktop\School_management_System\SMS\SMS\obj\Debug\SMS.Login.resources
+C:\Users\DELL\Desktop\School_management_System\SMS\SMS\obj\Debug\SMS.MyMessageBox.resources
+C:\Users\DELL\Desktop\School_management_System\SMS\SMS\obj\Debug\SMS.Parent.resources
+C:\Users\DELL\Desktop\School_management_System\SMS\SMS\obj\Debug\SMS.Properties.Resources.resources
+C:\Users\DELL\Desktop\School_management_System\SMS\SMS\obj\Debug\SMS.Student_Form.resources
+C:\Users\DELL\Desktop\School_management_System\SMS\SMS\obj\Debug\SMS.Teachers_Form.resources
+C:\Users\DELL\Desktop\School_management_System\SMS\SMS\obj\Debug\SMS.Teachers.resources
+C:\Users\DELL\Desktop\School_management_System\SMS\SMS\obj\Debug\SMS.csproj.GenerateResource.Cache
+C:\Users\Thomas\Desktop\School-managment-system-master\SMS\SMS\obj\Debug\SMS.MyMessageBox.resources
+C:\Users\hs\Documents\GitHub\School_management_System\SMS\SMS\bin\Debug\SMS.exe.config
+C:\Users\hs\Documents\GitHub\School_management_System\SMS\SMS\obj\Debug\SMS.exe
+C:\Users\hs\Documents\GitHub\School_management_System\SMS\SMS\obj\Debug\SMS.pdb
+C:\Users\hs\Documents\GitHub\School_management_System\SMS\SMS\obj\Debug\SMS.csprojResolveAssemblyReference.cache
+C:\Users\hs\Documents\GitHub\School_management_System\SMS\SMS\obj\Debug\SMS.Admin.resources
+C:\Users\hs\Documents\GitHub\School_management_System\SMS\SMS\obj\Debug\SMS.Login.resources
+C:\Users\hs\Documents\GitHub\School_management_System\SMS\SMS\obj\Debug\SMS.MyMessageBox.resources
+C:\Users\hs\Documents\GitHub\School_management_System\SMS\SMS\obj\Debug\SMS.Parent.resources
+C:\Users\hs\Documents\GitHub\School_management_System\SMS\SMS\obj\Debug\SMS.Properties.Resources.resources
+C:\Users\hs\Documents\GitHub\School_management_System\SMS\SMS\obj\Debug\SMS.Student_Form.resources
+C:\Users\hs\Documents\GitHub\School_management_System\SMS\SMS\obj\Debug\SMS.Teachers_Form.resources
+C:\Users\hs\Documents\GitHub\School_management_System\SMS\SMS\obj\Debug\SMS.Teachers.resources
+C:\Users\hs\Documents\GitHub\School_management_System\SMS\SMS\obj\Debug\SMS.csproj.GenerateResource.Cache
+C:\Users\hs\Documents\GitHub\School_management_System\SMS\SMS\bin\Debug\SMS.exe
+C:\Users\hs\Documents\GitHub\School_management_System\SMS\SMS\bin\Debug\SMS.pdb
+C:\Users\hs\Desktop\School_management_System\SMS\SMS\bin\Debug\SMS.exe.config
+C:\Users\hs\Desktop\School_management_System\SMS\SMS\obj\Debug\SMS.exe
+C:\Users\hs\Desktop\School_management_System\SMS\SMS\obj\Debug\SMS.pdb
+C:\Users\hs\Desktop\School_management_System\SMS\SMS\bin\Debug\SMS.exe
+C:\Users\hs\Desktop\School_management_System\SMS\SMS\bin\Debug\SMS.pdb
+C:\Users\hs\Desktop\School_management_System\SMS\SMS\obj\Debug\SMS.csprojResolveAssemblyReference.cache
+C:\Users\hs\Desktop\School_management_System\SMS\SMS\obj\Debug\SMS.Admin.resources
+C:\Users\hs\Desktop\School_management_System\SMS\SMS\obj\Debug\SMS.Login.resources
+C:\Users\hs\Desktop\School_management_System\SMS\SMS\obj\Debug\SMS.MyMessageBox.resources
+C:\Users\hs\Desktop\School_management_System\SMS\SMS\obj\Debug\SMS.Parent.resources
+C:\Users\hs\Desktop\School_management_System\SMS\SMS\obj\Debug\SMS.Properties.Resources.resources
+C:\Users\hs\Desktop\School_management_System\SMS\SMS\obj\Debug\SMS.Student_Form.resources
+C:\Users\hs\Desktop\School_management_System\SMS\SMS\obj\Debug\SMS.Teachers_Form.resources
+C:\Users\hs\Desktop\School_management_System\SMS\SMS\obj\Debug\SMS.Teachers.resources
+C:\Users\hs\Desktop\School_management_System\SMS\SMS\obj\Debug\SMS.csproj.GenerateResource.Cache
+E:\school manegment system\School_management_System-master\SMS\SMS\bin\Debug\SMS.exe.config
+E:\school manegment system\School_management_System-master\SMS\SMS\bin\Debug\SMS.exe
+E:\school manegment system\School_management_System-master\SMS\SMS\bin\Debug\SMS.pdb
+E:\school manegment system\School_management_System-master\SMS\SMS\obj\Debug\SMS.Admin.resources
+E:\school manegment system\School_management_System-master\SMS\SMS\obj\Debug\SMS.Login.resources
+E:\school manegment system\School_management_System-master\SMS\SMS\obj\Debug\SMS.MyMessageBox.resources
+E:\school manegment system\School_management_System-master\SMS\SMS\obj\Debug\SMS.Parent.resources
+E:\school manegment system\School_management_System-master\SMS\SMS\obj\Debug\SMS.Properties.Resources.resources
+E:\school manegment system\School_management_System-master\SMS\SMS\obj\Debug\SMS.Student_Form.resources
+E:\school manegment system\School_management_System-master\SMS\SMS\obj\Debug\SMS.Teachers_Form.resources
+E:\school manegment system\School_management_System-master\SMS\SMS\obj\Debug\SMS.Teachers.resources
+E:\school manegment system\School_management_System-master\SMS\SMS\obj\Debug\SMS.csproj.GenerateResource.cache
+E:\school manegment system\School_management_System-master\SMS\SMS\obj\Debug\SMS.csproj.CoreCompileInputs.cache
+E:\school manegment system\School_management_System-master\SMS\SMS\obj\Debug\SMS.csproj.CopyComplete
+E:\school manegment system\School_management_System-master\SMS\SMS\obj\Debug\SMS.exe
+E:\school manegment system\School_management_System-master\SMS\SMS\obj\Debug\SMS.pdb
+E:\school manegment system\School_management_System-master\SMS\SMS\obj\Debug\SMS.csprojAssemblyReference.cache
+E:\SMS\School_management_System\SMS\SMS\bin\Debug\SMS.exe.config
+E:\SMS\School_management_System\SMS\SMS\bin\Debug\SMS.exe
+E:\SMS\School_management_System\SMS\SMS\bin\Debug\SMS.pdb
+E:\SMS\School_management_System\SMS\SMS\obj\Debug\SMS.csprojAssemblyReference.cache
+E:\SMS\School_management_System\SMS\SMS\obj\Debug\SMS.Admin.resources
+E:\SMS\School_management_System\SMS\SMS\obj\Debug\SMS.Login.resources
+E:\SMS\School_management_System\SMS\SMS\obj\Debug\SMS.MyMessageBox.resources
+E:\SMS\School_management_System\SMS\SMS\obj\Debug\SMS.Parent.resources
+E:\SMS\School_management_System\SMS\SMS\obj\Debug\SMS.Properties.Resources.resources
+E:\SMS\School_management_System\SMS\SMS\obj\Debug\SMS.Student_Form.resources
+E:\SMS\School_management_System\SMS\SMS\obj\Debug\SMS.Teachers_Form.resources
+E:\SMS\School_management_System\SMS\SMS\obj\Debug\SMS.Teachers.resources
+E:\SMS\School_management_System\SMS\SMS\obj\Debug\SMS.csproj.GenerateResource.cache
+E:\SMS\School_management_System\SMS\SMS\obj\Debug\SMS.csproj.CoreCompileInputs.cache
+E:\SMS\School_management_System\SMS\SMS\obj\Debug\SMS.csproj.CopyComplete
+E:\SMS\School_management_System\SMS\SMS\obj\Debug\SMS.exe
+E:\SMS\School_management_System\SMS\SMS\obj\Debug\SMS.pdb
+E:\school manegment system\School_management_System\SMS\SMS\obj\Debug\SMS.csprojAssemblyReference.cache
+E:\school manegment system\School_management_System\SMS\SMS\obj\Debug\SMS.Admin.resources
+E:\school manegment system\School_management_System\SMS\SMS\obj\Debug\SMS.Login.resources
+E:\school manegment system\School_management_System\SMS\SMS\obj\Debug\SMS.MyMessageBox.resources
+E:\school manegment system\School_management_System\SMS\SMS\obj\Debug\SMS.Parent.resources
+E:\school manegment system\School_management_System\SMS\SMS\obj\Debug\SMS.Properties.Resources.resources
+E:\school manegment system\School_management_System\SMS\SMS\obj\Debug\SMS.Student_Form.resources
+E:\school manegment system\School_management_System\SMS\SMS\obj\Debug\SMS.Teachers_Form.resources
+E:\school manegment system\School_management_System\SMS\SMS\obj\Debug\SMS.Teachers.resources
+E:\school manegment system\School_management_System\SMS\SMS\obj\Debug\SMS.csproj.GenerateResource.cache
+E:\school manegment system\School_management_System\SMS\SMS\obj\Debug\SMS.csproj.CoreCompileInputs.cache
+E:\school manegment system\School_management_System\SMS\SMS\obj\Debug\SMS.exe
+E:\school manegment system\School_management_System\SMS\SMS\obj\Debug\SMS.pdb
+E:\school manegment system\School_management_System\SMS\SMS\bin\Debug\SMS.exe.config
+E:\school manegment system\School_management_System\SMS\SMS\bin\Debug\SMS.exe
+E:\school manegment system\School_management_System\SMS\SMS\bin\Debug\SMS.pdb
+E:\school manegment system\School_management_System\SMS\SMS\obj\Debug\SMS.csproj.CopyComplete

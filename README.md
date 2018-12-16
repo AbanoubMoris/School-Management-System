@@ -1,2 +1,2 @@
-# Final-project-isa
-Final project isa
+# School_management_System
+School_management_System
