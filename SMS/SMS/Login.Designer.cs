@@ -74,6 +74,11 @@
             this.timer1 = new System.Windows.Forms.Timer(this.components);
             this.bunifuTransition1 = new BunifuAnimatorNS.BunifuTransition(this.components);
             this.bunifuImageButton1 = new Bunifu.Framework.UI.BunifuImageButton();
+            this.bunifuDragControl1 = new Bunifu.Framework.UI.BunifuDragControl(this.components);
+            this.bunifuDragControl2 = new Bunifu.Framework.UI.BunifuDragControl(this.components);
+            this.bunifuDragControl3 = new Bunifu.Framework.UI.BunifuDragControl(this.components);
+            this.bunifuDragControl4 = new Bunifu.Framework.UI.BunifuDragControl(this.components);
+            this.bunifuFormFadeTransition1 = new Bunifu.Framework.UI.BunifuFormFadeTransition(this.components);
             this.SignupPanel.SuspendLayout();
             this.LoginPanel.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.back)).BeginInit();
@@ -176,7 +181,7 @@
             this.yearReg.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.yearReg.isPassword = false;
             this.yearReg.Location = new System.Drawing.Point(258, 316);
-            this.yearReg.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.yearReg.Margin = new System.Windows.Forms.Padding(4);
             this.yearReg.Name = "yearReg";
             this.yearReg.Size = new System.Drawing.Size(79, 44);
             this.yearReg.TabIndex = 29;
@@ -199,7 +204,7 @@
             this.monthReg.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.monthReg.isPassword = false;
             this.monthReg.Location = new System.Drawing.Point(170, 316);
-            this.monthReg.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.monthReg.Margin = new System.Windows.Forms.Padding(4);
             this.monthReg.Name = "monthReg";
             this.monthReg.Size = new System.Drawing.Size(79, 44);
             this.monthReg.TabIndex = 28;
@@ -222,7 +227,7 @@
             this.dayReg.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.dayReg.isPassword = false;
             this.dayReg.Location = new System.Drawing.Point(84, 316);
-            this.dayReg.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.dayReg.Margin = new System.Windows.Forms.Padding(4);
             this.dayReg.Name = "dayReg";
             this.dayReg.Size = new System.Drawing.Size(79, 44);
             this.dayReg.TabIndex = 27;
@@ -244,7 +249,7 @@
             this.addressReg.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.addressReg.isPassword = false;
             this.addressReg.Location = new System.Drawing.Point(8, 211);
-            this.addressReg.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.addressReg.Margin = new System.Windows.Forms.Padding(4);
             this.addressReg.Name = "addressReg";
             this.addressReg.Size = new System.Drawing.Size(328, 44);
             this.addressReg.TabIndex = 26;
@@ -266,7 +271,7 @@
             this.mobileReg.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.mobileReg.isPassword = false;
             this.mobileReg.Location = new System.Drawing.Point(8, 162);
-            this.mobileReg.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.mobileReg.Margin = new System.Windows.Forms.Padding(4);
             this.mobileReg.Name = "mobileReg";
             this.mobileReg.Size = new System.Drawing.Size(328, 44);
             this.mobileReg.TabIndex = 25;
@@ -288,7 +293,7 @@
             this.passReg.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.passReg.isPassword = true;
             this.passReg.Location = new System.Drawing.Point(8, 114);
-            this.passReg.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.passReg.Margin = new System.Windows.Forms.Padding(4);
             this.passReg.Name = "passReg";
             this.passReg.Size = new System.Drawing.Size(328, 44);
             this.passReg.TabIndex = 24;
@@ -310,7 +315,7 @@
             this.emailReg.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.emailReg.isPassword = false;
             this.emailReg.Location = new System.Drawing.Point(8, 66);
-            this.emailReg.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.emailReg.Margin = new System.Windows.Forms.Padding(4);
             this.emailReg.Name = "emailReg";
             this.emailReg.Size = new System.Drawing.Size(328, 44);
             this.emailReg.TabIndex = 23;
@@ -332,7 +337,7 @@
             this.usernameReg.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.usernameReg.isPassword = false;
             this.usernameReg.Location = new System.Drawing.Point(8, 18);
-            this.usernameReg.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.usernameReg.Margin = new System.Windows.Forms.Padding(4);
             this.usernameReg.Name = "usernameReg";
             this.usernameReg.Size = new System.Drawing.Size(328, 44);
             this.usernameReg.TabIndex = 21;
@@ -365,7 +370,7 @@
             this.Reg.IconZoom = 90D;
             this.Reg.IsTab = false;
             this.Reg.Location = new System.Drawing.Point(26, 405);
-            this.Reg.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
+            this.Reg.Margin = new System.Windows.Forms.Padding(6);
             this.Reg.Name = "Reg";
             this.Reg.Normalcolor = System.Drawing.Color.Transparent;
             this.Reg.OnHovercolor = System.Drawing.Color.Gray;
@@ -540,7 +545,7 @@
             this.bunifuMetroTextbox1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.bunifuMetroTextbox1.isPassword = true;
             this.bunifuMetroTextbox1.Location = new System.Drawing.Point(48, 170);
-            this.bunifuMetroTextbox1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.bunifuMetroTextbox1.Margin = new System.Windows.Forms.Padding(4);
             this.bunifuMetroTextbox1.Name = "bunifuMetroTextbox1";
             this.bunifuMetroTextbox1.Size = new System.Drawing.Size(250, 44);
             this.bunifuMetroTextbox1.TabIndex = 21;
@@ -563,7 +568,7 @@
             this.bunifuMetroTextbox2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.bunifuMetroTextbox2.isPassword = false;
             this.bunifuMetroTextbox2.Location = new System.Drawing.Point(48, 126);
-            this.bunifuMetroTextbox2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.bunifuMetroTextbox2.Margin = new System.Windows.Forms.Padding(4);
             this.bunifuMetroTextbox2.Name = "bunifuMetroTextbox2";
             this.bunifuMetroTextbox2.Size = new System.Drawing.Size(250, 44);
             this.bunifuMetroTextbox2.TabIndex = 20;
@@ -862,7 +867,7 @@
             this.bunifuMetroTextbox12.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.bunifuMetroTextbox12.isPassword = false;
             this.bunifuMetroTextbox12.Location = new System.Drawing.Point(49, 135);
-            this.bunifuMetroTextbox12.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.bunifuMetroTextbox12.Margin = new System.Windows.Forms.Padding(4);
             this.bunifuMetroTextbox12.Name = "bunifuMetroTextbox12";
             this.bunifuMetroTextbox12.Size = new System.Drawing.Size(250, 44);
             this.bunifuMetroTextbox12.TabIndex = 30;
@@ -885,7 +890,7 @@
             this.bunifuMetroTextbox13.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.bunifuMetroTextbox13.isPassword = false;
             this.bunifuMetroTextbox13.Location = new System.Drawing.Point(49, 91);
-            this.bunifuMetroTextbox13.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.bunifuMetroTextbox13.Margin = new System.Windows.Forms.Padding(4);
             this.bunifuMetroTextbox13.Name = "bunifuMetroTextbox13";
             this.bunifuMetroTextbox13.Size = new System.Drawing.Size(250, 44);
             this.bunifuMetroTextbox13.TabIndex = 29;
@@ -974,6 +979,38 @@
             this.bunifuImageButton1.Zoom = 10;
             this.bunifuImageButton1.Click += new System.EventHandler(this.bunifuImageButton1_Click_1);
             // 
+            // bunifuDragControl1
+            // 
+            this.bunifuDragControl1.Fixed = true;
+            this.bunifuDragControl1.Horizontal = true;
+            this.bunifuDragControl1.TargetControl = this;
+            this.bunifuDragControl1.Vertical = true;
+            // 
+            // bunifuDragControl2
+            // 
+            this.bunifuDragControl2.Fixed = true;
+            this.bunifuDragControl2.Horizontal = true;
+            this.bunifuDragControl2.TargetControl = this.SignupPanel;
+            this.bunifuDragControl2.Vertical = true;
+            // 
+            // bunifuDragControl3
+            // 
+            this.bunifuDragControl3.Fixed = true;
+            this.bunifuDragControl3.Horizontal = true;
+            this.bunifuDragControl3.TargetControl = this.LoginPanel;
+            this.bunifuDragControl3.Vertical = true;
+            // 
+            // bunifuDragControl4
+            // 
+            this.bunifuDragControl4.Fixed = true;
+            this.bunifuDragControl4.Horizontal = true;
+            this.bunifuDragControl4.TargetControl = this.ChoosePanel;
+            this.bunifuDragControl4.Vertical = true;
+            // 
+            // bunifuFormFadeTransition1
+            // 
+            this.bunifuFormFadeTransition1.Delay = 1;
+            // 
             // Login
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -1051,5 +1088,10 @@
         private System.Windows.Forms.PictureBox pictureBox2;
         private System.Windows.Forms.PictureBox back;
         private System.Windows.Forms.PictureBox pictureBox3;
+        private Bunifu.Framework.UI.BunifuDragControl bunifuDragControl1;
+        private Bunifu.Framework.UI.BunifuDragControl bunifuDragControl2;
+        private Bunifu.Framework.UI.BunifuDragControl bunifuDragControl3;
+        private Bunifu.Framework.UI.BunifuDragControl bunifuDragControl4;
+        private Bunifu.Framework.UI.BunifuFormFadeTransition bunifuFormFadeTransition1;
     }
 }

@@ -227,8 +227,8 @@ namespace SMS
                     var singleton = Singleton.Instance;
                     var f = singleton.AdminForm;
                     f.Show();
-                    //Admin Ad = new Admin();
-                    //Ad.Show();
+                    bunifuFormFadeTransition1.ShowAsyc(f);
+
                 }
                 else
                 {
@@ -236,7 +236,8 @@ namespace SMS
                     playSound.controls.play();
                     MBOX = new MyMessageBox("Wrong UserName Or Password !");
                     Login LOG = new Login();
-                    LOG.ShowDialog();
+                    LOG.Show();
+                    bunifuFormFadeTransition1.ShowAsyc(LOG);
                 }
             }
             else
@@ -275,16 +276,19 @@ namespace SMS
                                 {
                                     Teachers_Form Ta = new Teachers_Form(username);
                                     Ta.Show();
+                                    bunifuFormFadeTransition1.ShowAsyc(Ta);
                                 }
                                 else if (ChoosedParent)
                                 {
                                     Parent Pa = new Parent(username);
                                     Pa.Show();
+                                    bunifuFormFadeTransition1.ShowAsyc(Pa);
                                 }
                                 else if (ChoosedStudent)
                                 {
                                     Student_Form Sa = new Student_Form(username);
                                     Sa.Show();
+                                    bunifuFormFadeTransition1.ShowAsyc(Sa);
                                 }
                                 break;
                             }

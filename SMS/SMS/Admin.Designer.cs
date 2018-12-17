@@ -183,15 +183,18 @@
             this.bunifuCustomLabel7 = new Bunifu.Framework.UI.BunifuCustomLabel();
             this.pictureBox30 = new System.Windows.Forms.PictureBox();
             this.bunifuSeparator2 = new Bunifu.Framework.UI.BunifuSeparator();
-            this.userControl21 = new SMS.UserControl2();
-            this.aboutUs1 = new SMS.AboutUs();
             this.bunifuGradientPanel1 = new Bunifu.Framework.UI.BunifuGradientPanel();
             this.pictureBox3 = new System.Windows.Forms.PictureBox();
             this.bunifuGradientPanel2 = new Bunifu.Framework.UI.BunifuGradientPanel();
-            this.contactUs1 = new SMS.ContactUs();
             this.timer2 = new System.Windows.Forms.Timer(this.components);
             this.timer3 = new System.Windows.Forms.Timer(this.components);
             this.bunifuElipse1 = new Bunifu.Framework.UI.BunifuElipse(this.components);
+            this.bunifuDragControl1 = new Bunifu.Framework.UI.BunifuDragControl(this.components);
+            this.bunifuDragControl2 = new Bunifu.Framework.UI.BunifuDragControl(this.components);
+            this.bunifuDragControl3 = new Bunifu.Framework.UI.BunifuDragControl(this.components);
+            this.contactUs1 = new SMS.ContactUs();
+            this.userControl21 = new SMS.UserControl2();
+            this.aboutUs1 = new SMS.AboutUs();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox22)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox21)).BeginInit();
@@ -2145,11 +2148,12 @@
             // 
             // timer1
             // 
+            this.timer1.Interval = 50;
             this.timer1.Tick += new System.EventHandler(this.timer1_Tick);
             // 
             // bunifuTransition1
             // 
-            this.bunifuTransition1.AnimationType = BunifuAnimatorNS.AnimationType.ScaleAndRotate;
+            this.bunifuTransition1.AnimationType = BunifuAnimatorNS.AnimationType.Rotate;
             this.bunifuTransition1.Cursor = null;
             animation1.AnimateOnlyDifferences = true;
             animation1.BlindCoeff = ((System.Drawing.PointF)(resources.GetObject("animation1.BlindCoeff")));
@@ -2159,13 +2163,13 @@
             animation1.MosaicCoeff = ((System.Drawing.PointF)(resources.GetObject("animation1.MosaicCoeff")));
             animation1.MosaicShift = ((System.Drawing.PointF)(resources.GetObject("animation1.MosaicShift")));
             animation1.MosaicSize = 0;
-            animation1.Padding = new System.Windows.Forms.Padding(30);
-            animation1.RotateCoeff = 0.5F;
-            animation1.RotateLimit = 0.2F;
+            animation1.Padding = new System.Windows.Forms.Padding(50);
+            animation1.RotateCoeff = 1F;
+            animation1.RotateLimit = 0F;
             animation1.ScaleCoeff = ((System.Drawing.PointF)(resources.GetObject("animation1.ScaleCoeff")));
             animation1.SlideCoeff = ((System.Drawing.PointF)(resources.GetObject("animation1.SlideCoeff")));
             animation1.TimeCoeff = 0F;
-            animation1.TransparencyCoeff = 0F;
+            animation1.TransparencyCoeff = 1F;
             this.bunifuTransition1.DefaultAnimation = animation1;
             // 
             // AboutPnl
@@ -2302,25 +2306,6 @@
             this.bunifuSeparator2.Transparency = 255;
             this.bunifuSeparator2.Vertical = false;
             // 
-            // userControl21
-            // 
-            this.userControl21.BackColor = System.Drawing.Color.Black;
-            this.bunifuTransition1.SetDecoration(this.userControl21, BunifuAnimatorNS.DecorationType.None);
-            this.userControl21.Location = new System.Drawing.Point(171, -90);
-            this.userControl21.Name = "userControl21";
-            this.userControl21.Size = new System.Drawing.Size(516, 461);
-            this.userControl21.TabIndex = 1;
-            // 
-            // aboutUs1
-            // 
-            this.aboutUs1.BackColor = System.Drawing.Color.Black;
-            this.bunifuTransition1.SetDecoration(this.aboutUs1, BunifuAnimatorNS.DecorationType.None);
-            this.aboutUs1.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.aboutUs1.Location = new System.Drawing.Point(190, -63);
-            this.aboutUs1.Name = "aboutUs1";
-            this.aboutUs1.Size = new System.Drawing.Size(516, 461);
-            this.aboutUs1.TabIndex = 0;
-            // 
             // bunifuGradientPanel1
             // 
             this.bunifuGradientPanel1.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("bunifuGradientPanel1.BackgroundImage")));
@@ -2370,6 +2355,42 @@
             this.bunifuGradientPanel2.Size = new System.Drawing.Size(1016, 32);
             this.bunifuGradientPanel2.TabIndex = 9;
             // 
+            // timer2
+            // 
+            this.timer2.Interval = 50;
+            this.timer2.Tick += new System.EventHandler(this.timer2_Tick);
+            // 
+            // timer3
+            // 
+            this.timer3.Interval = 50;
+            this.timer3.Tick += new System.EventHandler(this.timer3_Tick);
+            // 
+            // bunifuElipse1
+            // 
+            this.bunifuElipse1.ElipseRadius = 500;
+            this.bunifuElipse1.TargetControl = this.pictureBox30;
+            // 
+            // bunifuDragControl1
+            // 
+            this.bunifuDragControl1.Fixed = true;
+            this.bunifuDragControl1.Horizontal = true;
+            this.bunifuDragControl1.TargetControl = this;
+            this.bunifuDragControl1.Vertical = true;
+            // 
+            // bunifuDragControl2
+            // 
+            this.bunifuDragControl2.Fixed = true;
+            this.bunifuDragControl2.Horizontal = true;
+            this.bunifuDragControl2.TargetControl = this.bunifuGradientPanel1;
+            this.bunifuDragControl2.Vertical = true;
+            // 
+            // bunifuDragControl3
+            // 
+            this.bunifuDragControl3.Fixed = true;
+            this.bunifuDragControl3.Horizontal = true;
+            this.bunifuDragControl3.TargetControl = this.panel1;
+            this.bunifuDragControl3.Vertical = true;
+            // 
             // contactUs1
             // 
             this.contactUs1.BackColor = System.Drawing.Color.Transparent;
@@ -2379,18 +2400,24 @@
             this.contactUs1.Size = new System.Drawing.Size(71, 317);
             this.contactUs1.TabIndex = 10;
             // 
-            // timer2
+            // userControl21
             // 
-            this.timer2.Tick += new System.EventHandler(this.timer2_Tick);
+            this.userControl21.BackColor = System.Drawing.Color.Black;
+            this.bunifuTransition1.SetDecoration(this.userControl21, BunifuAnimatorNS.DecorationType.None);
+            this.userControl21.Location = new System.Drawing.Point(171, -90);
+            this.userControl21.Name = "userControl21";
+            this.userControl21.Size = new System.Drawing.Size(516, 461);
+            this.userControl21.TabIndex = 1;
             // 
-            // timer3
+            // aboutUs1
             // 
-            this.timer3.Tick += new System.EventHandler(this.timer3_Tick);
-            // 
-            // bunifuElipse1
-            // 
-            this.bunifuElipse1.ElipseRadius = 500;
-            this.bunifuElipse1.TargetControl = this.pictureBox30;
+            this.aboutUs1.BackColor = System.Drawing.Color.Black;
+            this.bunifuTransition1.SetDecoration(this.aboutUs1, BunifuAnimatorNS.DecorationType.None);
+            this.aboutUs1.ForeColor = System.Drawing.SystemColors.ControlText;
+            this.aboutUs1.Location = new System.Drawing.Point(190, -63);
+            this.aboutUs1.Name = "aboutUs1";
+            this.aboutUs1.Size = new System.Drawing.Size(516, 461);
+            this.aboutUs1.TabIndex = 0;
             // 
             // Admin
             // 
@@ -2631,6 +2658,9 @@
         private Bunifu.Framework.UI.BunifuElipse bunifuElipse1;
         private Bunifu.Framework.UI.BunifuCustomLabel bunifuCustomLabel1;
         private Bunifu.Framework.UI.BunifuSeparator bunifuSeparator1;
+        private Bunifu.Framework.UI.BunifuDragControl bunifuDragControl1;
+        private Bunifu.Framework.UI.BunifuDragControl bunifuDragControl2;
+        private Bunifu.Framework.UI.BunifuDragControl bunifuDragControl3;
     }
 }
 
