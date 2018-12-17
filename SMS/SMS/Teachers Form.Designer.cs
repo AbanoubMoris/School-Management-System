@@ -76,6 +76,7 @@
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
             this.backgroundWorker1 = new System.ComponentModel.BackgroundWorker();
             this.flow_pnl = new System.Windows.Forms.Panel();
+            this.contactUs1 = new SMS.ContactUs();
             this.ExitPic = new System.Windows.Forms.PictureBox();
             this.Buttons_pnl = new System.Windows.Forms.Panel();
             this.LogOut = new System.Windows.Forms.Label();
@@ -83,7 +84,6 @@
             this.Choosecourses_btn = new System.Windows.Forms.Button();
             this.Showgrades_btn = new System.Windows.Forms.Button();
             this.Attendance_btn = new System.Windows.Forms.Button();
-            this.contactUs1 = new SMS.ContactUs();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.notify_pnl.SuspendLayout();
             this.EditData_pnl.SuspendLayout();
@@ -221,11 +221,11 @@
             // EditData_pnl
             // 
             this.EditData_pnl.BackColor = System.Drawing.SystemColors.InactiveBorder;
-            this.EditData_pnl.Controls.Add(this.panel4);
-            this.EditData_pnl.Controls.Add(this.panel2);
             this.EditData_pnl.Controls.Add(this.panel3);
             this.EditData_pnl.Controls.Add(this.button6);
             this.EditData_pnl.Controls.Add(this.button7);
+            this.EditData_pnl.Controls.Add(this.panel4);
+            this.EditData_pnl.Controls.Add(this.panel2);
             this.EditData_pnl.Location = new System.Drawing.Point(231, 62);
             this.EditData_pnl.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.EditData_pnl.Name = "EditData_pnl";
@@ -654,6 +654,14 @@
             this.flow_pnl.Size = new System.Drawing.Size(764, 60);
             this.flow_pnl.TabIndex = 9;
             // 
+            // contactUs1
+            // 
+            this.contactUs1.BackColor = System.Drawing.Color.Transparent;
+            this.contactUs1.Location = new System.Drawing.Point(3, 3);
+            this.contactUs1.Name = "contactUs1";
+            this.contactUs1.Size = new System.Drawing.Size(71, 317);
+            this.contactUs1.TabIndex = 34;
+            // 
             // ExitPic
             // 
             this.ExitPic.BackgroundImage = global::SMS.Properties.Resources.kisspng_computer_icons_button_sleep_mode_symbol_on_off_5ac7d87504b2d2_5348980615230465170193;
@@ -763,14 +771,6 @@
             this.Attendance_btn.Text = "Add Grades";
             this.Attendance_btn.UseVisualStyleBackColor = false;
             this.Attendance_btn.Click += new System.EventHandler(this.grades_btn_Click);
-            // 
-            // contactUs1
-            // 
-            this.contactUs1.BackColor = System.Drawing.Color.Transparent;
-            this.contactUs1.Location = new System.Drawing.Point(3, 3);
-            this.contactUs1.Name = "contactUs1";
-            this.contactUs1.Size = new System.Drawing.Size(71, 317);
-            this.contactUs1.TabIndex = 34;
             // 
             // Teachers_Form
             // 

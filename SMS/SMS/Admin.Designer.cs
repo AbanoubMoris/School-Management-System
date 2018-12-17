@@ -42,8 +42,17 @@
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Admin));
             this.panel1 = new System.Windows.Forms.Panel();
             this.label15 = new System.Windows.Forms.Label();
+            this.pictureBox22 = new System.Windows.Forms.PictureBox();
+            this.pictureBox21 = new System.Windows.Forms.PictureBox();
+            this.pictureBox20 = new System.Windows.Forms.PictureBox();
+            this.pictureBox19 = new System.Windows.Forms.PictureBox();
+            this.pictureBox18 = new System.Windows.Forms.PictureBox();
+            this.pictureBox17 = new System.Windows.Forms.PictureBox();
+            this.pictureBox16 = new System.Windows.Forms.PictureBox();
+            this.pictureBox15 = new System.Windows.Forms.PictureBox();
             this.LogOut = new System.Windows.Forms.Label();
             this.SlidePanel = new System.Windows.Forms.Panel();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.button6 = new System.Windows.Forms.Button();
             this.button5 = new System.Windows.Forms.Button();
             this.button4 = new System.Windows.Forms.Button();
@@ -67,7 +76,7 @@
             this.label37 = new System.Windows.Forms.Label();
             this.label38 = new System.Windows.Forms.Label();
             this.Sname = new System.Windows.Forms.Label();
-            this.comboBox3 = new System.Windows.Forms.ComboBox();
+            this.pictureBox14 = new System.Windows.Forms.PictureBox();
             this.label43 = new System.Windows.Forms.Label();
             this.ParentPanel = new System.Windows.Forms.Panel();
             this.PPanel = new System.Windows.Forms.Panel();
@@ -86,18 +95,27 @@
             this.label40 = new System.Windows.Forms.Label();
             this.label41 = new System.Windows.Forms.Label();
             this.ParentNm = new System.Windows.Forms.Label();
-            this.comboBox2 = new System.Windows.Forms.ComboBox();
+            this.pictureBox13 = new System.Windows.Forms.PictureBox();
             this.label46 = new System.Windows.Forms.Label();
             this.SubjectPanel = new System.Windows.Forms.Panel();
             this.label27 = new System.Windows.Forms.Label();
             this.label28 = new System.Windows.Forms.Label();
             this.label29 = new System.Windows.Forms.Label();
+            this.pictureBox10 = new System.Windows.Forms.PictureBox();
+            this.pictureBox11 = new System.Windows.Forms.PictureBox();
+            this.pictureBox12 = new System.Windows.Forms.PictureBox();
             this.label26 = new System.Windows.Forms.Label();
+            this.pictureBox9 = new System.Windows.Forms.PictureBox();
             this.label25 = new System.Windows.Forms.Label();
+            this.pictureBox8 = new System.Windows.Forms.PictureBox();
             this.label24 = new System.Windows.Forms.Label();
             this.label23 = new System.Windows.Forms.Label();
             this.label22 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
+            this.pictureBox7 = new System.Windows.Forms.PictureBox();
+            this.pictureBox6 = new System.Windows.Forms.PictureBox();
+            this.pictureBox5 = new System.Windows.Forms.PictureBox();
+            this.pictureBox4 = new System.Windows.Forms.PictureBox();
             this.GradesPanel = new System.Windows.Forms.Panel();
             this.ChooseCourse_pnl = new System.Windows.Forms.Panel();
             this.Arabic_btn = new System.Windows.Forms.Button();
@@ -138,7 +156,6 @@
             this.Teachers_chart = new System.Windows.Forms.DataVisualization.Charting.Chart();
             this.TPanel = new System.Windows.Forms.Panel();
             this.label3 = new System.Windows.Forms.Label();
-            this.comboBox1 = new System.Windows.Forms.ComboBox();
             this.label6 = new System.Windows.Forms.Label();
             this.TeacherDetailsPanel = new System.Windows.Forms.Panel();
             this.label21 = new System.Windows.Forms.Label();
@@ -152,55 +169,55 @@
             this.label7 = new System.Windows.Forms.Label();
             this.label8 = new System.Windows.Forms.Label();
             this.label9 = new System.Windows.Forms.Label();
+            this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.TeachersPanel = new System.Windows.Forms.Panel();
             this.timer1 = new System.Windows.Forms.Timer(this.components);
             this.bunifuTransition1 = new BunifuAnimatorNS.BunifuTransition(this.components);
             this.AboutPnl = new System.Windows.Forms.Panel();
             this.George = new System.Windows.Forms.Panel();
+            this.bunifuCustomLabel1 = new Bunifu.Framework.UI.BunifuCustomLabel();
+            this.bunifuSeparator1 = new Bunifu.Framework.UI.BunifuSeparator();
             this.bunifuCustomLabel3 = new Bunifu.Framework.UI.BunifuCustomLabel();
             this.bunifuCustomLabel8 = new Bunifu.Framework.UI.BunifuCustomLabel();
             this.bunifuCustomLabel4 = new Bunifu.Framework.UI.BunifuCustomLabel();
             this.bunifuCustomLabel7 = new Bunifu.Framework.UI.BunifuCustomLabel();
+            this.pictureBox30 = new System.Windows.Forms.PictureBox();
             this.bunifuSeparator2 = new Bunifu.Framework.UI.BunifuSeparator();
+            this.userControl21 = new SMS.UserControl2();
+            this.aboutUs1 = new SMS.AboutUs();
+            this.bunifuGradientPanel1 = new Bunifu.Framework.UI.BunifuGradientPanel();
+            this.pictureBox3 = new System.Windows.Forms.PictureBox();
+            this.bunifuGradientPanel2 = new Bunifu.Framework.UI.BunifuGradientPanel();
+            this.contactUs1 = new SMS.ContactUs();
             this.timer2 = new System.Windows.Forms.Timer(this.components);
             this.timer3 = new System.Windows.Forms.Timer(this.components);
             this.bunifuElipse1 = new Bunifu.Framework.UI.BunifuElipse(this.components);
-            this.pictureBox22 = new System.Windows.Forms.PictureBox();
-            this.pictureBox21 = new System.Windows.Forms.PictureBox();
-            this.pictureBox20 = new System.Windows.Forms.PictureBox();
-            this.pictureBox19 = new System.Windows.Forms.PictureBox();
-            this.pictureBox18 = new System.Windows.Forms.PictureBox();
-            this.pictureBox17 = new System.Windows.Forms.PictureBox();
-            this.pictureBox16 = new System.Windows.Forms.PictureBox();
-            this.pictureBox15 = new System.Windows.Forms.PictureBox();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.bunifuGradientPanel1 = new Bunifu.Framework.UI.BunifuGradientPanel();
-            this.pictureBox3 = new System.Windows.Forms.PictureBox();
-            this.pictureBox30 = new System.Windows.Forms.PictureBox();
-            this.pictureBox2 = new System.Windows.Forms.PictureBox();
-            this.bunifuGradientPanel2 = new Bunifu.Framework.UI.BunifuGradientPanel();
-            this.pictureBox14 = new System.Windows.Forms.PictureBox();
-            this.pictureBox10 = new System.Windows.Forms.PictureBox();
-            this.pictureBox11 = new System.Windows.Forms.PictureBox();
-            this.pictureBox12 = new System.Windows.Forms.PictureBox();
-            this.pictureBox9 = new System.Windows.Forms.PictureBox();
-            this.pictureBox8 = new System.Windows.Forms.PictureBox();
-            this.pictureBox7 = new System.Windows.Forms.PictureBox();
-            this.pictureBox6 = new System.Windows.Forms.PictureBox();
-            this.pictureBox5 = new System.Windows.Forms.PictureBox();
-            this.pictureBox4 = new System.Windows.Forms.PictureBox();
-            this.pictureBox13 = new System.Windows.Forms.PictureBox();
-            this.bunifuCustomLabel1 = new Bunifu.Framework.UI.BunifuCustomLabel();
-            this.bunifuSeparator1 = new Bunifu.Framework.UI.BunifuSeparator();
-            this.contactUs1 = new SMS.ContactUs();
-            this.userControl21 = new SMS.UserControl2();
-            this.aboutUs1 = new SMS.AboutUs();
             this.panel1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox22)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox21)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox20)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox19)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox18)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox17)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox16)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox15)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.StudentsPanel.SuspendLayout();
             this.SPanel.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox14)).BeginInit();
             this.ParentPanel.SuspendLayout();
             this.panel2.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox13)).BeginInit();
             this.SubjectPanel.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox10)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox11)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox12)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox9)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox8)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
             this.GradesPanel.SuspendLayout();
             this.ChooseCourse_pnl.SuspendLayout();
             this.results_pnl.SuspendLayout();
@@ -213,33 +230,13 @@
             ((System.ComponentModel.ISupportInitialize)(this.Students_chart)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.Teachers_chart)).BeginInit();
             this.TeacherDetailsPanel.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             this.TeachersPanel.SuspendLayout();
             this.AboutPnl.SuspendLayout();
             this.George.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox22)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox21)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox20)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox19)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox18)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox17)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox16)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox15)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox30)).BeginInit();
             this.bunifuGradientPanel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox30)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox14)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox10)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox11)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox12)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox9)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox8)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox13)).BeginInit();
             this.SuspendLayout();
             // 
             // panel1
@@ -286,6 +283,110 @@
             this.label15.Text = "About Us";
             this.label15.Click += new System.EventHandler(this.label15_Click);
             // 
+            // pictureBox22
+            // 
+            this.pictureBox22.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.bunifuTransition1.SetDecoration(this.pictureBox22, BunifuAnimatorNS.DecorationType.None);
+            this.pictureBox22.Image = global::SMS.Properties.Resources.iconfinder__97ui_2303195;
+            this.pictureBox22.Location = new System.Drawing.Point(12, 463);
+            this.pictureBox22.Name = "pictureBox22";
+            this.pictureBox22.Size = new System.Drawing.Size(26, 31);
+            this.pictureBox22.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox22.TabIndex = 22;
+            this.pictureBox22.TabStop = false;
+            this.pictureBox22.Click += new System.EventHandler(this.pictureBox22_Click_1);
+            // 
+            // pictureBox21
+            // 
+            this.pictureBox21.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.bunifuTransition1.SetDecoration(this.pictureBox21, BunifuAnimatorNS.DecorationType.None);
+            this.pictureBox21.Image = global::SMS.Properties.Resources.iconfinder_code__bar__barcode__price_2538674;
+            this.pictureBox21.Location = new System.Drawing.Point(3, 3);
+            this.pictureBox21.Name = "pictureBox21";
+            this.pictureBox21.Size = new System.Drawing.Size(35, 26);
+            this.pictureBox21.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox21.TabIndex = 21;
+            this.pictureBox21.TabStop = false;
+            this.pictureBox21.Click += new System.EventHandler(this.pictureBox21_Click);
+            // 
+            // pictureBox20
+            // 
+            this.pictureBox20.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.bunifuTransition1.SetDecoration(this.pictureBox20, BunifuAnimatorNS.DecorationType.None);
+            this.pictureBox20.Image = global::SMS.Properties.Resources.calendar_128;
+            this.pictureBox20.Location = new System.Drawing.Point(12, 369);
+            this.pictureBox20.Name = "pictureBox20";
+            this.pictureBox20.Size = new System.Drawing.Size(28, 34);
+            this.pictureBox20.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox20.TabIndex = 20;
+            this.pictureBox20.TabStop = false;
+            this.pictureBox20.Click += new System.EventHandler(this.pictureBox20_Click);
+            // 
+            // pictureBox19
+            // 
+            this.pictureBox19.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.bunifuTransition1.SetDecoration(this.pictureBox19, BunifuAnimatorNS.DecorationType.None);
+            this.pictureBox19.Image = global::SMS.Properties.Resources.Project_management_Product_Status_Account_128;
+            this.pictureBox19.Location = new System.Drawing.Point(12, 324);
+            this.pictureBox19.Name = "pictureBox19";
+            this.pictureBox19.Size = new System.Drawing.Size(28, 34);
+            this.pictureBox19.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox19.TabIndex = 19;
+            this.pictureBox19.TabStop = false;
+            this.pictureBox19.Click += new System.EventHandler(this.pictureBox19_Click);
+            // 
+            // pictureBox18
+            // 
+            this.pictureBox18.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.bunifuTransition1.SetDecoration(this.pictureBox18, BunifuAnimatorNS.DecorationType.None);
+            this.pictureBox18.Image = global::SMS.Properties.Resources.iconfinder_Teacher_Male_84158;
+            this.pictureBox18.Location = new System.Drawing.Point(12, 276);
+            this.pictureBox18.Name = "pictureBox18";
+            this.pictureBox18.Size = new System.Drawing.Size(28, 34);
+            this.pictureBox18.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox18.TabIndex = 18;
+            this.pictureBox18.TabStop = false;
+            this.pictureBox18.Click += new System.EventHandler(this.pictureBox18_Click);
+            // 
+            // pictureBox17
+            // 
+            this.pictureBox17.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.bunifuTransition1.SetDecoration(this.pictureBox17, BunifuAnimatorNS.DecorationType.None);
+            this.pictureBox17.Image = global::SMS.Properties.Resources.iconfinder_nerd_43200;
+            this.pictureBox17.Location = new System.Drawing.Point(12, 230);
+            this.pictureBox17.Name = "pictureBox17";
+            this.pictureBox17.Size = new System.Drawing.Size(28, 34);
+            this.pictureBox17.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox17.TabIndex = 17;
+            this.pictureBox17.TabStop = false;
+            this.pictureBox17.Click += new System.EventHandler(this.pictureBox17_Click);
+            // 
+            // pictureBox16
+            // 
+            this.pictureBox16.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.bunifuTransition1.SetDecoration(this.pictureBox16, BunifuAnimatorNS.DecorationType.None);
+            this.pictureBox16.Image = global::SMS.Properties.Resources.iconfinder_education_teacher_43194;
+            this.pictureBox16.Location = new System.Drawing.Point(12, 184);
+            this.pictureBox16.Name = "pictureBox16";
+            this.pictureBox16.Size = new System.Drawing.Size(28, 34);
+            this.pictureBox16.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox16.TabIndex = 16;
+            this.pictureBox16.TabStop = false;
+            this.pictureBox16.Click += new System.EventHandler(this.pictureBox16_Click);
+            // 
+            // pictureBox15
+            // 
+            this.pictureBox15.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.bunifuTransition1.SetDecoration(this.pictureBox15, BunifuAnimatorNS.DecorationType.None);
+            this.pictureBox15.Image = global::SMS.Properties.Resources.iconfinder_Dashboard_82136;
+            this.pictureBox15.Location = new System.Drawing.Point(12, 140);
+            this.pictureBox15.Name = "pictureBox15";
+            this.pictureBox15.Size = new System.Drawing.Size(28, 34);
+            this.pictureBox15.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox15.TabIndex = 15;
+            this.pictureBox15.TabStop = false;
+            this.pictureBox15.Click += new System.EventHandler(this.pictureBox15_Click);
+            // 
             // LogOut
             // 
             this.LogOut.AutoSize = true;
@@ -311,6 +412,18 @@
             this.SlidePanel.Name = "SlidePanel";
             this.SlidePanel.Size = new System.Drawing.Size(10, 41);
             this.SlidePanel.TabIndex = 1;
+            // 
+            // pictureBox1
+            // 
+            this.bunifuTransition1.SetDecoration(this.pictureBox1, BunifuAnimatorNS.DecorationType.None);
+            this.pictureBox1.Image = global::SMS.Properties.Resources.kisspng_schoolyard_drawing_cartoon_school_building_material_png_5a95d904d800f3_7046775115197698608848__1_;
+            this.pictureBox1.Location = new System.Drawing.Point(45, 0);
+            this.pictureBox1.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(174, 138);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox1.TabIndex = 6;
+            this.pictureBox1.TabStop = false;
             // 
             // button6
             // 
@@ -449,7 +562,6 @@
             this.StudentsPanel.Controls.Add(this.SPan);
             this.StudentsPanel.Controls.Add(this.label1);
             this.StudentsPanel.Controls.Add(this.SPanel);
-            this.StudentsPanel.Controls.Add(this.comboBox3);
             this.StudentsPanel.Controls.Add(this.label43);
             this.bunifuTransition1.SetDecoration(this.StudentsPanel, BunifuAnimatorNS.DecorationType.None);
             this.StudentsPanel.Location = new System.Drawing.Point(260, 53);
@@ -462,10 +574,10 @@
             // SPan
             // 
             this.bunifuTransition1.SetDecoration(this.SPan, BunifuAnimatorNS.DecorationType.None);
-            this.SPan.Location = new System.Drawing.Point(2, 85);
+            this.SPan.Location = new System.Drawing.Point(2, 48);
             this.SPan.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
             this.SPan.Name = "SPan";
-            this.SPan.Size = new System.Drawing.Size(264, 261);
+            this.SPan.Size = new System.Drawing.Size(264, 298);
             this.SPan.TabIndex = 36;
             // 
             // label1
@@ -674,15 +786,17 @@
             this.Sname.TabIndex = 25;
             this.Sname.Text = "Student Name";
             // 
-            // comboBox3
+            // pictureBox14
             // 
-            this.bunifuTransition1.SetDecoration(this.comboBox3, BunifuAnimatorNS.DecorationType.None);
-            this.comboBox3.FormattingEnabled = true;
-            this.comboBox3.Location = new System.Drawing.Point(10, 48);
-            this.comboBox3.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
-            this.comboBox3.Name = "comboBox3";
-            this.comboBox3.Size = new System.Drawing.Size(257, 21);
-            this.comboBox3.TabIndex = 33;
+            this.bunifuTransition1.SetDecoration(this.pictureBox14, BunifuAnimatorNS.DecorationType.None);
+            this.pictureBox14.Image = global::SMS.Properties.Resources.user;
+            this.pictureBox14.Location = new System.Drawing.Point(2, 3);
+            this.pictureBox14.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
+            this.pictureBox14.Name = "pictureBox14";
+            this.pictureBox14.Size = new System.Drawing.Size(89, 109);
+            this.pictureBox14.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox14.TabIndex = 0;
+            this.pictureBox14.TabStop = false;
             // 
             // label43
             // 
@@ -702,7 +816,6 @@
             this.ParentPanel.Controls.Add(this.PPanel);
             this.ParentPanel.Controls.Add(this.label30);
             this.ParentPanel.Controls.Add(this.panel2);
-            this.ParentPanel.Controls.Add(this.comboBox2);
             this.ParentPanel.Controls.Add(this.label46);
             this.bunifuTransition1.SetDecoration(this.ParentPanel, BunifuAnimatorNS.DecorationType.None);
             this.ParentPanel.Location = new System.Drawing.Point(253, 52);
@@ -715,10 +828,10 @@
             // PPanel
             // 
             this.bunifuTransition1.SetDecoration(this.PPanel, BunifuAnimatorNS.DecorationType.None);
-            this.PPanel.Location = new System.Drawing.Point(10, 92);
+            this.PPanel.Location = new System.Drawing.Point(10, 55);
             this.PPanel.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
             this.PPanel.Name = "PPanel";
-            this.PPanel.Size = new System.Drawing.Size(264, 239);
+            this.PPanel.Size = new System.Drawing.Size(264, 276);
             this.PPanel.TabIndex = 31;
             // 
             // label30
@@ -927,15 +1040,17 @@
             this.ParentNm.TabIndex = 25;
             this.ParentNm.Text = "Parent Name";
             // 
-            // comboBox2
+            // pictureBox13
             // 
-            this.bunifuTransition1.SetDecoration(this.comboBox2, BunifuAnimatorNS.DecorationType.None);
-            this.comboBox2.FormattingEnabled = true;
-            this.comboBox2.Location = new System.Drawing.Point(17, 55);
-            this.comboBox2.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
-            this.comboBox2.Name = "comboBox2";
-            this.comboBox2.Size = new System.Drawing.Size(257, 21);
-            this.comboBox2.TabIndex = 24;
+            this.bunifuTransition1.SetDecoration(this.pictureBox13, BunifuAnimatorNS.DecorationType.None);
+            this.pictureBox13.Image = global::SMS.Properties.Resources.user;
+            this.pictureBox13.Location = new System.Drawing.Point(2, 3);
+            this.pictureBox13.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
+            this.pictureBox13.Name = "pictureBox13";
+            this.pictureBox13.Size = new System.Drawing.Size(107, 111);
+            this.pictureBox13.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox13.TabIndex = 0;
+            this.pictureBox13.TabStop = false;
             // 
             // label46
             // 
@@ -1017,6 +1132,42 @@
             this.label29.TabIndex = 16;
             this.label29.Text = "History";
             // 
+            // pictureBox10
+            // 
+            this.bunifuTransition1.SetDecoration(this.pictureBox10, BunifuAnimatorNS.DecorationType.None);
+            this.pictureBox10.Image = global::SMS.Properties.Resources.kisspng_arabic_alphabet_learning_class_course_arabic_alphabet_cliparts_5aafe2a7e62579_2829841415214762639427;
+            this.pictureBox10.Location = new System.Drawing.Point(474, 251);
+            this.pictureBox10.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
+            this.pictureBox10.Name = "pictureBox10";
+            this.pictureBox10.Size = new System.Drawing.Size(209, 190);
+            this.pictureBox10.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox10.TabIndex = 15;
+            this.pictureBox10.TabStop = false;
+            // 
+            // pictureBox11
+            // 
+            this.bunifuTransition1.SetDecoration(this.pictureBox11, BunifuAnimatorNS.DecorationType.None);
+            this.pictureBox11.Image = global::SMS.Properties.Resources.kisspng_world_map_english_language_vector_world_geography_map_5a68dcb358df32_777637161516821683364;
+            this.pictureBox11.Location = new System.Drawing.Point(199, 251);
+            this.pictureBox11.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
+            this.pictureBox11.Name = "pictureBox11";
+            this.pictureBox11.Size = new System.Drawing.Size(271, 192);
+            this.pictureBox11.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox11.TabIndex = 14;
+            this.pictureBox11.TabStop = false;
+            // 
+            // pictureBox12
+            // 
+            this.bunifuTransition1.SetDecoration(this.pictureBox12, BunifuAnimatorNS.DecorationType.None);
+            this.pictureBox12.Image = global::SMS.Properties.Resources.kisspng_thutmose_amarna_nefertiti_bust_ancient_egypt_faiyu_tupac_5ac58ae2a2ce43_9714283115228955866669;
+            this.pictureBox12.Location = new System.Drawing.Point(25, 251);
+            this.pictureBox12.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
+            this.pictureBox12.Name = "pictureBox12";
+            this.pictureBox12.Size = new System.Drawing.Size(168, 193);
+            this.pictureBox12.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox12.TabIndex = 13;
+            this.pictureBox12.TabStop = false;
+            // 
             // label26
             // 
             this.label26.AutoSize = true;
@@ -1029,6 +1180,18 @@
             this.label26.TabIndex = 12;
             this.label26.Text = "Spain";
             // 
+            // pictureBox9
+            // 
+            this.bunifuTransition1.SetDecoration(this.pictureBox9, BunifuAnimatorNS.DecorationType.None);
+            this.pictureBox9.Image = global::SMS.Properties.Resources.kisspng_flag_of_spain_map_english_spain_flag_vector_icon_5abb04c82031a0_1994794715222058961319;
+            this.pictureBox9.Location = new System.Drawing.Point(472, 501);
+            this.pictureBox9.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
+            this.pictureBox9.Name = "pictureBox9";
+            this.pictureBox9.Size = new System.Drawing.Size(209, 201);
+            this.pictureBox9.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox9.TabIndex = 11;
+            this.pictureBox9.TabStop = false;
+            // 
             // label25
             // 
             this.label25.AutoSize = true;
@@ -1040,6 +1203,18 @@
             this.label25.Size = new System.Drawing.Size(116, 38);
             this.label25.TabIndex = 10;
             this.label25.Text = "Deutsch";
+            // 
+            // pictureBox8
+            // 
+            this.bunifuTransition1.SetDecoration(this.pictureBox8, BunifuAnimatorNS.DecorationType.None);
+            this.pictureBox8.Image = global::SMS.Properties.Resources.kisspng_flag_of_germany_map_flag_of_austria_germany_5ad82e2d51f152_6943555115241170373357;
+            this.pictureBox8.Location = new System.Drawing.Point(238, 501);
+            this.pictureBox8.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
+            this.pictureBox8.Name = "pictureBox8";
+            this.pictureBox8.Size = new System.Drawing.Size(214, 201);
+            this.pictureBox8.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox8.TabIndex = 9;
+            this.pictureBox8.TabStop = false;
             // 
             // label24
             // 
@@ -1091,6 +1266,54 @@
             this.label5.Size = new System.Drawing.Size(148, 38);
             this.label5.TabIndex = 5;
             this.label5.Text = "Chemistry";
+            // 
+            // pictureBox7
+            // 
+            this.bunifuTransition1.SetDecoration(this.pictureBox7, BunifuAnimatorNS.DecorationType.None);
+            this.pictureBox7.Image = global::SMS.Properties.Resources.kisspng_lettering_alphabet_cursive_font_alphabets_5ac98749a6c862_3892344615231568096832;
+            this.pictureBox7.Location = new System.Drawing.Point(7, 501);
+            this.pictureBox7.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
+            this.pictureBox7.Name = "pictureBox7";
+            this.pictureBox7.Size = new System.Drawing.Size(214, 201);
+            this.pictureBox7.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox7.TabIndex = 4;
+            this.pictureBox7.TabStop = false;
+            // 
+            // pictureBox6
+            // 
+            this.bunifuTransition1.SetDecoration(this.pictureBox6, BunifuAnimatorNS.DecorationType.None);
+            this.pictureBox6.Image = global::SMS.Properties.Resources.kisspng_mathematics_subtraction_addition_operation_mathema_maths_5b0faa4be4df23_1836823815277532919375__1_;
+            this.pictureBox6.Location = new System.Drawing.Point(472, 5);
+            this.pictureBox6.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
+            this.pictureBox6.Name = "pictureBox6";
+            this.pictureBox6.Size = new System.Drawing.Size(209, 190);
+            this.pictureBox6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox6.TabIndex = 3;
+            this.pictureBox6.TabStop = false;
+            // 
+            // pictureBox5
+            // 
+            this.bunifuTransition1.SetDecoration(this.pictureBox5, BunifuAnimatorNS.DecorationType.None);
+            this.pictureBox5.Image = global::SMS.Properties.Resources.kisspng_symbol_science_atom_chemistry_clip_art_png_free_atom_download_images_5abb014abc5fd1_7376547215222050027716;
+            this.pictureBox5.Location = new System.Drawing.Point(238, 5);
+            this.pictureBox5.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
+            this.pictureBox5.Name = "pictureBox5";
+            this.pictureBox5.Size = new System.Drawing.Size(214, 192);
+            this.pictureBox5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox5.TabIndex = 2;
+            this.pictureBox5.TabStop = false;
+            // 
+            // pictureBox4
+            // 
+            this.bunifuTransition1.SetDecoration(this.pictureBox4, BunifuAnimatorNS.DecorationType.None);
+            this.pictureBox4.Image = global::SMS.Properties.Resources.kisspng_chemistry_chemical_formula_teacher_science_cartoon_chemistry_teacher_5a9479a2162212_3353910415196799060907;
+            this.pictureBox4.Location = new System.Drawing.Point(7, 5);
+            this.pictureBox4.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
+            this.pictureBox4.Name = "pictureBox4";
+            this.pictureBox4.Size = new System.Drawing.Size(214, 193);
+            this.pictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox4.TabIndex = 1;
+            this.pictureBox4.TabStop = false;
             // 
             // GradesPanel
             // 
@@ -1696,10 +1919,10 @@
             // TPanel
             // 
             this.bunifuTransition1.SetDecoration(this.TPanel, BunifuAnimatorNS.DecorationType.None);
-            this.TPanel.Location = new System.Drawing.Point(6, 76);
+            this.TPanel.Location = new System.Drawing.Point(6, 41);
             this.TPanel.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
             this.TPanel.Name = "TPanel";
-            this.TPanel.Size = new System.Drawing.Size(264, 283);
+            this.TPanel.Size = new System.Drawing.Size(264, 318);
             this.TPanel.TabIndex = 32;
             // 
             // label3
@@ -1714,16 +1937,6 @@
             this.label3.Size = new System.Drawing.Size(112, 25);
             this.label3.TabIndex = 12;
             this.label3.Text = "TEACHER";
-            // 
-            // comboBox1
-            // 
-            this.bunifuTransition1.SetDecoration(this.comboBox1, BunifuAnimatorNS.DecorationType.None);
-            this.comboBox1.FormattingEnabled = true;
-            this.comboBox1.Location = new System.Drawing.Point(8, 41);
-            this.comboBox1.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
-            this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(257, 21);
-            this.comboBox1.TabIndex = 13;
             // 
             // label6
             // 
@@ -1904,11 +2117,22 @@
             this.label9.TabIndex = 24;
             this.label9.Text = "----------";
             // 
+            // pictureBox2
+            // 
+            this.bunifuTransition1.SetDecoration(this.pictureBox2, BunifuAnimatorNS.DecorationType.None);
+            this.pictureBox2.Image = global::SMS.Properties.Resources.user;
+            this.pictureBox2.Location = new System.Drawing.Point(2, 3);
+            this.pictureBox2.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
+            this.pictureBox2.Name = "pictureBox2";
+            this.pictureBox2.Size = new System.Drawing.Size(107, 111);
+            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox2.TabIndex = 0;
+            this.pictureBox2.TabStop = false;
+            // 
             // TeachersPanel
             // 
             this.TeachersPanel.Controls.Add(this.TeacherDetailsPanel);
             this.TeachersPanel.Controls.Add(this.label6);
-            this.TeachersPanel.Controls.Add(this.comboBox1);
             this.TeachersPanel.Controls.Add(this.label3);
             this.TeachersPanel.Controls.Add(this.TPanel);
             this.bunifuTransition1.SetDecoration(this.TeachersPanel, BunifuAnimatorNS.DecorationType.None);
@@ -1973,6 +2197,33 @@
             this.George.Size = new System.Drawing.Size(516, 461);
             this.George.TabIndex = 31;
             // 
+            // bunifuCustomLabel1
+            // 
+            this.bunifuCustomLabel1.AutoSize = true;
+            this.bunifuCustomLabel1.BackColor = System.Drawing.Color.Transparent;
+            this.bunifuTransition1.SetDecoration(this.bunifuCustomLabel1, BunifuAnimatorNS.DecorationType.None);
+            this.bunifuCustomLabel1.Font = new System.Drawing.Font("Segoe Print", 12F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.bunifuCustomLabel1.ForeColor = System.Drawing.Color.DarkTurquoise;
+            this.bunifuCustomLabel1.Location = new System.Drawing.Point(192, 374);
+            this.bunifuCustomLabel1.Name = "bunifuCustomLabel1";
+            this.bunifuCustomLabel1.Size = new System.Drawing.Size(98, 28);
+            this.bunifuCustomLabel1.TabIndex = 31;
+            this.bunifuCustomLabel1.Text = "Thank You";
+            // 
+            // bunifuSeparator1
+            // 
+            this.bunifuSeparator1.BackColor = System.Drawing.Color.Transparent;
+            this.bunifuTransition1.SetDecoration(this.bunifuSeparator1, BunifuAnimatorNS.DecorationType.None);
+            this.bunifuSeparator1.ForeColor = System.Drawing.Color.Crimson;
+            this.bunifuSeparator1.LineColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.bunifuSeparator1.LineThickness = 1;
+            this.bunifuSeparator1.Location = new System.Drawing.Point(53, 374);
+            this.bunifuSeparator1.Name = "bunifuSeparator1";
+            this.bunifuSeparator1.Size = new System.Drawing.Size(388, 35);
+            this.bunifuSeparator1.TabIndex = 30;
+            this.bunifuSeparator1.Transparency = 255;
+            this.bunifuSeparator1.Vertical = false;
+            // 
             // bunifuCustomLabel3
             // 
             this.bunifuCustomLabel3.AutoSize = true;
@@ -2026,6 +2277,17 @@
             this.bunifuCustomLabel7.TabIndex = 28;
             this.bunifuCustomLabel7.Text = "George rauof";
             // 
+            // pictureBox30
+            // 
+            this.bunifuTransition1.SetDecoration(this.pictureBox30, BunifuAnimatorNS.DecorationType.None);
+            this.pictureBox30.Image = global::SMS.Properties.Resources.george;
+            this.pictureBox30.Location = new System.Drawing.Point(359, 0);
+            this.pictureBox30.Name = "pictureBox30";
+            this.pictureBox30.Size = new System.Drawing.Size(148, 176);
+            this.pictureBox30.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox30.TabIndex = 24;
+            this.pictureBox30.TabStop = false;
+            // 
             // bunifuSeparator2
             // 
             this.bunifuSeparator2.BackColor = System.Drawing.Color.Transparent;
@@ -2040,134 +2302,24 @@
             this.bunifuSeparator2.Transparency = 255;
             this.bunifuSeparator2.Vertical = false;
             // 
-            // timer2
+            // userControl21
             // 
-            this.timer2.Tick += new System.EventHandler(this.timer2_Tick);
+            this.userControl21.BackColor = System.Drawing.Color.Black;
+            this.bunifuTransition1.SetDecoration(this.userControl21, BunifuAnimatorNS.DecorationType.None);
+            this.userControl21.Location = new System.Drawing.Point(171, -90);
+            this.userControl21.Name = "userControl21";
+            this.userControl21.Size = new System.Drawing.Size(516, 461);
+            this.userControl21.TabIndex = 1;
             // 
-            // timer3
+            // aboutUs1
             // 
-            this.timer3.Tick += new System.EventHandler(this.timer3_Tick);
-            // 
-            // bunifuElipse1
-            // 
-            this.bunifuElipse1.ElipseRadius = 500;
-            this.bunifuElipse1.TargetControl = this.pictureBox30;
-            // 
-            // pictureBox22
-            // 
-            this.pictureBox22.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.bunifuTransition1.SetDecoration(this.pictureBox22, BunifuAnimatorNS.DecorationType.None);
-            this.pictureBox22.Image = global::SMS.Properties.Resources.iconfinder__97ui_2303195;
-            this.pictureBox22.Location = new System.Drawing.Point(12, 463);
-            this.pictureBox22.Name = "pictureBox22";
-            this.pictureBox22.Size = new System.Drawing.Size(26, 31);
-            this.pictureBox22.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox22.TabIndex = 22;
-            this.pictureBox22.TabStop = false;
-            this.pictureBox22.Click += new System.EventHandler(this.pictureBox22_Click_1);
-            // 
-            // pictureBox21
-            // 
-            this.pictureBox21.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.bunifuTransition1.SetDecoration(this.pictureBox21, BunifuAnimatorNS.DecorationType.None);
-            this.pictureBox21.Image = global::SMS.Properties.Resources.iconfinder_code__bar__barcode__price_2538674;
-            this.pictureBox21.Location = new System.Drawing.Point(3, 3);
-            this.pictureBox21.Name = "pictureBox21";
-            this.pictureBox21.Size = new System.Drawing.Size(35, 26);
-            this.pictureBox21.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox21.TabIndex = 21;
-            this.pictureBox21.TabStop = false;
-            this.pictureBox21.Click += new System.EventHandler(this.pictureBox21_Click);
-            // 
-            // pictureBox20
-            // 
-            this.pictureBox20.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.bunifuTransition1.SetDecoration(this.pictureBox20, BunifuAnimatorNS.DecorationType.None);
-            this.pictureBox20.Image = global::SMS.Properties.Resources.calendar_128;
-            this.pictureBox20.Location = new System.Drawing.Point(12, 369);
-            this.pictureBox20.Name = "pictureBox20";
-            this.pictureBox20.Size = new System.Drawing.Size(28, 34);
-            this.pictureBox20.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox20.TabIndex = 20;
-            this.pictureBox20.TabStop = false;
-            this.pictureBox20.Click += new System.EventHandler(this.pictureBox20_Click);
-            // 
-            // pictureBox19
-            // 
-            this.pictureBox19.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.bunifuTransition1.SetDecoration(this.pictureBox19, BunifuAnimatorNS.DecorationType.None);
-            this.pictureBox19.Image = global::SMS.Properties.Resources.Project_management_Product_Status_Account_128;
-            this.pictureBox19.Location = new System.Drawing.Point(12, 324);
-            this.pictureBox19.Name = "pictureBox19";
-            this.pictureBox19.Size = new System.Drawing.Size(28, 34);
-            this.pictureBox19.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox19.TabIndex = 19;
-            this.pictureBox19.TabStop = false;
-            this.pictureBox19.Click += new System.EventHandler(this.pictureBox19_Click);
-            // 
-            // pictureBox18
-            // 
-            this.pictureBox18.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.bunifuTransition1.SetDecoration(this.pictureBox18, BunifuAnimatorNS.DecorationType.None);
-            this.pictureBox18.Image = global::SMS.Properties.Resources.iconfinder_Teacher_Male_84158;
-            this.pictureBox18.Location = new System.Drawing.Point(12, 276);
-            this.pictureBox18.Name = "pictureBox18";
-            this.pictureBox18.Size = new System.Drawing.Size(28, 34);
-            this.pictureBox18.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox18.TabIndex = 18;
-            this.pictureBox18.TabStop = false;
-            this.pictureBox18.Click += new System.EventHandler(this.pictureBox18_Click);
-            // 
-            // pictureBox17
-            // 
-            this.pictureBox17.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.bunifuTransition1.SetDecoration(this.pictureBox17, BunifuAnimatorNS.DecorationType.None);
-            this.pictureBox17.Image = global::SMS.Properties.Resources.iconfinder_nerd_43200;
-            this.pictureBox17.Location = new System.Drawing.Point(12, 230);
-            this.pictureBox17.Name = "pictureBox17";
-            this.pictureBox17.Size = new System.Drawing.Size(28, 34);
-            this.pictureBox17.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox17.TabIndex = 17;
-            this.pictureBox17.TabStop = false;
-            this.pictureBox17.Click += new System.EventHandler(this.pictureBox17_Click);
-            // 
-            // pictureBox16
-            // 
-            this.pictureBox16.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.bunifuTransition1.SetDecoration(this.pictureBox16, BunifuAnimatorNS.DecorationType.None);
-            this.pictureBox16.Image = global::SMS.Properties.Resources.iconfinder_education_teacher_43194;
-            this.pictureBox16.Location = new System.Drawing.Point(12, 184);
-            this.pictureBox16.Name = "pictureBox16";
-            this.pictureBox16.Size = new System.Drawing.Size(28, 34);
-            this.pictureBox16.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox16.TabIndex = 16;
-            this.pictureBox16.TabStop = false;
-            this.pictureBox16.Click += new System.EventHandler(this.pictureBox16_Click);
-            // 
-            // pictureBox15
-            // 
-            this.pictureBox15.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.bunifuTransition1.SetDecoration(this.pictureBox15, BunifuAnimatorNS.DecorationType.None);
-            this.pictureBox15.Image = global::SMS.Properties.Resources.iconfinder_Dashboard_82136;
-            this.pictureBox15.Location = new System.Drawing.Point(12, 140);
-            this.pictureBox15.Name = "pictureBox15";
-            this.pictureBox15.Size = new System.Drawing.Size(28, 34);
-            this.pictureBox15.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox15.TabIndex = 15;
-            this.pictureBox15.TabStop = false;
-            this.pictureBox15.Click += new System.EventHandler(this.pictureBox15_Click);
-            // 
-            // pictureBox1
-            // 
-            this.bunifuTransition1.SetDecoration(this.pictureBox1, BunifuAnimatorNS.DecorationType.None);
-            this.pictureBox1.Image = global::SMS.Properties.Resources.kisspng_schoolyard_drawing_cartoon_school_building_material_png_5a95d904d800f3_7046775115197698608848__1_;
-            this.pictureBox1.Location = new System.Drawing.Point(45, 0);
-            this.pictureBox1.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(174, 138);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox1.TabIndex = 6;
-            this.pictureBox1.TabStop = false;
+            this.aboutUs1.BackColor = System.Drawing.Color.Black;
+            this.bunifuTransition1.SetDecoration(this.aboutUs1, BunifuAnimatorNS.DecorationType.None);
+            this.aboutUs1.ForeColor = System.Drawing.SystemColors.ControlText;
+            this.aboutUs1.Location = new System.Drawing.Point(190, -63);
+            this.aboutUs1.Name = "aboutUs1";
+            this.aboutUs1.Size = new System.Drawing.Size(516, 461);
+            this.aboutUs1.TabIndex = 0;
             // 
             // bunifuGradientPanel1
             // 
@@ -2202,29 +2354,6 @@
             this.pictureBox3.TabStop = false;
             this.pictureBox3.Click += new System.EventHandler(this.pictureBox3_Click);
             // 
-            // pictureBox30
-            // 
-            this.bunifuTransition1.SetDecoration(this.pictureBox30, BunifuAnimatorNS.DecorationType.None);
-            this.pictureBox30.Image = global::SMS.Properties.Resources.george;
-            this.pictureBox30.Location = new System.Drawing.Point(359, 0);
-            this.pictureBox30.Name = "pictureBox30";
-            this.pictureBox30.Size = new System.Drawing.Size(148, 176);
-            this.pictureBox30.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox30.TabIndex = 24;
-            this.pictureBox30.TabStop = false;
-            // 
-            // pictureBox2
-            // 
-            this.bunifuTransition1.SetDecoration(this.pictureBox2, BunifuAnimatorNS.DecorationType.None);
-            this.pictureBox2.Image = global::SMS.Properties.Resources.user;
-            this.pictureBox2.Location = new System.Drawing.Point(2, 3);
-            this.pictureBox2.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
-            this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(107, 111);
-            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox2.TabIndex = 0;
-            this.pictureBox2.TabStop = false;
-            // 
             // bunifuGradientPanel2
             // 
             this.bunifuGradientPanel2.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("bunifuGradientPanel2.BackgroundImage")));
@@ -2241,165 +2370,6 @@
             this.bunifuGradientPanel2.Size = new System.Drawing.Size(1016, 32);
             this.bunifuGradientPanel2.TabIndex = 9;
             // 
-            // pictureBox14
-            // 
-            this.bunifuTransition1.SetDecoration(this.pictureBox14, BunifuAnimatorNS.DecorationType.None);
-            this.pictureBox14.Image = global::SMS.Properties.Resources.user;
-            this.pictureBox14.Location = new System.Drawing.Point(2, 3);
-            this.pictureBox14.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
-            this.pictureBox14.Name = "pictureBox14";
-            this.pictureBox14.Size = new System.Drawing.Size(89, 109);
-            this.pictureBox14.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox14.TabIndex = 0;
-            this.pictureBox14.TabStop = false;
-            // 
-            // pictureBox10
-            // 
-            this.bunifuTransition1.SetDecoration(this.pictureBox10, BunifuAnimatorNS.DecorationType.None);
-            this.pictureBox10.Image = global::SMS.Properties.Resources.kisspng_arabic_alphabet_learning_class_course_arabic_alphabet_cliparts_5aafe2a7e62579_2829841415214762639427;
-            this.pictureBox10.Location = new System.Drawing.Point(474, 251);
-            this.pictureBox10.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
-            this.pictureBox10.Name = "pictureBox10";
-            this.pictureBox10.Size = new System.Drawing.Size(209, 190);
-            this.pictureBox10.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox10.TabIndex = 15;
-            this.pictureBox10.TabStop = false;
-            // 
-            // pictureBox11
-            // 
-            this.bunifuTransition1.SetDecoration(this.pictureBox11, BunifuAnimatorNS.DecorationType.None);
-            this.pictureBox11.Image = global::SMS.Properties.Resources.kisspng_world_map_english_language_vector_world_geography_map_5a68dcb358df32_777637161516821683364;
-            this.pictureBox11.Location = new System.Drawing.Point(199, 251);
-            this.pictureBox11.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
-            this.pictureBox11.Name = "pictureBox11";
-            this.pictureBox11.Size = new System.Drawing.Size(271, 192);
-            this.pictureBox11.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox11.TabIndex = 14;
-            this.pictureBox11.TabStop = false;
-            // 
-            // pictureBox12
-            // 
-            this.bunifuTransition1.SetDecoration(this.pictureBox12, BunifuAnimatorNS.DecorationType.None);
-            this.pictureBox12.Image = global::SMS.Properties.Resources.kisspng_thutmose_amarna_nefertiti_bust_ancient_egypt_faiyu_tupac_5ac58ae2a2ce43_9714283115228955866669;
-            this.pictureBox12.Location = new System.Drawing.Point(25, 251);
-            this.pictureBox12.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
-            this.pictureBox12.Name = "pictureBox12";
-            this.pictureBox12.Size = new System.Drawing.Size(168, 193);
-            this.pictureBox12.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox12.TabIndex = 13;
-            this.pictureBox12.TabStop = false;
-            // 
-            // pictureBox9
-            // 
-            this.bunifuTransition1.SetDecoration(this.pictureBox9, BunifuAnimatorNS.DecorationType.None);
-            this.pictureBox9.Image = global::SMS.Properties.Resources.kisspng_flag_of_spain_map_english_spain_flag_vector_icon_5abb04c82031a0_1994794715222058961319;
-            this.pictureBox9.Location = new System.Drawing.Point(472, 501);
-            this.pictureBox9.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
-            this.pictureBox9.Name = "pictureBox9";
-            this.pictureBox9.Size = new System.Drawing.Size(209, 201);
-            this.pictureBox9.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox9.TabIndex = 11;
-            this.pictureBox9.TabStop = false;
-            // 
-            // pictureBox8
-            // 
-            this.bunifuTransition1.SetDecoration(this.pictureBox8, BunifuAnimatorNS.DecorationType.None);
-            this.pictureBox8.Image = global::SMS.Properties.Resources.kisspng_flag_of_germany_map_flag_of_austria_germany_5ad82e2d51f152_6943555115241170373357;
-            this.pictureBox8.Location = new System.Drawing.Point(238, 501);
-            this.pictureBox8.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
-            this.pictureBox8.Name = "pictureBox8";
-            this.pictureBox8.Size = new System.Drawing.Size(214, 201);
-            this.pictureBox8.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox8.TabIndex = 9;
-            this.pictureBox8.TabStop = false;
-            // 
-            // pictureBox7
-            // 
-            this.bunifuTransition1.SetDecoration(this.pictureBox7, BunifuAnimatorNS.DecorationType.None);
-            this.pictureBox7.Image = global::SMS.Properties.Resources.kisspng_lettering_alphabet_cursive_font_alphabets_5ac98749a6c862_3892344615231568096832;
-            this.pictureBox7.Location = new System.Drawing.Point(7, 501);
-            this.pictureBox7.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
-            this.pictureBox7.Name = "pictureBox7";
-            this.pictureBox7.Size = new System.Drawing.Size(214, 201);
-            this.pictureBox7.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox7.TabIndex = 4;
-            this.pictureBox7.TabStop = false;
-            // 
-            // pictureBox6
-            // 
-            this.bunifuTransition1.SetDecoration(this.pictureBox6, BunifuAnimatorNS.DecorationType.None);
-            this.pictureBox6.Image = global::SMS.Properties.Resources.kisspng_mathematics_subtraction_addition_operation_mathema_maths_5b0faa4be4df23_1836823815277532919375__1_;
-            this.pictureBox6.Location = new System.Drawing.Point(472, 5);
-            this.pictureBox6.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
-            this.pictureBox6.Name = "pictureBox6";
-            this.pictureBox6.Size = new System.Drawing.Size(209, 190);
-            this.pictureBox6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox6.TabIndex = 3;
-            this.pictureBox6.TabStop = false;
-            // 
-            // pictureBox5
-            // 
-            this.bunifuTransition1.SetDecoration(this.pictureBox5, BunifuAnimatorNS.DecorationType.None);
-            this.pictureBox5.Image = global::SMS.Properties.Resources.kisspng_symbol_science_atom_chemistry_clip_art_png_free_atom_download_images_5abb014abc5fd1_7376547215222050027716;
-            this.pictureBox5.Location = new System.Drawing.Point(238, 5);
-            this.pictureBox5.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
-            this.pictureBox5.Name = "pictureBox5";
-            this.pictureBox5.Size = new System.Drawing.Size(214, 192);
-            this.pictureBox5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox5.TabIndex = 2;
-            this.pictureBox5.TabStop = false;
-            // 
-            // pictureBox4
-            // 
-            this.bunifuTransition1.SetDecoration(this.pictureBox4, BunifuAnimatorNS.DecorationType.None);
-            this.pictureBox4.Image = global::SMS.Properties.Resources.kisspng_chemistry_chemical_formula_teacher_science_cartoon_chemistry_teacher_5a9479a2162212_3353910415196799060907;
-            this.pictureBox4.Location = new System.Drawing.Point(7, 5);
-            this.pictureBox4.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
-            this.pictureBox4.Name = "pictureBox4";
-            this.pictureBox4.Size = new System.Drawing.Size(214, 193);
-            this.pictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox4.TabIndex = 1;
-            this.pictureBox4.TabStop = false;
-            // 
-            // pictureBox13
-            // 
-            this.bunifuTransition1.SetDecoration(this.pictureBox13, BunifuAnimatorNS.DecorationType.None);
-            this.pictureBox13.Image = global::SMS.Properties.Resources.user;
-            this.pictureBox13.Location = new System.Drawing.Point(2, 3);
-            this.pictureBox13.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
-            this.pictureBox13.Name = "pictureBox13";
-            this.pictureBox13.Size = new System.Drawing.Size(107, 111);
-            this.pictureBox13.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox13.TabIndex = 0;
-            this.pictureBox13.TabStop = false;
-            // 
-            // bunifuCustomLabel1
-            // 
-            this.bunifuCustomLabel1.AutoSize = true;
-            this.bunifuCustomLabel1.BackColor = System.Drawing.Color.Transparent;
-            this.bunifuTransition1.SetDecoration(this.bunifuCustomLabel1, BunifuAnimatorNS.DecorationType.None);
-            this.bunifuCustomLabel1.Font = new System.Drawing.Font("Segoe Print", 12F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.bunifuCustomLabel1.ForeColor = System.Drawing.Color.DarkTurquoise;
-            this.bunifuCustomLabel1.Location = new System.Drawing.Point(192, 374);
-            this.bunifuCustomLabel1.Name = "bunifuCustomLabel1";
-            this.bunifuCustomLabel1.Size = new System.Drawing.Size(98, 28);
-            this.bunifuCustomLabel1.TabIndex = 31;
-            this.bunifuCustomLabel1.Text = "Thank You";
-            // 
-            // bunifuSeparator1
-            // 
-            this.bunifuSeparator1.BackColor = System.Drawing.Color.Transparent;
-            this.bunifuTransition1.SetDecoration(this.bunifuSeparator1, BunifuAnimatorNS.DecorationType.None);
-            this.bunifuSeparator1.ForeColor = System.Drawing.Color.Crimson;
-            this.bunifuSeparator1.LineColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
-            this.bunifuSeparator1.LineThickness = 1;
-            this.bunifuSeparator1.Location = new System.Drawing.Point(53, 374);
-            this.bunifuSeparator1.Name = "bunifuSeparator1";
-            this.bunifuSeparator1.Size = new System.Drawing.Size(388, 35);
-            this.bunifuSeparator1.TabIndex = 30;
-            this.bunifuSeparator1.Transparency = 255;
-            this.bunifuSeparator1.Vertical = false;
-            // 
             // contactUs1
             // 
             this.contactUs1.BackColor = System.Drawing.Color.Transparent;
@@ -2409,24 +2379,18 @@
             this.contactUs1.Size = new System.Drawing.Size(71, 317);
             this.contactUs1.TabIndex = 10;
             // 
-            // userControl21
+            // timer2
             // 
-            this.userControl21.BackColor = System.Drawing.Color.Black;
-            this.bunifuTransition1.SetDecoration(this.userControl21, BunifuAnimatorNS.DecorationType.None);
-            this.userControl21.Location = new System.Drawing.Point(171, -90);
-            this.userControl21.Name = "userControl21";
-            this.userControl21.Size = new System.Drawing.Size(516, 461);
-            this.userControl21.TabIndex = 1;
+            this.timer2.Tick += new System.EventHandler(this.timer2_Tick);
             // 
-            // aboutUs1
+            // timer3
             // 
-            this.aboutUs1.BackColor = System.Drawing.Color.Black;
-            this.bunifuTransition1.SetDecoration(this.aboutUs1, BunifuAnimatorNS.DecorationType.None);
-            this.aboutUs1.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.aboutUs1.Location = new System.Drawing.Point(190, -63);
-            this.aboutUs1.Name = "aboutUs1";
-            this.aboutUs1.Size = new System.Drawing.Size(516, 461);
-            this.aboutUs1.TabIndex = 0;
+            this.timer3.Tick += new System.EventHandler(this.timer3_Tick);
+            // 
+            // bunifuElipse1
+            // 
+            this.bunifuElipse1.ElipseRadius = 500;
+            this.bunifuElipse1.TargetControl = this.pictureBox30;
             // 
             // Admin
             // 
@@ -2437,14 +2401,14 @@
             this.Controls.Add(this.contactUs1);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.bunifuGradientPanel1);
-            this.Controls.Add(this.TeachersPanel);
             this.Controls.Add(this.bunifuGradientPanel2);
-            this.Controls.Add(this.GradesPanel);
-            this.Controls.Add(this.StudentsPanel);
-            this.Controls.Add(this.SubjectPanel);
             this.Controls.Add(this.ParentPanel);
             this.Controls.Add(this.AboutPnl);
             this.Controls.Add(this.DashBoardPanel);
+            this.Controls.Add(this.TeachersPanel);
+            this.Controls.Add(this.GradesPanel);
+            this.Controls.Add(this.StudentsPanel);
+            this.Controls.Add(this.SubjectPanel);
             this.bunifuTransition1.SetDecoration(this, BunifuAnimatorNS.DecorationType.None);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
@@ -2453,16 +2417,36 @@
             this.Text = "Form1";
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox22)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox21)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox20)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox19)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox18)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox17)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox16)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox15)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.StudentsPanel.ResumeLayout(false);
             this.StudentsPanel.PerformLayout();
             this.SPanel.ResumeLayout(false);
             this.SPanel.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox14)).EndInit();
             this.ParentPanel.ResumeLayout(false);
             this.ParentPanel.PerformLayout();
             this.panel2.ResumeLayout(false);
             this.panel2.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox13)).EndInit();
             this.SubjectPanel.ResumeLayout(false);
             this.SubjectPanel.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox10)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox11)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox12)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox9)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox8)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
             this.GradesPanel.ResumeLayout(false);
             this.GradesPanel.PerformLayout();
             this.ChooseCourse_pnl.ResumeLayout(false);
@@ -2480,35 +2464,15 @@
             ((System.ComponentModel.ISupportInitialize)(this.Teachers_chart)).EndInit();
             this.TeacherDetailsPanel.ResumeLayout(false);
             this.TeacherDetailsPanel.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             this.TeachersPanel.ResumeLayout(false);
             this.TeachersPanel.PerformLayout();
             this.AboutPnl.ResumeLayout(false);
             this.George.ResumeLayout(false);
             this.George.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox22)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox21)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox20)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox19)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox18)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox17)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox16)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox15)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox30)).EndInit();
             this.bunifuGradientPanel1.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox30)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox14)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox10)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox11)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox12)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox9)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox8)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox13)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -2560,7 +2524,6 @@
         private System.Windows.Forms.Label label41;
         private System.Windows.Forms.Label ParentNm;
         private System.Windows.Forms.PictureBox pictureBox13;
-        private System.Windows.Forms.ComboBox comboBox2;
         private System.Windows.Forms.Label label46;
         private System.Windows.Forms.Label ParentID;
         private System.Windows.Forms.Label ParentPhone;
@@ -2603,12 +2566,10 @@
         private System.Windows.Forms.Label label38;
         private System.Windows.Forms.Label Sname;
         private System.Windows.Forms.PictureBox pictureBox14;
-        private System.Windows.Forms.ComboBox comboBox3;
         private System.Windows.Forms.Label label43;
         private System.Windows.Forms.Label LogOut;
         private System.Windows.Forms.Panel TPanel;
         private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.ComboBox comboBox1;
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.Panel TeacherDetailsPanel;
         private System.Windows.Forms.Label label21;

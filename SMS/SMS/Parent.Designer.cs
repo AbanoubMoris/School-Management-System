@@ -29,11 +29,14 @@
         private void InitializeComponent()
         {
             this.panel1 = new System.Windows.Forms.Panel();
+            this.contactUs1 = new SMS.ContactUs();
             this.LogOut = new System.Windows.Forms.Label();
             this.button2 = new System.Windows.Forms.Button();
             this.button1 = new System.Windows.Forms.Button();
             this.flowLayoutPanel1 = new System.Windows.Forms.FlowLayoutPanel();
             this.StuPanel = new System.Windows.Forms.Panel();
+            this.femaleCheckBox = new System.Windows.Forms.RadioButton();
+            this.maleCheckBox = new System.Windows.Forms.RadioButton();
             this.label6 = new System.Windows.Forms.Label();
             this.yearReg = new Bunifu.Framework.UI.BunifuMetroTextbox();
             this.monthReg = new Bunifu.Framework.UI.BunifuMetroTextbox();
@@ -46,8 +49,6 @@
             this.studentPass = new System.Windows.Forms.TextBox();
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
-            this.femaleCheckBox = new System.Windows.Forms.CheckBox();
-            this.maleCheckBox = new System.Windows.Forms.CheckBox();
             this.studentAddress = new System.Windows.Forms.TextBox();
             this.studentName = new System.Windows.Forms.TextBox();
             this.genderOfStudent = new System.Windows.Forms.Label();
@@ -72,7 +73,6 @@
             this.subjectTextBox = new System.Windows.Forms.TextBox();
             this.toTextBox = new System.Windows.Forms.TextBox();
             this.pictureBox3 = new System.Windows.Forms.PictureBox();
-            this.contactUs1 = new SMS.ContactUs();
             this.panel1.SuspendLayout();
             this.StuPanel.SuspendLayout();
             this.QueryPanel.SuspendLayout();
@@ -97,6 +97,14 @@
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(229, 566);
             this.panel1.TabIndex = 0;
+            // 
+            // contactUs1
+            // 
+            this.contactUs1.BackColor = System.Drawing.Color.Transparent;
+            this.contactUs1.Location = new System.Drawing.Point(3, 244);
+            this.contactUs1.Name = "contactUs1";
+            this.contactUs1.Size = new System.Drawing.Size(71, 317);
+            this.contactUs1.TabIndex = 5;
             // 
             // LogOut
             // 
@@ -155,6 +163,8 @@
             // 
             // StuPanel
             // 
+            this.StuPanel.Controls.Add(this.femaleCheckBox);
+            this.StuPanel.Controls.Add(this.maleCheckBox);
             this.StuPanel.Controls.Add(this.label6);
             this.StuPanel.Controls.Add(this.yearReg);
             this.StuPanel.Controls.Add(this.monthReg);
@@ -167,8 +177,6 @@
             this.StuPanel.Controls.Add(this.studentPass);
             this.StuPanel.Controls.Add(this.label2);
             this.StuPanel.Controls.Add(this.label1);
-            this.StuPanel.Controls.Add(this.femaleCheckBox);
-            this.StuPanel.Controls.Add(this.maleCheckBox);
             this.StuPanel.Controls.Add(this.studentAddress);
             this.StuPanel.Controls.Add(this.studentName);
             this.StuPanel.Controls.Add(this.genderOfStudent);
@@ -180,6 +188,30 @@
             this.StuPanel.Size = new System.Drawing.Size(769, 488);
             this.StuPanel.TabIndex = 2;
             this.StuPanel.Visible = false;
+            // 
+            // femaleCheckBox
+            // 
+            this.femaleCheckBox.AutoSize = true;
+            this.femaleCheckBox.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.femaleCheckBox.Location = new System.Drawing.Point(559, 319);
+            this.femaleCheckBox.Name = "femaleCheckBox";
+            this.femaleCheckBox.Size = new System.Drawing.Size(86, 23);
+            this.femaleCheckBox.TabIndex = 60;
+            this.femaleCheckBox.TabStop = true;
+            this.femaleCheckBox.Text = "Female";
+            this.femaleCheckBox.UseVisualStyleBackColor = true;
+            // 
+            // maleCheckBox
+            // 
+            this.maleCheckBox.AutoSize = true;
+            this.maleCheckBox.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.maleCheckBox.Location = new System.Drawing.Point(376, 319);
+            this.maleCheckBox.Name = "maleCheckBox";
+            this.maleCheckBox.Size = new System.Drawing.Size(66, 23);
+            this.maleCheckBox.TabIndex = 59;
+            this.maleCheckBox.TabStop = true;
+            this.maleCheckBox.Text = "Male";
+            this.maleCheckBox.UseVisualStyleBackColor = true;
             // 
             // label6
             // 
@@ -206,7 +238,7 @@
             this.yearReg.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.yearReg.isPassword = false;
             this.yearReg.Location = new System.Drawing.Point(546, 351);
-            this.yearReg.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.yearReg.Margin = new System.Windows.Forms.Padding(4);
             this.yearReg.Name = "yearReg";
             this.yearReg.Size = new System.Drawing.Size(79, 44);
             this.yearReg.TabIndex = 57;
@@ -228,7 +260,7 @@
             this.monthReg.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.monthReg.isPassword = false;
             this.monthReg.Location = new System.Drawing.Point(458, 351);
-            this.monthReg.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.monthReg.Margin = new System.Windows.Forms.Padding(4);
             this.monthReg.Name = "monthReg";
             this.monthReg.Size = new System.Drawing.Size(79, 44);
             this.monthReg.TabIndex = 56;
@@ -250,7 +282,7 @@
             this.dayReg.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.dayReg.isPassword = false;
             this.dayReg.Location = new System.Drawing.Point(372, 351);
-            this.dayReg.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.dayReg.Margin = new System.Windows.Forms.Padding(4);
             this.dayReg.Name = "dayReg";
             this.dayReg.Size = new System.Drawing.Size(79, 44);
             this.dayReg.TabIndex = 55;
@@ -262,7 +294,7 @@
             // studentPhone
             // 
             this.studentPhone.Location = new System.Drawing.Point(376, 168);
-            this.studentPhone.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.studentPhone.Margin = new System.Windows.Forms.Padding(2);
             this.studentPhone.Name = "studentPhone";
             this.studentPhone.Size = new System.Drawing.Size(324, 20);
             this.studentPhone.TabIndex = 54;
@@ -294,7 +326,7 @@
             // studentEmail
             // 
             this.studentEmail.Location = new System.Drawing.Point(377, 218);
-            this.studentEmail.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.studentEmail.Margin = new System.Windows.Forms.Padding(2);
             this.studentEmail.Name = "studentEmail";
             this.studentEmail.Size = new System.Drawing.Size(324, 20);
             this.studentEmail.TabIndex = 51;
@@ -314,10 +346,11 @@
             // studentPass
             // 
             this.studentPass.Location = new System.Drawing.Point(377, 120);
-            this.studentPass.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.studentPass.Margin = new System.Windows.Forms.Padding(2);
             this.studentPass.Name = "studentPass";
             this.studentPass.Size = new System.Drawing.Size(324, 20);
             this.studentPass.TabIndex = 49;
+            this.studentPass.UseSystemPasswordChar = true;
             // 
             // label2
             // 
@@ -343,34 +376,10 @@
             this.label1.TabIndex = 47;
             this.label1.Text = "STUDENT INFO";
             // 
-            // femaleCheckBox
-            // 
-            this.femaleCheckBox.AutoSize = true;
-            this.femaleCheckBox.Font = new System.Drawing.Font("Times New Roman", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.femaleCheckBox.Location = new System.Drawing.Point(563, 319);
-            this.femaleCheckBox.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
-            this.femaleCheckBox.Name = "femaleCheckBox";
-            this.femaleCheckBox.Size = new System.Drawing.Size(89, 26);
-            this.femaleCheckBox.TabIndex = 46;
-            this.femaleCheckBox.Text = "Female";
-            this.femaleCheckBox.UseVisualStyleBackColor = true;
-            // 
-            // maleCheckBox
-            // 
-            this.maleCheckBox.AutoSize = true;
-            this.maleCheckBox.Font = new System.Drawing.Font("Times New Roman", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.maleCheckBox.Location = new System.Drawing.Point(377, 319);
-            this.maleCheckBox.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
-            this.maleCheckBox.Name = "maleCheckBox";
-            this.maleCheckBox.Size = new System.Drawing.Size(71, 26);
-            this.maleCheckBox.TabIndex = 45;
-            this.maleCheckBox.Text = "Male";
-            this.maleCheckBox.UseVisualStyleBackColor = true;
-            // 
             // studentAddress
             // 
             this.studentAddress.Location = new System.Drawing.Point(376, 270);
-            this.studentAddress.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.studentAddress.Margin = new System.Windows.Forms.Padding(2);
             this.studentAddress.Name = "studentAddress";
             this.studentAddress.Size = new System.Drawing.Size(324, 20);
             this.studentAddress.TabIndex = 44;
@@ -378,7 +387,7 @@
             // studentName
             // 
             this.studentName.Location = new System.Drawing.Point(377, 68);
-            this.studentName.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.studentName.Margin = new System.Windows.Forms.Padding(2);
             this.studentName.Name = "studentName";
             this.studentName.Size = new System.Drawing.Size(324, 20);
             this.studentName.TabIndex = 41;
@@ -454,7 +463,7 @@
             this.selectTeacherPanel.Controls.Add(this.dataGridView2);
             this.selectTeacherPanel.Controls.Add(this.dataGridView1);
             this.selectTeacherPanel.Location = new System.Drawing.Point(26, 74);
-            this.selectTeacherPanel.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.selectTeacherPanel.Margin = new System.Windows.Forms.Padding(2);
             this.selectTeacherPanel.Name = "selectTeacherPanel";
             this.selectTeacherPanel.Size = new System.Drawing.Size(740, 411);
             this.selectTeacherPanel.TabIndex = 4;
@@ -463,7 +472,7 @@
             // 
             this.dataGridView2.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dataGridView2.Location = new System.Drawing.Point(3, 7);
-            this.dataGridView2.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.dataGridView2.Margin = new System.Windows.Forms.Padding(2);
             this.dataGridView2.Name = "dataGridView2";
             this.dataGridView2.RowTemplate.Height = 24;
             this.dataGridView2.Size = new System.Drawing.Size(729, 391);
@@ -541,7 +550,7 @@
             this.sendEmailPanel.Controls.Add(this.subjectTextBox);
             this.sendEmailPanel.Controls.Add(this.toTextBox);
             this.sendEmailPanel.Location = new System.Drawing.Point(26, 77);
-            this.sendEmailPanel.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.sendEmailPanel.Margin = new System.Windows.Forms.Padding(2);
             this.sendEmailPanel.Name = "sendEmailPanel";
             this.sendEmailPanel.Size = new System.Drawing.Size(740, 395);
             this.sendEmailPanel.TabIndex = 6;
@@ -564,7 +573,7 @@
             // messageTextBox
             // 
             this.messageTextBox.Location = new System.Drawing.Point(76, 146);
-            this.messageTextBox.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.messageTextBox.Margin = new System.Windows.Forms.Padding(2);
             this.messageTextBox.Multiline = true;
             this.messageTextBox.Name = "messageTextBox";
             this.messageTextBox.Size = new System.Drawing.Size(587, 192);
@@ -606,7 +615,7 @@
             // fromTextBox
             // 
             this.fromTextBox.Location = new System.Drawing.Point(76, 69);
-            this.fromTextBox.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.fromTextBox.Margin = new System.Windows.Forms.Padding(2);
             this.fromTextBox.Name = "fromTextBox";
             this.fromTextBox.Size = new System.Drawing.Size(584, 20);
             this.fromTextBox.TabIndex = 2;
@@ -614,7 +623,7 @@
             // subjectTextBox
             // 
             this.subjectTextBox.Location = new System.Drawing.Point(76, 107);
-            this.subjectTextBox.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.subjectTextBox.Margin = new System.Windows.Forms.Padding(2);
             this.subjectTextBox.Name = "subjectTextBox";
             this.subjectTextBox.Size = new System.Drawing.Size(584, 20);
             this.subjectTextBox.TabIndex = 1;
@@ -622,7 +631,7 @@
             // toTextBox
             // 
             this.toTextBox.Location = new System.Drawing.Point(76, 31);
-            this.toTextBox.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.toTextBox.Margin = new System.Windows.Forms.Padding(2);
             this.toTextBox.Name = "toTextBox";
             this.toTextBox.Size = new System.Drawing.Size(584, 20);
             this.toTextBox.TabIndex = 0;
@@ -639,14 +648,6 @@
             this.pictureBox3.TabIndex = 8;
             this.pictureBox3.TabStop = false;
             this.pictureBox3.Click += new System.EventHandler(this.pictureBox3_Click);
-            // 
-            // contactUs1
-            // 
-            this.contactUs1.BackColor = System.Drawing.Color.Transparent;
-            this.contactUs1.Location = new System.Drawing.Point(3, 244);
-            this.contactUs1.Name = "contactUs1";
-            this.contactUs1.Size = new System.Drawing.Size(71, 317);
-            this.contactUs1.TabIndex = 5;
             // 
             // Parent
             // 
@@ -687,8 +688,6 @@
         private System.Windows.Forms.FlowLayoutPanel flowLayoutPanel1;
         private System.Windows.Forms.Panel StuPanel;
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.CheckBox femaleCheckBox;
-        private System.Windows.Forms.CheckBox maleCheckBox;
         private System.Windows.Forms.TextBox studentAddress;
         private System.Windows.Forms.TextBox studentName;
         private System.Windows.Forms.Label genderOfStudent;
@@ -726,5 +725,7 @@
         private System.Windows.Forms.TextBox toTextBox;
         private System.Windows.Forms.Button sendEmailButton;
         private ContactUs contactUs1;
+        private System.Windows.Forms.RadioButton femaleCheckBox;
+        private System.Windows.Forms.RadioButton maleCheckBox;
     }
 }

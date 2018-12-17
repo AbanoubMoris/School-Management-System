@@ -559,6 +559,11 @@ namespace SMS
             this.Hide();
         }
 
+        private void radioButton1_CheckedChanged(object sender, EventArgs e)
+        {
+
+        }
+
         private void comboBox4_TextChanged_1(object sender, EventArgs e)
         {
 
