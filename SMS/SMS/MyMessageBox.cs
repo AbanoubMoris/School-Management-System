@@ -15,8 +15,7 @@ namespace SMS
         public MyMessageBox()
         {
             InitializeComponent();
-            
-            bunifuTransition1.Show(this,true);
+            bunifuTransition1.Show(this, true);
             //this.ShowDialog();
         }
         public MyMessageBox(string text)
@@ -24,6 +23,9 @@ namespace SMS
             InitializeComponent();
             this.MS.Text = text;
             bunifuTransition1.Show(this, true);
+            MS.Left = 100;
+            this.Width = MS.Width + 200;
+            bunifuThinButton21.Location = new Point(MS.Width + 100, 124);
             this.ShowDialog();
         }
         public Label MSBOX

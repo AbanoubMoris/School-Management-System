@@ -103,6 +103,16 @@ namespace SMS.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap _5a29e82a48c5d {
+            get {
+                object obj = ResourceManager.GetObject("5a29e82a48c5d", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap _851_128 {
             get {
                 object obj = ResourceManager.GetObject("_851_128", resourceCulture);
