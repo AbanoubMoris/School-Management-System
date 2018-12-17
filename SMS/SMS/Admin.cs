@@ -33,8 +33,9 @@ namespace SMS
             MyFn.TeacherData(TPanel);
             MyFn.ParentData(PPanel);
             MyFn.StudentData(SPan);
-
-
+            All_counts_panel.Visible = false;
+            student_MF_pnl.Visible = false;
+            teacher_MF_pnl.Visible = false;
 
 
         }
@@ -280,6 +281,9 @@ namespace SMS
                 All_chart.Visible = true;
                 Teachers_chart.Visible = false;
                 Students_chart.Visible = false;
+                All_counts_panel.Visible = true;
+                student_MF_pnl.Visible = false;
+                teacher_MF_pnl.Visible = false;
                 All_chart.Titles.Add("All DashBroud chart");
 
                 SqlConnection con = new SqlConnection(stringConnection);
@@ -287,17 +291,17 @@ namespace SMS
                 SqlCommand cmd1 = new SqlCommand("select count(Name) from Teacher", con);
                 int count1 = (int)cmd1.ExecuteScalar();
                 All_chart.Series["s1"].Points.AddXY("Teachers", count1);
-
+                techers_count.Text = count1.ToString();
 
                 SqlCommand cmd2 = new SqlCommand("select count(Name) from Student", con);
                 int count2 = (int)cmd2.ExecuteScalar();
                 All_chart.Series["s1"].Points.AddXY("Students", count2);
-
+                stud_count.Text = count2.ToString();
 
                 SqlCommand cmd3 = new SqlCommand("select count(Course_Name) from Course", con);
                 int count3 = (int)cmd3.ExecuteScalar();
                 All_chart.Series["s1"].Points.AddXY("Courses", count3);
-
+                courses_count.Text = count3.ToString();
                 con.Close();
             }
             else
@@ -308,6 +312,9 @@ namespace SMS
                 All_chart.Visible = true;
                 Teachers_chart.Visible = false;
                 Students_chart.Visible = false;
+                All_counts_panel.Visible = true;
+                student_MF_pnl.Visible = false;
+                teacher_MF_pnl.Visible = false;
             }
             isclicked1 = true;
         }
@@ -320,8 +327,11 @@ namespace SMS
                 button8.ForeColor = Color.Green;
                 button9.ForeColor = Color.White;
                 All_chart.Visible = false;
-                Teachers_chart.Visible = true;
                 Students_chart.Visible = false;
+                Teachers_chart.Visible = true;
+                teacher_MF_pnl.Visible = true;
+                student_MF_pnl.Visible = false;
+                All_counts_panel.Visible = false;
                 Teachers_chart.Titles.Add("Teachers DashBroud chart");
 
                 SqlConnection con = new SqlConnection(stringConnection);
@@ -329,11 +339,12 @@ namespace SMS
                 SqlCommand cmd1 = new SqlCommand("select count(Gender) from Teacher where Gender like 'Male'", con);
                 int count1 = (int)cmd1.ExecuteScalar();
                 Teachers_chart.Series["s1"].Points.AddXY("Male", count1);
+                malecount.Text = count1.ToString();
 
                 SqlCommand cmd2 = new SqlCommand("select count(Gender) from Teacher where Gender like 'Female'", con);
                 int count2 = (int)cmd2.ExecuteScalar();
                 Teachers_chart.Series["s1"].Points.AddXY("Female", count2);
-
+                femalecount.Text = count2.ToString();
                 con.Close();
             }
             else
@@ -341,9 +352,12 @@ namespace SMS
                 button7.ForeColor = Color.White;
                 button8.ForeColor = Color.Green;
                 button9.ForeColor = Color.White;
-                All_chart.Visible = false;
                 Teachers_chart.Visible = true;
+                teacher_MF_pnl.Visible = true;
+                student_MF_pnl.Visible = false;
+                All_chart.Visible = false;
                 Students_chart.Visible = false;
+                All_counts_panel.Visible = false;
             }
             isclicked2 = true;
 
@@ -359,17 +373,21 @@ namespace SMS
                 All_chart.Visible = false;
                 Teachers_chart.Visible = false;
                 Students_chart.Visible = true;
+                student_MF_pnl.Visible = true;
+                teacher_MF_pnl.Visible = false;
+                All_counts_panel.Visible = false;
                 Students_chart.Titles.Add("Students DashBroud chart");
                 SqlConnection con = new SqlConnection(stringConnection);
                 con.Open();
+
                 SqlCommand cmd1 = new SqlCommand("select count(Gender) from Student where Gender like 'Male'", con);
                 int count1 = (int)cmd1.ExecuteScalar();
                 Students_chart.Series["s1"].Points.AddXY("Male", (count1));
-
+                Male_C.Text = count1.ToString();
                 SqlCommand cmd2 = new SqlCommand("select count(Gender) from Student where Gender like 'Female'", con);
                 int count2 = (int)cmd2.ExecuteScalar();
                 Students_chart.Series["s1"].Points.AddXY("Female", (count2));
-
+                female_C.Text = count2.ToString();
                 con.Close();
                 Students_chart.Visible = true;
             }
@@ -380,7 +398,11 @@ namespace SMS
                 button9.ForeColor = Color.Green;
                 All_chart.Visible = false;
                 Teachers_chart.Visible = false;
+                student_MF_pnl.Visible = true;
                 Students_chart.Visible = true;
+                teacher_MF_pnl.Visible = false;
+                All_counts_panel.Visible = false;
+
             }
             isclicked3 = true;
         }
@@ -794,6 +816,15 @@ namespace SMS
 
             }
         }
-    }
 
+        private void Male_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void panel4_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+    }
 }

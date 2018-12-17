@@ -18,6 +18,7 @@ namespace SMS
     {
 
         MyMessageBox MBOX;
+        
         string stringConnection = StringConnection.ConnectionString();
         SmtpClient client;
         MailMessage msg;
@@ -592,8 +593,6 @@ namespace SMS
             LoginPanel.Visible = true;
             SignupPanel.Visible = false;
         }
-
-
 
         bool usernameExists = false;
 

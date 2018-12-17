@@ -247,3 +247,18 @@ C:\Users\lap shop\Documents\GitHub\Final-project-isa\SMS\SMS\obj\Debug\SMS.Stude
 C:\Users\lap shop\Documents\GitHub\Final-project-isa\SMS\SMS\obj\Debug\SMS.Teachers_Form.resources
 C:\Users\lap shop\Documents\GitHub\Final-project-isa\SMS\SMS\obj\Debug\SMS.Teachers.resources
 C:\Users\lap shop\Documents\GitHub\Final-project-isa\SMS\SMS\obj\Debug\SMS.csproj.GenerateResource.Cache
+C:\Users\hs\Documents\GitHub\Final-project-isa\SMS\SMS\bin\Debug\SMS.exe.config
+C:\Users\hs\Documents\GitHub\Final-project-isa\SMS\SMS\bin\Debug\SMS.exe
+C:\Users\hs\Documents\GitHub\Final-project-isa\SMS\SMS\bin\Debug\SMS.pdb
+C:\Users\hs\Documents\GitHub\Final-project-isa\SMS\SMS\obj\Debug\SMS.csprojResolveAssemblyReference.cache
+C:\Users\hs\Documents\GitHub\Final-project-isa\SMS\SMS\obj\Debug\SMS.Admin.resources
+C:\Users\hs\Documents\GitHub\Final-project-isa\SMS\SMS\obj\Debug\SMS.Login.resources
+C:\Users\hs\Documents\GitHub\Final-project-isa\SMS\SMS\obj\Debug\SMS.MyMessageBox.resources
+C:\Users\hs\Documents\GitHub\Final-project-isa\SMS\SMS\obj\Debug\SMS.Parent.resources
+C:\Users\hs\Documents\GitHub\Final-project-isa\SMS\SMS\obj\Debug\SMS.Properties.Resources.resources
+C:\Users\hs\Documents\GitHub\Final-project-isa\SMS\SMS\obj\Debug\SMS.Student_Form.resources
+C:\Users\hs\Documents\GitHub\Final-project-isa\SMS\SMS\obj\Debug\SMS.Teachers_Form.resources
+C:\Users\hs\Documents\GitHub\Final-project-isa\SMS\SMS\obj\Debug\SMS.Teachers.resources
+C:\Users\hs\Documents\GitHub\Final-project-isa\SMS\SMS\obj\Debug\SMS.csproj.GenerateResource.Cache
+C:\Users\hs\Documents\GitHub\Final-project-isa\SMS\SMS\obj\Debug\SMS.exe
+C:\Users\hs\Documents\GitHub\Final-project-isa\SMS\SMS\obj\Debug\SMS.pdb
