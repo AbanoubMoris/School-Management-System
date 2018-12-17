@@ -8,7 +8,8 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.Data.SqlClient;
-
+using System.Media;
+using WMPLib;
 namespace SMS
 {
 
@@ -18,7 +19,8 @@ namespace SMS
         bool isclicked2 = false;
         bool isclicked3 = false;
 
-        //string connection for thomas pc
+       
+        
         bool hidden = false;
         string stringConnection = StringConnection.ConnectionString();
         public Admin()
@@ -36,7 +38,7 @@ namespace SMS
             All_counts_panel.Visible = false;
             student_MF_pnl.Visible = false;
             teacher_MF_pnl.Visible = false;
-
+           
 
         }
 

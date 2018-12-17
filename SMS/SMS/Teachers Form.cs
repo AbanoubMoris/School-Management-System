@@ -11,10 +11,12 @@ using System.Data.Sql;
 using System.Data.SqlClient;
 using System.Net;
 using System.Net.Mail;
+using WMPLib;
 namespace SMS
 {
     public partial class Teachers_Form : Form
     {
+        WindowsMediaPlayer playSound = new WindowsMediaPlayer();
         MyMessageBox MSBOX;
         MyMessageBox MSBox;
         string stringConnection = StringConnection.ConnectionString();
@@ -70,6 +72,8 @@ namespace SMS
                     msg.Body = "Your son's/Daughter's grade is : " + dr["Grade"].ToString();
                 }
                 client.Send(msg);
+                playSound.URL = "done.mp3";
+                playSound.controls.play();
                 MSBox = new MyMessageBox("An Email has been sent to the Parent!");
               
             }
@@ -85,6 +89,8 @@ namespace SMS
                     msg.Body = "Your son's/Daughter's Total Number Of Attendance is : " + dr["Attendance"].ToString();
                 }
                 client.Send(msg);
+                playSound.URL = "done.mp3";
+                playSound.controls.play();
                 MSBox = new MyMessageBox("An Email has been sent to the Parent!");
                
             }
@@ -99,6 +105,8 @@ namespace SMS
                 }
                 msg.Body = "This is an automated notification regarding the recent change(s) made to your Account: " + userEmail + " \n\n Your password has recently been modified through the account management system.\n\nIf you did not change your password,please contact us on our Email:schoolsystem21@gmail.com!";
                 client.Send(msg);
+                playSound.URL = "done.mp3";
+                playSound.controls.play();
                 MSBox = new MyMessageBox("Your Password Has Been Changed!");
                 
             }
@@ -115,6 +123,8 @@ namespace SMS
                     
                 }
                 client.Send(msg);
+                playSound.URL = "done.mp3";
+                playSound.controls.play();
                 MSBox = new MyMessageBox("An Email has been sent!");
 
             }
@@ -237,7 +247,8 @@ namespace SMS
             button5.Visible = false;
             button6.Visible = true;
             button7.Visible = true;
-         
+            playSound.URL = "error.wav";
+            playSound.controls.play();
             MSBox = new MyMessageBox("Please confirm your username and password first!");
             
         }
@@ -249,6 +260,8 @@ namespace SMS
             panel3.Visible = false;
             EditData_pnl.Visible = false;
             changePass();
+            playSound.URL = "do.mp3";
+            playSound.controls.play();
             MSBOX = new MyMessageBox("Please login again to save your data!");
             this.Hide();
             Login log = new Login();
@@ -259,6 +272,8 @@ namespace SMS
         private void label20_Click(object sender, EventArgs e)
         {
             editData();
+            playSound.URL = "do.mp3";
+            playSound.controls.play();
             MSBOX = new MyMessageBox("Please login again to save your data!");
             this.Hide();
             Login log = new Login();
@@ -291,6 +306,8 @@ namespace SMS
                 con.Open();
                 SqlCommand cmd = new SqlCommand("EXECUTE teacherEditData @nameEditData = '" + nameEditData.Text + "', @emailEditData = '" + emailEditData.Text + "', @addressEditData = '" + addressEditData.Text + "', @genderEditData = '" + isMale(genderMale.Checked) + "', @oldUsername = '" + editDataCheckUsername.Text + "'", con);
                 cmd.ExecuteNonQuery();
+                playSound.URL = "done.mp3";
+                playSound.controls.play();
                 MSBox = new MyMessageBox("Your data has been updated!");
                 
             }
@@ -347,6 +364,8 @@ namespace SMS
             }
             else
             {
+                playSound.URL = "error.wav";
+                playSound.controls.play();
                 MSBox = new MyMessageBox("Wrong username or password!");
                 
             }

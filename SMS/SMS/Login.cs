@@ -11,12 +11,14 @@ using System.Data.Sql;
 using System.Data.SqlClient;
 using System.Net;
 using System.Net.Mail;
+using WMPLib;
 namespace SMS
 {
 
     public partial class Login : Form
     {
-
+        WindowsMediaPlayer playSound = new WindowsMediaPlayer();
+        
         MyMessageBox MBOX;
         
         string stringConnection = StringConnection.ConnectionString();
@@ -38,6 +40,8 @@ namespace SMS
             msg.Subject = "Your Password";
             msg.Body = "Hi,\nYour password is: " + oldPass + " if you didn't reset your password, please change it immediately.\nRegards, SchoolSystemTeam.";
             client.Send(msg);
+            playSound.URL = "done.wav";
+            playSound.controls.play();
             MessageBox.Show("An Email With Your Password Has Been Sent!");
         }
 
@@ -217,6 +221,8 @@ namespace SMS
                 this.Hide();
                 if ((bunifuMetroTextbox2.Text = bunifuMetroTextbox1.Text) == "Admin")
                 {
+                    playSound.URL = "welcome.wav";
+                    playSound.controls.play();
                     MBOX = new MyMessageBox("Welcome Admin!");
                     var singleton = Singleton.Instance;
                     var f = singleton.AdminForm;
@@ -226,6 +232,8 @@ namespace SMS
                 }
                 else
                 {
+                    playSound.URL = "error.wav";
+                    playSound.controls.play();
                     MBOX = new MyMessageBox("Wrong UserName Or Password !");
                     Login LOG = new Login();
                     LOG.ShowDialog();
@@ -238,6 +246,8 @@ namespace SMS
                 bool login = false;
                 if (bunifuMetroTextbox2.Text == "" || bunifuMetroTextbox1.Text == "")
                 {
+                    playSound.URL = "error.wav";
+                    playSound.controls.play();
                     MBOX = new MyMessageBox("You can't leave anything empty!");
 
                 }
@@ -257,6 +267,8 @@ namespace SMS
 
                                 this.Hide();
                                 login = true;
+                                playSound.URL = "welcome.wav";
+                                playSound.controls.play();
                                 MBOX = new MyMessageBox("Welcome " + username + '!');
 
                                 if (ChoosedTeacher)
@@ -281,7 +293,12 @@ namespace SMS
 
 
 
-                        if (!login) MBOX = new MyMessageBox("Wrong username or password!");
+                        if (!login)
+                        {
+                            playSound.URL = "error.wav";
+                            playSound.controls.play();
+                            MBOX = new MyMessageBox("Wrong username or password!");
+                        }
                         bunifuMetroTextbox2.Text = bunifuMetroTextbox1.Text = "";
                     }
                 }
@@ -607,10 +624,17 @@ namespace SMS
             {
                 if (ChoosedTeacher)
                 {
-                    if (courseYouTeachReg.Text == "") MBOX = new MyMessageBox("Please dont leave anything blank!");
+                    if (courseYouTeachReg.Text == "")
+                    {
+                        playSound.URL = "error.wav";
+                        playSound.controls.play();
+                        MBOX = new MyMessageBox("Please dont leave anything blank!");
+                    }
                 }
                 else
                 {
+                    playSound.URL = "error.wav";
+                    playSound.controls.play();
                     MBOX = new MyMessageBox("Please dont leave anything blank!");
                 }
             }
@@ -619,12 +643,19 @@ namespace SMS
                 if (passReg.Text.Count() < 6)
                 {
 
+                    playSound.URL = "error.wav";
+                    playSound.controls.play();
                     MBOX = new MyMessageBox("Please Enter stronger password");
 
                 }
                 else strongPass = true;
 
-                if (mobileReg.Text.Count() != 11) MBOX = new MyMessageBox("Please make sure you entered 11 numbers in your phone!");
+                if (mobileReg.Text.Count() != 11)
+                {
+                    playSound.URL = "error.wav";
+                    playSound.controls.play();
+                    MBOX = new MyMessageBox("Please make sure you entered 11 numbers in your phone!");
+                }
                 else correctPhone = true;
 
 
@@ -656,6 +687,8 @@ namespace SMS
                             }
                             cmd.ExecuteNonQuery();
                             MBOX = new MyMessageBox("Registered Successfully!");
+                            playSound.URL = "done.wav";
+                            playSound.controls.play();
 
                             if (SignupPanel.Visible == true)
                             {
@@ -692,6 +725,8 @@ namespace SMS
                         }
                         else
                         {
+                            playSound.URL = "error.wav";
+                            playSound.controls.play();
                             MBOX = new MyMessageBox("Username Exists, Please choose another one!");
 
                         }

@@ -262,3 +262,8 @@ C:\Users\hs\Documents\GitHub\Final-project-isa\SMS\SMS\obj\Debug\SMS.Teachers.re
 C:\Users\hs\Documents\GitHub\Final-project-isa\SMS\SMS\obj\Debug\SMS.csproj.GenerateResource.Cache
 C:\Users\hs\Documents\GitHub\Final-project-isa\SMS\SMS\obj\Debug\SMS.exe
 C:\Users\hs\Documents\GitHub\Final-project-isa\SMS\SMS\obj\Debug\SMS.pdb
+C:\Users\hs\Documents\GitHub\Final-project-isa\SMS\SMS\obj\Debug\Interop.WMPLib.dll
+C:\Users\hs\Documents\GitHub\Final-project-isa\SMS\SMS\obj\Debug\AxInterop.WMPLib.dll
+C:\Users\hs\Documents\GitHub\Final-project-isa\SMS\SMS\obj\Debug\SMS.csproj.ResolveComReference.cache
+C:\Users\hs\Documents\GitHub\Final-project-isa\SMS\SMS\bin\Debug\Interop.WMPLib.dll
+C:\Users\hs\Documents\GitHub\Final-project-isa\SMS\SMS\bin\Debug\AxInterop.WMPLib.dll

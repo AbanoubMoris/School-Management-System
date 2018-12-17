@@ -11,12 +11,13 @@ using System.Data.Sql;
 using System.Data.SqlClient;
 using System.Net;
 using System.Net.Mail;
-
+using WMPLib;
 namespace SMS
 {
     public partial class Parent : Form
     {
         MyMessageBox MSBOX;
+        WindowsMediaPlayer playSound = new WindowsMediaPlayer();
         string stringConnection = StringConnection.ConnectionString();
         string parent_name;
         public Parent(String parentName)
@@ -78,6 +79,8 @@ namespace SMS
             usernameExists = false;
             if (studentName.Text == "" || studentPass.Text == "" || studentAddress.Text == "" || studentPhone.Text == "" || studentEmail.Text == "" || dayReg.Text == "" || monthReg.Text == "" || yearReg.Text == "")
             {
+                playSound.URL = "error.wav";
+                playSound.controls.play();
                 MSBOX = new MyMessageBox("Please dont leave anything blank!");
                   
                 
@@ -86,13 +89,19 @@ namespace SMS
             {
                 if (studentPass.Text.Count() < 6)
                 {
-
-                     MSBOX = new MyMessageBox("Please Enter stronger password");
+                    playSound.URL = "error.wav";
+                    playSound.controls.play();
+                    MSBOX = new MyMessageBox("Please Enter stronger password");
                     /***********************************************************************/
                 }
-                else strongPass = true; 
+                else strongPass = true;
 
-                if (studentPhone.Text.Count() != 11) MSBOX = new MyMessageBox("Please Enter stronger password");
+                if (studentPhone.Text.Count() != 11)
+                {
+                    playSound.URL = "error.wav";
+                    playSound.controls.play();
+                    MSBOX = new MyMessageBox("Please Enter stronger password");
+                }
                 else correctPhone = true;
 
 
@@ -133,7 +142,9 @@ namespace SMS
                             }
                             else
                             {
-                            MSBOX = new MyMessageBox("Username Exists,Please choose another one!");
+                                 playSound.URL = "error.wav";
+                                 playSound.controls.play();
+                                 MSBOX = new MyMessageBox("Username Exists,Please choose another one!");
                          
                             }
 
@@ -411,6 +422,8 @@ namespace SMS
             msg2.Subject = subject;
             msg2.Body = message + "\n\nSent by Parent: " + parent_name + "\nParent's Email Address: " + from;
             client2.Send(msg2);
+            playSound.URL = "done.mp3";
+            playSound.controls.play();
             MessageBox.Show("Your Email Has Been Sent Successfully!");
         }
 

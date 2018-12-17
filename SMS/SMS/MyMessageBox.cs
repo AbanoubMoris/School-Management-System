@@ -7,26 +7,30 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-
+using WMPLib ;
 namespace SMS
 {
     public partial class MyMessageBox : Form
     {
+        
         public MyMessageBox()
         {
             InitializeComponent();
             bunifuTransition1.Show(this, true);
-            //this.ShowDialog();
+           
+
         }
         public MyMessageBox(string text)
         {
             InitializeComponent();
+            
             this.MS.Text = text;
             bunifuTransition1.Show(this, true);
             MS.Left = 100;
             this.Width = MS.Width + 200;
             bunifuThinButton21.Location = new Point(MS.Width + 100, 124);
             this.ShowDialog();
+           
         }
         public Label MSBOX
         {

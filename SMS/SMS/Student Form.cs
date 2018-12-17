@@ -11,15 +11,14 @@ using System.Data.Sql;
 using System.Data.SqlClient;
 using System.Net;
 using System.Net.Mail;
-
+using WMPLib;
 namespace SMS
 {
     public partial class Student_Form : Form 
     {
         MyMessageBox MSBOX;
-        //string connection thomasLaptop
-        //string stringConnection = @"Data Source=DESKTOP-TIFITP1\SQLEXPRESS;Initial Catalog=Teacher;Integrated Security=True;";
-        //string connection thomasPC
+        WindowsMediaPlayer playSound = new WindowsMediaPlayer();
+       
         string stringConnection = StringConnection.ConnectionString(); string user_name;
         void showCoursesAvailable(ComboBox c)
         {
@@ -291,6 +290,8 @@ namespace SMS
                     int course_ID = courseId(comboBox2);
                     SqlCommand cmd2 = new SqlCommand("EXEC addCoursesStud " + studID + "," + course_ID, con);
                     cmd2.ExecuteNonQuery();
+                    playSound.URL = "error.wav";
+                    playSound.controls.play();
                     MessageBox.Show("You have been assigned to this course!");
                     comboBox2.Text = "";
 
@@ -438,6 +439,8 @@ namespace SMS
                 con.Open();
                 SqlCommand cmd = new SqlCommand("EXECUTE studentEditData @oldName = '" + user_name + "', @Name = '" + NameEditData.Text + "', @phone = '" + phoneNumberEditData.Text + "', @Gender = '" + isMale(maleCheckBox.Checked) + "', @address = '" + AddressEditData.Text + "', @email = '"+ EmailEditData.Text + "', @pass = '" + passwordEditData.Text + "'", con);
                 cmd.ExecuteNonQuery();
+                playSound.URL = "done.mp3";
+                playSound.controls.play();
                 MSBOX = new MyMessageBox("Your data has been updated!");
             
             }
@@ -448,6 +451,8 @@ namespace SMS
         private void Done_Click(object sender, EventArgs e)
         {
             editData();
+            playSound.URL = "do.mp3";
+            playSound.controls.play();
             MSBOX = new MyMessageBox("Please login again to save your data!");
             this.Hide();
             Login log = new Login();
@@ -475,6 +480,8 @@ namespace SMS
                     }
                     else if (!(dr.HasRows))
                     {
+                        playSound.URL = "error.wav";
+                        playSound.controls.play();
                         MSBOX = new MyMessageBox("No Grades are available right now or you are not assigned to this course!");
 
                     }

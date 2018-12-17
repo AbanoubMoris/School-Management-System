@@ -29,16 +29,16 @@
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
-            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea5 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
-            System.Windows.Forms.DataVisualization.Charting.Legend legend5 = new System.Windows.Forms.DataVisualization.Charting.Legend();
-            System.Windows.Forms.DataVisualization.Charting.Series series5 = new System.Windows.Forms.DataVisualization.Charting.Series();
-            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea6 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
-            System.Windows.Forms.DataVisualization.Charting.Legend legend6 = new System.Windows.Forms.DataVisualization.Charting.Legend();
-            System.Windows.Forms.DataVisualization.Charting.Series series6 = new System.Windows.Forms.DataVisualization.Charting.Series();
-            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea4 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
-            System.Windows.Forms.DataVisualization.Charting.Legend legend4 = new System.Windows.Forms.DataVisualization.Charting.Legend();
-            System.Windows.Forms.DataVisualization.Charting.Series series4 = new System.Windows.Forms.DataVisualization.Charting.Series();
-            BunifuAnimatorNS.Animation animation2 = new BunifuAnimatorNS.Animation();
+            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea7 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
+            System.Windows.Forms.DataVisualization.Charting.Legend legend7 = new System.Windows.Forms.DataVisualization.Charting.Legend();
+            System.Windows.Forms.DataVisualization.Charting.Series series7 = new System.Windows.Forms.DataVisualization.Charting.Series();
+            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea8 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
+            System.Windows.Forms.DataVisualization.Charting.Legend legend8 = new System.Windows.Forms.DataVisualization.Charting.Legend();
+            System.Windows.Forms.DataVisualization.Charting.Series series8 = new System.Windows.Forms.DataVisualization.Charting.Series();
+            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea9 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
+            System.Windows.Forms.DataVisualization.Charting.Legend legend9 = new System.Windows.Forms.DataVisualization.Charting.Legend();
+            System.Windows.Forms.DataVisualization.Charting.Series series9 = new System.Windows.Forms.DataVisualization.Charting.Series();
+            BunifuAnimatorNS.Animation animation3 = new BunifuAnimatorNS.Animation();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Admin));
             this.panel1 = new System.Windows.Forms.Panel();
             this.pictureBox21 = new System.Windows.Forms.PictureBox();
@@ -131,12 +131,29 @@
             this.Math_res_datagrid = new System.Windows.Forms.DataGridView();
             this.label4 = new System.Windows.Forms.Label();
             this.DashBoardPanel = new System.Windows.Forms.Panel();
+            this.student_MF_pnl = new System.Windows.Forms.Panel();
+            this.female_C = new System.Windows.Forms.Label();
+            this.Male_C = new System.Windows.Forms.Label();
+            this.female = new System.Windows.Forms.Label();
+            this.Male = new System.Windows.Forms.Label();
             this.button9 = new System.Windows.Forms.Button();
             this.button8 = new System.Windows.Forms.Button();
             this.button7 = new System.Windows.Forms.Button();
+            this.Students_chart = new System.Windows.Forms.DataVisualization.Charting.Chart();
             this.Teachers_chart = new System.Windows.Forms.DataVisualization.Charting.Chart();
             this.All_chart = new System.Windows.Forms.DataVisualization.Charting.Chart();
-            this.Students_chart = new System.Windows.Forms.DataVisualization.Charting.Chart();
+            this.All_counts_panel = new System.Windows.Forms.Panel();
+            this.stud_count = new System.Windows.Forms.Label();
+            this.courses_count = new System.Windows.Forms.Label();
+            this.techers_count = new System.Windows.Forms.Label();
+            this.label35 = new System.Windows.Forms.Label();
+            this.label20 = new System.Windows.Forms.Label();
+            this.label18 = new System.Windows.Forms.Label();
+            this.teacher_MF_pnl = new System.Windows.Forms.Panel();
+            this.femalecount = new System.Windows.Forms.Label();
+            this.malecount = new System.Windows.Forms.Label();
+            this.label33 = new System.Windows.Forms.Label();
+            this.label34 = new System.Windows.Forms.Label();
             this.TPanel = new System.Windows.Forms.Panel();
             this.label3 = new System.Windows.Forms.Label();
             this.comboBox1 = new System.Windows.Forms.ComboBox();
@@ -174,23 +191,6 @@
             this.panel3 = new System.Windows.Forms.Panel();
             this.label15 = new System.Windows.Forms.Label();
             this.timer2 = new System.Windows.Forms.Timer(this.components);
-            this.student_MF_pnl = new System.Windows.Forms.Panel();
-            this.Male = new System.Windows.Forms.Label();
-            this.female = new System.Windows.Forms.Label();
-            this.Male_C = new System.Windows.Forms.Label();
-            this.female_C = new System.Windows.Forms.Label();
-            this.teacher_MF_pnl = new System.Windows.Forms.Panel();
-            this.femalecount = new System.Windows.Forms.Label();
-            this.malecount = new System.Windows.Forms.Label();
-            this.label33 = new System.Windows.Forms.Label();
-            this.label34 = new System.Windows.Forms.Label();
-            this.All_counts_panel = new System.Windows.Forms.Panel();
-            this.label18 = new System.Windows.Forms.Label();
-            this.label20 = new System.Windows.Forms.Label();
-            this.label35 = new System.Windows.Forms.Label();
-            this.techers_count = new System.Windows.Forms.Label();
-            this.courses_count = new System.Windows.Forms.Label();
-            this.stud_count = new System.Windows.Forms.Label();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox21)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox20)).BeginInit();
@@ -221,9 +221,12 @@
             this.results_pnl.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.Math_res_datagrid)).BeginInit();
             this.DashBoardPanel.SuspendLayout();
+            this.student_MF_pnl.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.Students_chart)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.Teachers_chart)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.All_chart)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.Students_chart)).BeginInit();
+            this.All_counts_panel.SuspendLayout();
+            this.teacher_MF_pnl.SuspendLayout();
             this.TeacherDetailsPanel.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             this.TeachersPanel.SuspendLayout();
@@ -237,9 +240,6 @@
             this.bunifuGradientPanel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
             this.panel3.SuspendLayout();
-            this.student_MF_pnl.SuspendLayout();
-            this.teacher_MF_pnl.SuspendLayout();
-            this.All_counts_panel.SuspendLayout();
             this.SuspendLayout();
             // 
             // panel1
@@ -1547,15 +1547,15 @@
             // 
             // DashBoardPanel
             // 
-            this.DashBoardPanel.Controls.Add(this.All_counts_panel);
-            this.DashBoardPanel.Controls.Add(this.teacher_MF_pnl);
-            this.DashBoardPanel.Controls.Add(this.student_MF_pnl);
             this.DashBoardPanel.Controls.Add(this.button9);
             this.DashBoardPanel.Controls.Add(this.button8);
             this.DashBoardPanel.Controls.Add(this.button7);
+            this.DashBoardPanel.Controls.Add(this.teacher_MF_pnl);
+            this.DashBoardPanel.Controls.Add(this.student_MF_pnl);
+            this.DashBoardPanel.Controls.Add(this.All_counts_panel);
+            this.DashBoardPanel.Controls.Add(this.All_chart);
             this.DashBoardPanel.Controls.Add(this.Students_chart);
             this.DashBoardPanel.Controls.Add(this.Teachers_chart);
-            this.DashBoardPanel.Controls.Add(this.All_chart);
             this.bunifuTransition1.SetDecoration(this.DashBoardPanel, BunifuAnimatorNS.DecorationType.None);
             this.DashBoardPanel.Location = new System.Drawing.Point(302, 62);
             this.DashBoardPanel.Margin = new System.Windows.Forms.Padding(2, 4, 2, 4);
@@ -1563,6 +1563,65 @@
             this.DashBoardPanel.Size = new System.Drawing.Size(818, 588);
             this.DashBoardPanel.TabIndex = 1;
             this.DashBoardPanel.Visible = false;
+            // 
+            // student_MF_pnl
+            // 
+            this.student_MF_pnl.Controls.Add(this.female_C);
+            this.student_MF_pnl.Controls.Add(this.Male_C);
+            this.student_MF_pnl.Controls.Add(this.female);
+            this.student_MF_pnl.Controls.Add(this.Male);
+            this.bunifuTransition1.SetDecoration(this.student_MF_pnl, BunifuAnimatorNS.DecorationType.None);
+            this.student_MF_pnl.Location = new System.Drawing.Point(29, 494);
+            this.student_MF_pnl.Name = "student_MF_pnl";
+            this.student_MF_pnl.Size = new System.Drawing.Size(743, 88);
+            this.student_MF_pnl.TabIndex = 7;
+            // 
+            // female_C
+            // 
+            this.female_C.AutoSize = true;
+            this.bunifuTransition1.SetDecoration(this.female_C, BunifuAnimatorNS.DecorationType.None);
+            this.female_C.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.female_C.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.female_C.Location = new System.Drawing.Point(564, 29);
+            this.female_C.Name = "female_C";
+            this.female_C.Size = new System.Drawing.Size(0, 29);
+            this.female_C.TabIndex = 3;
+            // 
+            // Male_C
+            // 
+            this.Male_C.AutoSize = true;
+            this.bunifuTransition1.SetDecoration(this.Male_C, BunifuAnimatorNS.DecorationType.None);
+            this.Male_C.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Male_C.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.Male_C.Location = new System.Drawing.Point(147, 29);
+            this.Male_C.Name = "Male_C";
+            this.Male_C.Size = new System.Drawing.Size(0, 29);
+            this.Male_C.TabIndex = 2;
+            // 
+            // female
+            // 
+            this.female.AutoSize = true;
+            this.bunifuTransition1.SetDecoration(this.female, BunifuAnimatorNS.DecorationType.None);
+            this.female.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.female.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.female.Location = new System.Drawing.Point(451, 24);
+            this.female.Name = "female";
+            this.female.Size = new System.Drawing.Size(101, 29);
+            this.female.TabIndex = 1;
+            this.female.Text = "Female:";
+            // 
+            // Male
+            // 
+            this.Male.AutoSize = true;
+            this.bunifuTransition1.SetDecoration(this.Male, BunifuAnimatorNS.DecorationType.None);
+            this.Male.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Male.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.Male.Location = new System.Drawing.Point(67, 24);
+            this.Male.Name = "Male";
+            this.Male.Size = new System.Drawing.Size(72, 29);
+            this.Male.TabIndex = 0;
+            this.Male.Text = "Male:";
+            this.Male.Click += new System.EventHandler(this.Male_Click);
             // 
             // button9
             // 
@@ -1615,33 +1674,67 @@
             this.button7.UseVisualStyleBackColor = false;
             this.button7.Click += new System.EventHandler(this.button7_Click);
             // 
+            // Students_chart
+            // 
+            this.Students_chart.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(54)))), ((int)(((byte)(56)))), ((int)(((byte)(63)))));
+            chartArea7.Area3DStyle.Enable3D = true;
+            chartArea7.Area3DStyle.Inclination = 35;
+            chartArea7.Area3DStyle.LightStyle = System.Windows.Forms.DataVisualization.Charting.LightStyle.Realistic;
+            chartArea7.Area3DStyle.PointDepth = 125;
+            chartArea7.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(54)))), ((int)(((byte)(56)))), ((int)(((byte)(63)))));
+            chartArea7.Name = "ChartArea1";
+            this.Students_chart.ChartAreas.Add(chartArea7);
+            this.Students_chart.Cursor = System.Windows.Forms.Cursors.No;
+            this.bunifuTransition1.SetDecoration(this.Students_chart, BunifuAnimatorNS.DecorationType.None);
+            legend7.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(54)))), ((int)(((byte)(56)))), ((int)(((byte)(63)))));
+            legend7.BorderColor = System.Drawing.Color.White;
+            legend7.ForeColor = System.Drawing.Color.White;
+            legend7.Name = "Legend1";
+            legend7.ShadowColor = System.Drawing.Color.White;
+            this.Students_chart.Legends.Add(legend7);
+            this.Students_chart.Location = new System.Drawing.Point(16, 66);
+            this.Students_chart.Margin = new System.Windows.Forms.Padding(2);
+            this.Students_chart.Name = "Students_chart";
+            series7.ChartArea = "ChartArea1";
+            series7.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Pie;
+            series7.Font = new System.Drawing.Font("Microsoft Sans Serif", 6F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            series7.Legend = "Legend1";
+            series7.LegendText = "#VALX{#PERCENT} ";
+            series7.Name = "s1";
+            series7.ShadowColor = System.Drawing.Color.Transparent;
+            series7.ShadowOffset = 3;
+            this.Students_chart.Series.Add(series7);
+            this.Students_chart.Size = new System.Drawing.Size(757, 425);
+            this.Students_chart.TabIndex = 6;
+            this.Students_chart.Text = "chart1";
+            // 
             // Teachers_chart
             // 
             this.Teachers_chart.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(54)))), ((int)(((byte)(56)))), ((int)(((byte)(63)))));
-            chartArea5.Area3DStyle.Enable3D = true;
-            chartArea5.Area3DStyle.Inclination = 35;
-            chartArea5.Area3DStyle.LightStyle = System.Windows.Forms.DataVisualization.Charting.LightStyle.Realistic;
-            chartArea5.Area3DStyle.PointDepth = 125;
-            chartArea5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(54)))), ((int)(((byte)(56)))), ((int)(((byte)(63)))));
-            chartArea5.Name = "ChartArea1";
-            this.Teachers_chart.ChartAreas.Add(chartArea5);
+            chartArea8.Area3DStyle.Enable3D = true;
+            chartArea8.Area3DStyle.Inclination = 35;
+            chartArea8.Area3DStyle.LightStyle = System.Windows.Forms.DataVisualization.Charting.LightStyle.Realistic;
+            chartArea8.Area3DStyle.PointDepth = 125;
+            chartArea8.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(54)))), ((int)(((byte)(56)))), ((int)(((byte)(63)))));
+            chartArea8.Name = "ChartArea1";
+            this.Teachers_chart.ChartAreas.Add(chartArea8);
             this.Teachers_chart.Cursor = System.Windows.Forms.Cursors.No;
             this.bunifuTransition1.SetDecoration(this.Teachers_chart, BunifuAnimatorNS.DecorationType.None);
-            legend5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(54)))), ((int)(((byte)(56)))), ((int)(((byte)(63)))));
-            legend5.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
-            legend5.ForeColor = System.Drawing.Color.White;
-            legend5.Name = "Legend1";
-            this.Teachers_chart.Legends.Add(legend5);
+            legend8.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(54)))), ((int)(((byte)(56)))), ((int)(((byte)(63)))));
+            legend8.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
+            legend8.ForeColor = System.Drawing.Color.White;
+            legend8.Name = "Legend1";
+            this.Teachers_chart.Legends.Add(legend8);
             this.Teachers_chart.Location = new System.Drawing.Point(16, 67);
             this.Teachers_chart.Margin = new System.Windows.Forms.Padding(2);
             this.Teachers_chart.Name = "Teachers_chart";
-            series5.ChartArea = "ChartArea1";
-            series5.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Pie;
-            series5.Legend = "Legend1";
-            series5.LegendText = "#VALX{#PERCENT}";
-            series5.Name = "s1";
-            series5.ShadowOffset = 10;
-            this.Teachers_chart.Series.Add(series5);
+            series8.ChartArea = "ChartArea1";
+            series8.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Pie;
+            series8.Legend = "Legend1";
+            series8.LegendText = "#VALX{#PERCENT}";
+            series8.Name = "s1";
+            series8.ShadowOffset = 10;
+            this.Teachers_chart.Series.Add(series8);
             this.Teachers_chart.Size = new System.Drawing.Size(757, 423);
             this.Teachers_chart.TabIndex = 5;
             this.Teachers_chart.Text = "chart1";
@@ -1649,68 +1742,177 @@
             // All_chart
             // 
             this.All_chart.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(54)))), ((int)(((byte)(56)))), ((int)(((byte)(63)))));
-            chartArea6.Area3DStyle.Enable3D = true;
-            chartArea6.Area3DStyle.Inclination = 35;
-            chartArea6.Area3DStyle.LightStyle = System.Windows.Forms.DataVisualization.Charting.LightStyle.Realistic;
-            chartArea6.Area3DStyle.PointDepth = 125;
-            chartArea6.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(54)))), ((int)(((byte)(56)))), ((int)(((byte)(63)))));
-            chartArea6.Name = "ChartArea1";
-            this.All_chart.ChartAreas.Add(chartArea6);
+            chartArea9.Area3DStyle.Enable3D = true;
+            chartArea9.Area3DStyle.Inclination = 35;
+            chartArea9.Area3DStyle.LightStyle = System.Windows.Forms.DataVisualization.Charting.LightStyle.Realistic;
+            chartArea9.Area3DStyle.PointDepth = 125;
+            chartArea9.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(54)))), ((int)(((byte)(56)))), ((int)(((byte)(63)))));
+            chartArea9.Name = "ChartArea1";
+            this.All_chart.ChartAreas.Add(chartArea9);
             this.All_chart.Cursor = System.Windows.Forms.Cursors.No;
             this.bunifuTransition1.SetDecoration(this.All_chart, BunifuAnimatorNS.DecorationType.None);
-            legend6.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(54)))), ((int)(((byte)(56)))), ((int)(((byte)(63)))));
-            legend6.BorderColor = System.Drawing.Color.Silver;
-            legend6.IsTextAutoFit = false;
-            legend6.Name = "Legend1";
-            legend6.ShadowColor = System.Drawing.Color.White;
-            this.All_chart.Legends.Add(legend6);
+            legend9.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(54)))), ((int)(((byte)(56)))), ((int)(((byte)(63)))));
+            legend9.BorderColor = System.Drawing.Color.Silver;
+            legend9.ForeColor = System.Drawing.Color.White;
+            legend9.IsTextAutoFit = false;
+            legend9.Name = "Legend1";
+            legend9.ShadowColor = System.Drawing.Color.White;
+            this.All_chart.Legends.Add(legend9);
             this.All_chart.Location = new System.Drawing.Point(16, 70);
             this.All_chart.Margin = new System.Windows.Forms.Padding(2);
             this.All_chart.Name = "All_chart";
-            series6.ChartArea = "ChartArea1";
-            series6.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Pie;
-            series6.Legend = "Legend1";
-            series6.LegendText = "#VALX{#PERCENT}";
-            series6.Name = "s1";
-            series6.ShadowOffset = 10;
-            this.All_chart.Series.Add(series6);
+            series9.ChartArea = "ChartArea1";
+            series9.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Pie;
+            series9.Legend = "Legend1";
+            series9.LegendText = "#VALX{#PERCENT}";
+            series9.Name = "s1";
+            series9.ShadowOffset = 10;
+            this.All_chart.Series.Add(series9);
             this.All_chart.Size = new System.Drawing.Size(757, 417);
             this.All_chart.TabIndex = 0;
             this.All_chart.Text = "chart1";
             // 
-            // Students_chart
+            // All_counts_panel
             // 
-            this.Students_chart.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(54)))), ((int)(((byte)(56)))), ((int)(((byte)(63)))));
-            chartArea4.Area3DStyle.Enable3D = true;
-            chartArea4.Area3DStyle.Inclination = 35;
-            chartArea4.Area3DStyle.LightStyle = System.Windows.Forms.DataVisualization.Charting.LightStyle.Realistic;
-            chartArea4.Area3DStyle.PointDepth = 125;
-            chartArea4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(54)))), ((int)(((byte)(56)))), ((int)(((byte)(63)))));
-            chartArea4.Name = "ChartArea1";
-            this.Students_chart.ChartAreas.Add(chartArea4);
-            this.Students_chart.Cursor = System.Windows.Forms.Cursors.No;
-            this.bunifuTransition1.SetDecoration(this.Students_chart, BunifuAnimatorNS.DecorationType.None);
-            legend4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(54)))), ((int)(((byte)(56)))), ((int)(((byte)(63)))));
-            legend4.BorderColor = System.Drawing.Color.White;
-            legend4.ForeColor = System.Drawing.Color.White;
-            legend4.Name = "Legend1";
-            legend4.ShadowColor = System.Drawing.Color.White;
-            this.Students_chart.Legends.Add(legend4);
-            this.Students_chart.Location = new System.Drawing.Point(16, 66);
-            this.Students_chart.Margin = new System.Windows.Forms.Padding(2);
-            this.Students_chart.Name = "Students_chart";
-            series4.ChartArea = "ChartArea1";
-            series4.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Pie;
-            series4.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
-            series4.Legend = "Legend1";
-            series4.LegendText = "#VALX{#PERCENT} ";
-            series4.Name = "s1";
-            series4.ShadowColor = System.Drawing.Color.DimGray;
-            series4.ShadowOffset = 3;
-            this.Students_chart.Series.Add(series4);
-            this.Students_chart.Size = new System.Drawing.Size(757, 425);
-            this.Students_chart.TabIndex = 6;
-            this.Students_chart.Text = "chart1";
+            this.All_counts_panel.Controls.Add(this.stud_count);
+            this.All_counts_panel.Controls.Add(this.courses_count);
+            this.All_counts_panel.Controls.Add(this.techers_count);
+            this.All_counts_panel.Controls.Add(this.label35);
+            this.All_counts_panel.Controls.Add(this.label20);
+            this.All_counts_panel.Controls.Add(this.label18);
+            this.bunifuTransition1.SetDecoration(this.All_counts_panel, BunifuAnimatorNS.DecorationType.None);
+            this.All_counts_panel.Location = new System.Drawing.Point(29, 495);
+            this.All_counts_panel.Name = "All_counts_panel";
+            this.All_counts_panel.Size = new System.Drawing.Size(743, 88);
+            this.All_counts_panel.TabIndex = 9;
+            this.All_counts_panel.Paint += new System.Windows.Forms.PaintEventHandler(this.panel4_Paint);
+            // 
+            // stud_count
+            // 
+            this.stud_count.AutoSize = true;
+            this.bunifuTransition1.SetDecoration(this.stud_count, BunifuAnimatorNS.DecorationType.None);
+            this.stud_count.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.stud_count.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.stud_count.Location = new System.Drawing.Point(672, 32);
+            this.stud_count.Name = "stud_count";
+            this.stud_count.Size = new System.Drawing.Size(0, 29);
+            this.stud_count.TabIndex = 5;
+            // 
+            // courses_count
+            // 
+            this.courses_count.AutoSize = true;
+            this.bunifuTransition1.SetDecoration(this.courses_count, BunifuAnimatorNS.DecorationType.None);
+            this.courses_count.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.courses_count.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.courses_count.Location = new System.Drawing.Point(398, 30);
+            this.courses_count.Name = "courses_count";
+            this.courses_count.Size = new System.Drawing.Size(0, 29);
+            this.courses_count.TabIndex = 4;
+            // 
+            // techers_count
+            // 
+            this.techers_count.AutoSize = true;
+            this.bunifuTransition1.SetDecoration(this.techers_count, BunifuAnimatorNS.DecorationType.None);
+            this.techers_count.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.techers_count.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.techers_count.Location = new System.Drawing.Point(138, 34);
+            this.techers_count.Name = "techers_count";
+            this.techers_count.Size = new System.Drawing.Size(0, 29);
+            this.techers_count.TabIndex = 3;
+            // 
+            // label35
+            // 
+            this.label35.AutoSize = true;
+            this.bunifuTransition1.SetDecoration(this.label35, BunifuAnimatorNS.DecorationType.None);
+            this.label35.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label35.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.label35.Location = new System.Drawing.Point(544, 29);
+            this.label35.Name = "label35";
+            this.label35.Size = new System.Drawing.Size(113, 29);
+            this.label35.TabIndex = 2;
+            this.label35.Text = "Students:";
+            // 
+            // label20
+            // 
+            this.label20.AutoSize = true;
+            this.bunifuTransition1.SetDecoration(this.label20, BunifuAnimatorNS.DecorationType.None);
+            this.label20.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label20.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.label20.Location = new System.Drawing.Point(283, 29);
+            this.label20.Name = "label20";
+            this.label20.Size = new System.Drawing.Size(109, 29);
+            this.label20.TabIndex = 1;
+            this.label20.Text = "Courses:";
+            // 
+            // label18
+            // 
+            this.label18.AutoSize = true;
+            this.bunifuTransition1.SetDecoration(this.label18, BunifuAnimatorNS.DecorationType.None);
+            this.label18.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label18.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.label18.Location = new System.Drawing.Point(14, 32);
+            this.label18.Name = "label18";
+            this.label18.Size = new System.Drawing.Size(121, 29);
+            this.label18.TabIndex = 0;
+            this.label18.Text = "Teachers:";
+            // 
+            // teacher_MF_pnl
+            // 
+            this.teacher_MF_pnl.Controls.Add(this.femalecount);
+            this.teacher_MF_pnl.Controls.Add(this.malecount);
+            this.teacher_MF_pnl.Controls.Add(this.label33);
+            this.teacher_MF_pnl.Controls.Add(this.label34);
+            this.bunifuTransition1.SetDecoration(this.teacher_MF_pnl, BunifuAnimatorNS.DecorationType.None);
+            this.teacher_MF_pnl.Location = new System.Drawing.Point(30, 493);
+            this.teacher_MF_pnl.Name = "teacher_MF_pnl";
+            this.teacher_MF_pnl.Size = new System.Drawing.Size(743, 88);
+            this.teacher_MF_pnl.TabIndex = 8;
+            // 
+            // femalecount
+            // 
+            this.femalecount.AutoSize = true;
+            this.bunifuTransition1.SetDecoration(this.femalecount, BunifuAnimatorNS.DecorationType.None);
+            this.femalecount.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.femalecount.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.femalecount.Location = new System.Drawing.Point(561, 27);
+            this.femalecount.Name = "femalecount";
+            this.femalecount.Size = new System.Drawing.Size(0, 29);
+            this.femalecount.TabIndex = 3;
+            // 
+            // malecount
+            // 
+            this.malecount.AutoSize = true;
+            this.bunifuTransition1.SetDecoration(this.malecount, BunifuAnimatorNS.DecorationType.None);
+            this.malecount.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.malecount.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.malecount.Location = new System.Drawing.Point(144, 27);
+            this.malecount.Name = "malecount";
+            this.malecount.Size = new System.Drawing.Size(0, 29);
+            this.malecount.TabIndex = 2;
+            // 
+            // label33
+            // 
+            this.label33.AutoSize = true;
+            this.bunifuTransition1.SetDecoration(this.label33, BunifuAnimatorNS.DecorationType.None);
+            this.label33.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label33.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.label33.Location = new System.Drawing.Point(451, 24);
+            this.label33.Name = "label33";
+            this.label33.Size = new System.Drawing.Size(101, 29);
+            this.label33.TabIndex = 1;
+            this.label33.Text = "Female:";
+            // 
+            // label34
+            // 
+            this.label34.AutoSize = true;
+            this.bunifuTransition1.SetDecoration(this.label34, BunifuAnimatorNS.DecorationType.None);
+            this.label34.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label34.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.label34.Location = new System.Drawing.Point(67, 24);
+            this.label34.Name = "label34";
+            this.label34.Size = new System.Drawing.Size(72, 29);
+            this.label34.TabIndex = 0;
+            this.label34.Text = "Male:";
             // 
             // TPanel
             // 
@@ -2014,22 +2216,22 @@
             // 
             this.bunifuTransition1.AnimationType = BunifuAnimatorNS.AnimationType.ScaleAndRotate;
             this.bunifuTransition1.Cursor = null;
-            animation2.AnimateOnlyDifferences = true;
-            animation2.BlindCoeff = ((System.Drawing.PointF)(resources.GetObject("animation2.BlindCoeff")));
-            animation2.LeafCoeff = 0F;
-            animation2.MaxTime = 1F;
-            animation2.MinTime = 0F;
-            animation2.MosaicCoeff = ((System.Drawing.PointF)(resources.GetObject("animation2.MosaicCoeff")));
-            animation2.MosaicShift = ((System.Drawing.PointF)(resources.GetObject("animation2.MosaicShift")));
-            animation2.MosaicSize = 0;
-            animation2.Padding = new System.Windows.Forms.Padding(30);
-            animation2.RotateCoeff = 0.5F;
-            animation2.RotateLimit = 0.2F;
-            animation2.ScaleCoeff = ((System.Drawing.PointF)(resources.GetObject("animation2.ScaleCoeff")));
-            animation2.SlideCoeff = ((System.Drawing.PointF)(resources.GetObject("animation2.SlideCoeff")));
-            animation2.TimeCoeff = 0F;
-            animation2.TransparencyCoeff = 0F;
-            this.bunifuTransition1.DefaultAnimation = animation2;
+            animation3.AnimateOnlyDifferences = true;
+            animation3.BlindCoeff = ((System.Drawing.PointF)(resources.GetObject("animation3.BlindCoeff")));
+            animation3.LeafCoeff = 0F;
+            animation3.MaxTime = 1F;
+            animation3.MinTime = 0F;
+            animation3.MosaicCoeff = ((System.Drawing.PointF)(resources.GetObject("animation3.MosaicCoeff")));
+            animation3.MosaicShift = ((System.Drawing.PointF)(resources.GetObject("animation3.MosaicShift")));
+            animation3.MosaicSize = 0;
+            animation3.Padding = new System.Windows.Forms.Padding(30);
+            animation3.RotateCoeff = 0.5F;
+            animation3.RotateLimit = 0.2F;
+            animation3.ScaleCoeff = ((System.Drawing.PointF)(resources.GetObject("animation3.ScaleCoeff")));
+            animation3.SlideCoeff = ((System.Drawing.PointF)(resources.GetObject("animation3.SlideCoeff")));
+            animation3.TimeCoeff = 0F;
+            animation3.TransparencyCoeff = 0F;
+            this.bunifuTransition1.DefaultAnimation = animation3;
             // 
             // pictureBox28
             // 
@@ -2213,207 +2415,6 @@
             // 
             this.timer2.Tick += new System.EventHandler(this.timer2_Tick);
             // 
-            // student_MF_pnl
-            // 
-            this.student_MF_pnl.Controls.Add(this.female_C);
-            this.student_MF_pnl.Controls.Add(this.Male_C);
-            this.student_MF_pnl.Controls.Add(this.female);
-            this.student_MF_pnl.Controls.Add(this.Male);
-            this.bunifuTransition1.SetDecoration(this.student_MF_pnl, BunifuAnimatorNS.DecorationType.None);
-            this.student_MF_pnl.Location = new System.Drawing.Point(30, 494);
-            this.student_MF_pnl.Name = "student_MF_pnl";
-            this.student_MF_pnl.Size = new System.Drawing.Size(743, 88);
-            this.student_MF_pnl.TabIndex = 7;
-            // 
-            // Male
-            // 
-            this.Male.AutoSize = true;
-            this.bunifuTransition1.SetDecoration(this.Male, BunifuAnimatorNS.DecorationType.None);
-            this.Male.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Male.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.Male.Location = new System.Drawing.Point(67, 24);
-            this.Male.Name = "Male";
-            this.Male.Size = new System.Drawing.Size(72, 29);
-            this.Male.TabIndex = 0;
-            this.Male.Text = "Male:";
-            this.Male.Click += new System.EventHandler(this.Male_Click);
-            // 
-            // female
-            // 
-            this.female.AutoSize = true;
-            this.bunifuTransition1.SetDecoration(this.female, BunifuAnimatorNS.DecorationType.None);
-            this.female.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.female.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.female.Location = new System.Drawing.Point(451, 24);
-            this.female.Name = "female";
-            this.female.Size = new System.Drawing.Size(101, 29);
-            this.female.TabIndex = 1;
-            this.female.Text = "Female:";
-            // 
-            // Male_C
-            // 
-            this.Male_C.AutoSize = true;
-            this.bunifuTransition1.SetDecoration(this.Male_C, BunifuAnimatorNS.DecorationType.None);
-            this.Male_C.Font = new System.Drawing.Font("Modern No. 20", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Male_C.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.Male_C.Location = new System.Drawing.Point(155, 33);
-            this.Male_C.Name = "Male_C";
-            this.Male_C.Size = new System.Drawing.Size(0, 25);
-            this.Male_C.TabIndex = 2;
-            // 
-            // female_C
-            // 
-            this.female_C.AutoSize = true;
-            this.bunifuTransition1.SetDecoration(this.female_C, BunifuAnimatorNS.DecorationType.None);
-            this.female_C.Font = new System.Drawing.Font("Modern No. 20", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.female_C.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.female_C.Location = new System.Drawing.Point(568, 28);
-            this.female_C.Name = "female_C";
-            this.female_C.Size = new System.Drawing.Size(0, 25);
-            this.female_C.TabIndex = 3;
-            // 
-            // teacher_MF_pnl
-            // 
-            this.teacher_MF_pnl.Controls.Add(this.femalecount);
-            this.teacher_MF_pnl.Controls.Add(this.malecount);
-            this.teacher_MF_pnl.Controls.Add(this.label33);
-            this.teacher_MF_pnl.Controls.Add(this.label34);
-            this.bunifuTransition1.SetDecoration(this.teacher_MF_pnl, BunifuAnimatorNS.DecorationType.None);
-            this.teacher_MF_pnl.Location = new System.Drawing.Point(30, 493);
-            this.teacher_MF_pnl.Name = "teacher_MF_pnl";
-            this.teacher_MF_pnl.Size = new System.Drawing.Size(743, 88);
-            this.teacher_MF_pnl.TabIndex = 8;
-            // 
-            // femalecount
-            // 
-            this.femalecount.AutoSize = true;
-            this.bunifuTransition1.SetDecoration(this.femalecount, BunifuAnimatorNS.DecorationType.None);
-            this.femalecount.Font = new System.Drawing.Font("Modern No. 20", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.femalecount.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.femalecount.Location = new System.Drawing.Point(568, 28);
-            this.femalecount.Name = "femalecount";
-            this.femalecount.Size = new System.Drawing.Size(0, 25);
-            this.femalecount.TabIndex = 3;
-            // 
-            // malecount
-            // 
-            this.malecount.AutoSize = true;
-            this.bunifuTransition1.SetDecoration(this.malecount, BunifuAnimatorNS.DecorationType.None);
-            this.malecount.Font = new System.Drawing.Font("Modern No. 20", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.malecount.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.malecount.Location = new System.Drawing.Point(145, 30);
-            this.malecount.Name = "malecount";
-            this.malecount.Size = new System.Drawing.Size(0, 25);
-            this.malecount.TabIndex = 2;
-            // 
-            // label33
-            // 
-            this.label33.AutoSize = true;
-            this.bunifuTransition1.SetDecoration(this.label33, BunifuAnimatorNS.DecorationType.None);
-            this.label33.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label33.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.label33.Location = new System.Drawing.Point(451, 24);
-            this.label33.Name = "label33";
-            this.label33.Size = new System.Drawing.Size(101, 29);
-            this.label33.TabIndex = 1;
-            this.label33.Text = "Female:";
-            // 
-            // label34
-            // 
-            this.label34.AutoSize = true;
-            this.bunifuTransition1.SetDecoration(this.label34, BunifuAnimatorNS.DecorationType.None);
-            this.label34.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label34.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.label34.Location = new System.Drawing.Point(67, 24);
-            this.label34.Name = "label34";
-            this.label34.Size = new System.Drawing.Size(72, 29);
-            this.label34.TabIndex = 0;
-            this.label34.Text = "Male:";
-            // 
-            // All_counts_panel
-            // 
-            this.All_counts_panel.Controls.Add(this.stud_count);
-            this.All_counts_panel.Controls.Add(this.courses_count);
-            this.All_counts_panel.Controls.Add(this.techers_count);
-            this.All_counts_panel.Controls.Add(this.label35);
-            this.All_counts_panel.Controls.Add(this.label20);
-            this.All_counts_panel.Controls.Add(this.label18);
-            this.bunifuTransition1.SetDecoration(this.All_counts_panel, BunifuAnimatorNS.DecorationType.None);
-            this.All_counts_panel.Location = new System.Drawing.Point(29, 495);
-            this.All_counts_panel.Name = "All_counts_panel";
-            this.All_counts_panel.Size = new System.Drawing.Size(743, 88);
-            this.All_counts_panel.TabIndex = 9;
-            this.All_counts_panel.Paint += new System.Windows.Forms.PaintEventHandler(this.panel4_Paint);
-            // 
-            // label18
-            // 
-            this.label18.AutoSize = true;
-            this.bunifuTransition1.SetDecoration(this.label18, BunifuAnimatorNS.DecorationType.None);
-            this.label18.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label18.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.label18.Location = new System.Drawing.Point(14, 32);
-            this.label18.Name = "label18";
-            this.label18.Size = new System.Drawing.Size(121, 29);
-            this.label18.TabIndex = 0;
-            this.label18.Text = "Teachers:";
-            // 
-            // label20
-            // 
-            this.label20.AutoSize = true;
-            this.bunifuTransition1.SetDecoration(this.label20, BunifuAnimatorNS.DecorationType.None);
-            this.label20.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label20.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.label20.Location = new System.Drawing.Point(283, 29);
-            this.label20.Name = "label20";
-            this.label20.Size = new System.Drawing.Size(109, 29);
-            this.label20.TabIndex = 1;
-            this.label20.Text = "Courses:";
-            // 
-            // label35
-            // 
-            this.label35.AutoSize = true;
-            this.bunifuTransition1.SetDecoration(this.label35, BunifuAnimatorNS.DecorationType.None);
-            this.label35.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label35.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.label35.Location = new System.Drawing.Point(544, 29);
-            this.label35.Name = "label35";
-            this.label35.Size = new System.Drawing.Size(113, 29);
-            this.label35.TabIndex = 2;
-            this.label35.Text = "Students:";
-            // 
-            // techers_count
-            // 
-            this.techers_count.AutoSize = true;
-            this.bunifuTransition1.SetDecoration(this.techers_count, BunifuAnimatorNS.DecorationType.None);
-            this.techers_count.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.techers_count.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.techers_count.Location = new System.Drawing.Point(138, 34);
-            this.techers_count.Name = "techers_count";
-            this.techers_count.Size = new System.Drawing.Size(0, 29);
-            this.techers_count.TabIndex = 3;
-            // 
-            // courses_count
-            // 
-            this.courses_count.AutoSize = true;
-            this.bunifuTransition1.SetDecoration(this.courses_count, BunifuAnimatorNS.DecorationType.None);
-            this.courses_count.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.courses_count.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.courses_count.Location = new System.Drawing.Point(398, 30);
-            this.courses_count.Name = "courses_count";
-            this.courses_count.Size = new System.Drawing.Size(0, 29);
-            this.courses_count.TabIndex = 4;
-            // 
-            // stud_count
-            // 
-            this.stud_count.AutoSize = true;
-            this.bunifuTransition1.SetDecoration(this.stud_count, BunifuAnimatorNS.DecorationType.None);
-            this.stud_count.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.stud_count.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.stud_count.Location = new System.Drawing.Point(672, 32);
-            this.stud_count.Name = "stud_count";
-            this.stud_count.Size = new System.Drawing.Size(0, 29);
-            this.stud_count.TabIndex = 5;
-            // 
             // Admin
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 16F);
@@ -2475,9 +2476,15 @@
             this.results_pnl.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.Math_res_datagrid)).EndInit();
             this.DashBoardPanel.ResumeLayout(false);
+            this.student_MF_pnl.ResumeLayout(false);
+            this.student_MF_pnl.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.Students_chart)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.Teachers_chart)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.All_chart)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.Students_chart)).EndInit();
+            this.All_counts_panel.ResumeLayout(false);
+            this.All_counts_panel.PerformLayout();
+            this.teacher_MF_pnl.ResumeLayout(false);
+            this.teacher_MF_pnl.PerformLayout();
             this.TeacherDetailsPanel.ResumeLayout(false);
             this.TeacherDetailsPanel.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
@@ -2493,12 +2500,6 @@
             this.bunifuGradientPanel1.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
             this.panel3.ResumeLayout(false);
-            this.student_MF_pnl.ResumeLayout(false);
-            this.student_MF_pnl.PerformLayout();
-            this.teacher_MF_pnl.ResumeLayout(false);
-            this.teacher_MF_pnl.PerformLayout();
-            this.All_counts_panel.ResumeLayout(false);
-            this.All_counts_panel.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 
