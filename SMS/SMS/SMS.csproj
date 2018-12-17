@@ -68,6 +68,18 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AboutUs1.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="AboutUs1.Designer.cs">
+      <DependentUpon>AboutUs1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AboutUs2.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="AboutUs2.Designer.cs">
+      <DependentUpon>AboutUs2.cs</DependentUpon>
+    </Compile>
     <Compile Include="Admin.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -75,6 +87,12 @@
       <DependentUpon>Admin.cs</DependentUpon>
     </Compile>
     <Compile Include="AdminFunctions.cs" />
+    <Compile Include="ContactUs.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ContactUs.Designer.cs">
+      <DependentUpon>ContactUs.cs</DependentUpon>
+    </Compile>
     <Compile Include="Login.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -116,6 +134,12 @@
     <Compile Include="Teachers.Designer.cs">
       <DependentUpon>Teachers.cs</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="aboutUs1.resx">
+      <DependentUpon>AboutUs1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AboutUs2.resx">
+      <DependentUpon>AboutUs2.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Admin.resx">
       <DependentUpon>Admin.cs</DependentUpon>
     </EmbeddedResource>
@@ -391,6 +415,24 @@
       <Isolated>False</Isolated>
       <EmbedInteropTypes>True</EmbedInteropTypes>
     </COMReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\iconfinder__97ui_2303195.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\george.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\thomas.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\moris.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\lotfy.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ramez.PNG" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

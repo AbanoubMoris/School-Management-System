@@ -152,6 +152,8 @@ namespace SMS
         private void button1_Click(object sender, EventArgs e)
         {
             SlidePanel.Location = new Point(1, button1.Location.Y);
+
+            AboutPnl.Visible = false;
             DashBoardPanel.Visible = true;
             TeachersPanel.Visible = false;
             StudentsPanel.Visible = false;
@@ -170,6 +172,7 @@ namespace SMS
         private void button2_Click(object sender, EventArgs e)
         {
             SlidePanel.Location = new Point(1, button2.Location.Y);
+            AboutPnl.Visible = false;
             DashBoardPanel.Visible = false;
             ParentPanel.Visible = false;
             StudentsPanel.Visible = false;
@@ -189,6 +192,7 @@ namespace SMS
         private void button3_Click(object sender, EventArgs e)
         {
             SlidePanel.Location = new Point(1, button3.Location.Y);
+            AboutPnl.Visible = false;
             DashBoardPanel.Visible = false;
             TeachersPanel.Visible = false;
             StudentsPanel.Visible = false;
@@ -203,6 +207,7 @@ namespace SMS
         private void button4_Click(object sender, EventArgs e)
         {
             SlidePanel.Location = new Point(1, button4.Location.Y);
+            AboutPnl.Visible = false;
             DashBoardPanel.Visible = false;
             TeachersPanel.Visible = false;
             ParentPanel.Visible = false;
@@ -217,6 +222,7 @@ namespace SMS
         private void button5_Click(object sender, EventArgs e)
         {
             SlidePanel.Location = new Point(1, button5.Location.Y);
+            AboutPnl.Visible = false;
             DashBoardPanel.Visible = false;
             TeachersPanel.Visible = false;
             ParentPanel.Visible = false;
@@ -233,6 +239,7 @@ namespace SMS
         private void button6_Click(object sender, EventArgs e)
         {
             SlidePanel.Location = new Point(1, button6.Location.Y);
+            AboutPnl.Visible = false;
             DashBoardPanel.Visible = false;
             TeachersPanel.Visible = false;
             ParentPanel.Visible = false;
@@ -689,6 +696,7 @@ namespace SMS
         private void pictureBox15_Click(object sender, EventArgs e)
         {
             SlidePanel.Location = new Point(1, button1.Location.Y);
+            AboutPnl.Visible = false;
             DashBoardPanel.Visible = true;
             TeachersPanel.Visible = false;
             StudentsPanel.Visible = false;
@@ -708,6 +716,7 @@ namespace SMS
         private void pictureBox16_Click(object sender, EventArgs e)
         {
             SlidePanel.Location = new Point(1, button2.Location.Y);
+            AboutPnl.Visible = false;
             DashBoardPanel.Visible = false;
             ParentPanel.Visible = false;
             StudentsPanel.Visible = false;
@@ -727,6 +736,7 @@ namespace SMS
         private void pictureBox17_Click(object sender, EventArgs e)
         {
             SlidePanel.Location = new Point(1, button3.Location.Y);
+            AboutPnl.Visible = false;
             DashBoardPanel.Visible = false;
             TeachersPanel.Visible = false;
             StudentsPanel.Visible = false;
@@ -741,6 +751,7 @@ namespace SMS
         private void pictureBox18_Click(object sender, EventArgs e)
         {
             SlidePanel.Location = new Point(1, button4.Location.Y);
+            AboutPnl.Visible = false;
             DashBoardPanel.Visible = false;
             TeachersPanel.Visible = false;
             ParentPanel.Visible = false;
@@ -755,6 +766,7 @@ namespace SMS
         private void pictureBox19_Click(object sender, EventArgs e)
         {
             SlidePanel.Location = new Point(1, button5.Location.Y);
+            AboutPnl.Visible = false;
             DashBoardPanel.Visible = false;
             TeachersPanel.Visible = false;
             ParentPanel.Visible = false;
@@ -771,6 +783,7 @@ namespace SMS
         private void pictureBox20_Click(object sender, EventArgs e)
         {
             SlidePanel.Location = new Point(1, button6.Location.Y);
+            AboutPnl.Visible = false;
             DashBoardPanel.Visible = false;
             TeachersPanel.Visible = false;
             ParentPanel.Visible = false;
@@ -784,39 +797,14 @@ namespace SMS
             // isclicked = true;
         }
 
-        bool contact = false;
+
         private void pictureBox22_Click(object sender, EventArgs e)
         {
-            if (!contact)
-            {
-                contact = true;
-                panel3.Visible = false;
-                timer2.Enabled = true;
 
-            }
-            else
-            {
-                contact = false;
-                panel3.Visible = true;
-                timer2.Enabled = true;
-            }
         }
         private void timer2_Tick(object sender, EventArgs e)
         {
-            if (contact == false)
-            {
-                if (panel3.Height >= 260)
-                    timer2.Enabled = false;
-                panel3.Height += 20;
 
-            }
-            else
-            {
-                if (panel3.Height <= 0)
-                    timer2.Enabled = false;
-                panel3.Height -= 20;
-
-            }
         }
 
         private void Male_Click(object sender, EventArgs e)
@@ -827,6 +815,48 @@ namespace SMS
         private void panel4_Paint(object sender, PaintEventArgs e)
         {
 
+        }
+
+        private void pictureBox22_Click_1(object sender, EventArgs e)
+        {
+            DashBoardPanel.Visible = false;
+            TeachersPanel.Visible = false;
+            ParentPanel.Visible = false;
+            StudentsPanel.Visible = false;
+            //    TeacherDetailsPanel.Visible = false;
+            SubjectPanel.Visible = false;
+            GradesPanel.Visible = false;
+            GradesPanel.BringToFront();
+            //*****************************************************
+            results_pnl.Visible = false;
+            AboutPnl.Visible = true;
+            aboutUs1.Location = new Point(aboutUs1.Location.X-60, 50);
+            timer3.Enabled = true;
+        }
+
+        private void timer3_Tick(object sender, EventArgs e)
+        {
+            if (aboutUs1.Location.Y <= -1400) timer3.Enabled = false;
+            aboutUs1.Location = new Point(aboutUs1.Location.X, aboutUs1.Location.Y - 5);
+            userControl21.Location = new Point(aboutUs1.Location.X, aboutUs1.Location.Y + aboutUs1.Height);
+            George.Location = new Point(aboutUs1.Location.X, aboutUs1.Location.Y + aboutUs1.Height + userControl21.Height);
+        }
+
+        private void label15_Click(object sender, EventArgs e)
+        {
+            DashBoardPanel.Visible = false;
+            TeachersPanel.Visible = false;
+            ParentPanel.Visible = false;
+            StudentsPanel.Visible = false;
+            //    TeacherDetailsPanel.Visible = false;
+            SubjectPanel.Visible = false;
+            GradesPanel.Visible = false;
+            GradesPanel.BringToFront();
+            //*****************************************************
+            results_pnl.Visible = false;
+            AboutPnl.Visible = true;
+            aboutUs1.Location = new Point(aboutUs1.Location.X, 50);
+            timer3.Enabled = true;
         }
     }
 }

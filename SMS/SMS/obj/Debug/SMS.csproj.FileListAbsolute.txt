@@ -267,3 +267,10 @@ C:\Users\hs\Documents\GitHub\Final-project-isa\SMS\SMS\obj\Debug\AxInterop.WMPLi
 C:\Users\hs\Documents\GitHub\Final-project-isa\SMS\SMS\obj\Debug\SMS.csproj.ResolveComReference.cache
 C:\Users\hs\Documents\GitHub\Final-project-isa\SMS\SMS\bin\Debug\Interop.WMPLib.dll
 C:\Users\hs\Documents\GitHub\Final-project-isa\SMS\SMS\bin\Debug\AxInterop.WMPLib.dll
+C:\Users\lap shop\Documents\GitHub\Final-project-isa\SMS\SMS\obj\Debug\Interop.WMPLib.dll
+C:\Users\lap shop\Documents\GitHub\Final-project-isa\SMS\SMS\obj\Debug\AxInterop.WMPLib.dll
+C:\Users\lap shop\Documents\GitHub\Final-project-isa\SMS\SMS\obj\Debug\SMS.csproj.ResolveComReference.cache
+C:\Users\lap shop\Documents\GitHub\Final-project-isa\SMS\SMS\bin\Debug\Interop.WMPLib.dll
+C:\Users\lap shop\Documents\GitHub\Final-project-isa\SMS\SMS\bin\Debug\AxInterop.WMPLib.dll
+C:\Users\lap shop\Documents\GitHub\Final-project-isa\SMS\SMS\obj\Debug\SMS.AboutUs.resources
+C:\Users\lap shop\Documents\GitHub\Final-project-isa\SMS\SMS\obj\Debug\SMS.UserControl2.resources

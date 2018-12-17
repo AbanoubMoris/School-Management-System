@@ -223,6 +223,16 @@ namespace SMS.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap george {
+            get {
+                object obj = ResourceManager.GetObject("george", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap Grades_In_Rigorous_Courses {
             get {
                 object obj = ResourceManager.GetObject("Grades_In_Rigorous_Courses", resourceCulture);
@@ -246,6 +256,16 @@ namespace SMS.Properties {
         internal static System.Drawing.Bitmap iconfinder__53ui_2303158 {
             get {
                 object obj = ResourceManager.GetObject("iconfinder__53ui_2303158", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap iconfinder__97ui_2303195 {
+            get {
+                object obj = ResourceManager.GetObject("iconfinder__97ui_2303195", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -588,6 +608,26 @@ namespace SMS.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap lotfy {
+            get {
+                object obj = ResourceManager.GetObject("lotfy", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap moris {
+            get {
+                object obj = ResourceManager.GetObject("moris", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap nature_galaxy_milky_way_night_567584 {
             get {
                 object obj = ResourceManager.GetObject("nature_galaxy_milky_way_night_567584", resourceCulture);
@@ -668,6 +708,16 @@ namespace SMS.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap ramez {
+            get {
+                object obj = ResourceManager.GetObject("ramez", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap select_all_128 {
             get {
                 object obj = ResourceManager.GetObject("select_all_128", resourceCulture);
@@ -701,6 +751,16 @@ namespace SMS.Properties {
         internal static System.Drawing.Bitmap Technology_Mix___Final_22_128 {
             get {
                 object obj = ResourceManager.GetObject("Technology_Mix___Final_22_128", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap thomas {
+            get {
+                object obj = ResourceManager.GetObject("thomas", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

@@ -142,8 +142,11 @@
   <data name="select_all_128" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\select_all-128.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="energy" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\energy.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="pexels_photo_924824" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pexels-photo-924824.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="iconfinder__97ui_2303195" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\iconfinder__97ui_2303195.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="_116_128" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\116-128.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -154,8 +157,8 @@
   <data name="iconfinder_code__bar__barcode__price_2538674" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\iconfinder_code__bar__barcode__price_2538674.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Technology_Mix___Final_22_128" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Technology_Mix_-_Final-22-128.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="energy" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\energy.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="kisspng_computer_icons_button_sleep_mode_symbol_on_off_5ac7d87504b2d2_5348980615230465170193" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\kisspng-computer-icons-button-sleep-mode-symbol-on-off-5ac7d87504b2d2.5348980615230465170193.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -187,11 +190,17 @@
   <data name="pexels_photo_9248241" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\pexels-photo-9248241.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="Technology_Mix___Final_22_128" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Technology_Mix_-_Final-22-128.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="iconfinder__53ui_2303158" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\iconfinder__53ui_2303158.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="images" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\images.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="kisspng_symbol_science_atom_chemistry_clip_art_png_free_atom_download_images_5abb014abc5fd1_7376547215222050027716" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\kisspng-symbol-science-atom-chemistry-clip-art-png-free-atom-download-images-5abb014abc5fd1.7376547215222050027716.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="_851_128" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\851-128.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -214,11 +223,11 @@
   <data name="kisspng_arabic_alphabet_learning_class_course_arabic_alphabet_cliparts_5aafe2a7e62579_2829841415214762639427" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\kisspng-arabic-alphabet-learning-class-course-arabic-alphabet-cliparts-5aafe2a7e62579.2829841415214762639427.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="pexels_photo_924824" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\pexels-photo-924824.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="5a29e82a48c5d" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\5a29e82a48c5d.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="kisspng_symbol_science_atom_chemistry_clip_art_png_free_atom_download_images_5abb014abc5fd1_7376547215222050027716" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\kisspng-symbol-science-atom-chemistry-clip-art-png-free-atom-download-images-5abb014abc5fd1.7376547215222050027716.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="thomas" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\thomas.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="pexels_photo_417122" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\pexels-photo-417122.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -229,20 +238,23 @@
   <data name="nature_galaxy_milky_way_night_567584" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\nature-galaxy-milky-way-night-567584.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="kisspng_student_learning_education_vector_students_5a6c15371b3d71_8537361215170327591116" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\kisspng-student-learning-education-vector-students-5a6c15371b3d71.8537361215170327591116.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="_3badfb6c96f92b6bbcefe3f487f357db" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\3badfb6c96f92b6bbcefe3f487f357db.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="iconfinder_twitter_294655" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\iconfinder_twitter_294655.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="iconfinder_Github_1298743" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\iconfinder_Github_1298743.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
   <data name="kisspng_schoolyard_drawing_cartoon_school_building_material_png_5a95d904d800f3_7046775115197698608848__1_" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\kisspng-schoolyard-drawing-cartoon-school-building-material-png-5a95d904d800f3.7046775115197698608848 (1).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="iconfinder_WhatsApp_1298775" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\iconfinder_WhatsApp_1298775.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="lotfy" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\lotfy.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="tuition_centre_private_tutor_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\tuition-centre-private-tutor-2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -262,14 +274,17 @@
   <data name="iconfinder_Dashboard_82136" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\iconfinder_Dashboard_82136.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="moris" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\moris.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="teachers_thumbs_up" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\teachers-thumbs-up.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="kisspng_flag_of_germany_map_flag_of_austria_germany_5ad82e2d51f152_6943555115241170373357" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\kisspng-flag-of-germany-map-flag-of-austria-germany-5ad82e2d51f152.6943555115241170373357.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="kisspng_student_learning_education_vector_students_5a6c15371b3d71_8537361215170327591116" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\kisspng-student-learning-education-vector-students-5a6c15371b3d71.8537361215170327591116.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="iconfinder_Github_1298743" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\iconfinder_Github_1298743.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="iconfinder_nerd_43200" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\iconfinder_nerd_43200.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -279,6 +294,9 @@
   </data>
   <data name="depositphotos_43727773_stock_photo_composition_with_glasses_and_books" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\depositphotos_43727773-stock-photo-composition-with-glasses-and-books.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="george" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\george.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="iconfinder_infinity_3688475" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\iconfinder_infinity_3688475.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -313,7 +331,7 @@
   <data name="_Data_Management_128" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\_Data_Management-128.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="5a29e82a48c5d" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\5a29e82a48c5d.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="ramez" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ramez.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>
