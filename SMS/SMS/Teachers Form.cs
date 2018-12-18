@@ -16,6 +16,7 @@ namespace SMS
 {
     public partial class Teachers_Form : Form
     {
+        string teacherEmail;
         WindowsMediaPlayer playSound = new WindowsMediaPlayer();
         MyMessageBox MSBOX;
         MyMessageBox MSBox;
@@ -29,14 +30,14 @@ namespace SMS
             using (SqlConnection con = new SqlConnection(stringConnection))
             {
                 con.Open();
-                using (SqlCommand cmd = new SqlCommand("select Name,pass,Email from Teacher where Name = '" + textBox2.Text + "' and pass = '" + textBox9.Text + "' and Email = '" + textBox8.Text + "';", con))
+                using (SqlCommand cmd = new SqlCommand("select Name,pass from Teacher where Name = '" + textBox2.Text + "' and pass = '" + textBox9.Text + "';", con))
                 {
                     SqlDataReader dr = cmd.ExecuteReader();
                     while (dr.Read())
                     {
-                        if (dr["Name"].ToString() == textBox2.Text && dr["pass"].ToString() == textBox9.Text && dr["Email"].ToString() == textBox8.Text)
+                        if (dr["Name"].ToString() == textBox2.Text && dr["pass"].ToString() == textBox9.Text)
                         {
-                            sendEmail(dr["Email"].ToString());
+                            sendEmail(teacherEmail);
                             break;
                         }
 
@@ -245,8 +246,8 @@ namespace SMS
             panel3.Visible = false;
             panel4.Visible = true;
             button5.Visible = false;
-            button6.Visible = true;
-            button7.Visible = true;
+            button6.Visible = false;
+            button7.Visible = false;
             playSound.URL = "error.wav";
             playSound.controls.play();
             MSBox = new MyMessageBox("Please confirm your username and password first!");
@@ -256,9 +257,7 @@ namespace SMS
 
         private void label19_Click(object sender, EventArgs e)
         {
-            panel2.Visible = false;
-            panel3.Visible = false;
-            EditData_pnl.Visible = false;
+            if(!(textBox2.Text=="" && textBox3.Text==""  && textBox9.Text==""))
             changePass();
             playSound.URL = "do.mp3";
             playSound.controls.play();
@@ -280,15 +279,7 @@ namespace SMS
             log.Show();
         }
         string username, pass;
-        private void label29_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void panel1_Paint_1(object sender, PaintEventArgs e)
-        {
-
-        }
+      
 
         private void textBox7_TextChanged(object sender, EventArgs e)
         {
@@ -304,7 +295,7 @@ namespace SMS
             using (SqlConnection con = new SqlConnection(stringConnection))
             {
                 con.Open();
-                SqlCommand cmd = new SqlCommand("EXECUTE teacherEditData @nameEditData = '" + nameEditData.Text + "', @emailEditData = '" + emailEditData.Text + "', @addressEditData = '" + addressEditData.Text + "', @genderEditData = '" + isMale(genderMale.Checked) + "', @oldUsername = '" + editDataCheckUsername.Text + "'", con);
+                SqlCommand cmd = new SqlCommand("EXECUTE teacherEditData @nameEditData = '" + nameEditData.Text + "', @emailEditData = '" + emailEditData.Text + "', @addressEditData = '" + addressEditData.Text + "', @genderEditData = '" + isMale(genderMale.Checked) + "', @oldUsername = '" + olduserName + "'", con);
                 cmd.ExecuteNonQuery();
                 playSound.URL = "done.mp3";
                 playSound.controls.play();
@@ -329,14 +320,14 @@ namespace SMS
             panel3.Visible = false;
             panel4.Visible = false;
         }
-
+        string olduserName;
         private void doneCheckInfo_Click(object sender, EventArgs e)
         {
             
             using (SqlConnection con = new SqlConnection(stringConnection))
             {
                 con.Open();
-                SqlCommand cmd = new SqlCommand("select * from Teacher where Name = '" + editDataCheckUsername.Text + "' and pass = '" + editDataCheckPassword.Text + "'", con);
+                SqlCommand cmd = new SqlCommand("select * from Teacher where Name = '" + editDataCheckUsername.Text + "' and pass = '" + editDataCheckPassword.Text + "'", con); 
                 cmd.ExecuteNonQuery();
                 SqlDataReader dr = cmd.ExecuteReader();
                 while (dr.Read())
@@ -345,23 +336,36 @@ namespace SMS
                     pass = dr["pass"].ToString();
                 }
             }
+                    using (SqlConnection con = new SqlConnection(stringConnection))
+                    {
+                        con.Open();
+                        SqlCommand cmd2 = new SqlCommand("exec getTeacherEmail '" + editDataCheckUsername.Text + "'", con);
+                        SqlDataReader dr = cmd2.ExecuteReader();
+                        dr.Read();
+                        teacherEmail = dr["Email"].ToString();
+
+                    }
             
                     if(username == editDataCheckUsername.Text && pass == editDataCheckPassword.Text)
                     {
+                        
                         if (change_Pass)
                         {
-                            panel2.Visible = true;
-                            panel3.Visible = false;
+                             panel2.Visible = true;
+                             panel3.Visible = false;
                         }else
                         {
                             panel3.Visible = false;
                             panel2.Visible = false;
                             editDataAppearance(editDataCheckUsername.Text, editDataCheckPassword.Text);
                         }
-                        button5.Visible = true;
-                       
-                        panel4.Visible = false;
-            }
+                             button5.Visible = true;
+                             panel4.Visible = false;
+                             button6.Visible = true;
+                             button7.Visible = true;
+                olduserName = editDataCheckUsername.Text;
+                editDataCheckUsername.Text = editDataCheckPassword.Text = "";
+                     }
             else
             {
                 playSound.URL = "error.wav";
@@ -369,6 +373,7 @@ namespace SMS
                 MSBox = new MyMessageBox("Wrong username or password!");
                 
             }
+         
             
             
         }
@@ -518,6 +523,17 @@ namespace SMS
             }
         }
         bool isStatusNotify = false;
+
+        private void genderMale_CheckedChanged(object sender, EventArgs e)
+        {
+        
+        }
+
+        private void label21_Click(object sender, EventArgs e)
+        {
+
+        }
+
         private void button8_Click(object sender, EventArgs e)
         {
             isStatusNotify = true;
@@ -584,8 +600,8 @@ namespace SMS
                 dataGridView1.DefaultCellStyle.SelectionBackColor = Color.White;
                 dataGridView1.DefaultCellStyle.SelectionForeColor = Color.Black;
                 //setting color of alternating rows
-                dataGridView1.RowsDefaultCellStyle.BackColor = Color.Black;
-                dataGridView1.AlternatingRowsDefaultCellStyle.BackColor = Color.Gray;
+                dataGridView1.RowsDefaultCellStyle.BackColor = Color.LightGray;
+                dataGridView1.AlternatingRowsDefaultCellStyle.BackColor = Color.DarkGray;
                 dataGridView1.DefaultCellStyle.Font = new Font("Bold Italic", 15);
             }
         }
