@@ -39,8 +39,20 @@
             this.label6 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.EditData_pnl = new System.Windows.Forms.Panel();
+            this.button6 = new System.Windows.Forms.Button();
+            this.button7 = new System.Windows.Forms.Button();
+            this.panel2 = new System.Windows.Forms.Panel();
+            this.button4 = new System.Windows.Forms.Button();
+            this.textBox9 = new System.Windows.Forms.TextBox();
+            this.label28 = new System.Windows.Forms.Label();
+            this.textBox3 = new System.Windows.Forms.TextBox();
+            this.textBox2 = new System.Windows.Forms.TextBox();
+            this.label18 = new System.Windows.Forms.Label();
+            this.label16 = new System.Windows.Forms.Label();
             this.panel3 = new System.Windows.Forms.Panel();
+            this.button2 = new System.Windows.Forms.Button();
             this.emailEditData = new System.Windows.Forms.TextBox();
+            this.label22 = new System.Windows.Forms.Label();
             this.genderFemale = new System.Windows.Forms.RadioButton();
             this.genderMale = new System.Windows.Forms.RadioButton();
             this.back_label = new System.Windows.Forms.Label();
@@ -49,20 +61,12 @@
             this.label25 = new System.Windows.Forms.Label();
             this.label21 = new System.Windows.Forms.Label();
             this.label24 = new System.Windows.Forms.Label();
-            this.button6 = new System.Windows.Forms.Button();
-            this.button7 = new System.Windows.Forms.Button();
             this.panel4 = new System.Windows.Forms.Panel();
+            this.button3 = new System.Windows.Forms.Button();
             this.editDataCheckPassword = new System.Windows.Forms.TextBox();
             this.label30 = new System.Windows.Forms.Label();
             this.editDataCheckUsername = new System.Windows.Forms.TextBox();
             this.label23 = new System.Windows.Forms.Label();
-            this.panel2 = new System.Windows.Forms.Panel();
-            this.textBox9 = new System.Windows.Forms.TextBox();
-            this.label28 = new System.Windows.Forms.Label();
-            this.textBox3 = new System.Windows.Forms.TextBox();
-            this.textBox2 = new System.Windows.Forms.TextBox();
-            this.label18 = new System.Windows.Forms.Label();
-            this.label16 = new System.Windows.Forms.Label();
             this.Addgreades_pnl = new System.Windows.Forms.Panel();
             this.dataGridView2 = new System.Windows.Forms.DataGridView();
             this.label13 = new System.Windows.Forms.Label();
@@ -73,21 +77,17 @@
             this.contactUs1 = new SMS.ContactUs();
             this.ExitPic = new System.Windows.Forms.PictureBox();
             this.Buttons_pnl = new System.Windows.Forms.Panel();
+            this.LogOut = new System.Windows.Forms.Label();
             this.EditData_btn = new System.Windows.Forms.Button();
             this.Choosecourses_btn = new System.Windows.Forms.Button();
             this.Showgrades_btn = new System.Windows.Forms.Button();
             this.Attendance_btn = new System.Windows.Forms.Button();
-            this.LogOut = new System.Windows.Forms.Label();
-            this.label22 = new System.Windows.Forms.Label();
-            this.button2 = new System.Windows.Forms.Button();
-            this.button3 = new System.Windows.Forms.Button();
-            this.button4 = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.notify_pnl.SuspendLayout();
             this.EditData_pnl.SuspendLayout();
+            this.panel2.SuspendLayout();
             this.panel3.SuspendLayout();
             this.panel4.SuspendLayout();
-            this.panel2.SuspendLayout();
             this.Addgreades_pnl.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView2)).BeginInit();
             this.attend_pnl.SuspendLayout();
@@ -229,6 +229,129 @@
             this.EditData_pnl.Size = new System.Drawing.Size(769, 466);
             this.EditData_pnl.TabIndex = 17;
             // 
+            // button6
+            // 
+            this.button6.AutoSize = true;
+            this.button6.BackColor = System.Drawing.SystemColors.GradientInactiveCaption;
+            this.button6.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.button6.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.button6.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button6.Font = new System.Drawing.Font("Times New Roman", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button6.ForeColor = System.Drawing.SystemColors.InactiveCaptionText;
+            this.button6.Location = new System.Drawing.Point(72, 3);
+            this.button6.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.button6.Name = "button6";
+            this.button6.Size = new System.Drawing.Size(225, 37);
+            this.button6.TabIndex = 11;
+            this.button6.Text = "Change Password";
+            this.button6.UseVisualStyleBackColor = false;
+            this.button6.Click += new System.EventHandler(this.changePass_Click);
+            // 
+            // button7
+            // 
+            this.button7.AutoSize = true;
+            this.button7.BackColor = System.Drawing.SystemColors.GradientInactiveCaption;
+            this.button7.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.button7.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.button7.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button7.Font = new System.Drawing.Font("Times New Roman", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button7.ForeColor = System.Drawing.SystemColors.InactiveCaptionText;
+            this.button7.Location = new System.Drawing.Point(429, 3);
+            this.button7.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.button7.Name = "button7";
+            this.button7.Size = new System.Drawing.Size(253, 37);
+            this.button7.TabIndex = 36;
+            this.button7.Text = "Change Personal Data";
+            this.button7.UseVisualStyleBackColor = false;
+            this.button7.Click += new System.EventHandler(this.personalData_Click);
+            // 
+            // panel2
+            // 
+            this.panel2.BackColor = System.Drawing.SystemColors.InactiveBorder;
+            this.panel2.Controls.Add(this.button4);
+            this.panel2.Controls.Add(this.textBox9);
+            this.panel2.Controls.Add(this.label28);
+            this.panel2.Controls.Add(this.textBox3);
+            this.panel2.Controls.Add(this.textBox2);
+            this.panel2.Controls.Add(this.label18);
+            this.panel2.Controls.Add(this.label16);
+            this.panel2.Location = new System.Drawing.Point(3, 44);
+            this.panel2.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.panel2.Name = "panel2";
+            this.panel2.Size = new System.Drawing.Size(762, 418);
+            this.panel2.TabIndex = 23;
+            // 
+            // button4
+            // 
+            this.button4.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button4.ForeColor = System.Drawing.Color.Red;
+            this.button4.Location = new System.Drawing.Point(334, 366);
+            this.button4.Name = "button4";
+            this.button4.Size = new System.Drawing.Size(111, 35);
+            this.button4.TabIndex = 27;
+            this.button4.Text = "Done";
+            this.button4.UseVisualStyleBackColor = true;
+            this.button4.Click += new System.EventHandler(this.label19_Click);
+            // 
+            // textBox9
+            // 
+            this.textBox9.Location = new System.Drawing.Point(289, 78);
+            this.textBox9.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.textBox9.Name = "textBox9";
+            this.textBox9.Size = new System.Drawing.Size(248, 20);
+            this.textBox9.TabIndex = 26;
+            this.textBox9.UseSystemPasswordChar = true;
+            // 
+            // label28
+            // 
+            this.label28.AutoSize = true;
+            this.label28.Font = new System.Drawing.Font("Times New Roman", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label28.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.label28.Location = new System.Drawing.Point(64, 72);
+            this.label28.Name = "label28";
+            this.label28.Size = new System.Drawing.Size(144, 25);
+            this.label28.TabIndex = 25;
+            this.label28.Text = "Old Password";
+            // 
+            // textBox3
+            // 
+            this.textBox3.Location = new System.Drawing.Point(289, 118);
+            this.textBox3.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.textBox3.Name = "textBox3";
+            this.textBox3.Size = new System.Drawing.Size(248, 20);
+            this.textBox3.TabIndex = 21;
+            this.textBox3.UseSystemPasswordChar = true;
+            // 
+            // textBox2
+            // 
+            this.textBox2.Location = new System.Drawing.Point(289, 42);
+            this.textBox2.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.textBox2.Name = "textBox2";
+            this.textBox2.Size = new System.Drawing.Size(248, 20);
+            this.textBox2.TabIndex = 20;
+            // 
+            // label18
+            // 
+            this.label18.AutoSize = true;
+            this.label18.Font = new System.Drawing.Font("Times New Roman", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label18.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.label18.Location = new System.Drawing.Point(64, 111);
+            this.label18.Name = "label18";
+            this.label18.Size = new System.Drawing.Size(149, 25);
+            this.label18.TabIndex = 19;
+            this.label18.Text = "New password";
+            // 
+            // label16
+            // 
+            this.label16.AutoSize = true;
+            this.label16.Font = new System.Drawing.Font("Times New Roman", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label16.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.label16.Location = new System.Drawing.Point(64, 35);
+            this.label16.Name = "label16";
+            this.label16.Size = new System.Drawing.Size(107, 25);
+            this.label16.TabIndex = 18;
+            this.label16.Text = "Username";
+            // 
             // panel3
             // 
             this.panel3.Controls.Add(this.button2);
@@ -248,6 +371,19 @@
             this.panel3.Size = new System.Drawing.Size(770, 421);
             this.panel3.TabIndex = 24;
             // 
+            // button2
+            // 
+            this.button2.BackColor = System.Drawing.Color.Transparent;
+            this.button2.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button2.ForeColor = System.Drawing.Color.Red;
+            this.button2.Location = new System.Drawing.Point(308, 368);
+            this.button2.Name = "button2";
+            this.button2.Size = new System.Drawing.Size(111, 35);
+            this.button2.TabIndex = 40;
+            this.button2.Text = "DONE";
+            this.button2.UseVisualStyleBackColor = false;
+            this.button2.Click += new System.EventHandler(this.label20_Click);
+            // 
             // emailEditData
             // 
             this.emailEditData.Location = new System.Drawing.Point(381, 135);
@@ -255,6 +391,17 @@
             this.emailEditData.Name = "emailEditData";
             this.emailEditData.Size = new System.Drawing.Size(325, 20);
             this.emailEditData.TabIndex = 39;
+            // 
+            // label22
+            // 
+            this.label22.AutoSize = true;
+            this.label22.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label22.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.label22.Location = new System.Drawing.Point(123, 126);
+            this.label22.Name = "label22";
+            this.label22.Size = new System.Drawing.Size(79, 29);
+            this.label22.TabIndex = 38;
+            this.label22.Text = "Email";
             // 
             // genderFemale
             // 
@@ -344,42 +491,6 @@
             this.label24.TabIndex = 25;
             this.label24.Text = "Address";
             // 
-            // button6
-            // 
-            this.button6.AutoSize = true;
-            this.button6.BackColor = System.Drawing.SystemColors.GradientInactiveCaption;
-            this.button6.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.button6.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button6.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button6.Font = new System.Drawing.Font("Times New Roman", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button6.ForeColor = System.Drawing.SystemColors.InactiveCaptionText;
-            this.button6.Location = new System.Drawing.Point(72, 3);
-            this.button6.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.button6.Name = "button6";
-            this.button6.Size = new System.Drawing.Size(225, 37);
-            this.button6.TabIndex = 11;
-            this.button6.Text = "Change Password";
-            this.button6.UseVisualStyleBackColor = false;
-            this.button6.Click += new System.EventHandler(this.changePass_Click);
-            // 
-            // button7
-            // 
-            this.button7.AutoSize = true;
-            this.button7.BackColor = System.Drawing.SystemColors.GradientInactiveCaption;
-            this.button7.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.button7.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button7.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button7.Font = new System.Drawing.Font("Times New Roman", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button7.ForeColor = System.Drawing.SystemColors.InactiveCaptionText;
-            this.button7.Location = new System.Drawing.Point(429, 3);
-            this.button7.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.button7.Name = "button7";
-            this.button7.Size = new System.Drawing.Size(253, 37);
-            this.button7.TabIndex = 36;
-            this.button7.Text = "Change Personal Data";
-            this.button7.UseVisualStyleBackColor = false;
-            this.button7.Click += new System.EventHandler(this.personalData_Click);
-            // 
             // panel4
             // 
             this.panel4.Controls.Add(this.button3);
@@ -391,6 +502,19 @@
             this.panel4.Name = "panel4";
             this.panel4.Size = new System.Drawing.Size(772, 476);
             this.panel4.TabIndex = 35;
+            // 
+            // button3
+            // 
+            this.button3.BackColor = System.Drawing.Color.Transparent;
+            this.button3.Font = new System.Drawing.Font("Lucida Sans", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button3.ForeColor = System.Drawing.Color.Red;
+            this.button3.Location = new System.Drawing.Point(337, 413);
+            this.button3.Name = "button3";
+            this.button3.Size = new System.Drawing.Size(111, 35);
+            this.button3.TabIndex = 34;
+            this.button3.Text = "DONE";
+            this.button3.UseVisualStyleBackColor = false;
+            this.button3.Click += new System.EventHandler(this.doneCheckInfo_Click);
             // 
             // editDataCheckPassword
             // 
@@ -430,80 +554,6 @@
             this.label23.Size = new System.Drawing.Size(132, 29);
             this.label23.TabIndex = 30;
             this.label23.Text = "Username";
-            // 
-            // panel2
-            // 
-            this.panel2.Controls.Add(this.button4);
-            this.panel2.Controls.Add(this.textBox9);
-            this.panel2.Controls.Add(this.label28);
-            this.panel2.Controls.Add(this.textBox3);
-            this.panel2.Controls.Add(this.textBox2);
-            this.panel2.Controls.Add(this.label18);
-            this.panel2.Controls.Add(this.label16);
-            this.panel2.Location = new System.Drawing.Point(3, 44);
-            this.panel2.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(762, 418);
-            this.panel2.TabIndex = 23;
-            // 
-            // textBox9
-            // 
-            this.textBox9.Location = new System.Drawing.Point(289, 78);
-            this.textBox9.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.textBox9.Name = "textBox9";
-            this.textBox9.Size = new System.Drawing.Size(248, 20);
-            this.textBox9.TabIndex = 26;
-            this.textBox9.UseSystemPasswordChar = true;
-            // 
-            // label28
-            // 
-            this.label28.AutoSize = true;
-            this.label28.Font = new System.Drawing.Font("Times New Roman", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label28.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.label28.Location = new System.Drawing.Point(64, 72);
-            this.label28.Name = "label28";
-            this.label28.Size = new System.Drawing.Size(144, 25);
-            this.label28.TabIndex = 25;
-            this.label28.Text = "Old Password";
-            // 
-            // textBox3
-            // 
-            this.textBox3.Location = new System.Drawing.Point(289, 118);
-            this.textBox3.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(248, 20);
-            this.textBox3.TabIndex = 21;
-            this.textBox3.UseSystemPasswordChar = true;
-            // 
-            // textBox2
-            // 
-            this.textBox2.Location = new System.Drawing.Point(289, 42);
-            this.textBox2.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(248, 20);
-            this.textBox2.TabIndex = 20;
-            // 
-            // label18
-            // 
-            this.label18.AutoSize = true;
-            this.label18.Font = new System.Drawing.Font("Times New Roman", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label18.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.label18.Location = new System.Drawing.Point(64, 111);
-            this.label18.Name = "label18";
-            this.label18.Size = new System.Drawing.Size(149, 25);
-            this.label18.TabIndex = 19;
-            this.label18.Text = "New password";
-            // 
-            // label16
-            // 
-            this.label16.AutoSize = true;
-            this.label16.Font = new System.Drawing.Font("Times New Roman", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label16.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.label16.Location = new System.Drawing.Point(64, 35);
-            this.label16.Name = "label16";
-            this.label16.Size = new System.Drawing.Size(107, 25);
-            this.label16.TabIndex = 18;
-            this.label16.Text = "Username";
             // 
             // Addgreades_pnl
             // 
@@ -610,6 +660,20 @@
             this.Buttons_pnl.Size = new System.Drawing.Size(229, 531);
             this.Buttons_pnl.TabIndex = 8;
             // 
+            // LogOut
+            // 
+            this.LogOut.AutoSize = true;
+            this.LogOut.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.LogOut.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.LogOut.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.LogOut.ForeColor = System.Drawing.Color.Transparent;
+            this.LogOut.Location = new System.Drawing.Point(66, 472);
+            this.LogOut.Name = "LogOut";
+            this.LogOut.Size = new System.Drawing.Size(93, 29);
+            this.LogOut.TabIndex = 5;
+            this.LogOut.Text = "Logout";
+            this.LogOut.Click += new System.EventHandler(this.LogOut_Click);
+            // 
             // EditData_btn
             // 
             this.EditData_btn.AutoSize = true;
@@ -679,69 +743,6 @@
             this.Attendance_btn.UseVisualStyleBackColor = false;
             this.Attendance_btn.Click += new System.EventHandler(this.grades_btn_Click);
             // 
-            // LogOut
-            // 
-            this.LogOut.AutoSize = true;
-            this.LogOut.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.LogOut.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.LogOut.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.LogOut.ForeColor = System.Drawing.Color.Transparent;
-            this.LogOut.Location = new System.Drawing.Point(66, 472);
-            this.LogOut.Name = "LogOut";
-            this.LogOut.Size = new System.Drawing.Size(93, 29);
-            this.LogOut.TabIndex = 5;
-            this.LogOut.Text = "Logout";
-            this.LogOut.Click += new System.EventHandler(this.LogOut_Click);
-            // 
-            // label22
-            // 
-            this.label22.AutoSize = true;
-            this.label22.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label22.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.label22.Location = new System.Drawing.Point(123, 126);
-            this.label22.Name = "label22";
-            this.label22.Size = new System.Drawing.Size(79, 29);
-            this.label22.TabIndex = 38;
-            this.label22.Text = "Email";
-            // 
-            // button2
-            // 
-            this.button2.BackColor = System.Drawing.Color.Transparent;
-            this.button2.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button2.ForeColor = System.Drawing.Color.Red;
-            this.button2.Location = new System.Drawing.Point(308, 368);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(111, 35);
-            this.button2.TabIndex = 40;
-            this.button2.Text = "DONE";
-            this.button2.UseVisualStyleBackColor = false;
-            this.button2.Click += new System.EventHandler(this.label20_Click);
-            // 
-            // button3
-            // 
-            this.button3.BackColor = System.Drawing.Color.Transparent;
-            this.button3.Font = new System.Drawing.Font("Lucida Sans", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button3.ForeColor = System.Drawing.Color.Red;
-            this.button3.Location = new System.Drawing.Point(337, 413);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(111, 35);
-            this.button3.TabIndex = 34;
-            this.button3.Text = "DONE";
-            this.button3.UseVisualStyleBackColor = false;
-            this.button3.Click += new System.EventHandler(this.doneCheckInfo_Click);
-            // 
-            // button4
-            // 
-            this.button4.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button4.ForeColor = System.Drawing.Color.Red;
-            this.button4.Location = new System.Drawing.Point(334, 366);
-            this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(111, 35);
-            this.button4.TabIndex = 27;
-            this.button4.Text = "Done";
-            this.button4.UseVisualStyleBackColor = true;
-            this.button4.Click += new System.EventHandler(this.label19_Click);
-            // 
             // Teachers_Form
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -752,10 +753,10 @@
             this.Controls.Add(this.Buttons_pnl);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.label2);
+            this.Controls.Add(this.EditData_pnl);
             this.Controls.Add(this.attend_pnl);
             this.Controls.Add(this.Addgreades_pnl);
             this.Controls.Add(this.notify_pnl);
-            this.Controls.Add(this.EditData_pnl);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.Name = "Teachers_Form";
@@ -766,12 +767,12 @@
             this.notify_pnl.PerformLayout();
             this.EditData_pnl.ResumeLayout(false);
             this.EditData_pnl.PerformLayout();
+            this.panel2.ResumeLayout(false);
+            this.panel2.PerformLayout();
             this.panel3.ResumeLayout(false);
             this.panel3.PerformLayout();
             this.panel4.ResumeLayout(false);
             this.panel4.PerformLayout();
-            this.panel2.ResumeLayout(false);
-            this.panel2.PerformLayout();
             this.Addgreades_pnl.ResumeLayout(false);
             this.Addgreades_pnl.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView2)).EndInit();

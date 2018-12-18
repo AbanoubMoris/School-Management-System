@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Student_Form));
             this.Buttons_pnl = new System.Windows.Forms.Panel();
             this.LogOut = new System.Windows.Forms.Label();
             this.Status_btn = new System.Windows.Forms.Button();
@@ -38,7 +39,6 @@
             this.Attendance_btn = new System.Windows.Forms.Button();
             this.flow_pnl = new System.Windows.Forms.Panel();
             this.ExitPic = new System.Windows.Forms.PictureBox();
-            this.label11 = new System.Windows.Forms.Label();
             this.label12 = new System.Windows.Forms.Label();
             this.label13 = new System.Windows.Forms.Label();
             this.label14 = new System.Windows.Forms.Label();
@@ -52,10 +52,14 @@
             this.passwordEditData = new System.Windows.Forms.TextBox();
             this.label8 = new System.Windows.Forms.Label();
             this.Personal_pnl = new System.Windows.Forms.Panel();
-            this.label20 = new System.Windows.Forms.Label();
+            this.button1 = new System.Windows.Forms.Button();
+            this.femaleCheckBox = new System.Windows.Forms.RadioButton();
+            this.maleCheckBox = new System.Windows.Forms.RadioButton();
             this.label19 = new System.Windows.Forms.Label();
             this.comboBox2 = new System.Windows.Forms.ComboBox();
             this.courses_pnl = new System.Windows.Forms.Panel();
+            this.button2 = new System.Windows.Forms.Button();
+            this.label1 = new System.Windows.Forms.Label();
             this.label21 = new System.Windows.Forms.Label();
             this.label18 = new System.Windows.Forms.Label();
             this.comboBox1 = new System.Windows.Forms.ComboBox();
@@ -79,8 +83,6 @@
             this.label9 = new System.Windows.Forms.Label();
             this.label10 = new System.Windows.Forms.Label();
             this.grades_pnl = new System.Windows.Forms.Panel();
-            this.maleCheckBox = new System.Windows.Forms.RadioButton();
-            this.femaleCheckBox = new System.Windows.Forms.RadioButton();
             this.Buttons_pnl.SuspendLayout();
             this.flow_pnl.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.ExitPic)).BeginInit();
@@ -122,20 +124,20 @@
             this.LogOut.Location = new System.Drawing.Point(67, 501);
             this.LogOut.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.LogOut.Name = "LogOut";
-            this.LogOut.Size = new System.Drawing.Size(90, 25);
+            this.LogOut.Size = new System.Drawing.Size(86, 25);
             this.LogOut.TabIndex = 12;
-            this.LogOut.Text = "LogOut";
+            this.LogOut.Text = "Logout";
             this.LogOut.Click += new System.EventHandler(this.LogOut_Click);
             // 
             // Status_btn
             // 
-            this.Status_btn.BackColor = System.Drawing.SystemColors.MenuText;
+            this.Status_btn.BackColor = System.Drawing.Color.Transparent;
             this.Status_btn.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.Status_btn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.Status_btn.Font = new System.Drawing.Font("Modern No. 20", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Status_btn.ForeColor = System.Drawing.Color.LightSkyBlue;
+            this.Status_btn.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(153)))), ((int)(((byte)(170)))), ((int)(((byte)(181)))));
             this.Status_btn.Location = new System.Drawing.Point(2, 404);
-            this.Status_btn.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Status_btn.Margin = new System.Windows.Forms.Padding(2);
             this.Status_btn.Name = "Status_btn";
             this.Status_btn.Size = new System.Drawing.Size(224, 57);
             this.Status_btn.TabIndex = 11;
@@ -146,14 +148,14 @@
             // EditData_btn
             // 
             this.EditData_btn.AutoSize = true;
-            this.EditData_btn.BackColor = System.Drawing.SystemColors.MenuText;
+            this.EditData_btn.BackColor = System.Drawing.Color.Transparent;
             this.EditData_btn.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.EditData_btn.Cursor = System.Windows.Forms.Cursors.Hand;
             this.EditData_btn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.EditData_btn.Font = new System.Drawing.Font("Times New Roman", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.EditData_btn.ForeColor = System.Drawing.Color.LightSkyBlue;
+            this.EditData_btn.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(153)))), ((int)(((byte)(170)))), ((int)(((byte)(181)))));
             this.EditData_btn.Location = new System.Drawing.Point(2, 61);
-            this.EditData_btn.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.EditData_btn.Margin = new System.Windows.Forms.Padding(2);
             this.EditData_btn.Name = "EditData_btn";
             this.EditData_btn.Size = new System.Drawing.Size(224, 57);
             this.EditData_btn.TabIndex = 6;
@@ -163,14 +165,14 @@
             // 
             // Choosecourses_btn
             // 
-            this.Choosecourses_btn.BackColor = System.Drawing.SystemColors.MenuText;
+            this.Choosecourses_btn.BackColor = System.Drawing.Color.Transparent;
             this.Choosecourses_btn.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.Choosecourses_btn.Cursor = System.Windows.Forms.Cursors.Hand;
             this.Choosecourses_btn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.Choosecourses_btn.Font = new System.Drawing.Font("Modern No. 20", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Choosecourses_btn.ForeColor = System.Drawing.Color.LightSkyBlue;
+            this.Choosecourses_btn.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(153)))), ((int)(((byte)(170)))), ((int)(((byte)(181)))));
             this.Choosecourses_btn.Location = new System.Drawing.Point(2, 132);
-            this.Choosecourses_btn.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Choosecourses_btn.Margin = new System.Windows.Forms.Padding(2);
             this.Choosecourses_btn.Name = "Choosecourses_btn";
             this.Choosecourses_btn.Size = new System.Drawing.Size(224, 57);
             this.Choosecourses_btn.TabIndex = 7;
@@ -180,14 +182,14 @@
             // 
             // ShowCourses_btn
             // 
-            this.ShowCourses_btn.BackColor = System.Drawing.SystemColors.MenuText;
+            this.ShowCourses_btn.BackColor = System.Drawing.Color.Transparent;
             this.ShowCourses_btn.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ShowCourses_btn.Cursor = System.Windows.Forms.Cursors.Hand;
             this.ShowCourses_btn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.ShowCourses_btn.Font = new System.Drawing.Font("Modern No. 20", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.ShowCourses_btn.ForeColor = System.Drawing.Color.LightSkyBlue;
+            this.ShowCourses_btn.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(153)))), ((int)(((byte)(170)))), ((int)(((byte)(181)))));
             this.ShowCourses_btn.Location = new System.Drawing.Point(2, 337);
-            this.ShowCourses_btn.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.ShowCourses_btn.Margin = new System.Windows.Forms.Padding(2);
             this.ShowCourses_btn.Name = "ShowCourses_btn";
             this.ShowCourses_btn.Size = new System.Drawing.Size(224, 57);
             this.ShowCourses_btn.TabIndex = 8;
@@ -197,14 +199,14 @@
             // 
             // Showgrades_btn
             // 
-            this.Showgrades_btn.BackColor = System.Drawing.SystemColors.MenuText;
+            this.Showgrades_btn.BackColor = System.Drawing.Color.Transparent;
             this.Showgrades_btn.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.Showgrades_btn.Cursor = System.Windows.Forms.Cursors.Hand;
             this.Showgrades_btn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.Showgrades_btn.Font = new System.Drawing.Font("Modern No. 20", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Showgrades_btn.ForeColor = System.Drawing.Color.LightSkyBlue;
+            this.Showgrades_btn.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(153)))), ((int)(((byte)(170)))), ((int)(((byte)(181)))));
             this.Showgrades_btn.Location = new System.Drawing.Point(2, 271);
-            this.Showgrades_btn.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Showgrades_btn.Margin = new System.Windows.Forms.Padding(2);
             this.Showgrades_btn.Name = "Showgrades_btn";
             this.Showgrades_btn.Size = new System.Drawing.Size(224, 57);
             this.Showgrades_btn.TabIndex = 9;
@@ -214,14 +216,14 @@
             // 
             // Attendance_btn
             // 
-            this.Attendance_btn.BackColor = System.Drawing.SystemColors.MenuText;
+            this.Attendance_btn.BackColor = System.Drawing.Color.Transparent;
             this.Attendance_btn.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.Attendance_btn.Cursor = System.Windows.Forms.Cursors.Hand;
             this.Attendance_btn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.Attendance_btn.Font = new System.Drawing.Font("Modern No. 20", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Attendance_btn.ForeColor = System.Drawing.Color.LightSkyBlue;
+            this.Attendance_btn.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(153)))), ((int)(((byte)(170)))), ((int)(((byte)(181)))));
             this.Attendance_btn.Location = new System.Drawing.Point(2, 201);
-            this.Attendance_btn.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Attendance_btn.Margin = new System.Windows.Forms.Padding(2);
             this.Attendance_btn.Name = "Attendance_btn";
             this.Attendance_btn.Size = new System.Drawing.Size(224, 57);
             this.Attendance_btn.TabIndex = 10;
@@ -231,7 +233,7 @@
             // 
             // flow_pnl
             // 
-            this.flow_pnl.BackColor = System.Drawing.Color.LightSkyBlue;
+            this.flow_pnl.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(32)))), ((int)(((byte)(34)))), ((int)(((byte)(37)))));
             this.flow_pnl.Controls.Add(this.ExitPic);
             this.flow_pnl.Location = new System.Drawing.Point(228, 0);
             this.flow_pnl.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
@@ -241,29 +243,16 @@
             // 
             // ExitPic
             // 
-            this.ExitPic.BackgroundImage = global::SMS.Properties.Resources.kisspng_computer_icons_button_sleep_mode_symbol_on_off_5ac7d87504b2d2_5348980615230465170193;
+            this.ExitPic.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("ExitPic.BackgroundImage")));
             this.ExitPic.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ExitPic.Cursor = System.Windows.Forms.Cursors.Hand;
             this.ExitPic.Location = new System.Drawing.Point(738, 2);
-            this.ExitPic.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.ExitPic.Margin = new System.Windows.Forms.Padding(2);
             this.ExitPic.Name = "ExitPic";
             this.ExitPic.Size = new System.Drawing.Size(31, 34);
             this.ExitPic.TabIndex = 4;
             this.ExitPic.TabStop = false;
             this.ExitPic.Click += new System.EventHandler(this.ExitPic_Click);
-            // 
-            // label11
-            // 
-            this.label11.AutoSize = true;
-            this.label11.Font = new System.Drawing.Font("Times New Roman", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label11.ForeColor = System.Drawing.Color.Red;
-            this.label11.Location = new System.Drawing.Point(658, 411);
-            this.label11.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-            this.label11.Name = "label11";
-            this.label11.Size = new System.Drawing.Size(86, 36);
-            this.label11.TabIndex = 4;
-            this.label11.Text = "Done";
-            this.label11.Click += new System.EventHandler(this.Done_Click);
             // 
             // label12
             // 
@@ -324,7 +313,7 @@
             // NameEditData
             // 
             this.NameEditData.Location = new System.Drawing.Point(362, 109);
-            this.NameEditData.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.NameEditData.Margin = new System.Windows.Forms.Padding(2);
             this.NameEditData.Name = "NameEditData";
             this.NameEditData.Size = new System.Drawing.Size(274, 20);
             this.NameEditData.TabIndex = 11;
@@ -332,7 +321,7 @@
             // phoneNumberEditData
             // 
             this.phoneNumberEditData.Location = new System.Drawing.Point(362, 156);
-            this.phoneNumberEditData.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.phoneNumberEditData.Margin = new System.Windows.Forms.Padding(2);
             this.phoneNumberEditData.Name = "phoneNumberEditData";
             this.phoneNumberEditData.Size = new System.Drawing.Size(274, 20);
             this.phoneNumberEditData.TabIndex = 12;
@@ -340,7 +329,7 @@
             // AddressEditData
             // 
             this.AddressEditData.Location = new System.Drawing.Point(362, 254);
-            this.AddressEditData.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.AddressEditData.Margin = new System.Windows.Forms.Padding(2);
             this.AddressEditData.Name = "AddressEditData";
             this.AddressEditData.Size = new System.Drawing.Size(274, 20);
             this.AddressEditData.TabIndex = 15;
@@ -359,7 +348,7 @@
             // EmailEditData
             // 
             this.EmailEditData.Location = new System.Drawing.Point(364, 300);
-            this.EmailEditData.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.EmailEditData.Margin = new System.Windows.Forms.Padding(2);
             this.EmailEditData.Name = "EmailEditData";
             this.EmailEditData.Size = new System.Drawing.Size(274, 20);
             this.EmailEditData.TabIndex = 19;
@@ -367,7 +356,7 @@
             // passwordEditData
             // 
             this.passwordEditData.Location = new System.Drawing.Point(366, 347);
-            this.passwordEditData.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.passwordEditData.Margin = new System.Windows.Forms.Padding(2);
             this.passwordEditData.Name = "passwordEditData";
             this.passwordEditData.Size = new System.Drawing.Size(272, 20);
             this.passwordEditData.TabIndex = 21;
@@ -386,7 +375,8 @@
             // 
             // Personal_pnl
             // 
-            this.Personal_pnl.BackColor = System.Drawing.SystemColors.GradientInactiveCaption;
+            this.Personal_pnl.BackColor = System.Drawing.SystemColors.InactiveBorder;
+            this.Personal_pnl.Controls.Add(this.button1);
             this.Personal_pnl.Controls.Add(this.femaleCheckBox);
             this.Personal_pnl.Controls.Add(this.maleCheckBox);
             this.Personal_pnl.Controls.Add(this.label8);
@@ -401,31 +391,54 @@
             this.Personal_pnl.Controls.Add(this.label14);
             this.Personal_pnl.Controls.Add(this.label13);
             this.Personal_pnl.Controls.Add(this.label12);
-            this.Personal_pnl.Controls.Add(this.label11);
             this.Personal_pnl.Location = new System.Drawing.Point(228, 61);
-            this.Personal_pnl.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Personal_pnl.Margin = new System.Windows.Forms.Padding(2);
             this.Personal_pnl.Name = "Personal_pnl";
             this.Personal_pnl.Size = new System.Drawing.Size(772, 485);
             this.Personal_pnl.TabIndex = 16;
             // 
-            // label20
+            // button1
             // 
-            this.label20.AutoSize = true;
-            this.label20.Font = new System.Drawing.Font("Times New Roman", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label20.ForeColor = System.Drawing.Color.Red;
-            this.label20.Location = new System.Drawing.Point(658, 403);
-            this.label20.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-            this.label20.Name = "label20";
-            this.label20.Size = new System.Drawing.Size(86, 36);
-            this.label20.TabIndex = 4;
-            this.label20.Text = "Done";
-            this.label20.Click += new System.EventHandler(this.label20_Click_1);
+            this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button1.ForeColor = System.Drawing.Color.Red;
+            this.button1.Location = new System.Drawing.Point(647, 430);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(111, 35);
+            this.button1.TabIndex = 25;
+            this.button1.Text = "DONE";
+            this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.Done_Click);
+            // 
+            // femaleCheckBox
+            // 
+            this.femaleCheckBox.AutoSize = true;
+            this.femaleCheckBox.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.femaleCheckBox.Location = new System.Drawing.Point(550, 213);
+            this.femaleCheckBox.Name = "femaleCheckBox";
+            this.femaleCheckBox.Size = new System.Drawing.Size(86, 23);
+            this.femaleCheckBox.TabIndex = 24;
+            this.femaleCheckBox.TabStop = true;
+            this.femaleCheckBox.Text = "Female";
+            this.femaleCheckBox.UseVisualStyleBackColor = true;
+            // 
+            // maleCheckBox
+            // 
+            this.maleCheckBox.AutoSize = true;
+            this.maleCheckBox.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.maleCheckBox.Location = new System.Drawing.Point(374, 213);
+            this.maleCheckBox.Name = "maleCheckBox";
+            this.maleCheckBox.Size = new System.Drawing.Size(66, 23);
+            this.maleCheckBox.TabIndex = 23;
+            this.maleCheckBox.TabStop = true;
+            this.maleCheckBox.Text = "Male";
+            this.maleCheckBox.UseVisualStyleBackColor = true;
+            this.maleCheckBox.CheckedChanged += new System.EventHandler(this.radioButton1_CheckedChanged);
             // 
             // label19
             // 
             this.label19.AutoSize = true;
             this.label19.Font = new System.Drawing.Font("Times New Roman", 19.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label19.Location = new System.Drawing.Point(133, 136);
+            this.label19.Location = new System.Drawing.Point(90, 160);
             this.label19.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label19.Name = "label19";
             this.label19.Size = new System.Drawing.Size(165, 31);
@@ -436,22 +449,46 @@
             // 
             this.comboBox2.FormattingEnabled = true;
             this.comboBox2.Location = new System.Drawing.Point(266, 170);
-            this.comboBox2.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.comboBox2.Margin = new System.Windows.Forms.Padding(2);
             this.comboBox2.Name = "comboBox2";
             this.comboBox2.Size = new System.Drawing.Size(330, 21);
             this.comboBox2.TabIndex = 6;
             // 
             // courses_pnl
             // 
-            this.courses_pnl.BackColor = System.Drawing.SystemColors.GradientInactiveCaption;
+            this.courses_pnl.BackColor = System.Drawing.SystemColors.InactiveBorder;
+            this.courses_pnl.Controls.Add(this.button2);
+            this.courses_pnl.Controls.Add(this.label1);
             this.courses_pnl.Controls.Add(this.comboBox2);
             this.courses_pnl.Controls.Add(this.label19);
-            this.courses_pnl.Controls.Add(this.label20);
             this.courses_pnl.Location = new System.Drawing.Point(228, 60);
-            this.courses_pnl.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.courses_pnl.Margin = new System.Windows.Forms.Padding(2);
             this.courses_pnl.Name = "courses_pnl";
             this.courses_pnl.Size = new System.Drawing.Size(772, 506);
             this.courses_pnl.TabIndex = 19;
+            // 
+            // button2
+            // 
+            this.button2.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button2.ForeColor = System.Drawing.Color.Red;
+            this.button2.Location = new System.Drawing.Point(647, 439);
+            this.button2.Name = "button2";
+            this.button2.Size = new System.Drawing.Size(111, 35);
+            this.button2.TabIndex = 8;
+            this.button2.Text = "DONE";
+            this.button2.UseVisualStyleBackColor = true;
+            this.button2.Click += new System.EventHandler(this.label20_Click_1);
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Times New Roman", 20.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Location = new System.Drawing.Point(305, 27);
+            this.label1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(161, 31);
+            this.label1.TabIndex = 7;
+            this.label1.Text = "Courses Tab";
             // 
             // label21
             // 
@@ -464,11 +501,11 @@
             // label18
             // 
             this.label18.AutoSize = true;
-            this.label18.Font = new System.Drawing.Font("Perpetua", 28.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label18.Font = new System.Drawing.Font("Perpetua", 29.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label18.Location = new System.Drawing.Point(260, 11);
             this.label18.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label18.Name = "label18";
-            this.label18.Size = new System.Drawing.Size(205, 43);
+            this.label18.Size = new System.Drawing.Size(210, 45);
             this.label18.TabIndex = 5;
             this.label18.Text = "Attendance";
             // 
@@ -476,7 +513,7 @@
             // 
             this.comboBox1.FormattingEnabled = true;
             this.comboBox1.Location = new System.Drawing.Point(378, 125);
-            this.comboBox1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.comboBox1.Margin = new System.Windows.Forms.Padding(2);
             this.comboBox1.Name = "comboBox1";
             this.comboBox1.Size = new System.Drawing.Size(274, 21);
             this.comboBox1.TabIndex = 7;
@@ -489,15 +526,15 @@
             this.label22.Location = new System.Drawing.Point(107, 111);
             this.label22.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label22.Name = "label22";
-            this.label22.Size = new System.Drawing.Size(237, 35);
+            this.label22.Size = new System.Drawing.Size(255, 35);
             this.label22.TabIndex = 8;
-            this.label22.Text = "select your course";
+            this.label22.Text = "Select Your Course";
             // 
             // dataGridView1
             // 
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dataGridView1.Location = new System.Drawing.Point(96, 167);
-            this.dataGridView1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.dataGridView1.Margin = new System.Windows.Forms.Padding(2);
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.RowTemplate.Height = 26;
             this.dataGridView1.Size = new System.Drawing.Size(570, 192);
@@ -505,14 +542,14 @@
             // 
             // attendance_pnl
             // 
-            this.attendance_pnl.BackColor = System.Drawing.SystemColors.GradientInactiveCaption;
+            this.attendance_pnl.BackColor = System.Drawing.SystemColors.InactiveBorder;
             this.attendance_pnl.Controls.Add(this.dataGridView1);
             this.attendance_pnl.Controls.Add(this.label22);
             this.attendance_pnl.Controls.Add(this.comboBox1);
             this.attendance_pnl.Controls.Add(this.label18);
             this.attendance_pnl.Controls.Add(this.label21);
             this.attendance_pnl.Location = new System.Drawing.Point(228, 60);
-            this.attendance_pnl.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.attendance_pnl.Margin = new System.Windows.Forms.Padding(2);
             this.attendance_pnl.Name = "attendance_pnl";
             this.attendance_pnl.Size = new System.Drawing.Size(772, 506);
             this.attendance_pnl.TabIndex = 20;
@@ -520,18 +557,18 @@
             // label27
             // 
             this.label27.AutoSize = true;
-            this.label27.Font = new System.Drawing.Font("Perpetua", 28.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label27.Font = new System.Drawing.Font("Perpetua", 29.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label27.Location = new System.Drawing.Point(284, 11);
             this.label27.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label27.Name = "label27";
-            this.label27.Size = new System.Drawing.Size(203, 43);
+            this.label27.Size = new System.Drawing.Size(210, 45);
             this.label27.TabIndex = 5;
             this.label27.Text = "Your Status";
             // 
             // comboBox4
             // 
             this.comboBox4.Location = new System.Drawing.Point(345, 110);
-            this.comboBox4.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.comboBox4.Margin = new System.Windows.Forms.Padding(2);
             this.comboBox4.Name = "comboBox4";
             this.comboBox4.Size = new System.Drawing.Size(242, 21);
             this.comboBox4.TabIndex = 11;
@@ -544,9 +581,9 @@
             this.label26.Location = new System.Drawing.Point(100, 101);
             this.label26.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label26.Name = "label26";
-            this.label26.Size = new System.Drawing.Size(237, 35);
+            this.label26.Size = new System.Drawing.Size(255, 35);
             this.label26.TabIndex = 8;
-            this.label26.Text = "select your course";
+            this.label26.Text = "Select Your Course";
             // 
             // label28
             // 
@@ -571,14 +608,14 @@
             // 
             // status_pnl
             // 
-            this.status_pnl.BackColor = System.Drawing.SystemColors.GradientInactiveCaption;
+            this.status_pnl.BackColor = System.Drawing.SystemColors.InactiveBorder;
             this.status_pnl.Controls.Add(this.label29);
             this.status_pnl.Controls.Add(this.label28);
             this.status_pnl.Controls.Add(this.label26);
             this.status_pnl.Controls.Add(this.comboBox4);
             this.status_pnl.Controls.Add(this.label27);
             this.status_pnl.Location = new System.Drawing.Point(228, 60);
-            this.status_pnl.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.status_pnl.Margin = new System.Windows.Forms.Padding(2);
             this.status_pnl.Name = "status_pnl";
             this.status_pnl.Size = new System.Drawing.Size(772, 506);
             this.status_pnl.TabIndex = 22;
@@ -586,11 +623,11 @@
             // label36
             // 
             this.label36.AutoSize = true;
-            this.label36.Font = new System.Drawing.Font("Perpetua", 28.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label36.Font = new System.Drawing.Font("Perpetua", 29.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label36.Location = new System.Drawing.Point(272, 29);
             this.label36.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label36.Name = "label36";
-            this.label36.Size = new System.Drawing.Size(234, 43);
+            this.label36.Size = new System.Drawing.Size(241, 45);
             this.label36.TabIndex = 12;
             this.label36.Text = "Your Courses";
             // 
@@ -606,7 +643,7 @@
             // 
             this.dataGridView3.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dataGridView3.Location = new System.Drawing.Point(107, 89);
-            this.dataGridView3.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.dataGridView3.Margin = new System.Windows.Forms.Padding(2);
             this.dataGridView3.Name = "dataGridView3";
             this.dataGridView3.RowTemplate.Height = 26;
             this.dataGridView3.Size = new System.Drawing.Size(570, 263);
@@ -614,12 +651,12 @@
             // 
             // ShowCourses_pnl
             // 
-            this.ShowCourses_pnl.BackColor = System.Drawing.SystemColors.GradientInactiveCaption;
+            this.ShowCourses_pnl.BackColor = System.Drawing.SystemColors.InactiveBorder;
             this.ShowCourses_pnl.Controls.Add(this.dataGridView3);
             this.ShowCourses_pnl.Controls.Add(this.label35);
             this.ShowCourses_pnl.Controls.Add(this.label36);
             this.ShowCourses_pnl.Location = new System.Drawing.Point(228, 60);
-            this.ShowCourses_pnl.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.ShowCourses_pnl.Margin = new System.Windows.Forms.Padding(2);
             this.ShowCourses_pnl.Name = "ShowCourses_pnl";
             this.ShowCourses_pnl.Size = new System.Drawing.Size(772, 506);
             this.ShowCourses_pnl.TabIndex = 19;
@@ -637,8 +674,8 @@
             "Geogrphy",
             "Spain",
             "اللغة العربية"});
-            this.comboBox3.Location = new System.Drawing.Point(306, 173);
-            this.comboBox3.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.comboBox3.Location = new System.Drawing.Point(374, 145);
+            this.comboBox3.Margin = new System.Windows.Forms.Padding(2);
             this.comboBox3.Name = "comboBox3";
             this.comboBox3.Size = new System.Drawing.Size(357, 21);
             this.comboBox3.TabIndex = 9;
@@ -648,21 +685,21 @@
             // 
             this.label23.AutoSize = true;
             this.label23.Font = new System.Drawing.Font("Times New Roman", 22.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label23.Location = new System.Drawing.Point(110, 123);
+            this.label23.Location = new System.Drawing.Point(73, 134);
             this.label23.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label23.Name = "label23";
-            this.label23.Size = new System.Drawing.Size(237, 35);
+            this.label23.Size = new System.Drawing.Size(255, 35);
             this.label23.TabIndex = 10;
-            this.label23.Text = "select your course";
+            this.label23.Text = "Select Your Course";
             // 
             // label24
             // 
             this.label24.AutoSize = true;
-            this.label24.Font = new System.Drawing.Font("Perpetua", 28.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label24.Location = new System.Drawing.Point(290, 15);
+            this.label24.Font = new System.Drawing.Font("Perpetua", 29.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label24.Location = new System.Drawing.Point(272, 29);
             this.label24.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label24.Name = "label24";
-            this.label24.Size = new System.Drawing.Size(219, 43);
+            this.label24.Size = new System.Drawing.Size(226, 45);
             this.label24.TabIndex = 11;
             this.label24.Text = "Your Grades";
             // 
@@ -677,19 +714,19 @@
             // label9
             // 
             this.label9.AutoSize = true;
-            this.label9.Font = new System.Drawing.Font("Times New Roman", 22.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label9.Location = new System.Drawing.Point(110, 234);
+            this.label9.Font = new System.Drawing.Font("Times New Roman", 23.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label9.Location = new System.Drawing.Point(298, 263);
             this.label9.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(173, 35);
+            this.label9.Size = new System.Drawing.Size(167, 36);
             this.label9.TabIndex = 13;
-            this.label9.Text = "Your Grade:";
+            this.label9.Text = "Your Grade";
             // 
             // label10
             // 
             this.label10.AutoSize = true;
             this.label10.Font = new System.Drawing.Font("Times New Roman", 22.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label10.Location = new System.Drawing.Point(310, 234);
+            this.label10.Location = new System.Drawing.Point(356, 392);
             this.label10.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label10.Name = "label10";
             this.label10.Size = new System.Drawing.Size(0, 35);
@@ -697,7 +734,7 @@
             // 
             // grades_pnl
             // 
-            this.grades_pnl.BackColor = System.Drawing.SystemColors.GradientInactiveCaption;
+            this.grades_pnl.BackColor = System.Drawing.SystemColors.InactiveBorder;
             this.grades_pnl.Controls.Add(this.label10);
             this.grades_pnl.Controls.Add(this.label9);
             this.grades_pnl.Controls.Add(this.label25);
@@ -705,35 +742,11 @@
             this.grades_pnl.Controls.Add(this.label23);
             this.grades_pnl.Controls.Add(this.comboBox3);
             this.grades_pnl.Location = new System.Drawing.Point(228, 60);
-            this.grades_pnl.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.grades_pnl.Margin = new System.Windows.Forms.Padding(2);
             this.grades_pnl.Name = "grades_pnl";
             this.grades_pnl.Size = new System.Drawing.Size(770, 484);
             this.grades_pnl.TabIndex = 10;
-            // 
-            // maleCheckBox
-            // 
-            this.maleCheckBox.AutoSize = true;
-            this.maleCheckBox.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.maleCheckBox.Location = new System.Drawing.Point(374, 213);
-            this.maleCheckBox.Name = "maleCheckBox";
-            this.maleCheckBox.Size = new System.Drawing.Size(66, 23);
-            this.maleCheckBox.TabIndex = 23;
-            this.maleCheckBox.TabStop = true;
-            this.maleCheckBox.Text = "Male";
-            this.maleCheckBox.UseVisualStyleBackColor = true;
-            this.maleCheckBox.CheckedChanged += new System.EventHandler(this.radioButton1_CheckedChanged);
-            // 
-            // femaleCheckBox
-            // 
-            this.femaleCheckBox.AutoSize = true;
-            this.femaleCheckBox.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.femaleCheckBox.Location = new System.Drawing.Point(550, 213);
-            this.femaleCheckBox.Name = "femaleCheckBox";
-            this.femaleCheckBox.Size = new System.Drawing.Size(86, 23);
-            this.femaleCheckBox.TabIndex = 24;
-            this.femaleCheckBox.TabStop = true;
-            this.femaleCheckBox.Text = "Female";
-            this.femaleCheckBox.UseVisualStyleBackColor = true;
+            this.grades_pnl.Paint += new System.Windows.Forms.PaintEventHandler(this.grades_pnl_Paint);
             // 
             // Student_Form
             // 
@@ -743,14 +756,14 @@
             this.ClientSize = new System.Drawing.Size(998, 546);
             this.Controls.Add(this.flow_pnl);
             this.Controls.Add(this.Buttons_pnl);
-            this.Controls.Add(this.Personal_pnl);
-            this.Controls.Add(this.grades_pnl);
             this.Controls.Add(this.ShowCourses_pnl);
             this.Controls.Add(this.status_pnl);
             this.Controls.Add(this.attendance_pnl);
             this.Controls.Add(this.courses_pnl);
+            this.Controls.Add(this.Personal_pnl);
+            this.Controls.Add(this.grades_pnl);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
-            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "Student_Form";
             this.Text = "Student_Form";
             this.Load += new System.EventHandler(this.Student_Form_Load);
@@ -786,7 +799,6 @@
         private System.Windows.Forms.Button Attendance_btn;
         private System.Windows.Forms.Button Status_btn;
         private System.Windows.Forms.PictureBox ExitPic;
-        private System.Windows.Forms.Label label11;
         private System.Windows.Forms.Label label12;
         private System.Windows.Forms.Label label13;
         private System.Windows.Forms.Label label14;
@@ -800,7 +812,6 @@
         private System.Windows.Forms.TextBox passwordEditData;
         private System.Windows.Forms.Label label8;
         private System.Windows.Forms.Panel Personal_pnl;
-        private System.Windows.Forms.Label label20;
         private System.Windows.Forms.Label label19;
         private System.Windows.Forms.ComboBox comboBox2;
         private System.Windows.Forms.Panel courses_pnl;
@@ -830,5 +841,8 @@
         private System.Windows.Forms.Label LogOut;
         private System.Windows.Forms.RadioButton maleCheckBox;
         private System.Windows.Forms.RadioButton femaleCheckBox;
+        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Button button2;
     }
 }

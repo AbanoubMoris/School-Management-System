@@ -28,12 +28,12 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Parent));
             this.panel1 = new System.Windows.Forms.Panel();
             this.contactUs1 = new SMS.ContactUs();
             this.LogOut = new System.Windows.Forms.Label();
             this.button2 = new System.Windows.Forms.Button();
             this.button1 = new System.Windows.Forms.Button();
-            this.flowLayoutPanel1 = new System.Windows.Forms.FlowLayoutPanel();
             this.StuPanel = new System.Windows.Forms.Panel();
             this.femaleCheckBox = new System.Windows.Forms.RadioButton();
             this.maleCheckBox = new System.Windows.Forms.RadioButton();
@@ -72,7 +72,7 @@
             this.fromTextBox = new System.Windows.Forms.TextBox();
             this.subjectTextBox = new System.Windows.Forms.TextBox();
             this.toTextBox = new System.Windows.Forms.TextBox();
-            this.pictureBox3 = new System.Windows.Forms.PictureBox();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.panel1.SuspendLayout();
             this.StuPanel.SuspendLayout();
             this.QueryPanel.SuspendLayout();
@@ -81,7 +81,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.panel3.SuspendLayout();
             this.sendEmailPanel.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
             // panel1
@@ -123,11 +123,11 @@
             // 
             // button2
             // 
-            this.button2.BackColor = System.Drawing.SystemColors.MenuText;
+            this.button2.BackColor = System.Drawing.Color.Transparent;
             this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button2.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button2.ForeColor = System.Drawing.Color.Coral;
-            this.button2.Location = new System.Drawing.Point(2, 173);
+            this.button2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(153)))), ((int)(((byte)(170)))), ((int)(((byte)(181)))));
+            this.button2.Location = new System.Drawing.Point(2, 127);
             this.button2.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(226, 53);
@@ -138,11 +138,11 @@
             // 
             // button1
             // 
-            this.button1.BackColor = System.Drawing.SystemColors.MenuText;
+            this.button1.BackColor = System.Drawing.Color.Transparent;
             this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.ForeColor = System.Drawing.Color.Coral;
-            this.button1.Location = new System.Drawing.Point(2, 107);
+            this.button1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(153)))), ((int)(((byte)(170)))), ((int)(((byte)(181)))));
+            this.button1.Location = new System.Drawing.Point(2, 61);
             this.button1.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(226, 60);
@@ -151,18 +151,9 @@
             this.button1.UseVisualStyleBackColor = false;
             this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
-            // flowLayoutPanel1
-            // 
-            this.flowLayoutPanel1.BackColor = System.Drawing.Color.SandyBrown;
-            this.flowLayoutPanel1.Dock = System.Windows.Forms.DockStyle.Top;
-            this.flowLayoutPanel1.Location = new System.Drawing.Point(229, 0);
-            this.flowLayoutPanel1.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
-            this.flowLayoutPanel1.Name = "flowLayoutPanel1";
-            this.flowLayoutPanel1.Size = new System.Drawing.Size(787, 60);
-            this.flowLayoutPanel1.TabIndex = 1;
-            // 
             // StuPanel
             // 
+            this.StuPanel.BackColor = System.Drawing.SystemColors.InactiveBorder;
             this.StuPanel.Controls.Add(this.femaleCheckBox);
             this.StuPanel.Controls.Add(this.maleCheckBox);
             this.StuPanel.Controls.Add(this.label6);
@@ -431,11 +422,10 @@
             // QueryPanel
             // 
             this.QueryPanel.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(54)))), ((int)(((byte)(57)))), ((int)(((byte)(63)))));
-            this.QueryPanel.Controls.Add(this.sendEmailButton);
-            this.QueryPanel.Controls.Add(this.selectTeacherPanel);
             this.QueryPanel.Controls.Add(this.comboBox1);
             this.QueryPanel.Controls.Add(this.panel3);
             this.QueryPanel.Controls.Add(this.sendEmailPanel);
+            this.QueryPanel.Controls.Add(this.selectTeacherPanel);
             this.QueryPanel.Location = new System.Drawing.Point(228, 60);
             this.QueryPanel.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
             this.QueryPanel.Name = "QueryPanel";
@@ -449,7 +439,7 @@
             this.sendEmailButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.sendEmailButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.sendEmailButton.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.sendEmailButton.Location = new System.Drawing.Point(404, 3);
+            this.sendEmailButton.Location = new System.Drawing.Point(397, 13);
             this.sendEmailButton.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
             this.sendEmailButton.Name = "sendEmailButton";
             this.sendEmailButton.Size = new System.Drawing.Size(188, 29);
@@ -489,7 +479,7 @@
             // 
             // comboBox1
             // 
-            this.comboBox1.BackColor = System.Drawing.SystemColors.Info;
+            this.comboBox1.BackColor = System.Drawing.SystemColors.MenuBar;
             this.comboBox1.FormattingEnabled = true;
             this.comboBox1.Location = new System.Drawing.Point(38, 49);
             this.comboBox1.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
@@ -501,12 +491,13 @@
             // panel3
             // 
             this.panel3.BackColor = System.Drawing.Color.Transparent;
+            this.panel3.Controls.Add(this.sendEmailButton);
             this.panel3.Controls.Add(this.button4);
             this.panel3.Controls.Add(this.button3);
-            this.panel3.Location = new System.Drawing.Point(8, -10);
+            this.panel3.Location = new System.Drawing.Point(102, 3);
             this.panel3.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
             this.panel3.Name = "panel3";
-            this.panel3.Size = new System.Drawing.Size(404, 49);
+            this.panel3.Size = new System.Drawing.Size(605, 49);
             this.panel3.TabIndex = 0;
             // 
             // button4
@@ -636,29 +627,29 @@
             this.toTextBox.Size = new System.Drawing.Size(584, 20);
             this.toTextBox.TabIndex = 0;
             // 
-            // pictureBox3
+            // pictureBox1
             // 
-            this.pictureBox3.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.pictureBox3.Image = global::SMS.Properties.Resources.kisspng_computer_icons_button_sleep_mode_symbol_on_off_5ac7d87504b2d2_5348980615230465170193;
-            this.pictureBox3.Location = new System.Drawing.Point(986, 1);
-            this.pictureBox3.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
-            this.pictureBox3.Name = "pictureBox3";
-            this.pictureBox3.Size = new System.Drawing.Size(29, 29);
-            this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox3.TabIndex = 8;
-            this.pictureBox3.TabStop = false;
-            this.pictureBox3.Click += new System.EventHandler(this.pictureBox3_Click);
+            this.pictureBox1.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox1.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("pictureBox1.BackgroundImage")));
+            this.pictureBox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.pictureBox1.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.pictureBox1.Location = new System.Drawing.Point(980, 0);
+            this.pictureBox1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(36, 35);
+            this.pictureBox1.TabIndex = 49;
+            this.pictureBox1.TabStop = false;
             // 
             // Parent
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(114)))), ((int)(((byte)(137)))), ((int)(((byte)(218)))));
             this.ClientSize = new System.Drawing.Size(1016, 566);
-            this.Controls.Add(this.pictureBox3);
-            this.Controls.Add(this.flowLayoutPanel1);
+            this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.panel1);
-            this.Controls.Add(this.StuPanel);
             this.Controls.Add(this.QueryPanel);
+            this.Controls.Add(this.StuPanel);
             this.DoubleBuffered = true;
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
@@ -675,7 +666,7 @@
             this.panel3.ResumeLayout(false);
             this.sendEmailPanel.ResumeLayout(false);
             this.sendEmailPanel.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -685,7 +676,6 @@
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.Button button2;
         private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.FlowLayoutPanel flowLayoutPanel1;
         private System.Windows.Forms.Panel StuPanel;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.TextBox studentAddress;
@@ -697,7 +687,6 @@
         private System.Windows.Forms.Panel panel3;
         private System.Windows.Forms.Button button4;
         private System.Windows.Forms.Button button3;
-        private System.Windows.Forms.PictureBox pictureBox3;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.TextBox studentEmail;
         private System.Windows.Forms.Label label3;
@@ -727,5 +716,6 @@
         private ContactUs contactUs1;
         private System.Windows.Forms.RadioButton femaleCheckBox;
         private System.Windows.Forms.RadioButton maleCheckBox;
+        private System.Windows.Forms.PictureBox pictureBox1;
     }
 }

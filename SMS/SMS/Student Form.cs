@@ -564,6 +564,11 @@ namespace SMS
 
         }
 
+        private void grades_pnl_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
         private void comboBox4_TextChanged_1(object sender, EventArgs e)
         {
 
