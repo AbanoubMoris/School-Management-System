@@ -135,7 +135,8 @@ namespace SMS
             dayReg.Location = new Point(84, 265);
             monthReg.Location = new Point(171, 265);
             yearReg.Location = new Point(258, 265);
-            bunifuCustomLabel2.Hide();
+            bunifuFlatButton7.Hide();
+            bunifuCustomLabel3.Hide();
         }
         bool teacherIsClicked = false;
         bool studentIsClicked = false;
@@ -170,7 +171,7 @@ namespace SMS
             dayReg.Location = new Point(84, 265);
             monthReg.Location = new Point(171, 265);
             yearReg.Location = new Point(258, 265);
-            bunifuCustomLabel2.Visible = false;
+            bunifuFlatButton7.Hide();
 
         }
 
@@ -333,21 +334,22 @@ namespace SMS
             monthReg.Text = "MONTH";
             yearReg.Text = "YEAR";
         }
-        string oldPass;
+        string oldPass,Email;
         void forgetPass(string tableName)
         {
             using (SqlConnection con = new SqlConnection(stringConnection))
             {
                 con.Open();
-                SqlCommand cmd = new SqlCommand("select * from " + tableName + " where Name = '" + bunifuMetroTextbox13.Text + "' and Email = '" + bunifuMetroTextbox12.Text + "';", con);
+                SqlCommand cmd = new SqlCommand("select * from " + tableName + " where Name = '" + bunifuMetroTextbox13.Text + "';", con);
                 SqlDataReader dr = cmd.ExecuteReader();
                 while (dr.Read())
                 {
                     oldPass = dr["pass"].ToString();
+                    Email = dr["Email"].ToString();
                 }
 
             }
-            sendEmailForgetPassword(oldPass, bunifuMetroTextbox12.Text);
+            sendEmailForgetPassword(oldPass, Email);
         }
         private void bunifuFlatButton2_Click_1(object sender, EventArgs e)
         {
@@ -417,30 +419,13 @@ namespace SMS
             }
         }
 
-        private void bunifuMetroTextbox12_Enter(object sender, EventArgs e)
-        {
-            if (bunifuMetroTextbox12.Text == "MAIL")
-            {
-                bunifuMetroTextbox12.Text = "";
-                bunifuMetroTextbox12.ForeColor = Color.White;
-            }
-        }
-
-        private void bunifuMetroTextbox12_Leave(object sender, EventArgs e)
-        {
-            if (bunifuMetroTextbox12.Text == "")
-            {
-                bunifuMetroTextbox12.Text = "MAIL";
-                bunifuMetroTextbox12.ForeColor = Color.Gray;
-            }
-        }
 
         private void bunifuMetroTextbox3_Enter(object sender, EventArgs e)
         {
             if (usernameReg.Text == "Name")
             {
                 usernameReg.Text = "";
-                bunifuMetroTextbox12.ForeColor = Color.White;
+              
             }
         }
 
@@ -449,7 +434,6 @@ namespace SMS
             if (usernameReg.Text == "")
             {
                 usernameReg.Text = "Name";
-                bunifuMetroTextbox12.ForeColor = Color.Gray;
             }
         }
 

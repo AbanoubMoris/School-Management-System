@@ -28,7 +28,7 @@ namespace SMS
             bunifuTransition1.Show(this, true);
             MS.Left = 100;
             this.Width = MS.Width + 200;
-            bunifuThinButton21.Location = new Point(MS.Width + 100, 124);
+            label1.Location = new Point(MS.Width + 150, 158);
             this.ShowDialog();
            
         }
@@ -46,5 +46,7 @@ namespace SMS
         {
             //bunifuFormFadeTransition1.HideAsyc(this, true);
         }
+
+  
     }
 }

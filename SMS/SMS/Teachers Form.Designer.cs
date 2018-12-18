@@ -38,6 +38,20 @@
             this.label6 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.EditData_pnl = new System.Windows.Forms.Panel();
+            this.panel3 = new System.Windows.Forms.Panel();
+            this.emailEditData = new System.Windows.Forms.TextBox();
+            this.label22 = new System.Windows.Forms.Label();
+            this.genderFemale = new System.Windows.Forms.RadioButton();
+            this.genderMale = new System.Windows.Forms.RadioButton();
+            this.back_label = new System.Windows.Forms.Label();
+            this.addressEditData = new System.Windows.Forms.TextBox();
+            this.nameEditData = new System.Windows.Forms.TextBox();
+            this.label25 = new System.Windows.Forms.Label();
+            this.label21 = new System.Windows.Forms.Label();
+            this.label24 = new System.Windows.Forms.Label();
+            this.label20 = new System.Windows.Forms.Label();
+            this.button6 = new System.Windows.Forms.Button();
+            this.button7 = new System.Windows.Forms.Button();
             this.panel4 = new System.Windows.Forms.Panel();
             this.editDataCheckPassword = new System.Windows.Forms.TextBox();
             this.label30 = new System.Windows.Forms.Label();
@@ -54,20 +68,6 @@
             this.textBox2 = new System.Windows.Forms.TextBox();
             this.label18 = new System.Windows.Forms.Label();
             this.label16 = new System.Windows.Forms.Label();
-            this.panel3 = new System.Windows.Forms.Panel();
-            this.emailEditData = new System.Windows.Forms.TextBox();
-            this.label22 = new System.Windows.Forms.Label();
-            this.genderFemale = new System.Windows.Forms.RadioButton();
-            this.genderMale = new System.Windows.Forms.RadioButton();
-            this.back_label = new System.Windows.Forms.Label();
-            this.addressEditData = new System.Windows.Forms.TextBox();
-            this.nameEditData = new System.Windows.Forms.TextBox();
-            this.label25 = new System.Windows.Forms.Label();
-            this.label21 = new System.Windows.Forms.Label();
-            this.label24 = new System.Windows.Forms.Label();
-            this.label20 = new System.Windows.Forms.Label();
-            this.button6 = new System.Windows.Forms.Button();
-            this.button7 = new System.Windows.Forms.Button();
             this.Addgreades_pnl = new System.Windows.Forms.Panel();
             this.dataGridView2 = new System.Windows.Forms.DataGridView();
             this.label13 = new System.Windows.Forms.Label();
@@ -87,14 +87,13 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.notify_pnl.SuspendLayout();
             this.EditData_pnl.SuspendLayout();
+            this.panel3.SuspendLayout();
             this.panel4.SuspendLayout();
             this.panel2.SuspendLayout();
-            this.panel3.SuspendLayout();
             this.Addgreades_pnl.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView2)).BeginInit();
             this.attend_pnl.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
-            this.flow_pnl.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.ExitPic)).BeginInit();
             this.Buttons_pnl.SuspendLayout();
             this.SuspendLayout();
@@ -231,6 +230,179 @@
             this.EditData_pnl.Name = "EditData_pnl";
             this.EditData_pnl.Size = new System.Drawing.Size(769, 466);
             this.EditData_pnl.TabIndex = 17;
+            // 
+            // panel3
+            // 
+            this.panel3.Controls.Add(this.flow_pnl);
+            this.panel3.Controls.Add(this.emailEditData);
+            this.panel3.Controls.Add(this.label22);
+            this.panel3.Controls.Add(this.genderFemale);
+            this.panel3.Controls.Add(this.genderMale);
+            this.panel3.Controls.Add(this.back_label);
+            this.panel3.Controls.Add(this.addressEditData);
+            this.panel3.Controls.Add(this.nameEditData);
+            this.panel3.Controls.Add(this.label25);
+            this.panel3.Controls.Add(this.label21);
+            this.panel3.Controls.Add(this.label24);
+            this.panel3.Controls.Add(this.label20);
+            this.panel3.Location = new System.Drawing.Point(0, 42);
+            this.panel3.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.panel3.Name = "panel3";
+            this.panel3.Size = new System.Drawing.Size(770, 421);
+            this.panel3.TabIndex = 24;
+            // 
+            // emailEditData
+            // 
+            this.emailEditData.Location = new System.Drawing.Point(381, 135);
+            this.emailEditData.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.emailEditData.Name = "emailEditData";
+            this.emailEditData.Size = new System.Drawing.Size(325, 20);
+            this.emailEditData.TabIndex = 39;
+            // 
+            // label22
+            // 
+            this.label22.AutoSize = true;
+            this.label22.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label22.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.label22.Location = new System.Drawing.Point(80, 111);
+            this.label22.Name = "label22";
+            this.label22.Size = new System.Drawing.Size(102, 37);
+            this.label22.TabIndex = 38;
+            this.label22.Text = "Email";
+            // 
+            // genderFemale
+            // 
+            this.genderFemale.AutoSize = true;
+            this.genderFemale.Font = new System.Drawing.Font("Tahoma", 12F);
+            this.genderFemale.Location = new System.Drawing.Point(563, 225);
+            this.genderFemale.Name = "genderFemale";
+            this.genderFemale.Size = new System.Drawing.Size(77, 23);
+            this.genderFemale.TabIndex = 37;
+            this.genderFemale.TabStop = true;
+            this.genderFemale.Text = "Female";
+            this.genderFemale.UseVisualStyleBackColor = true;
+            // 
+            // genderMale
+            // 
+            this.genderMale.AutoSize = true;
+            this.genderMale.Font = new System.Drawing.Font("Tahoma", 12F);
+            this.genderMale.Location = new System.Drawing.Point(381, 225);
+            this.genderMale.Name = "genderMale";
+            this.genderMale.Size = new System.Drawing.Size(59, 23);
+            this.genderMale.TabIndex = 36;
+            this.genderMale.TabStop = true;
+            this.genderMale.Text = "Male";
+            this.genderMale.UseVisualStyleBackColor = true;
+            // 
+            // back_label
+            // 
+            this.back_label.AutoSize = true;
+            this.back_label.Font = new System.Drawing.Font("Times New Roman", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.back_label.ForeColor = System.Drawing.Color.Red;
+            this.back_label.Location = new System.Drawing.Point(687, 418);
+            this.back_label.Name = "back_label";
+            this.back_label.Size = new System.Drawing.Size(60, 25);
+            this.back_label.TabIndex = 9;
+            this.back_label.Text = "Back";
+            this.back_label.Click += new System.EventHandler(this.label8_Click);
+            // 
+            // addressEditData
+            // 
+            this.addressEditData.Location = new System.Drawing.Point(381, 184);
+            this.addressEditData.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.addressEditData.Name = "addressEditData";
+            this.addressEditData.Size = new System.Drawing.Size(325, 20);
+            this.addressEditData.TabIndex = 31;
+            this.addressEditData.TextChanged += new System.EventHandler(this.textBox7_TextChanged);
+            // 
+            // nameEditData
+            // 
+            this.nameEditData.Location = new System.Drawing.Point(381, 80);
+            this.nameEditData.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.nameEditData.Name = "nameEditData";
+            this.nameEditData.Size = new System.Drawing.Size(325, 20);
+            this.nameEditData.TabIndex = 28;
+            // 
+            // label25
+            // 
+            this.label25.AutoSize = true;
+            this.label25.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label25.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.label25.Location = new System.Drawing.Point(80, 206);
+            this.label25.Name = "label25";
+            this.label25.Size = new System.Drawing.Size(129, 37);
+            this.label25.TabIndex = 26;
+            this.label25.Text = "Gender";
+            // 
+            // label21
+            // 
+            this.label21.AutoSize = true;
+            this.label21.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label21.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.label21.Location = new System.Drawing.Point(80, 67);
+            this.label21.Name = "label21";
+            this.label21.Size = new System.Drawing.Size(107, 37);
+            this.label21.TabIndex = 25;
+            this.label21.Text = "Name";
+            // 
+            // label24
+            // 
+            this.label24.AutoSize = true;
+            this.label24.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label24.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.label24.Location = new System.Drawing.Point(80, 159);
+            this.label24.Name = "label24";
+            this.label24.Size = new System.Drawing.Size(142, 37);
+            this.label24.TabIndex = 25;
+            this.label24.Text = "Address";
+            // 
+            // label20
+            // 
+            this.label20.AutoSize = true;
+            this.label20.Font = new System.Drawing.Font("Times New Roman", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label20.ForeColor = System.Drawing.Color.Red;
+            this.label20.Location = new System.Drawing.Point(365, 314);
+            this.label20.Name = "label20";
+            this.label20.Size = new System.Drawing.Size(61, 25);
+            this.label20.TabIndex = 22;
+            this.label20.Text = "Done";
+            this.label20.Click += new System.EventHandler(this.label20_Click);
+            // 
+            // button6
+            // 
+            this.button6.AutoSize = true;
+            this.button6.BackColor = System.Drawing.SystemColors.GradientInactiveCaption;
+            this.button6.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.button6.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.button6.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button6.Font = new System.Drawing.Font("Times New Roman", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button6.ForeColor = System.Drawing.SystemColors.InactiveCaptionText;
+            this.button6.Location = new System.Drawing.Point(72, 3);
+            this.button6.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.button6.Name = "button6";
+            this.button6.Size = new System.Drawing.Size(225, 37);
+            this.button6.TabIndex = 11;
+            this.button6.Text = "Change Password";
+            this.button6.UseVisualStyleBackColor = false;
+            this.button6.Click += new System.EventHandler(this.changePass_Click);
+            // 
+            // button7
+            // 
+            this.button7.AutoSize = true;
+            this.button7.BackColor = System.Drawing.SystemColors.GradientInactiveCaption;
+            this.button7.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.button7.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.button7.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button7.Font = new System.Drawing.Font("Times New Roman", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button7.ForeColor = System.Drawing.SystemColors.InactiveCaptionText;
+            this.button7.Location = new System.Drawing.Point(429, 3);
+            this.button7.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.button7.Name = "button7";
+            this.button7.Size = new System.Drawing.Size(253, 37);
+            this.button7.TabIndex = 36;
+            this.button7.Text = "Change Personal Data";
+            this.button7.UseVisualStyleBackColor = false;
+            this.button7.Click += new System.EventHandler(this.personalData_Click);
             // 
             // panel4
             // 
@@ -402,178 +574,6 @@
             this.label16.TabIndex = 18;
             this.label16.Text = "Username";
             // 
-            // panel3
-            // 
-            this.panel3.Controls.Add(this.emailEditData);
-            this.panel3.Controls.Add(this.label22);
-            this.panel3.Controls.Add(this.genderFemale);
-            this.panel3.Controls.Add(this.genderMale);
-            this.panel3.Controls.Add(this.back_label);
-            this.panel3.Controls.Add(this.addressEditData);
-            this.panel3.Controls.Add(this.nameEditData);
-            this.panel3.Controls.Add(this.label25);
-            this.panel3.Controls.Add(this.label21);
-            this.panel3.Controls.Add(this.label24);
-            this.panel3.Controls.Add(this.label20);
-            this.panel3.Location = new System.Drawing.Point(0, 42);
-            this.panel3.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.panel3.Name = "panel3";
-            this.panel3.Size = new System.Drawing.Size(770, 421);
-            this.panel3.TabIndex = 24;
-            // 
-            // emailEditData
-            // 
-            this.emailEditData.Location = new System.Drawing.Point(381, 135);
-            this.emailEditData.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.emailEditData.Name = "emailEditData";
-            this.emailEditData.Size = new System.Drawing.Size(325, 20);
-            this.emailEditData.TabIndex = 39;
-            // 
-            // label22
-            // 
-            this.label22.AutoSize = true;
-            this.label22.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label22.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.label22.Location = new System.Drawing.Point(80, 111);
-            this.label22.Name = "label22";
-            this.label22.Size = new System.Drawing.Size(102, 37);
-            this.label22.TabIndex = 38;
-            this.label22.Text = "Email";
-            // 
-            // genderFemale
-            // 
-            this.genderFemale.AutoSize = true;
-            this.genderFemale.Font = new System.Drawing.Font("Tahoma", 12F);
-            this.genderFemale.Location = new System.Drawing.Point(563, 225);
-            this.genderFemale.Name = "genderFemale";
-            this.genderFemale.Size = new System.Drawing.Size(77, 23);
-            this.genderFemale.TabIndex = 37;
-            this.genderFemale.TabStop = true;
-            this.genderFemale.Text = "Female";
-            this.genderFemale.UseVisualStyleBackColor = true;
-            // 
-            // genderMale
-            // 
-            this.genderMale.AutoSize = true;
-            this.genderMale.Font = new System.Drawing.Font("Tahoma", 12F);
-            this.genderMale.Location = new System.Drawing.Point(381, 225);
-            this.genderMale.Name = "genderMale";
-            this.genderMale.Size = new System.Drawing.Size(59, 23);
-            this.genderMale.TabIndex = 36;
-            this.genderMale.TabStop = true;
-            this.genderMale.Text = "Male";
-            this.genderMale.UseVisualStyleBackColor = true;
-            // 
-            // back_label
-            // 
-            this.back_label.AutoSize = true;
-            this.back_label.Font = new System.Drawing.Font("Times New Roman", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.back_label.ForeColor = System.Drawing.Color.Red;
-            this.back_label.Location = new System.Drawing.Point(687, 418);
-            this.back_label.Name = "back_label";
-            this.back_label.Size = new System.Drawing.Size(60, 25);
-            this.back_label.TabIndex = 9;
-            this.back_label.Text = "Back";
-            this.back_label.Click += new System.EventHandler(this.label8_Click);
-            // 
-            // addressEditData
-            // 
-            this.addressEditData.Location = new System.Drawing.Point(381, 184);
-            this.addressEditData.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.addressEditData.Name = "addressEditData";
-            this.addressEditData.Size = new System.Drawing.Size(325, 20);
-            this.addressEditData.TabIndex = 31;
-            this.addressEditData.TextChanged += new System.EventHandler(this.textBox7_TextChanged);
-            // 
-            // nameEditData
-            // 
-            this.nameEditData.Location = new System.Drawing.Point(381, 80);
-            this.nameEditData.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.nameEditData.Name = "nameEditData";
-            this.nameEditData.Size = new System.Drawing.Size(325, 20);
-            this.nameEditData.TabIndex = 28;
-            // 
-            // label25
-            // 
-            this.label25.AutoSize = true;
-            this.label25.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label25.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.label25.Location = new System.Drawing.Point(80, 206);
-            this.label25.Name = "label25";
-            this.label25.Size = new System.Drawing.Size(129, 37);
-            this.label25.TabIndex = 26;
-            this.label25.Text = "Gender";
-            // 
-            // label21
-            // 
-            this.label21.AutoSize = true;
-            this.label21.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label21.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.label21.Location = new System.Drawing.Point(80, 67);
-            this.label21.Name = "label21";
-            this.label21.Size = new System.Drawing.Size(107, 37);
-            this.label21.TabIndex = 25;
-            this.label21.Text = "Name";
-            // 
-            // label24
-            // 
-            this.label24.AutoSize = true;
-            this.label24.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label24.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.label24.Location = new System.Drawing.Point(80, 159);
-            this.label24.Name = "label24";
-            this.label24.Size = new System.Drawing.Size(142, 37);
-            this.label24.TabIndex = 25;
-            this.label24.Text = "Address";
-            // 
-            // label20
-            // 
-            this.label20.AutoSize = true;
-            this.label20.Font = new System.Drawing.Font("Times New Roman", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label20.ForeColor = System.Drawing.Color.Red;
-            this.label20.Location = new System.Drawing.Point(365, 314);
-            this.label20.Name = "label20";
-            this.label20.Size = new System.Drawing.Size(61, 25);
-            this.label20.TabIndex = 22;
-            this.label20.Text = "Done";
-            this.label20.Click += new System.EventHandler(this.label20_Click);
-            // 
-            // button6
-            // 
-            this.button6.AutoSize = true;
-            this.button6.BackColor = System.Drawing.SystemColors.GradientInactiveCaption;
-            this.button6.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.button6.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button6.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button6.Font = new System.Drawing.Font("Times New Roman", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button6.ForeColor = System.Drawing.SystemColors.InactiveCaptionText;
-            this.button6.Location = new System.Drawing.Point(72, 3);
-            this.button6.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.button6.Name = "button6";
-            this.button6.Size = new System.Drawing.Size(225, 37);
-            this.button6.TabIndex = 11;
-            this.button6.Text = "Change Password";
-            this.button6.UseVisualStyleBackColor = false;
-            this.button6.Click += new System.EventHandler(this.changePass_Click);
-            // 
-            // button7
-            // 
-            this.button7.AutoSize = true;
-            this.button7.BackColor = System.Drawing.SystemColors.GradientInactiveCaption;
-            this.button7.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.button7.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button7.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button7.Font = new System.Drawing.Font("Times New Roman", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button7.ForeColor = System.Drawing.SystemColors.InactiveCaptionText;
-            this.button7.Location = new System.Drawing.Point(429, 3);
-            this.button7.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.button7.Name = "button7";
-            this.button7.Size = new System.Drawing.Size(253, 37);
-            this.button7.TabIndex = 36;
-            this.button7.Text = "Change Personal Data";
-            this.button7.UseVisualStyleBackColor = false;
-            this.button7.Click += new System.EventHandler(this.personalData_Click);
-            // 
             // Addgreades_pnl
             // 
             this.Addgreades_pnl.BackColor = System.Drawing.SystemColors.InactiveBorder;
@@ -645,14 +645,10 @@
             // 
             // flow_pnl
             // 
-            this.flow_pnl.BackColor = System.Drawing.Color.DodgerBlue;
-            this.flow_pnl.Controls.Add(this.contactUs1);
-            this.flow_pnl.Controls.Add(this.ExitPic);
-            this.flow_pnl.ForeColor = System.Drawing.Color.DodgerBlue;
-            this.flow_pnl.Location = new System.Drawing.Point(234, 0);
+            this.flow_pnl.Location = new System.Drawing.Point(64, 276);
             this.flow_pnl.Name = "flow_pnl";
-            this.flow_pnl.Size = new System.Drawing.Size(764, 60);
-            this.flow_pnl.TabIndex = 9;
+            this.flow_pnl.Size = new System.Drawing.Size(200, 100);
+            this.flow_pnl.TabIndex = 0;
             // 
             // contactUs1
             // 
@@ -779,7 +775,6 @@
             this.BackColor = System.Drawing.SystemColors.Menu;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(1001, 531);
-            this.Controls.Add(this.flow_pnl);
             this.Controls.Add(this.Buttons_pnl);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.label2);
@@ -797,19 +792,18 @@
             this.notify_pnl.PerformLayout();
             this.EditData_pnl.ResumeLayout(false);
             this.EditData_pnl.PerformLayout();
+            this.panel3.ResumeLayout(false);
+            this.panel3.PerformLayout();
             this.panel4.ResumeLayout(false);
             this.panel4.PerformLayout();
             this.panel2.ResumeLayout(false);
             this.panel2.PerformLayout();
-            this.panel3.ResumeLayout(false);
-            this.panel3.PerformLayout();
             this.Addgreades_pnl.ResumeLayout(false);
             this.Addgreades_pnl.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView2)).EndInit();
             this.attend_pnl.ResumeLayout(false);
             this.attend_pnl.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
-            this.flow_pnl.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.ExitPic)).EndInit();
             this.Buttons_pnl.ResumeLayout(false);
             this.Buttons_pnl.PerformLayout();
