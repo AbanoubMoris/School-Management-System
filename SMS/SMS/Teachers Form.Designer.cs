@@ -77,12 +77,12 @@
             this.backgroundWorker1 = new System.ComponentModel.BackgroundWorker();
             this.ExitPic = new System.Windows.Forms.PictureBox();
             this.Buttons_pnl = new System.Windows.Forms.Panel();
+            this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.LogOut = new System.Windows.Forms.Label();
             this.EditData_btn = new System.Windows.Forms.Button();
             this.Choosecourses_btn = new System.Windows.Forms.Button();
             this.Showgrades_btn = new System.Windows.Forms.Button();
             this.Attendance_btn = new System.Windows.Forms.Button();
-            this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.bunifuDragControl1 = new Bunifu.Framework.UI.BunifuDragControl(this.components);
             this.contactUs1 = new SMS.ContactUs();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
@@ -657,6 +657,18 @@
             this.Buttons_pnl.Size = new System.Drawing.Size(229, 531);
             this.Buttons_pnl.TabIndex = 8;
             // 
+            // pictureBox2
+            // 
+            this.pictureBox2.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox2.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox2.Image")));
+            this.pictureBox2.Location = new System.Drawing.Point(5, 5);
+            this.pictureBox2.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
+            this.pictureBox2.Name = "pictureBox2";
+            this.pictureBox2.Size = new System.Drawing.Size(95, 107);
+            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox2.TabIndex = 35;
+            this.pictureBox2.TabStop = false;
+            // 
             // LogOut
             // 
             this.LogOut.AutoSize = true;
@@ -739,18 +751,6 @@
             this.Attendance_btn.Text = "Add Grades";
             this.Attendance_btn.UseVisualStyleBackColor = false;
             this.Attendance_btn.Click += new System.EventHandler(this.grades_btn_Click);
-            // 
-            // pictureBox2
-            // 
-            this.pictureBox2.BackColor = System.Drawing.Color.Transparent;
-            this.pictureBox2.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox2.Image")));
-            this.pictureBox2.Location = new System.Drawing.Point(5, 5);
-            this.pictureBox2.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
-            this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(119, 107);
-            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox2.TabIndex = 35;
-            this.pictureBox2.TabStop = false;
             // 
             // bunifuDragControl1
             // 

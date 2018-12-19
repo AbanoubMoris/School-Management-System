@@ -26,14 +26,17 @@ namespace SMS
             {
                 OpenFileDialog f = new OpenFileDialog();
                 f.InitialDirectory = "C:/Picture/";
-                f.Filter = "All Files|*.*|JPEGs|*.jpg|Bitmaps|*.bmp|GIFs|*.gif";
+                f.Filter = "Image Files(*.jpg; *.jpeg; *.gif; *.bmp)|*.jpg; *.jpeg; *.gif; *.bmp";
                 f.FilterIndex = 2;
                 if(f.ShowDialog() == DialogResult.OK)
                 {
+                    Image.FromFile(f.FileName);
                     pictureBox3.Image = Image.FromFile(f.FileName);
                     pictureBox3.SizeMode = PictureBoxSizeMode.StretchImage;
                     pictureBox3.BorderStyle = BorderStyle.Fixed3D;
-                    PicLocation = f.SafeFileName.ToString();
+                   // PicLocation = f.SafeFileName.ToString();
+                    PicLocation = f.FileName.ToString();
+
                 }
             }
             catch { }
@@ -220,9 +223,9 @@ namespace SMS
             label3.Location = new Point(90, 330);
             label4.Location = new Point(177, 330);
             label5.Location = new Point(9, 277);
-            dayReg.Location = new Point(84, 265);
-            monthReg.Location = new Point(171, 265);
-            yearReg.Location = new Point(258, 265);
+           // dayReg.Location = new Point(84, 265);
+            //monthReg.Location = new Point(171, 265);
+            //yearReg.Location = new Point(258, 265);
 
         }
 
