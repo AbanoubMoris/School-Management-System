@@ -39,6 +39,7 @@
             this.Showgrades_btn = new System.Windows.Forms.Button();
             this.Attendance_btn = new System.Windows.Forms.Button();
             this.flow_pnl = new System.Windows.Forms.Panel();
+            this.pictureBox18 = new System.Windows.Forms.PictureBox();
             this.ExitPic = new System.Windows.Forms.PictureBox();
             this.label12 = new System.Windows.Forms.Label();
             this.label13 = new System.Windows.Forms.Label();
@@ -86,9 +87,9 @@
             this.grades_pnl = new System.Windows.Forms.Panel();
             this.panel3 = new System.Windows.Forms.Panel();
             this.bunifuDragControl1 = new Bunifu.Framework.UI.BunifuDragControl(this.components);
-            this.pictureBox18 = new System.Windows.Forms.PictureBox();
             this.Buttons_pnl.SuspendLayout();
             this.flow_pnl.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox18)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.ExitPic)).BeginInit();
             this.Personal_pnl.SuspendLayout();
             this.courses_pnl.SuspendLayout();
@@ -98,7 +99,6 @@
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView3)).BeginInit();
             this.ShowCourses_pnl.SuspendLayout();
             this.grades_pnl.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox18)).BeginInit();
             this.SuspendLayout();
             // 
             // Buttons_pnl
@@ -258,6 +258,18 @@
             this.flow_pnl.Name = "flow_pnl";
             this.flow_pnl.Size = new System.Drawing.Size(772, 64);
             this.flow_pnl.TabIndex = 7;
+            // 
+            // pictureBox18
+            // 
+            this.pictureBox18.BackColor = System.Drawing.Color.Orange;
+            this.pictureBox18.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.pictureBox18.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox18.Image")));
+            this.pictureBox18.Location = new System.Drawing.Point(28, 0);
+            this.pictureBox18.Name = "pictureBox18";
+            this.pictureBox18.Size = new System.Drawing.Size(50, 64);
+            this.pictureBox18.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox18.TabIndex = 19;
+            this.pictureBox18.TabStop = false;
             // 
             // ExitPic
             // 
@@ -585,7 +597,7 @@
             // 
             // comboBox4
             // 
-            this.comboBox4.Location = new System.Drawing.Point(345, 110);
+            this.comboBox4.Location = new System.Drawing.Point(362, 110);
             this.comboBox4.Margin = new System.Windows.Forms.Padding(2);
             this.comboBox4.Name = "comboBox4";
             this.comboBox4.Size = new System.Drawing.Size(242, 21);
@@ -781,18 +793,6 @@
             this.bunifuDragControl1.TargetControl = this.flow_pnl;
             this.bunifuDragControl1.Vertical = true;
             // 
-            // pictureBox18
-            // 
-            this.pictureBox18.BackColor = System.Drawing.Color.Orange;
-            this.pictureBox18.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.pictureBox18.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox18.Image")));
-            this.pictureBox18.Location = new System.Drawing.Point(28, 0);
-            this.pictureBox18.Name = "pictureBox18";
-            this.pictureBox18.Size = new System.Drawing.Size(50, 64);
-            this.pictureBox18.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox18.TabIndex = 19;
-            this.pictureBox18.TabStop = false;
-            // 
             // Student_Form
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -802,12 +802,12 @@
             this.Controls.Add(this.panel3);
             this.Controls.Add(this.flow_pnl);
             this.Controls.Add(this.Buttons_pnl);
-            this.Controls.Add(this.ShowCourses_pnl);
             this.Controls.Add(this.status_pnl);
             this.Controls.Add(this.attendance_pnl);
             this.Controls.Add(this.courses_pnl);
             this.Controls.Add(this.Personal_pnl);
             this.Controls.Add(this.grades_pnl);
+            this.Controls.Add(this.ShowCourses_pnl);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "Student_Form";
@@ -816,6 +816,7 @@
             this.Buttons_pnl.ResumeLayout(false);
             this.Buttons_pnl.PerformLayout();
             this.flow_pnl.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox18)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.ExitPic)).EndInit();
             this.Personal_pnl.ResumeLayout(false);
             this.Personal_pnl.PerformLayout();
@@ -831,7 +832,6 @@
             this.ShowCourses_pnl.PerformLayout();
             this.grades_pnl.ResumeLayout(false);
             this.grades_pnl.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox18)).EndInit();
             this.ResumeLayout(false);
 
         }

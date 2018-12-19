@@ -66,6 +66,10 @@ namespace SMS
         //******************************Animation**********************************
         private void timer1_Tick(object sender, EventArgs e)
         {
+            if (this.Width > 725) {
+                this.Width = 720;
+                timer1.Enabled = false;
+            }
             if (hidden == false)
             {
                 if (this.Width >= 700)
@@ -104,6 +108,7 @@ namespace SMS
                 bunifuTransition1.ShowSync(SignupPanel, true);
                 bunifuImageButton1.Location = new Point(703, 0);
             }
+   
             //SignupPanel.Visible = true;
         }
         //******************************Animation**********************************
@@ -337,7 +342,7 @@ namespace SMS
                 bunifuImageButton1.Location = new Point(703, 0);
             }
 
-
+            
             panel1.Visible = true;
             ChoosePanel.Visible = false;
             SignupPanel.Visible = false;
@@ -716,6 +721,7 @@ namespace SMS
                                 bunifuImageButton1.Location = new Point(324, 3);
 
                             }
+                           
 
 
                             ChoosePanel.Visible = false;

@@ -175,6 +175,9 @@
   <data name="iconfinder_Teacher_Male_84158" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\iconfinder_Teacher-Male_84158.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="ramez" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ramez.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="kisspng_professor_teacher_student_clip_art_cartoon_bald_old_man_professor_teacher_5a84e1651eaf61_4488191115186578931257" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\kisspng-professor-teacher-student-clip-art-cartoon-bald-old-man-professor-teacher-5a84e1651eaf61.4488191115186578931257.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -238,14 +241,14 @@
   <data name="nature_galaxy_milky_way_night_567584" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\nature-galaxy-milky-way-night-567584.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="kisspng_student_learning_education_vector_students_5a6c15371b3d71_8537361215170327591116" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\kisspng-student-learning-education-vector-students-5a6c15371b3d71.8537361215170327591116.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
   <data name="_3badfb6c96f92b6bbcefe3f487f357db" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\3badfb6c96f92b6bbcefe3f487f357db.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="iconfinder_twitter_294655" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\iconfinder_twitter_294655.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="iconfinder_Github_1298743" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\iconfinder_Github_1298743.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="kisspng_schoolyard_drawing_cartoon_school_building_material_png_5a95d904d800f3_7046775115197698608848__1_" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\kisspng-schoolyard-drawing-cartoon-school-building-material-png-5a95d904d800f3.7046775115197698608848 (1).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -277,14 +280,17 @@
   <data name="moris" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\moris.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="Capture" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Capture.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="teachers_thumbs_up" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\teachers-thumbs-up.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="kisspng_flag_of_germany_map_flag_of_austria_germany_5ad82e2d51f152_6943555115241170373357" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\kisspng-flag-of-germany-map-flag-of-austria-germany-5ad82e2d51f152.6943555115241170373357.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="iconfinder_Github_1298743" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\iconfinder_Github_1298743.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="kisspng_student_learning_education_vector_students_5a6c15371b3d71_8537361215170327591116" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\kisspng-student-learning-education-vector-students-5a6c15371b3d71.8537361215170327591116.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="iconfinder_nerd_43200" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\iconfinder_nerd_43200.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -331,7 +337,7 @@
   <data name="_Data_Management_128" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\_Data_Management-128.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="ramez" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\ramez.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="Capture1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Capture1.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>
