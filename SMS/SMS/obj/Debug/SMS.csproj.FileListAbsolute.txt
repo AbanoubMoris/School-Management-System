@@ -295,3 +295,4 @@ D:\SMS\Final-project-isa\SMS\SMS\obj\Debug\SMS.Teachers.resources
 D:\SMS\Final-project-isa\SMS\SMS\obj\Debug\SMS.csproj.GenerateResource.Cache
 D:\SMS\Final-project-isa\SMS\SMS\obj\Debug\SMS.exe
 D:\SMS\Final-project-isa\SMS\SMS\obj\Debug\SMS.pdb
+D:\SMS\Final-project-isa\SMS\SMS\obj\Debug\SMS.csprojResolveAssemblyReference.cache

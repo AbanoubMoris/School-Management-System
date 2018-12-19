@@ -163,10 +163,10 @@ namespace SMS
             label2.Location = new Point(9, 330);
             label3.Location = new Point(90, 330);
             label4.Location = new Point(177, 330);
-            label5.Location = new Point(9, 277);
-            dayReg.Location = new Point(84, 265);
-            monthReg.Location = new Point(171, 265);
-            yearReg.Location = new Point(258, 265);
+            label5.Location = new Point(9, 395);
+            dayReg.Location = new Point(84, 386);
+            monthReg.Location = new Point(171, 386);
+            yearReg.Location = new Point(258, 386);
             bunifuFlatButton7.Hide();
             bunifuCustomLabel3.Hide();
         }
@@ -199,10 +199,10 @@ namespace SMS
             label2.Location = new Point(9, 330);
             label3.Location = new Point(90, 330);
             label4.Location = new Point(177, 330);
-            label5.Location = new Point(9, 277);
-            dayReg.Location = new Point(84, 265);
-            monthReg.Location = new Point(171, 265);
-            yearReg.Location = new Point(258, 265);
+            label5.Location = new Point(9, 395);
+            dayReg.Location = new Point(84, 386);
+            monthReg.Location = new Point(171, 386);
+            yearReg.Location = new Point(258, 386);
             bunifuFlatButton7.Hide();
 
         }
@@ -222,7 +222,7 @@ namespace SMS
             label2.Location = new Point(9, 330);
             label3.Location = new Point(90, 330);
             label4.Location = new Point(177, 330);
-            label5.Location = new Point(9, 277);
+            label5.Location = new Point(9, 395);
            // dayReg.Location = new Point(84, 265);
             //monthReg.Location = new Point(171, 265);
             //yearReg.Location = new Point(258, 265);
