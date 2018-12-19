@@ -144,6 +144,21 @@ namespace SMS
             get { return SID.Text; }
             set { SID.Text = value; }
         }
+        public Image tePic
+        {
+            get { return TeacherPic.Image; }
+            set { TeacherPic.Image = value; }
+        }
+        public Image PaPic
+        {
+            get { return ParentPic.Image; }
+            set { ParentPic.Image = value; }
+        }
+        public Image StdPc
+        {
+            get { return StdPic.Image; }
+            set { StdPic.Image = value; }
+        }
 
 
 

@@ -8,6 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.Data.SqlClient;
+using System.IO;
 
 namespace SMS
 {
@@ -31,6 +32,12 @@ namespace SMS
                 string s = dr["Name"].ToString();
                 string x = dr["Course_Name"].ToString();
                 Te.TeacherName.Text = s;
+              //  if (dr["Picture"].ToString() != null)
+              //  {
+              //      byte[] img = (byte[])dr["Picture"];
+              //      MemoryStream ms = new MemoryStream(img);
+              //      Te.Picture = Image.FromStream(ms);
+              //  }
                 Te.TeacherSubject.Text = x;
                 Te.Location = new Point(7, location + 5);
                 location += Te.Height + 5;

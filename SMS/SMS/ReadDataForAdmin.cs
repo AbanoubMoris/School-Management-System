@@ -29,6 +29,7 @@ namespace SMS
                 track.Add(dr["Email"].ToString());
                 track.Add(dr["Gender"].ToString());
                 track.Add(dr["Year"].ToString());
+                track.Add(dr["Picture"].ToString()); //8
                 //track.Add(dr["salary"].ToString());
                 map.Add(track[1], track);
             }
@@ -63,6 +64,7 @@ namespace SMS
                 track.Add(dr["Email"].ToString());
                 track.Add(dr["Gender"].ToString());
                 track.Add(dr["Year"].ToString());
+                track.Add(dr["Picture"].ToString()); //8
                 //track.Add(dr["salary"].ToString());
                 map.Add(track[0], track);
             }
@@ -98,6 +100,7 @@ namespace SMS
                 track.Add(dr["Gender"].ToString());
                 track.Add(dr["Year"].ToString());
                 track.Add(dr["Parent_ID"].ToString());
+                track.Add(dr["Picture"].ToString());
                 //track.Add(dr["salary"].ToString());
                 map.Add(track[0], track);
             }

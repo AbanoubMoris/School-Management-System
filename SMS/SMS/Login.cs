@@ -734,10 +734,11 @@ namespace SMS
 
 
                             SqlCommand cmd = new SqlCommand("insert into " + tableName + "(Name,pass,PhoneNumber,Address,Email,Gender,Day,Month,Year,Picture) values ('" + usernameReg.Text + "','" + passReg.Text + "'," + mobileReg.Text + ",'" + addressReg.Text + "','" + emailReg.Text + "','" + checkGender(maleReg.Checked) + "'," + dayReg.Text + "," + monthReg.Text + "," + yearReg.Text +",@img)", con);
+                          
                             cmd.Parameters.Add(new SqlParameter("@img", img));
                             if (teacherIsClicked)
                             {
-                                SqlCommand c = new SqlCommand("insert into Course (Course_Name) values ('" + courseYouTeachReg.Text + "')", con);
+                                SqlCommand c = new SqlCommand("insert into Teacher_Course (Course_Name) values ('" + courseYouTeachReg.Text + "')", con);
                                 c.ExecuteNonQuery();
                             }
                             cmd.ExecuteNonQuery();

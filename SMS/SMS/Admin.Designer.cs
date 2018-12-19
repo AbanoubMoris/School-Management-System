@@ -76,7 +76,7 @@
             this.label37 = new System.Windows.Forms.Label();
             this.label38 = new System.Windows.Forms.Label();
             this.Sname = new System.Windows.Forms.Label();
-            this.pictureBox14 = new System.Windows.Forms.PictureBox();
+            this.StdPic = new System.Windows.Forms.PictureBox();
             this.label43 = new System.Windows.Forms.Label();
             this.ParentPanel = new System.Windows.Forms.Panel();
             this.PPanel = new System.Windows.Forms.Panel();
@@ -95,7 +95,7 @@
             this.label40 = new System.Windows.Forms.Label();
             this.label41 = new System.Windows.Forms.Label();
             this.ParentNm = new System.Windows.Forms.Label();
-            this.pictureBox13 = new System.Windows.Forms.PictureBox();
+            this.ParentPic = new System.Windows.Forms.PictureBox();
             this.label46 = new System.Windows.Forms.Label();
             this.SubjectPanel = new System.Windows.Forms.Panel();
             this.label27 = new System.Windows.Forms.Label();
@@ -170,7 +170,7 @@
             this.label7 = new System.Windows.Forms.Label();
             this.label8 = new System.Windows.Forms.Label();
             this.label9 = new System.Windows.Forms.Label();
-            this.pictureBox2 = new System.Windows.Forms.PictureBox();
+            this.TeacherPic = new System.Windows.Forms.PictureBox();
             this.TeachersPanel = new System.Windows.Forms.Panel();
             this.timer1 = new System.Windows.Forms.Timer(this.components);
             this.bunifuTransition1 = new BunifuAnimatorNS.BunifuTransition(this.components);
@@ -208,10 +208,10 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.StudentsPanel.SuspendLayout();
             this.SPanel.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox14)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.StdPic)).BeginInit();
             this.ParentPanel.SuspendLayout();
             this.panel2.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox13)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.ParentPic)).BeginInit();
             this.SubjectPanel.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox10)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox11)).BeginInit();
@@ -234,7 +234,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.Students_chart)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.Teachers_chart)).BeginInit();
             this.TeacherDetailsPanel.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.TeacherPic)).BeginInit();
             this.TeachersPanel.SuspendLayout();
             this.AboutPnl.SuspendLayout();
             this.George.SuspendLayout();
@@ -613,7 +613,7 @@
             this.SPanel.Controls.Add(this.label37);
             this.SPanel.Controls.Add(this.label38);
             this.SPanel.Controls.Add(this.Sname);
-            this.SPanel.Controls.Add(this.pictureBox14);
+            this.SPanel.Controls.Add(this.StdPic);
             this.bunifuTransition1.SetDecoration(this.SPanel, BunifuAnimatorNS.DecorationType.None);
             this.SPanel.Location = new System.Drawing.Point(278, 48);
             this.SPanel.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
@@ -790,17 +790,17 @@
             this.Sname.TabIndex = 25;
             this.Sname.Text = "Student Name";
             // 
-            // pictureBox14
+            // StdPic
             // 
-            this.bunifuTransition1.SetDecoration(this.pictureBox14, BunifuAnimatorNS.DecorationType.None);
-            this.pictureBox14.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox14.Image")));
-            this.pictureBox14.Location = new System.Drawing.Point(2, 3);
-            this.pictureBox14.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
-            this.pictureBox14.Name = "pictureBox14";
-            this.pictureBox14.Size = new System.Drawing.Size(89, 109);
-            this.pictureBox14.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox14.TabIndex = 0;
-            this.pictureBox14.TabStop = false;
+            this.bunifuTransition1.SetDecoration(this.StdPic, BunifuAnimatorNS.DecorationType.None);
+            this.StdPic.Image = ((System.Drawing.Image)(resources.GetObject("StdPic.Image")));
+            this.StdPic.Location = new System.Drawing.Point(2, 3);
+            this.StdPic.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
+            this.StdPic.Name = "StdPic";
+            this.StdPic.Size = new System.Drawing.Size(89, 109);
+            this.StdPic.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.StdPic.TabIndex = 0;
+            this.StdPic.TabStop = false;
             // 
             // label43
             // 
@@ -867,7 +867,7 @@
             this.panel2.Controls.Add(this.label40);
             this.panel2.Controls.Add(this.label41);
             this.panel2.Controls.Add(this.ParentNm);
-            this.panel2.Controls.Add(this.pictureBox13);
+            this.panel2.Controls.Add(this.ParentPic);
             this.bunifuTransition1.SetDecoration(this.panel2, BunifuAnimatorNS.DecorationType.None);
             this.panel2.Location = new System.Drawing.Point(286, 55);
             this.panel2.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
@@ -1044,17 +1044,17 @@
             this.ParentNm.TabIndex = 25;
             this.ParentNm.Text = "Parent Name";
             // 
-            // pictureBox13
+            // ParentPic
             // 
-            this.bunifuTransition1.SetDecoration(this.pictureBox13, BunifuAnimatorNS.DecorationType.None);
-            this.pictureBox13.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox13.Image")));
-            this.pictureBox13.Location = new System.Drawing.Point(2, 3);
-            this.pictureBox13.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
-            this.pictureBox13.Name = "pictureBox13";
-            this.pictureBox13.Size = new System.Drawing.Size(107, 111);
-            this.pictureBox13.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox13.TabIndex = 0;
-            this.pictureBox13.TabStop = false;
+            this.bunifuTransition1.SetDecoration(this.ParentPic, BunifuAnimatorNS.DecorationType.None);
+            this.ParentPic.Image = ((System.Drawing.Image)(resources.GetObject("ParentPic.Image")));
+            this.ParentPic.Location = new System.Drawing.Point(2, 3);
+            this.ParentPic.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
+            this.ParentPic.Name = "ParentPic";
+            this.ParentPic.Size = new System.Drawing.Size(107, 111);
+            this.ParentPic.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.ParentPic.TabIndex = 0;
+            this.ParentPic.TabStop = false;
             // 
             // label46
             // 
@@ -1971,7 +1971,7 @@
             this.TeacherDetailsPanel.Controls.Add(this.label7);
             this.TeacherDetailsPanel.Controls.Add(this.label8);
             this.TeacherDetailsPanel.Controls.Add(this.label9);
-            this.TeacherDetailsPanel.Controls.Add(this.pictureBox2);
+            this.TeacherDetailsPanel.Controls.Add(this.TeacherPic);
             this.bunifuTransition1.SetDecoration(this.TeacherDetailsPanel, BunifuAnimatorNS.DecorationType.None);
             this.TeacherDetailsPanel.Location = new System.Drawing.Point(283, 41);
             this.TeacherDetailsPanel.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
@@ -2132,18 +2132,18 @@
             this.label9.TabIndex = 24;
             this.label9.Text = "----------";
             // 
-            // pictureBox2
+            // TeacherPic
             // 
-            this.pictureBox2.BackColor = System.Drawing.Color.CornflowerBlue;
-            this.bunifuTransition1.SetDecoration(this.pictureBox2, BunifuAnimatorNS.DecorationType.None);
-            this.pictureBox2.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox2.Image")));
-            this.pictureBox2.Location = new System.Drawing.Point(15, 3);
-            this.pictureBox2.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
-            this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(107, 111);
-            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox2.TabIndex = 0;
-            this.pictureBox2.TabStop = false;
+            this.TeacherPic.BackColor = System.Drawing.Color.CornflowerBlue;
+            this.bunifuTransition1.SetDecoration(this.TeacherPic, BunifuAnimatorNS.DecorationType.None);
+            this.TeacherPic.Image = ((System.Drawing.Image)(resources.GetObject("TeacherPic.Image")));
+            this.TeacherPic.Location = new System.Drawing.Point(15, 3);
+            this.TeacherPic.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
+            this.TeacherPic.Name = "TeacherPic";
+            this.TeacherPic.Size = new System.Drawing.Size(107, 111);
+            this.TeacherPic.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.TeacherPic.TabIndex = 0;
+            this.TeacherPic.TabStop = false;
             // 
             // TeachersPanel
             // 
@@ -2444,13 +2444,13 @@
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.bunifuGradientPanel1);
             this.Controls.Add(this.bunifuGradientPanel2);
+            this.Controls.Add(this.ParentPanel);
+            this.Controls.Add(this.AboutPnl);
+            this.Controls.Add(this.DashBoardPanel);
             this.Controls.Add(this.TeachersPanel);
             this.Controls.Add(this.GradesPanel);
             this.Controls.Add(this.StudentsPanel);
             this.Controls.Add(this.SubjectPanel);
-            this.Controls.Add(this.ParentPanel);
-            this.Controls.Add(this.AboutPnl);
-            this.Controls.Add(this.DashBoardPanel);
             this.bunifuTransition1.SetDecoration(this, BunifuAnimatorNS.DecorationType.None);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
@@ -2472,12 +2472,12 @@
             this.StudentsPanel.PerformLayout();
             this.SPanel.ResumeLayout(false);
             this.SPanel.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox14)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.StdPic)).EndInit();
             this.ParentPanel.ResumeLayout(false);
             this.ParentPanel.PerformLayout();
             this.panel2.ResumeLayout(false);
             this.panel2.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox13)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.ParentPic)).EndInit();
             this.SubjectPanel.ResumeLayout(false);
             this.SubjectPanel.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox10)).EndInit();
@@ -2506,7 +2506,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.Teachers_chart)).EndInit();
             this.TeacherDetailsPanel.ResumeLayout(false);
             this.TeacherDetailsPanel.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.TeacherPic)).EndInit();
             this.TeachersPanel.ResumeLayout(false);
             this.TeachersPanel.PerformLayout();
             this.AboutPnl.ResumeLayout(false);
@@ -2565,7 +2565,7 @@
         private System.Windows.Forms.Label label40;
         private System.Windows.Forms.Label label41;
         private System.Windows.Forms.Label ParentNm;
-        private System.Windows.Forms.PictureBox pictureBox13;
+        private System.Windows.Forms.PictureBox ParentPic;
         private System.Windows.Forms.Label label46;
         private System.Windows.Forms.Label ParentID;
         private System.Windows.Forms.Label ParentPhone;
@@ -2607,7 +2607,7 @@
         private System.Windows.Forms.Label label37;
         private System.Windows.Forms.Label label38;
         private System.Windows.Forms.Label Sname;
-        private System.Windows.Forms.PictureBox pictureBox14;
+        private System.Windows.Forms.PictureBox StdPic;
         private System.Windows.Forms.Label label43;
         private System.Windows.Forms.Label LogOut;
         private System.Windows.Forms.Panel TPanel;
@@ -2625,7 +2625,7 @@
         private System.Windows.Forms.Label label7;
         private System.Windows.Forms.Label label8;
         private System.Windows.Forms.Label label9;
-        private System.Windows.Forms.PictureBox pictureBox2;
+        private System.Windows.Forms.PictureBox TeacherPic;
         private System.Windows.Forms.Panel TeachersPanel;
         private System.Windows.Forms.PictureBox pictureBox15;
         private System.Windows.Forms.PictureBox pictureBox20;

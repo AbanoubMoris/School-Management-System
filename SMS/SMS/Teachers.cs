@@ -30,6 +30,11 @@ namespace SMS
             get { return label1; }
             set { label1.Text = value.ToString(); }
         }
+        public Image Picture
+        {
+            get { return pictureBox1.Image; }
+            set { pictureBox1.Image = value; }
+        }
         private void Teachers_Load(object sender, EventArgs e)
         {
 
