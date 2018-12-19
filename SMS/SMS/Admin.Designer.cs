@@ -183,18 +183,19 @@
             this.bunifuCustomLabel7 = new Bunifu.Framework.UI.BunifuCustomLabel();
             this.pictureBox30 = new System.Windows.Forms.PictureBox();
             this.bunifuSeparator2 = new Bunifu.Framework.UI.BunifuSeparator();
-            this.userControl21 = new SMS.UserControl2();
-            this.aboutUs1 = new SMS.AboutUs();
             this.bunifuGradientPanel1 = new Bunifu.Framework.UI.BunifuGradientPanel();
             this.pictureBox3 = new System.Windows.Forms.PictureBox();
             this.bunifuGradientPanel2 = new Bunifu.Framework.UI.BunifuGradientPanel();
-            this.contactUs1 = new SMS.ContactUs();
             this.timer2 = new System.Windows.Forms.Timer(this.components);
             this.timer3 = new System.Windows.Forms.Timer(this.components);
             this.bunifuElipse1 = new Bunifu.Framework.UI.BunifuElipse(this.components);
             this.bunifuDragControl1 = new Bunifu.Framework.UI.BunifuDragControl(this.components);
             this.bunifuDragControl2 = new Bunifu.Framework.UI.BunifuDragControl(this.components);
             this.bunifuDragControl3 = new Bunifu.Framework.UI.BunifuDragControl(this.components);
+            this.panel3 = new System.Windows.Forms.Panel();
+            this.contactUs1 = new SMS.ContactUs();
+            this.userControl21 = new SMS.UserControl2();
+            this.aboutUs1 = new SMS.AboutUs();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox22)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox21)).BeginInit();
@@ -408,7 +409,7 @@
             // 
             // SlidePanel
             // 
-            this.SlidePanel.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(72)))), ((int)(((byte)(75)))), ((int)(((byte)(81)))));
+            this.SlidePanel.BackColor = System.Drawing.Color.Maroon;
             this.bunifuTransition1.SetDecoration(this.SlidePanel, BunifuAnimatorNS.DecorationType.None);
             this.SlidePanel.Location = new System.Drawing.Point(1, 136);
             this.SlidePanel.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
@@ -1958,6 +1959,7 @@
             // 
             this.TeacherDetailsPanel.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(32)))), ((int)(((byte)(34)))), ((int)(((byte)(37)))));
             this.TeacherDetailsPanel.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.TeacherDetailsPanel.Controls.Add(this.panel3);
             this.TeacherDetailsPanel.Controls.Add(this.label21);
             this.TeacherDetailsPanel.Controls.Add(this.gender);
             this.TeacherDetailsPanel.Controls.Add(this.age);
@@ -1983,7 +1985,7 @@
             this.bunifuTransition1.SetDecoration(this.label21, BunifuAnimatorNS.DecorationType.None);
             this.label21.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label21.ForeColor = System.Drawing.SystemColors.ControlLight;
-            this.label21.Location = new System.Drawing.Point(121, 40);
+            this.label21.Location = new System.Drawing.Point(125, 40);
             this.label21.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label21.Name = "label21";
             this.label21.Size = new System.Drawing.Size(147, 24);
@@ -1996,7 +1998,7 @@
             this.bunifuTransition1.SetDecoration(this.gender, BunifuAnimatorNS.DecorationType.None);
             this.gender.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.gender.ForeColor = System.Drawing.SystemColors.AppWorkspace;
-            this.gender.Location = new System.Drawing.Point(220, 157);
+            this.gender.Location = new System.Drawing.Point(224, 157);
             this.gender.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.gender.Name = "gender";
             this.gender.Size = new System.Drawing.Size(64, 20);
@@ -2009,7 +2011,7 @@
             this.bunifuTransition1.SetDecoration(this.age, BunifuAnimatorNS.DecorationType.None);
             this.age.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.age.ForeColor = System.Drawing.SystemColors.AppWorkspace;
-            this.age.Location = new System.Drawing.Point(220, 128);
+            this.age.Location = new System.Drawing.Point(224, 128);
             this.age.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.age.Name = "age";
             this.age.Size = new System.Drawing.Size(64, 20);
@@ -2022,7 +2024,7 @@
             this.bunifuTransition1.SetDecoration(this.city, BunifuAnimatorNS.DecorationType.None);
             this.city.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.city.ForeColor = System.Drawing.SystemColors.AppWorkspace;
-            this.city.Location = new System.Drawing.Point(220, 98);
+            this.city.Location = new System.Drawing.Point(224, 98);
             this.city.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.city.Name = "city";
             this.city.Size = new System.Drawing.Size(64, 20);
@@ -2035,7 +2037,7 @@
             this.bunifuTransition1.SetDecoration(this.Fname, BunifuAnimatorNS.DecorationType.None);
             this.Fname.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Fname.ForeColor = System.Drawing.SystemColors.AppWorkspace;
-            this.Fname.Location = new System.Drawing.Point(220, 71);
+            this.Fname.Location = new System.Drawing.Point(224, 71);
             this.Fname.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.Fname.Name = "Fname";
             this.Fname.Size = new System.Drawing.Size(64, 20);
@@ -2048,7 +2050,7 @@
             this.bunifuTransition1.SetDecoration(this.label13, BunifuAnimatorNS.DecorationType.None);
             this.label13.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label13.ForeColor = System.Drawing.SystemColors.ControlLight;
-            this.label13.Location = new System.Drawing.Point(121, 157);
+            this.label13.Location = new System.Drawing.Point(125, 157);
             this.label13.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label13.Name = "label13";
             this.label13.Size = new System.Drawing.Size(99, 20);
@@ -2061,7 +2063,7 @@
             this.bunifuTransition1.SetDecoration(this.label12, BunifuAnimatorNS.DecorationType.None);
             this.label12.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label12.ForeColor = System.Drawing.SystemColors.ControlLight;
-            this.label12.Location = new System.Drawing.Point(121, 129);
+            this.label12.Location = new System.Drawing.Point(125, 129);
             this.label12.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label12.Name = "label12";
             this.label12.Size = new System.Drawing.Size(98, 20);
@@ -2074,7 +2076,7 @@
             this.bunifuTransition1.SetDecoration(this.label11, BunifuAnimatorNS.DecorationType.None);
             this.label11.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label11.ForeColor = System.Drawing.SystemColors.ControlLight;
-            this.label11.Location = new System.Drawing.Point(121, 100);
+            this.label11.Location = new System.Drawing.Point(125, 100);
             this.label11.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label11.Name = "label11";
             this.label11.Size = new System.Drawing.Size(96, 20);
@@ -2087,7 +2089,7 @@
             this.bunifuTransition1.SetDecoration(this.label7, BunifuAnimatorNS.DecorationType.None);
             this.label7.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label7.ForeColor = System.Drawing.SystemColors.ControlLight;
-            this.label7.Location = new System.Drawing.Point(121, 71);
+            this.label7.Location = new System.Drawing.Point(125, 71);
             this.label7.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(97, 20);
@@ -2100,7 +2102,7 @@
             this.bunifuTransition1.SetDecoration(this.label8, BunifuAnimatorNS.DecorationType.None);
             this.label8.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label8.ForeColor = System.Drawing.SystemColors.AppWorkspace;
-            this.label8.Location = new System.Drawing.Point(116, 5);
+            this.label8.Location = new System.Drawing.Point(122, 5);
             this.label8.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label8.Name = "label8";
             this.label8.Size = new System.Drawing.Size(205, 31);
@@ -2113,7 +2115,7 @@
             this.bunifuTransition1.SetDecoration(this.label9, BunifuAnimatorNS.DecorationType.None);
             this.label9.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label9.ForeColor = System.Drawing.SystemColors.AppWorkspace;
-            this.label9.Location = new System.Drawing.Point(283, 40);
+            this.label9.Location = new System.Drawing.Point(287, 40);
             this.label9.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label9.Name = "label9";
             this.label9.Size = new System.Drawing.Size(70, 24);
@@ -2122,9 +2124,10 @@
             // 
             // pictureBox2
             // 
+            this.pictureBox2.BackColor = System.Drawing.Color.CornflowerBlue;
             this.bunifuTransition1.SetDecoration(this.pictureBox2, BunifuAnimatorNS.DecorationType.None);
             this.pictureBox2.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox2.Image")));
-            this.pictureBox2.Location = new System.Drawing.Point(2, 3);
+            this.pictureBox2.Location = new System.Drawing.Point(15, 3);
             this.pictureBox2.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
             this.pictureBox2.Name = "pictureBox2";
             this.pictureBox2.Size = new System.Drawing.Size(107, 111);
@@ -2307,25 +2310,6 @@
             this.bunifuSeparator2.Transparency = 255;
             this.bunifuSeparator2.Vertical = false;
             // 
-            // userControl21
-            // 
-            this.userControl21.BackColor = System.Drawing.Color.Black;
-            this.bunifuTransition1.SetDecoration(this.userControl21, BunifuAnimatorNS.DecorationType.None);
-            this.userControl21.Location = new System.Drawing.Point(171, -90);
-            this.userControl21.Name = "userControl21";
-            this.userControl21.Size = new System.Drawing.Size(516, 461);
-            this.userControl21.TabIndex = 1;
-            // 
-            // aboutUs1
-            // 
-            this.aboutUs1.BackColor = System.Drawing.Color.Black;
-            this.bunifuTransition1.SetDecoration(this.aboutUs1, BunifuAnimatorNS.DecorationType.None);
-            this.aboutUs1.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.aboutUs1.Location = new System.Drawing.Point(190, -63);
-            this.aboutUs1.Name = "aboutUs1";
-            this.aboutUs1.Size = new System.Drawing.Size(516, 461);
-            this.aboutUs1.TabIndex = 0;
-            // 
             // bunifuGradientPanel1
             // 
             this.bunifuGradientPanel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(32)))), ((int)(((byte)(34)))), ((int)(((byte)(37)))));
@@ -2341,7 +2325,7 @@
             this.bunifuGradientPanel1.Location = new System.Drawing.Point(0, 0);
             this.bunifuGradientPanel1.Name = "bunifuGradientPanel1";
             this.bunifuGradientPanel1.Quality = 10;
-            this.bunifuGradientPanel1.Size = new System.Drawing.Size(1016, 52);
+            this.bunifuGradientPanel1.Size = new System.Drawing.Size(1025, 52);
             this.bunifuGradientPanel1.TabIndex = 8;
             // 
             // pictureBox3
@@ -2374,17 +2358,8 @@
             this.bunifuGradientPanel2.Location = new System.Drawing.Point(0, 534);
             this.bunifuGradientPanel2.Name = "bunifuGradientPanel2";
             this.bunifuGradientPanel2.Quality = 10;
-            this.bunifuGradientPanel2.Size = new System.Drawing.Size(1016, 32);
+            this.bunifuGradientPanel2.Size = new System.Drawing.Size(1025, 32);
             this.bunifuGradientPanel2.TabIndex = 9;
-            // 
-            // contactUs1
-            // 
-            this.contactUs1.BackColor = System.Drawing.Color.Transparent;
-            this.bunifuTransition1.SetDecoration(this.contactUs1, BunifuAnimatorNS.DecorationType.None);
-            this.contactUs1.Location = new System.Drawing.Point(936, 128);
-            this.contactUs1.Name = "contactUs1";
-            this.contactUs1.Size = new System.Drawing.Size(74, 317);
-            this.contactUs1.TabIndex = 10;
             // 
             // timer2
             // 
@@ -2393,7 +2368,6 @@
             // 
             // timer3
             // 
-            this.timer3.Interval = 30;
             this.timer3.Tick += new System.EventHandler(this.timer3_Tick);
             // 
             // bunifuElipse1
@@ -2422,12 +2396,50 @@
             this.bunifuDragControl3.TargetControl = this.panel1;
             this.bunifuDragControl3.Vertical = true;
             // 
+            // panel3
+            // 
+            this.panel3.BackColor = System.Drawing.Color.CornflowerBlue;
+            this.bunifuTransition1.SetDecoration(this.panel3, BunifuAnimatorNS.DecorationType.None);
+            this.panel3.Dock = System.Windows.Forms.DockStyle.Top;
+            this.panel3.Location = new System.Drawing.Point(0, 0);
+            this.panel3.Name = "panel3";
+            this.panel3.Size = new System.Drawing.Size(415, 7);
+            this.panel3.TabIndex = 32;
+            // 
+            // contactUs1
+            // 
+            this.contactUs1.BackColor = System.Drawing.Color.Transparent;
+            this.bunifuTransition1.SetDecoration(this.contactUs1, BunifuAnimatorNS.DecorationType.None);
+            this.contactUs1.Location = new System.Drawing.Point(955, 128);
+            this.contactUs1.Name = "contactUs1";
+            this.contactUs1.Size = new System.Drawing.Size(74, 317);
+            this.contactUs1.TabIndex = 10;
+            // 
+            // userControl21
+            // 
+            this.userControl21.BackColor = System.Drawing.Color.Black;
+            this.bunifuTransition1.SetDecoration(this.userControl21, BunifuAnimatorNS.DecorationType.None);
+            this.userControl21.Location = new System.Drawing.Point(171, -90);
+            this.userControl21.Name = "userControl21";
+            this.userControl21.Size = new System.Drawing.Size(516, 461);
+            this.userControl21.TabIndex = 1;
+            // 
+            // aboutUs1
+            // 
+            this.aboutUs1.BackColor = System.Drawing.Color.Black;
+            this.bunifuTransition1.SetDecoration(this.aboutUs1, BunifuAnimatorNS.DecorationType.None);
+            this.aboutUs1.ForeColor = System.Drawing.SystemColors.ControlText;
+            this.aboutUs1.Location = new System.Drawing.Point(190, -63);
+            this.aboutUs1.Name = "aboutUs1";
+            this.aboutUs1.Size = new System.Drawing.Size(516, 461);
+            this.aboutUs1.TabIndex = 0;
+            // 
             // Admin
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(54)))), ((int)(((byte)(56)))), ((int)(((byte)(63)))));
-            this.ClientSize = new System.Drawing.Size(1016, 566);
+            this.ClientSize = new System.Drawing.Size(1025, 566);
             this.Controls.Add(this.contactUs1);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.bunifuGradientPanel1);
@@ -2664,6 +2676,7 @@
         private Bunifu.Framework.UI.BunifuDragControl bunifuDragControl1;
         private Bunifu.Framework.UI.BunifuDragControl bunifuDragControl2;
         private Bunifu.Framework.UI.BunifuDragControl bunifuDragControl3;
+        private System.Windows.Forms.Panel panel3;
     }
 }
 

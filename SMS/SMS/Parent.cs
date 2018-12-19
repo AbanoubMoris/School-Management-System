@@ -405,6 +405,12 @@ namespace SMS
 
         // Sending email to Contact Teacher
         SmtpClient client2;
+
+        private void pictureBox1_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
+        }
+
         MailMessage msg2;
         void sendEmailContactTeacher(string to, string from, string subject , string message)
         {

@@ -55,12 +55,9 @@
             this.nameOfStudent = new System.Windows.Forms.Label();
             this.addressOfStudent = new System.Windows.Forms.Label();
             this.QueryPanel = new System.Windows.Forms.Panel();
-            this.sendEmailButton = new System.Windows.Forms.Button();
-            this.selectTeacherPanel = new System.Windows.Forms.Panel();
-            this.dataGridView2 = new System.Windows.Forms.DataGridView();
-            this.dataGridView1 = new System.Windows.Forms.DataGridView();
             this.comboBox1 = new System.Windows.Forms.ComboBox();
             this.panel3 = new System.Windows.Forms.Panel();
+            this.sendEmailButton = new System.Windows.Forms.Button();
             this.button4 = new System.Windows.Forms.Button();
             this.button3 = new System.Windows.Forms.Button();
             this.sendEmailPanel = new System.Windows.Forms.Panel();
@@ -72,16 +69,22 @@
             this.fromTextBox = new System.Windows.Forms.TextBox();
             this.subjectTextBox = new System.Windows.Forms.TextBox();
             this.toTextBox = new System.Windows.Forms.TextBox();
+            this.selectTeacherPanel = new System.Windows.Forms.Panel();
+            this.dataGridView2 = new System.Windows.Forms.DataGridView();
+            this.dataGridView1 = new System.Windows.Forms.DataGridView();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.panel2 = new System.Windows.Forms.Panel();
+            this.pictureBox17 = new System.Windows.Forms.PictureBox();
             this.panel1.SuspendLayout();
             this.StuPanel.SuspendLayout();
             this.QueryPanel.SuspendLayout();
+            this.panel3.SuspendLayout();
+            this.sendEmailPanel.SuspendLayout();
             this.selectTeacherPanel.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
-            this.panel3.SuspendLayout();
-            this.sendEmailPanel.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox17)).BeginInit();
             this.SuspendLayout();
             // 
             // panel1
@@ -433,50 +436,6 @@
             this.QueryPanel.TabIndex = 48;
             this.QueryPanel.Visible = false;
             // 
-            // sendEmailButton
-            // 
-            this.sendEmailButton.BackColor = System.Drawing.Color.Transparent;
-            this.sendEmailButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.sendEmailButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.sendEmailButton.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.sendEmailButton.Location = new System.Drawing.Point(397, 13);
-            this.sendEmailButton.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
-            this.sendEmailButton.Name = "sendEmailButton";
-            this.sendEmailButton.Size = new System.Drawing.Size(188, 29);
-            this.sendEmailButton.TabIndex = 5;
-            this.sendEmailButton.Text = "Send Email";
-            this.sendEmailButton.UseVisualStyleBackColor = false;
-            this.sendEmailButton.Click += new System.EventHandler(this.sendEmailButton_Click);
-            // 
-            // selectTeacherPanel
-            // 
-            this.selectTeacherPanel.Controls.Add(this.dataGridView2);
-            this.selectTeacherPanel.Controls.Add(this.dataGridView1);
-            this.selectTeacherPanel.Location = new System.Drawing.Point(26, 74);
-            this.selectTeacherPanel.Margin = new System.Windows.Forms.Padding(2);
-            this.selectTeacherPanel.Name = "selectTeacherPanel";
-            this.selectTeacherPanel.Size = new System.Drawing.Size(740, 411);
-            this.selectTeacherPanel.TabIndex = 4;
-            // 
-            // dataGridView2
-            // 
-            this.dataGridView2.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView2.Location = new System.Drawing.Point(3, 7);
-            this.dataGridView2.Margin = new System.Windows.Forms.Padding(2);
-            this.dataGridView2.Name = "dataGridView2";
-            this.dataGridView2.RowTemplate.Height = 24;
-            this.dataGridView2.Size = new System.Drawing.Size(729, 391);
-            this.dataGridView2.TabIndex = 4;
-            // 
-            // dataGridView1
-            // 
-            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Location = new System.Drawing.Point(11, 19);
-            this.dataGridView1.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
-            this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.Size = new System.Drawing.Size(719, 380);
-            this.dataGridView1.TabIndex = 1;
-            // 
             // comboBox1
             // 
             this.comboBox1.BackColor = System.Drawing.SystemColors.MenuBar;
@@ -499,6 +458,21 @@
             this.panel3.Name = "panel3";
             this.panel3.Size = new System.Drawing.Size(605, 49);
             this.panel3.TabIndex = 0;
+            // 
+            // sendEmailButton
+            // 
+            this.sendEmailButton.BackColor = System.Drawing.Color.Transparent;
+            this.sendEmailButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.sendEmailButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.sendEmailButton.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.sendEmailButton.Location = new System.Drawing.Point(397, 13);
+            this.sendEmailButton.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
+            this.sendEmailButton.Name = "sendEmailButton";
+            this.sendEmailButton.Size = new System.Drawing.Size(188, 29);
+            this.sendEmailButton.TabIndex = 5;
+            this.sendEmailButton.Text = "Send Email";
+            this.sendEmailButton.UseVisualStyleBackColor = false;
+            this.sendEmailButton.Click += new System.EventHandler(this.sendEmailButton_Click);
             // 
             // button4
             // 
@@ -574,6 +548,7 @@
             // 
             this.label14.AutoSize = true;
             this.label14.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label14.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(114)))), ((int)(((byte)(137)))), ((int)(((byte)(218)))));
             this.label14.Location = new System.Drawing.Point(14, 109);
             this.label14.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label14.Name = "label14";
@@ -585,6 +560,7 @@
             // 
             this.fromLabel.AutoSize = true;
             this.fromLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.fromLabel.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(114)))), ((int)(((byte)(137)))), ((int)(((byte)(218)))));
             this.fromLabel.Location = new System.Drawing.Point(22, 71);
             this.fromLabel.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.fromLabel.Name = "fromLabel";
@@ -596,6 +572,7 @@
             // 
             this.toLabel.AutoSize = true;
             this.toLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.toLabel.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(114)))), ((int)(((byte)(137)))), ((int)(((byte)(218)))));
             this.toLabel.Location = new System.Drawing.Point(28, 32);
             this.toLabel.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.toLabel.Name = "toLabel";
@@ -627,6 +604,35 @@
             this.toTextBox.Size = new System.Drawing.Size(584, 20);
             this.toTextBox.TabIndex = 0;
             // 
+            // selectTeacherPanel
+            // 
+            this.selectTeacherPanel.Controls.Add(this.dataGridView2);
+            this.selectTeacherPanel.Controls.Add(this.dataGridView1);
+            this.selectTeacherPanel.Location = new System.Drawing.Point(26, 74);
+            this.selectTeacherPanel.Margin = new System.Windows.Forms.Padding(2);
+            this.selectTeacherPanel.Name = "selectTeacherPanel";
+            this.selectTeacherPanel.Size = new System.Drawing.Size(740, 411);
+            this.selectTeacherPanel.TabIndex = 4;
+            // 
+            // dataGridView2
+            // 
+            this.dataGridView2.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dataGridView2.Location = new System.Drawing.Point(3, 7);
+            this.dataGridView2.Margin = new System.Windows.Forms.Padding(2);
+            this.dataGridView2.Name = "dataGridView2";
+            this.dataGridView2.RowTemplate.Height = 24;
+            this.dataGridView2.Size = new System.Drawing.Size(729, 391);
+            this.dataGridView2.TabIndex = 4;
+            // 
+            // dataGridView1
+            // 
+            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dataGridView1.Location = new System.Drawing.Point(11, 19);
+            this.dataGridView1.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
+            this.dataGridView1.Name = "dataGridView1";
+            this.dataGridView1.Size = new System.Drawing.Size(719, 380);
+            this.dataGridView1.TabIndex = 1;
+            // 
             // pictureBox1
             // 
             this.pictureBox1.BackColor = System.Drawing.Color.Transparent;
@@ -639,13 +645,36 @@
             this.pictureBox1.Size = new System.Drawing.Size(36, 35);
             this.pictureBox1.TabIndex = 49;
             this.pictureBox1.TabStop = false;
+            this.pictureBox1.Click += new System.EventHandler(this.pictureBox1_Click);
+            // 
+            // panel2
+            // 
+            this.panel2.BackColor = System.Drawing.Color.Wheat;
+            this.panel2.Location = new System.Drawing.Point(-4, -1);
+            this.panel2.Name = "panel2";
+            this.panel2.Size = new System.Drawing.Size(1100, 5);
+            this.panel2.TabIndex = 50;
+            // 
+            // pictureBox17
+            // 
+            this.pictureBox17.BackColor = System.Drawing.Color.Wheat;
+            this.pictureBox17.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.pictureBox17.Image = global::SMS.Properties.Resources.iconfinder_nerd_43200;
+            this.pictureBox17.Location = new System.Drawing.Point(257, 1);
+            this.pictureBox17.Name = "pictureBox17";
+            this.pictureBox17.Size = new System.Drawing.Size(59, 59);
+            this.pictureBox17.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox17.TabIndex = 51;
+            this.pictureBox17.TabStop = false;
             // 
             // Parent
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(114)))), ((int)(((byte)(137)))), ((int)(((byte)(218)))));
+            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(32)))), ((int)(((byte)(34)))), ((int)(((byte)(37)))));
             this.ClientSize = new System.Drawing.Size(1016, 566);
+            this.Controls.Add(this.pictureBox17);
+            this.Controls.Add(this.panel2);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.QueryPanel);
@@ -660,13 +689,14 @@
             this.StuPanel.ResumeLayout(false);
             this.StuPanel.PerformLayout();
             this.QueryPanel.ResumeLayout(false);
-            this.selectTeacherPanel.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView2)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             this.panel3.ResumeLayout(false);
             this.sendEmailPanel.ResumeLayout(false);
             this.sendEmailPanel.PerformLayout();
+            this.selectTeacherPanel.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox17)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -717,5 +747,7 @@
         private System.Windows.Forms.RadioButton femaleCheckBox;
         private System.Windows.Forms.RadioButton maleCheckBox;
         private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.Panel panel2;
+        private System.Windows.Forms.PictureBox pictureBox17;
     }
 }
