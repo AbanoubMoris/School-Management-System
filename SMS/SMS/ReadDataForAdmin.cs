@@ -11,7 +11,7 @@ namespace SMS
     public class ReadDataForAdmin
     {
         string stringConnection = StringConnection.ConnectionString(); 
-        public Dictionary<string, List<string>> ReadTeacherTable()
+        public Dictionary<string, List<string>> ReadTeacherTable(ref byte[] img , string Name)
         {
             var map = new Dictionary<string, List<string>>();
             SqlConnection con = new SqlConnection(stringConnection);
@@ -29,7 +29,8 @@ namespace SMS
                 track.Add(dr["Email"].ToString());
                 track.Add(dr["Gender"].ToString());
                 track.Add(dr["Year"].ToString());
-                track.Add(dr["Picture"].ToString()); //8
+                if (Name==track[1])
+                img = (byte[])dr["Picture"]; //*********************
                 //track.Add(dr["salary"].ToString());
                 map.Add(track[1], track);
             }
@@ -38,15 +39,15 @@ namespace SMS
             return map;
 
         }
-        public List<string> Teacherdetails(string Name)
+        public List<string> Teacherdetails(string Name, ref byte[] img)
         {
             var map = new Dictionary<string, List<string>>();
-            map = ReadTeacherTable();
+            map = ReadTeacherTable(ref img, Name);
             List<string> s = map[Name];
             return s;
         }
         /*************************************************************/
-        public Dictionary<string, List<string>> ReadParentTable()
+        public Dictionary<string, List<string>> ReadParentTable(ref byte[] img ,string ID)
         {
             var map = new Dictionary<string, List<string>>();
             SqlConnection con = new SqlConnection(stringConnection);
@@ -64,7 +65,8 @@ namespace SMS
                 track.Add(dr["Email"].ToString());
                 track.Add(dr["Gender"].ToString());
                 track.Add(dr["Year"].ToString());
-                track.Add(dr["Picture"].ToString()); //8
+                if (ID==track[0])
+                img=(byte[])dr["Picture"]; //*********************
                 //track.Add(dr["salary"].ToString());
                 map.Add(track[0], track);
             }
@@ -73,15 +75,15 @@ namespace SMS
             return map;
 
         }
-        public List<string> Parentdetails(string ID)
+        public List<string> Parentdetails(string ID , ref byte[] img)
         {
             var map = new Dictionary<string, List<string>>();
-            map = ReadParentTable();
+            map = ReadParentTable(ref img , ID);
             List<string> s = map[ID];
             return s;
         }
         //*************************************************************
-        public Dictionary<string, List<string>> ReadStudentTable()
+        public Dictionary<string, List<string>> ReadStudentTable(ref byte[] img , string ID)
         {
             var map = new Dictionary<string, List<string>>();
             SqlConnection con = new SqlConnection(stringConnection);
@@ -100,7 +102,8 @@ namespace SMS
                 track.Add(dr["Gender"].ToString());
                 track.Add(dr["Year"].ToString());
                 track.Add(dr["Parent_ID"].ToString());
-                track.Add(dr["Picture"].ToString());
+                if (ID==track[0])
+                    img = (byte[])dr["Picture"];
                 //track.Add(dr["salary"].ToString());
                 map.Add(track[0], track);
             }
@@ -109,10 +112,10 @@ namespace SMS
             return map;
 
         }
-        public List<string> Studentdetails(string ID)
+        public List<string> Studentdetails(string ID , ref byte[] img)
         {
             var map = new Dictionary<string, List<string>>();
-            map = ReadStudentTable();
+            map = ReadStudentTable(ref img , ID);
             List<string> s = map[ID];
             return s;
         }

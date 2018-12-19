@@ -48,7 +48,8 @@ namespace SMS
             var f = singleton.AdminForm;
             if (this.Name == "Teacher")
             {
-                List<string> s = Rd.Teacherdetails(label3.Text.ToString());
+                byte[] im = null;
+                List<string> s = Rd.Teacherdetails(label3.Text.ToString() , ref im);
                 f.TeacherName = s[1];
                 f.FName = s[1];
                 f.Address = s[3];
@@ -59,10 +60,10 @@ namespace SMS
                 currentYear = (cur - pres).ToString();
                 f.Age = currentYear + " years old";
                 f.courseName = label1.Text.ToString();
+                MemoryStream ms = new MemoryStream(im);
+                f.tePic = Image.FromStream(ms);
 
-               // byte[] img = System.Text.ASCIIEncoding.ASCII.GetBytes(s[7]); //*****************************
-                //MemoryStream ms = new MemoryStream(img);
-                //f.tePic = Image.FromStream(ms);
+                // byte[] img = System.Text.ASCIIEncoding.ASCII.GetBytes(s[7]); //*****************************
 
                 //A.Show();
                 //*********************************
@@ -70,9 +71,10 @@ namespace SMS
             }
             else if (this.Name == "Parent")
             {
-                
-                List<string> s = Rd.Parentdetails(label1.Text.ToString());
-
+                byte[] im = null;
+                List<string> s = Rd.Parentdetails(label1.Text.ToString(),ref im);
+                MemoryStream ms = new MemoryStream(im);
+                f.PaPic = Image.FromStream(ms);
                 f.PID = s[0];
                 f.Pname = s[1];
                 f.PPhone = s[2];
@@ -90,7 +92,10 @@ namespace SMS
             else if (this.Name == "Student")
             {
 
-                List<string> s = Rd.Studentdetails(label1.Text.ToString());
+                byte[] im = null;
+                List<string> s = Rd.Studentdetails(label1.Text.ToString(), ref im);
+                MemoryStream ms = new MemoryStream(im);
+                f.StdPc = Image.FromStream(ms);
 
                 f.StdID = s[0];
                 f.Stdname = s[1];
