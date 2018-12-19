@@ -34,6 +34,7 @@
             this.label1 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.bunifuElipse1 = new Bunifu.Framework.UI.BunifuElipse(this.components);
+            this.panel1 = new System.Windows.Forms.Panel();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -53,7 +54,7 @@
             this.label1.BackColor = System.Drawing.SystemColors.WindowText;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.Color.CornflowerBlue;
-            this.label1.Location = new System.Drawing.Point(103, 48);
+            this.label1.Location = new System.Drawing.Point(86, 48);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(122, 16);
             this.label1.TabIndex = 2;
@@ -65,7 +66,7 @@
             this.label3.BackColor = System.Drawing.SystemColors.WindowText;
             this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label3.ForeColor = System.Drawing.Color.CornflowerBlue;
-            this.label3.Location = new System.Drawing.Point(103, 32);
+            this.label3.Location = new System.Drawing.Point(86, 32);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(111, 16);
             this.label3.TabIndex = 4;
@@ -73,20 +74,29 @@
             // 
             // bunifuElipse1
             // 
-            this.bunifuElipse1.ElipseRadius = 5;
+            this.bunifuElipse1.ElipseRadius = 8;
             this.bunifuElipse1.TargetControl = this;
+            // 
+            // panel1
+            // 
+            this.panel1.BackColor = System.Drawing.Color.CornflowerBlue;
+            this.panel1.Location = new System.Drawing.Point(-14, -7);
+            this.panel1.Name = "panel1";
+            this.panel1.Size = new System.Drawing.Size(290, 10);
+            this.panel1.TabIndex = 5;
             // 
             // Teachers
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.WindowText;
+            this.Controls.Add(this.panel1);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.pictureBox1);
             this.Cursor = System.Windows.Forms.Cursors.Hand;
             this.Name = "Teachers";
-            this.Size = new System.Drawing.Size(253, 81);
+            this.Size = new System.Drawing.Size(238, 81);
             this.Load += new System.EventHandler(this.Teachers_Load);
             this.Click += new System.EventHandler(this.Teachers_Click);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
@@ -101,5 +111,6 @@
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label3;
         private Bunifu.Framework.UI.BunifuElipse bunifuElipse1;
+        private System.Windows.Forms.Panel panel1;
     }
 }

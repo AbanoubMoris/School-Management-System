@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Student_Form));
             this.Buttons_pnl = new System.Windows.Forms.Panel();
             this.LogOut = new System.Windows.Forms.Label();
@@ -83,6 +84,9 @@
             this.label9 = new System.Windows.Forms.Label();
             this.label10 = new System.Windows.Forms.Label();
             this.grades_pnl = new System.Windows.Forms.Panel();
+            this.panel3 = new System.Windows.Forms.Panel();
+            this.bunifuDragControl1 = new Bunifu.Framework.UI.BunifuDragControl(this.components);
+            this.pictureBox18 = new System.Windows.Forms.PictureBox();
             this.Buttons_pnl.SuspendLayout();
             this.flow_pnl.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.ExitPic)).BeginInit();
@@ -94,6 +98,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView3)).BeginInit();
             this.ShowCourses_pnl.SuspendLayout();
             this.grades_pnl.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox18)).BeginInit();
             this.SuspendLayout();
             // 
             // Buttons_pnl
@@ -119,12 +124,12 @@
             this.LogOut.AutoSize = true;
             this.LogOut.Cursor = System.Windows.Forms.Cursors.Hand;
             this.LogOut.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.LogOut.Font = new System.Drawing.Font("Modern No. 20", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.LogOut.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.LogOut.ForeColor = System.Drawing.Color.Transparent;
             this.LogOut.Location = new System.Drawing.Point(67, 501);
             this.LogOut.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.LogOut.Name = "LogOut";
-            this.LogOut.Size = new System.Drawing.Size(86, 25);
+            this.LogOut.Size = new System.Drawing.Size(93, 29);
             this.LogOut.TabIndex = 12;
             this.LogOut.Text = "Logout";
             this.LogOut.Click += new System.EventHandler(this.LogOut_Click);
@@ -133,8 +138,10 @@
             // 
             this.Status_btn.BackColor = System.Drawing.Color.Transparent;
             this.Status_btn.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.Status_btn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.Status_btn.Font = new System.Drawing.Font("Modern No. 20", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Status_btn.FlatAppearance.BorderSize = 0;
+            this.Status_btn.FlatAppearance.CheckedBackColor = System.Drawing.Color.Teal;
+            this.Status_btn.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.Status_btn.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Status_btn.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(153)))), ((int)(((byte)(170)))), ((int)(((byte)(181)))));
             this.Status_btn.Location = new System.Drawing.Point(2, 404);
             this.Status_btn.Margin = new System.Windows.Forms.Padding(2);
@@ -151,7 +158,9 @@
             this.EditData_btn.BackColor = System.Drawing.Color.Transparent;
             this.EditData_btn.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.EditData_btn.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.EditData_btn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.EditData_btn.FlatAppearance.BorderSize = 0;
+            this.EditData_btn.FlatAppearance.CheckedBackColor = System.Drawing.Color.Teal;
+            this.EditData_btn.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.EditData_btn.Font = new System.Drawing.Font("Times New Roman", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.EditData_btn.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(153)))), ((int)(((byte)(170)))), ((int)(((byte)(181)))));
             this.EditData_btn.Location = new System.Drawing.Point(2, 61);
@@ -168,8 +177,10 @@
             this.Choosecourses_btn.BackColor = System.Drawing.Color.Transparent;
             this.Choosecourses_btn.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.Choosecourses_btn.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.Choosecourses_btn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.Choosecourses_btn.Font = new System.Drawing.Font("Modern No. 20", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Choosecourses_btn.FlatAppearance.BorderSize = 0;
+            this.Choosecourses_btn.FlatAppearance.CheckedBackColor = System.Drawing.Color.Teal;
+            this.Choosecourses_btn.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.Choosecourses_btn.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Choosecourses_btn.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(153)))), ((int)(((byte)(170)))), ((int)(((byte)(181)))));
             this.Choosecourses_btn.Location = new System.Drawing.Point(2, 132);
             this.Choosecourses_btn.Margin = new System.Windows.Forms.Padding(2);
@@ -185,8 +196,10 @@
             this.ShowCourses_btn.BackColor = System.Drawing.Color.Transparent;
             this.ShowCourses_btn.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ShowCourses_btn.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.ShowCourses_btn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.ShowCourses_btn.Font = new System.Drawing.Font("Modern No. 20", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.ShowCourses_btn.FlatAppearance.BorderSize = 0;
+            this.ShowCourses_btn.FlatAppearance.CheckedBackColor = System.Drawing.Color.Teal;
+            this.ShowCourses_btn.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.ShowCourses_btn.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.ShowCourses_btn.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(153)))), ((int)(((byte)(170)))), ((int)(((byte)(181)))));
             this.ShowCourses_btn.Location = new System.Drawing.Point(2, 337);
             this.ShowCourses_btn.Margin = new System.Windows.Forms.Padding(2);
@@ -202,8 +215,10 @@
             this.Showgrades_btn.BackColor = System.Drawing.Color.Transparent;
             this.Showgrades_btn.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.Showgrades_btn.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.Showgrades_btn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.Showgrades_btn.Font = new System.Drawing.Font("Modern No. 20", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Showgrades_btn.FlatAppearance.BorderSize = 0;
+            this.Showgrades_btn.FlatAppearance.CheckedBackColor = System.Drawing.Color.Teal;
+            this.Showgrades_btn.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.Showgrades_btn.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Showgrades_btn.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(153)))), ((int)(((byte)(170)))), ((int)(((byte)(181)))));
             this.Showgrades_btn.Location = new System.Drawing.Point(2, 271);
             this.Showgrades_btn.Margin = new System.Windows.Forms.Padding(2);
@@ -219,8 +234,10 @@
             this.Attendance_btn.BackColor = System.Drawing.Color.Transparent;
             this.Attendance_btn.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.Attendance_btn.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.Attendance_btn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.Attendance_btn.Font = new System.Drawing.Font("Modern No. 20", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Attendance_btn.FlatAppearance.BorderSize = 0;
+            this.Attendance_btn.FlatAppearance.CheckedBackColor = System.Drawing.Color.Teal;
+            this.Attendance_btn.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.Attendance_btn.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Attendance_btn.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(153)))), ((int)(((byte)(170)))), ((int)(((byte)(181)))));
             this.Attendance_btn.Location = new System.Drawing.Point(2, 201);
             this.Attendance_btn.Margin = new System.Windows.Forms.Padding(2);
@@ -234,11 +251,12 @@
             // flow_pnl
             // 
             this.flow_pnl.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(32)))), ((int)(((byte)(34)))), ((int)(((byte)(37)))));
+            this.flow_pnl.Controls.Add(this.pictureBox18);
             this.flow_pnl.Controls.Add(this.ExitPic);
-            this.flow_pnl.Location = new System.Drawing.Point(228, 0);
+            this.flow_pnl.Location = new System.Drawing.Point(228, 3);
             this.flow_pnl.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
             this.flow_pnl.Name = "flow_pnl";
-            this.flow_pnl.Size = new System.Drawing.Size(772, 67);
+            this.flow_pnl.Size = new System.Drawing.Size(772, 64);
             this.flow_pnl.TabIndex = 7;
             // 
             // ExitPic
@@ -257,12 +275,12 @@
             // label12
             // 
             this.label12.AutoSize = true;
-            this.label12.Font = new System.Drawing.Font("Perpetua", 28.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label12.Font = new System.Drawing.Font("Microsoft Sans Serif", 28.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label12.ForeColor = System.Drawing.SystemColors.InactiveCaptionText;
             this.label12.Location = new System.Drawing.Point(218, 11);
             this.label12.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label12.Name = "label12";
-            this.label12.Size = new System.Drawing.Size(314, 43);
+            this.label12.Size = new System.Drawing.Size(354, 44);
             this.label12.TabIndex = 5;
             this.label12.Text = "Edit Personal Data";
             // 
@@ -501,11 +519,11 @@
             // label18
             // 
             this.label18.AutoSize = true;
-            this.label18.Font = new System.Drawing.Font("Perpetua", 29.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label18.Font = new System.Drawing.Font("Microsoft Sans Serif", 29.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label18.Location = new System.Drawing.Point(260, 11);
             this.label18.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label18.Name = "label18";
-            this.label18.Size = new System.Drawing.Size(210, 45);
+            this.label18.Size = new System.Drawing.Size(230, 44);
             this.label18.TabIndex = 5;
             this.label18.Text = "Attendance";
             // 
@@ -557,11 +575,11 @@
             // label27
             // 
             this.label27.AutoSize = true;
-            this.label27.Font = new System.Drawing.Font("Perpetua", 29.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label27.Font = new System.Drawing.Font("Microsoft Sans Serif", 29.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label27.Location = new System.Drawing.Point(284, 11);
             this.label27.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label27.Name = "label27";
-            this.label27.Size = new System.Drawing.Size(210, 45);
+            this.label27.Size = new System.Drawing.Size(236, 44);
             this.label27.TabIndex = 5;
             this.label27.Text = "Your Status";
             // 
@@ -623,11 +641,11 @@
             // label36
             // 
             this.label36.AutoSize = true;
-            this.label36.Font = new System.Drawing.Font("Perpetua", 29.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label36.Font = new System.Drawing.Font("Microsoft Sans Serif", 29.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label36.Location = new System.Drawing.Point(272, 29);
             this.label36.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label36.Name = "label36";
-            this.label36.Size = new System.Drawing.Size(241, 45);
+            this.label36.Size = new System.Drawing.Size(272, 44);
             this.label36.TabIndex = 12;
             this.label36.Text = "Your Courses";
             // 
@@ -695,11 +713,11 @@
             // label24
             // 
             this.label24.AutoSize = true;
-            this.label24.Font = new System.Drawing.Font("Perpetua", 29.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label24.Font = new System.Drawing.Font("Microsoft Sans Serif", 29.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label24.Location = new System.Drawing.Point(272, 29);
             this.label24.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label24.Name = "label24";
-            this.label24.Size = new System.Drawing.Size(226, 45);
+            this.label24.Size = new System.Drawing.Size(253, 44);
             this.label24.TabIndex = 11;
             this.label24.Text = "Your Grades";
             // 
@@ -748,12 +766,40 @@
             this.grades_pnl.TabIndex = 10;
             this.grades_pnl.Paint += new System.Windows.Forms.PaintEventHandler(this.grades_pnl_Paint);
             // 
+            // panel3
+            // 
+            this.panel3.BackColor = System.Drawing.Color.Orange;
+            this.panel3.Location = new System.Drawing.Point(-2, -1);
+            this.panel3.Name = "panel3";
+            this.panel3.Size = new System.Drawing.Size(1000, 5);
+            this.panel3.TabIndex = 33;
+            // 
+            // bunifuDragControl1
+            // 
+            this.bunifuDragControl1.Fixed = true;
+            this.bunifuDragControl1.Horizontal = true;
+            this.bunifuDragControl1.TargetControl = this.flow_pnl;
+            this.bunifuDragControl1.Vertical = true;
+            // 
+            // pictureBox18
+            // 
+            this.pictureBox18.BackColor = System.Drawing.Color.Orange;
+            this.pictureBox18.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.pictureBox18.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox18.Image")));
+            this.pictureBox18.Location = new System.Drawing.Point(28, 0);
+            this.pictureBox18.Name = "pictureBox18";
+            this.pictureBox18.Size = new System.Drawing.Size(50, 64);
+            this.pictureBox18.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox18.TabIndex = 19;
+            this.pictureBox18.TabStop = false;
+            // 
             // Student_Form
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(998, 546);
+            this.Controls.Add(this.panel3);
             this.Controls.Add(this.flow_pnl);
             this.Controls.Add(this.Buttons_pnl);
             this.Controls.Add(this.ShowCourses_pnl);
@@ -785,6 +831,7 @@
             this.ShowCourses_pnl.PerformLayout();
             this.grades_pnl.ResumeLayout(false);
             this.grades_pnl.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox18)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -844,5 +891,8 @@
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.Panel panel3;
+        private Bunifu.Framework.UI.BunifuDragControl bunifuDragControl1;
+        private System.Windows.Forms.PictureBox pictureBox18;
     }
 }
