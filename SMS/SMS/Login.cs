@@ -83,8 +83,6 @@ namespace SMS
         bool hidden = false;
         private void bunifuCustomLabel2_Click(object sender, EventArgs e)
         {
-
-
             ChoosePanel.Visible = false;
             //LoginPanel.Visible = false;
             panel1.Visible = false;
@@ -321,10 +319,28 @@ namespace SMS
 
         private void bunifuCustomLabel3_Click(object sender, EventArgs e)
         {
+            if (panel1.Visible)
+            {
+
+                timer1.Enabled = true;
+                hidden = true;
+                bunifuTransition2.HideSync(panel1, true);
+                panel1.Visible = false;
+                bunifuImageButton1.Location = new Point(324, 3);
+
+            }
+            else
+            {
+                hidden = false;
+                timer1.Enabled = true;
+                bunifuTransition2.ShowSync(panel1, true);
+                bunifuImageButton1.Location = new Point(703, 0);
+            }
+
+
             panel1.Visible = true;
             ChoosePanel.Visible = false;
             SignupPanel.Visible = false;
-            LoginPanel.Visible = false;
             usernameReg.Text = "USERNAME";
             emailReg.Text = "EMAIL";
             mobileReg.Text = "MOBILE";

@@ -12,6 +12,7 @@ namespace SMS
 {
     public partial class ContactUs : UserControl
     {
+        MyMessageBox MBox;
         public ContactUs()
         {
             InitializeComponent();
@@ -54,22 +55,22 @@ namespace SMS
 
         private void pictureBox23_Click(object sender, EventArgs e)
         {
-            System.Diagnostics.Process.Start("http://facebook.com");
+            System.Diagnostics.Process.Start("https://www.facebook.com/groups/278788892992065/");
         }
 
         private void pictureBox24_Click(object sender, EventArgs e)
         {
-            System.Diagnostics.Process.Start("http://twitter.com");
+            System.Diagnostics.Process.Start("https://twitter.com/SSystem21");
         }
 
         private void pictureBox25_Click(object sender, EventArgs e)
         {
-            System.Diagnostics.Process.Start("http://skype.com");
+            MBox = new MyMessageBox("Search For 'schoolsystem21'");
         }
 
         private void pictureBox26_Click(object sender, EventArgs e)
         {
-            System.Diagnostics.Process.Start("https://www.whatsapp.com/");
+            MBox = new MyMessageBox("Contact us on '+20-01146728644'");
         }
 
         private void pictureBox27_Click(object sender, EventArgs e)
@@ -79,7 +80,7 @@ namespace SMS
 
         private void pictureBox28_Click(object sender, EventArgs e)
         {
-            System.Diagnostics.Process.Start("https://www.youtube.com/");
+            System.Diagnostics.Process.Start("https://www.youtube.com/channel/UC8atV55eQ94s3BsLoKJKrrQ?view_as=subscriber");
         }
     }
 }

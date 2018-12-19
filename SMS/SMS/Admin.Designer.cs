@@ -158,6 +158,7 @@
             this.label3 = new System.Windows.Forms.Label();
             this.label6 = new System.Windows.Forms.Label();
             this.TeacherDetailsPanel = new System.Windows.Forms.Panel();
+            this.panel3 = new System.Windows.Forms.Panel();
             this.label21 = new System.Windows.Forms.Label();
             this.gender = new System.Windows.Forms.Label();
             this.age = new System.Windows.Forms.Label();
@@ -192,7 +193,6 @@
             this.bunifuDragControl1 = new Bunifu.Framework.UI.BunifuDragControl(this.components);
             this.bunifuDragControl2 = new Bunifu.Framework.UI.BunifuDragControl(this.components);
             this.bunifuDragControl3 = new Bunifu.Framework.UI.BunifuDragControl(this.components);
-            this.panel3 = new System.Windows.Forms.Panel();
             this.contactUs1 = new SMS.ContactUs();
             this.userControl21 = new SMS.UserControl2();
             this.aboutUs1 = new SMS.AboutUs();
@@ -1357,7 +1357,7 @@
             this.Arabic_btn.Cursor = System.Windows.Forms.Cursors.Hand;
             this.bunifuTransition1.SetDecoration(this.Arabic_btn, BunifuAnimatorNS.DecorationType.None);
             this.Arabic_btn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.Arabic_btn.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Arabic_btn.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Arabic_btn.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.Arabic_btn.Location = new System.Drawing.Point(4, 297);
             this.Arabic_btn.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
@@ -1374,7 +1374,7 @@
             this.Germany_btn.Cursor = System.Windows.Forms.Cursors.Hand;
             this.bunifuTransition1.SetDecoration(this.Germany_btn, BunifuAnimatorNS.DecorationType.None);
             this.Germany_btn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.Germany_btn.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Germany_btn.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Germany_btn.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.Germany_btn.Location = new System.Drawing.Point(2, 395);
             this.Germany_btn.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
@@ -1391,7 +1391,7 @@
             this.Chemistry_btn.Cursor = System.Windows.Forms.Cursors.Hand;
             this.bunifuTransition1.SetDecoration(this.Chemistry_btn, BunifuAnimatorNS.DecorationType.None);
             this.Chemistry_btn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.Chemistry_btn.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Chemistry_btn.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Chemistry_btn.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.Chemistry_btn.Location = new System.Drawing.Point(4, 249);
             this.Chemistry_btn.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
@@ -1408,7 +1408,7 @@
             this.Physics_btn.Cursor = System.Windows.Forms.Cursors.Hand;
             this.bunifuTransition1.SetDecoration(this.Physics_btn, BunifuAnimatorNS.DecorationType.None);
             this.Physics_btn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.Physics_btn.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Physics_btn.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Physics_btn.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.Physics_btn.Location = new System.Drawing.Point(2, 346);
             this.Physics_btn.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
@@ -1425,7 +1425,7 @@
             this.history_btn.Cursor = System.Windows.Forms.Cursors.Hand;
             this.bunifuTransition1.SetDecoration(this.history_btn, BunifuAnimatorNS.DecorationType.None);
             this.history_btn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.history_btn.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.history_btn.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.history_btn.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.history_btn.Location = new System.Drawing.Point(4, 202);
             this.history_btn.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
@@ -1442,7 +1442,7 @@
             this.spain_btn.Cursor = System.Windows.Forms.Cursors.Hand;
             this.bunifuTransition1.SetDecoration(this.spain_btn, BunifuAnimatorNS.DecorationType.None);
             this.spain_btn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.spain_btn.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.spain_btn.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.spain_btn.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.spain_btn.Location = new System.Drawing.Point(5, 154);
             this.spain_btn.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
@@ -1459,7 +1459,7 @@
             this.English_btn.Cursor = System.Windows.Forms.Cursors.Hand;
             this.bunifuTransition1.SetDecoration(this.English_btn, BunifuAnimatorNS.DecorationType.None);
             this.English_btn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.English_btn.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.English_btn.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.English_btn.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.English_btn.Location = new System.Drawing.Point(6, 54);
             this.English_btn.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
@@ -1476,7 +1476,7 @@
             this.geo_btn.Cursor = System.Windows.Forms.Cursors.Hand;
             this.bunifuTransition1.SetDecoration(this.geo_btn, BunifuAnimatorNS.DecorationType.None);
             this.geo_btn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.geo_btn.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.geo_btn.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.geo_btn.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.geo_btn.Location = new System.Drawing.Point(6, 102);
             this.geo_btn.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
@@ -1493,7 +1493,7 @@
             this.math_btn.Cursor = System.Windows.Forms.Cursors.Hand;
             this.bunifuTransition1.SetDecoration(this.math_btn, BunifuAnimatorNS.DecorationType.None);
             this.math_btn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.math_btn.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.math_btn.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.math_btn.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.math_btn.Location = new System.Drawing.Point(6, 8);
             this.math_btn.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
@@ -1540,13 +1540,13 @@
             // 
             this.label4.AutoSize = true;
             this.bunifuTransition1.SetDecoration(this.label4, BunifuAnimatorNS.DecorationType.None);
-            this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 22.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.Location = new System.Drawing.Point(192, 5);
+            this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label4.Location = new System.Drawing.Point(239, 5);
             this.label4.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(305, 36);
+            this.label4.Size = new System.Drawing.Size(265, 29);
             this.label4.TabIndex = 0;
-            this.label4.Text = "STUDENTS GRADS";
+            this.label4.Text = "STUDENTS GRADES";
             // 
             // DashBoardPanel
             // 
@@ -1979,6 +1979,16 @@
             this.TeacherDetailsPanel.Size = new System.Drawing.Size(415, 318);
             this.TeacherDetailsPanel.TabIndex = 23;
             // 
+            // panel3
+            // 
+            this.panel3.BackColor = System.Drawing.Color.CornflowerBlue;
+            this.bunifuTransition1.SetDecoration(this.panel3, BunifuAnimatorNS.DecorationType.None);
+            this.panel3.Dock = System.Windows.Forms.DockStyle.Top;
+            this.panel3.Location = new System.Drawing.Point(0, 0);
+            this.panel3.Name = "panel3";
+            this.panel3.Size = new System.Drawing.Size(415, 7);
+            this.panel3.TabIndex = 32;
+            // 
             // label21
             // 
             this.label21.AutoSize = true;
@@ -2396,16 +2406,6 @@
             this.bunifuDragControl3.TargetControl = this.panel1;
             this.bunifuDragControl3.Vertical = true;
             // 
-            // panel3
-            // 
-            this.panel3.BackColor = System.Drawing.Color.CornflowerBlue;
-            this.bunifuTransition1.SetDecoration(this.panel3, BunifuAnimatorNS.DecorationType.None);
-            this.panel3.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panel3.Location = new System.Drawing.Point(0, 0);
-            this.panel3.Name = "panel3";
-            this.panel3.Size = new System.Drawing.Size(415, 7);
-            this.panel3.TabIndex = 32;
-            // 
             // contactUs1
             // 
             this.contactUs1.BackColor = System.Drawing.Color.Transparent;
@@ -2444,13 +2444,13 @@
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.bunifuGradientPanel1);
             this.Controls.Add(this.bunifuGradientPanel2);
-            this.Controls.Add(this.TeachersPanel);
             this.Controls.Add(this.GradesPanel);
             this.Controls.Add(this.StudentsPanel);
             this.Controls.Add(this.SubjectPanel);
             this.Controls.Add(this.ParentPanel);
             this.Controls.Add(this.AboutPnl);
             this.Controls.Add(this.DashBoardPanel);
+            this.Controls.Add(this.TeachersPanel);
             this.bunifuTransition1.SetDecoration(this, BunifuAnimatorNS.DecorationType.None);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);

@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Parent));
             this.panel1 = new System.Windows.Forms.Panel();
             this.contactUs1 = new SMS.ContactUs();
@@ -66,15 +67,20 @@
             this.label14 = new System.Windows.Forms.Label();
             this.fromLabel = new System.Windows.Forms.Label();
             this.toLabel = new System.Windows.Forms.Label();
-            this.fromTextBox = new System.Windows.Forms.TextBox();
-            this.subjectTextBox = new System.Windows.Forms.TextBox();
-            this.toTextBox = new System.Windows.Forms.TextBox();
             this.selectTeacherPanel = new System.Windows.Forms.Panel();
             this.dataGridView2 = new System.Windows.Forms.DataGridView();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.panel2 = new System.Windows.Forms.Panel();
             this.pictureBox17 = new System.Windows.Forms.PictureBox();
+            this.toTextBox = new Bunifu.Framework.UI.BunifuMaterialTextbox();
+            this.bunifuElipse1 = new Bunifu.Framework.UI.BunifuElipse(this.components);
+            this.fromTextBox = new Bunifu.Framework.UI.BunifuMaterialTextbox();
+            this.subjectTextBox = new Bunifu.Framework.UI.BunifuMaterialTextbox();
+            this.bunifuElipse2 = new Bunifu.Framework.UI.BunifuElipse(this.components);
+            this.bunifuElipse3 = new Bunifu.Framework.UI.BunifuElipse(this.components);
+            this.bunifuElipse4 = new Bunifu.Framework.UI.BunifuElipse(this.components);
+            this.bunifuElipse5 = new Bunifu.Framework.UI.BunifuElipse(this.components);
             this.panel1.SuspendLayout();
             this.StuPanel.SuspendLayout();
             this.QueryPanel.SuspendLayout();
@@ -506,14 +512,14 @@
             // 
             // sendEmailPanel
             // 
+            this.sendEmailPanel.Controls.Add(this.subjectTextBox);
+            this.sendEmailPanel.Controls.Add(this.fromTextBox);
+            this.sendEmailPanel.Controls.Add(this.toTextBox);
             this.sendEmailPanel.Controls.Add(this.sendEmailbtn);
             this.sendEmailPanel.Controls.Add(this.messageTextBox);
             this.sendEmailPanel.Controls.Add(this.label14);
             this.sendEmailPanel.Controls.Add(this.fromLabel);
             this.sendEmailPanel.Controls.Add(this.toLabel);
-            this.sendEmailPanel.Controls.Add(this.fromTextBox);
-            this.sendEmailPanel.Controls.Add(this.subjectTextBox);
-            this.sendEmailPanel.Controls.Add(this.toTextBox);
             this.sendEmailPanel.Location = new System.Drawing.Point(26, 77);
             this.sendEmailPanel.Margin = new System.Windows.Forms.Padding(2);
             this.sendEmailPanel.Name = "sendEmailPanel";
@@ -522,7 +528,7 @@
             // 
             // sendEmailbtn
             // 
-            this.sendEmailbtn.BackColor = System.Drawing.Color.Transparent;
+            this.sendEmailbtn.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(114)))), ((int)(((byte)(137)))), ((int)(((byte)(218)))));
             this.sendEmailbtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.sendEmailbtn.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.sendEmailbtn.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
@@ -579,30 +585,6 @@
             this.toLabel.Size = new System.Drawing.Size(25, 17);
             this.toLabel.TabIndex = 3;
             this.toLabel.Text = "To";
-            // 
-            // fromTextBox
-            // 
-            this.fromTextBox.Location = new System.Drawing.Point(76, 69);
-            this.fromTextBox.Margin = new System.Windows.Forms.Padding(2);
-            this.fromTextBox.Name = "fromTextBox";
-            this.fromTextBox.Size = new System.Drawing.Size(584, 20);
-            this.fromTextBox.TabIndex = 2;
-            // 
-            // subjectTextBox
-            // 
-            this.subjectTextBox.Location = new System.Drawing.Point(76, 107);
-            this.subjectTextBox.Margin = new System.Windows.Forms.Padding(2);
-            this.subjectTextBox.Name = "subjectTextBox";
-            this.subjectTextBox.Size = new System.Drawing.Size(584, 20);
-            this.subjectTextBox.TabIndex = 1;
-            // 
-            // toTextBox
-            // 
-            this.toTextBox.Location = new System.Drawing.Point(76, 31);
-            this.toTextBox.Margin = new System.Windows.Forms.Padding(2);
-            this.toTextBox.Name = "toTextBox";
-            this.toTextBox.Size = new System.Drawing.Size(584, 20);
-            this.toTextBox.TabIndex = 0;
             // 
             // selectTeacherPanel
             // 
@@ -666,6 +648,91 @@
             this.pictureBox17.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox17.TabIndex = 51;
             this.pictureBox17.TabStop = false;
+            // 
+            // toTextBox
+            // 
+            this.toTextBox.BackColor = System.Drawing.Color.White;
+            this.toTextBox.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.toTextBox.Font = new System.Drawing.Font("Century Gothic", 9.75F);
+            this.toTextBox.ForeColor = System.Drawing.Color.Black;
+            this.toTextBox.HintForeColor = System.Drawing.Color.White;
+            this.toTextBox.HintText = "";
+            this.toTextBox.isPassword = false;
+            this.toTextBox.LineFocusedColor = System.Drawing.Color.Transparent;
+            this.toTextBox.LineIdleColor = System.Drawing.Color.Transparent;
+            this.toTextBox.LineMouseHoverColor = System.Drawing.Color.Transparent;
+            this.toTextBox.LineThickness = 5;
+            this.toTextBox.Location = new System.Drawing.Point(76, 30);
+            this.toTextBox.Margin = new System.Windows.Forms.Padding(4);
+            this.toTextBox.Name = "toTextBox";
+            this.toTextBox.Size = new System.Drawing.Size(372, 31);
+            this.toTextBox.TabIndex = 7;
+            this.toTextBox.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
+            // 
+            // bunifuElipse1
+            // 
+            this.bunifuElipse1.ElipseRadius = 13;
+            this.bunifuElipse1.TargetControl = this.toTextBox;
+            // 
+            // fromTextBox
+            // 
+            this.fromTextBox.BackColor = System.Drawing.Color.White;
+            this.fromTextBox.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.fromTextBox.Font = new System.Drawing.Font("Century Gothic", 9.75F);
+            this.fromTextBox.ForeColor = System.Drawing.Color.Black;
+            this.fromTextBox.HintForeColor = System.Drawing.Color.White;
+            this.fromTextBox.HintText = "";
+            this.fromTextBox.isPassword = false;
+            this.fromTextBox.LineFocusedColor = System.Drawing.Color.Transparent;
+            this.fromTextBox.LineIdleColor = System.Drawing.Color.Transparent;
+            this.fromTextBox.LineMouseHoverColor = System.Drawing.Color.Transparent;
+            this.fromTextBox.LineThickness = 5;
+            this.fromTextBox.Location = new System.Drawing.Point(76, 69);
+            this.fromTextBox.Margin = new System.Windows.Forms.Padding(4);
+            this.fromTextBox.Name = "fromTextBox";
+            this.fromTextBox.Size = new System.Drawing.Size(372, 31);
+            this.fromTextBox.TabIndex = 8;
+            this.fromTextBox.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
+            // 
+            // subjectTextBox
+            // 
+            this.subjectTextBox.BackColor = System.Drawing.Color.White;
+            this.subjectTextBox.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.subjectTextBox.Font = new System.Drawing.Font("Century Gothic", 9.75F);
+            this.subjectTextBox.ForeColor = System.Drawing.Color.Black;
+            this.subjectTextBox.HintForeColor = System.Drawing.Color.White;
+            this.subjectTextBox.HintText = "";
+            this.subjectTextBox.isPassword = false;
+            this.subjectTextBox.LineFocusedColor = System.Drawing.Color.Transparent;
+            this.subjectTextBox.LineIdleColor = System.Drawing.Color.Transparent;
+            this.subjectTextBox.LineMouseHoverColor = System.Drawing.Color.Transparent;
+            this.subjectTextBox.LineThickness = 5;
+            this.subjectTextBox.Location = new System.Drawing.Point(76, 107);
+            this.subjectTextBox.Margin = new System.Windows.Forms.Padding(4);
+            this.subjectTextBox.Name = "subjectTextBox";
+            this.subjectTextBox.Size = new System.Drawing.Size(372, 31);
+            this.subjectTextBox.TabIndex = 9;
+            this.subjectTextBox.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
+            // 
+            // bunifuElipse2
+            // 
+            this.bunifuElipse2.ElipseRadius = 13;
+            this.bunifuElipse2.TargetControl = this.fromTextBox;
+            // 
+            // bunifuElipse3
+            // 
+            this.bunifuElipse3.ElipseRadius = 13;
+            this.bunifuElipse3.TargetControl = this.subjectTextBox;
+            // 
+            // bunifuElipse4
+            // 
+            this.bunifuElipse4.ElipseRadius = 20;
+            this.bunifuElipse4.TargetControl = this.messageTextBox;
+            // 
+            // bunifuElipse5
+            // 
+            this.bunifuElipse5.ElipseRadius = 13;
+            this.bunifuElipse5.TargetControl = this.sendEmailbtn;
             // 
             // Parent
             // 
@@ -739,9 +806,6 @@
         private System.Windows.Forms.Label label14;
         private System.Windows.Forms.Label fromLabel;
         private System.Windows.Forms.Label toLabel;
-        private System.Windows.Forms.TextBox fromTextBox;
-        private System.Windows.Forms.TextBox subjectTextBox;
-        private System.Windows.Forms.TextBox toTextBox;
         private System.Windows.Forms.Button sendEmailButton;
         private ContactUs contactUs1;
         private System.Windows.Forms.RadioButton femaleCheckBox;
@@ -749,5 +813,13 @@
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.Panel panel2;
         private System.Windows.Forms.PictureBox pictureBox17;
+        private Bunifu.Framework.UI.BunifuMaterialTextbox toTextBox;
+        private Bunifu.Framework.UI.BunifuElipse bunifuElipse1;
+        private Bunifu.Framework.UI.BunifuMaterialTextbox subjectTextBox;
+        private Bunifu.Framework.UI.BunifuMaterialTextbox fromTextBox;
+        private Bunifu.Framework.UI.BunifuElipse bunifuElipse2;
+        private Bunifu.Framework.UI.BunifuElipse bunifuElipse3;
+        private Bunifu.Framework.UI.BunifuElipse bunifuElipse4;
+        private Bunifu.Framework.UI.BunifuElipse bunifuElipse5;
     }
 }
