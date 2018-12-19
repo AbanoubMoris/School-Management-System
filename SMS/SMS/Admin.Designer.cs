@@ -2444,13 +2444,13 @@
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.bunifuGradientPanel1);
             this.Controls.Add(this.bunifuGradientPanel2);
-            this.Controls.Add(this.ParentPanel);
-            this.Controls.Add(this.AboutPnl);
-            this.Controls.Add(this.DashBoardPanel);
             this.Controls.Add(this.TeachersPanel);
             this.Controls.Add(this.GradesPanel);
             this.Controls.Add(this.StudentsPanel);
             this.Controls.Add(this.SubjectPanel);
+            this.Controls.Add(this.ParentPanel);
+            this.Controls.Add(this.AboutPnl);
+            this.Controls.Add(this.DashBoardPanel);
             this.bunifuTransition1.SetDecoration(this, BunifuAnimatorNS.DecorationType.None);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);

@@ -688,7 +688,7 @@ namespace SMS
                 SqlDataReader dr = cmd.ExecuteReader();
                 while (dr.Read())
                 {
-                    temp = Int32.Parse(dr["Course_ID"].ToString());
+                    temp = Int32.Parse(dr["Teacher_ID"].ToString());
                 }
             }
             return temp;
@@ -769,13 +769,19 @@ namespace SMS
                             SqlCommand cmd = new SqlCommand("insert into " + tableName + "(Name,pass,PhoneNumber,Address,Email,Gender,Day,Month,Year,Picture) values ('" + usernameReg.Text + "','" + passReg.Text + "'," + mobileReg.Text + ",'" + addressReg.Text + "','" + emailReg.Text + "','" + checkGender(maleReg.Checked) + "'," + dayReg.Text + "," + monthReg.Text + "," + yearReg.Text +",@img)", con);
                           
                             cmd.Parameters.Add(new SqlParameter("@img", img));
+                           
+                            cmd.ExecuteNonQuery();
+                            MBOX = new MyMessageBox("Registered Successfully!");
+                            MessageBox.Show(getTeacherId().ToString());
+                            MessageBox.Show(courseId().ToString());
+
+
                             if (teacherIsClicked)
                             {
                                 SqlCommand c = new SqlCommand("insert into Teacher_Course (Course_ID,Teacher_ID) values (" + courseId() + "," + getTeacherId() + ")", con);
                                 c.ExecuteNonQuery();
                             }
-                            cmd.ExecuteNonQuery();
-                            MBOX = new MyMessageBox("Registered Successfully!");
+
                             playSound.URL = "done.wav";
                             playSound.controls.play();
 

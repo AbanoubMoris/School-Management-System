@@ -8,6 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.Data.SqlClient;
+using System.IO;
 
 namespace SMS
 {
@@ -58,6 +59,11 @@ namespace SMS
                 currentYear = (cur - pres).ToString();
                 f.Age = currentYear + " years old";
                 f.courseName = label1.Text.ToString();
+
+               // byte[] img = System.Text.ASCIIEncoding.ASCII.GetBytes(s[7]); //*****************************
+                //MemoryStream ms = new MemoryStream(img);
+                //f.tePic = Image.FromStream(ms);
+
                 //A.Show();
                 //*********************************
                 //f.LabelText = label3.Text.ToString();

@@ -32,12 +32,12 @@ namespace SMS
                 string s = dr["Name"].ToString();
                 string x = dr["Course_Name"].ToString();
                 Te.TeacherName.Text = s;
-              //  if (dr["Picture"].ToString() != null)
-              //  {
-              //      byte[] img = (byte[])dr["Picture"];
-              //      MemoryStream ms = new MemoryStream(img);
-              //      Te.Picture = Image.FromStream(ms);
-              //  }
+                if (dr["Picture"].ToString() != null)
+                {
+                    byte[] img = (byte[])dr["Picture"];
+                    MemoryStream ms = new MemoryStream(img);
+                    Te.Picture = Image.FromStream(ms);
+                }
                 Te.TeacherSubject.Text = x;
                 Te.Location = new Point(7, location + 5);
                 location += Te.Height + 5;
@@ -52,7 +52,7 @@ namespace SMS
         {
             SqlConnection con = new SqlConnection(stringConnection);
             con.Open();
-            SqlCommand cmd = new SqlCommand("select Name,Parent_ID from Parent ", con);
+            SqlCommand cmd = new SqlCommand("select Name,Parent_ID,Picture from Parent ", con);
 
             cmd.CommandType = CommandType.Text;
             SqlDataReader dr = cmd.ExecuteReader();
@@ -63,6 +63,12 @@ namespace SMS
 
                 Te.TeacherName.Text = dr["Name"].ToString();
                 Te.TeacherSubject.Text = dr["Parent_ID"].ToString();
+                if (dr["Picture"].ToString() != null)
+                {
+                    byte[] img = (byte[])dr["Picture"];
+                    MemoryStream ms = new MemoryStream(img);
+                    Te.Picture = Image.FromStream(ms);
+                }
 
                 Te.Location = new Point(0, location + 5);
                 location += Te.Height + 5;
@@ -77,7 +83,7 @@ namespace SMS
         {
             SqlConnection con = new SqlConnection(stringConnection);
             con.Open();
-            SqlCommand cmd = new SqlCommand("select Name,Student_ID from Student ", con);
+            SqlCommand cmd = new SqlCommand("select Name,Student_ID,Picture from Student ", con);
 
             cmd.CommandType = CommandType.Text;
             SqlDataReader dr = cmd.ExecuteReader();
@@ -88,7 +94,12 @@ namespace SMS
 
                 Te.TeacherName.Text = dr["Name"].ToString();
                 Te.TeacherSubject.Text = dr["Student_ID"].ToString();
-
+                if (dr["Picture"].ToString() != null)
+                {
+                    byte[] img = (byte[])dr["Picture"];
+                    MemoryStream ms = new MemoryStream(img);
+                    Te.Picture = Image.FromStream(ms);
+                }
                 Te.Location = new Point(0, location + 5);
                 location += Te.Height + 5;
                 Te.Name = "Student";
