@@ -44,7 +44,6 @@
             this.dayReg = new Bunifu.Framework.UI.BunifuMetroTextbox();
             this.studentPhone = new System.Windows.Forms.TextBox();
             this.label5 = new System.Windows.Forms.Label();
-            this.label4 = new System.Windows.Forms.Label();
             this.studentEmail = new System.Windows.Forms.TextBox();
             this.label3 = new System.Windows.Forms.Label();
             this.studentPass = new System.Windows.Forms.TextBox();
@@ -75,7 +74,6 @@
             this.dataGridView2 = new System.Windows.Forms.DataGridView();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.panel2 = new System.Windows.Forms.Panel();
             this.pictureBox17 = new System.Windows.Forms.PictureBox();
             this.bunifuElipse1 = new Bunifu.Framework.UI.BunifuElipse(this.components);
             this.bunifuElipse2 = new Bunifu.Framework.UI.BunifuElipse(this.components);
@@ -83,6 +81,8 @@
             this.bunifuElipse4 = new Bunifu.Framework.UI.BunifuElipse(this.components);
             this.bunifuElipse5 = new Bunifu.Framework.UI.BunifuElipse(this.components);
             this.bunifuElipse6 = new Bunifu.Framework.UI.BunifuElipse(this.components);
+            this.pictureBox3 = new System.Windows.Forms.PictureBox();
+            this.button5 = new System.Windows.Forms.Button();
             this.panel1.SuspendLayout();
             this.StuPanel.SuspendLayout();
             this.QueryPanel.SuspendLayout();
@@ -94,11 +94,13 @@
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox17)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
             this.SuspendLayout();
             // 
             // panel1
             // 
             this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(32)))), ((int)(((byte)(34)))), ((int)(((byte)(37)))));
+            this.panel1.Controls.Add(this.pictureBox17);
             this.panel1.Controls.Add(this.contactUs1);
             this.panel1.Controls.Add(this.LogOut);
             this.panel1.Controls.Add(this.button2);
@@ -139,7 +141,7 @@
             this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button2.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(153)))), ((int)(((byte)(170)))), ((int)(((byte)(181)))));
-            this.button2.Location = new System.Drawing.Point(2, 127);
+            this.button2.Location = new System.Drawing.Point(2, 184);
             this.button2.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(226, 53);
@@ -154,7 +156,7 @@
             this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(153)))), ((int)(((byte)(170)))), ((int)(((byte)(181)))));
-            this.button1.Location = new System.Drawing.Point(2, 61);
+            this.button1.Location = new System.Drawing.Point(2, 118);
             this.button1.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(226, 60);
@@ -166,6 +168,8 @@
             // StuPanel
             // 
             this.StuPanel.BackColor = System.Drawing.SystemColors.InactiveBorder;
+            this.StuPanel.Controls.Add(this.button5);
+            this.StuPanel.Controls.Add(this.pictureBox3);
             this.StuPanel.Controls.Add(this.femaleCheckBox);
             this.StuPanel.Controls.Add(this.maleCheckBox);
             this.StuPanel.Controls.Add(this.label6);
@@ -174,7 +178,6 @@
             this.StuPanel.Controls.Add(this.dayReg);
             this.StuPanel.Controls.Add(this.studentPhone);
             this.StuPanel.Controls.Add(this.label5);
-            this.StuPanel.Controls.Add(this.label4);
             this.StuPanel.Controls.Add(this.studentEmail);
             this.StuPanel.Controls.Add(this.label3);
             this.StuPanel.Controls.Add(this.studentPass);
@@ -196,7 +199,7 @@
             // 
             this.femaleCheckBox.AutoSize = true;
             this.femaleCheckBox.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.femaleCheckBox.Location = new System.Drawing.Point(559, 319);
+            this.femaleCheckBox.Location = new System.Drawing.Point(476, 361);
             this.femaleCheckBox.Name = "femaleCheckBox";
             this.femaleCheckBox.Size = new System.Drawing.Size(86, 23);
             this.femaleCheckBox.TabIndex = 60;
@@ -208,7 +211,7 @@
             // 
             this.maleCheckBox.AutoSize = true;
             this.maleCheckBox.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.maleCheckBox.Location = new System.Drawing.Point(376, 319);
+            this.maleCheckBox.Location = new System.Drawing.Point(293, 361);
             this.maleCheckBox.Name = "maleCheckBox";
             this.maleCheckBox.Size = new System.Drawing.Size(66, 23);
             this.maleCheckBox.TabIndex = 59;
@@ -219,12 +222,12 @@
             // label6
             // 
             this.label6.AutoSize = true;
-            this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label6.ForeColor = System.Drawing.Color.Black;
-            this.label6.Location = new System.Drawing.Point(72, 358);
+            this.label6.Location = new System.Drawing.Point(68, 406);
             this.label6.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(159, 37);
+            this.label6.Size = new System.Drawing.Size(137, 31);
             this.label6.TabIndex = 58;
             this.label6.Text = "BirthDate";
             // 
@@ -240,7 +243,7 @@
             this.yearReg.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.yearReg.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.yearReg.isPassword = false;
-            this.yearReg.Location = new System.Drawing.Point(546, 351);
+            this.yearReg.Location = new System.Drawing.Point(463, 393);
             this.yearReg.Margin = new System.Windows.Forms.Padding(4);
             this.yearReg.Name = "yearReg";
             this.yearReg.Size = new System.Drawing.Size(79, 44);
@@ -262,7 +265,7 @@
             this.monthReg.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.monthReg.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.monthReg.isPassword = false;
-            this.monthReg.Location = new System.Drawing.Point(458, 351);
+            this.monthReg.Location = new System.Drawing.Point(375, 393);
             this.monthReg.Margin = new System.Windows.Forms.Padding(4);
             this.monthReg.Name = "monthReg";
             this.monthReg.Size = new System.Drawing.Size(79, 44);
@@ -284,7 +287,7 @@
             this.dayReg.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.dayReg.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.dayReg.isPassword = false;
-            this.dayReg.Location = new System.Drawing.Point(372, 351);
+            this.dayReg.Location = new System.Drawing.Point(289, 393);
             this.dayReg.Margin = new System.Windows.Forms.Padding(4);
             this.dayReg.Name = "dayReg";
             this.dayReg.Size = new System.Drawing.Size(79, 44);
@@ -296,7 +299,7 @@
             // 
             // studentPhone
             // 
-            this.studentPhone.Location = new System.Drawing.Point(376, 168);
+            this.studentPhone.Location = new System.Drawing.Point(294, 206);
             this.studentPhone.Margin = new System.Windows.Forms.Padding(2);
             this.studentPhone.Name = "studentPhone";
             this.studentPhone.Size = new System.Drawing.Size(324, 20);
@@ -305,30 +308,18 @@
             // label5
             // 
             this.label5.AutoSize = true;
-            this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label5.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.label5.Location = new System.Drawing.Point(72, 149);
+            this.label5.Location = new System.Drawing.Point(68, 195);
             this.label5.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(235, 37);
+            this.label5.Size = new System.Drawing.Size(199, 31);
             this.label5.TabIndex = 53;
             this.label5.Text = "PhoneNumber";
             // 
-            // label4
-            // 
-            this.label4.AutoSize = true;
-            this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.Location = new System.Drawing.Point(674, 438);
-            this.label4.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(75, 29);
-            this.label4.TabIndex = 52;
-            this.label4.Text = "Done";
-            this.label4.Click += new System.EventHandler(this.label4_Click);
-            // 
             // studentEmail
             // 
-            this.studentEmail.Location = new System.Drawing.Point(377, 218);
+            this.studentEmail.Location = new System.Drawing.Point(294, 260);
             this.studentEmail.Margin = new System.Windows.Forms.Padding(2);
             this.studentEmail.Name = "studentEmail";
             this.studentEmail.Size = new System.Drawing.Size(324, 20);
@@ -337,18 +328,18 @@
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label3.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.label3.Location = new System.Drawing.Point(73, 199);
+            this.label3.Location = new System.Drawing.Point(68, 249);
             this.label3.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(102, 37);
+            this.label3.Size = new System.Drawing.Size(86, 31);
             this.label3.TabIndex = 50;
             this.label3.Text = "Email";
             // 
             // studentPass
             // 
-            this.studentPass.Location = new System.Drawing.Point(377, 120);
+            this.studentPass.Location = new System.Drawing.Point(294, 152);
             this.studentPass.Margin = new System.Windows.Forms.Padding(2);
             this.studentPass.Name = "studentPass";
             this.studentPass.Size = new System.Drawing.Size(324, 20);
@@ -358,30 +349,30 @@
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.label2.Location = new System.Drawing.Point(73, 101);
+            this.label2.Location = new System.Drawing.Point(68, 141);
             this.label2.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(166, 37);
+            this.label2.Size = new System.Drawing.Size(142, 31);
             this.label2.TabIndex = 48;
             this.label2.Text = "Password";
             // 
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 21.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.label1.Location = new System.Drawing.Point(5, 6);
             this.label1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(267, 37);
+            this.label1.Size = new System.Drawing.Size(242, 33);
             this.label1.TabIndex = 47;
             this.label1.Text = "STUDENT INFO";
             // 
             // studentAddress
             // 
-            this.studentAddress.Location = new System.Drawing.Point(376, 270);
+            this.studentAddress.Location = new System.Drawing.Point(293, 312);
             this.studentAddress.Margin = new System.Windows.Forms.Padding(2);
             this.studentAddress.Name = "studentAddress";
             this.studentAddress.Size = new System.Drawing.Size(324, 20);
@@ -389,7 +380,7 @@
             // 
             // studentName
             // 
-            this.studentName.Location = new System.Drawing.Point(377, 68);
+            this.studentName.Location = new System.Drawing.Point(294, 105);
             this.studentName.Margin = new System.Windows.Forms.Padding(2);
             this.studentName.Name = "studentName";
             this.studentName.Size = new System.Drawing.Size(324, 20);
@@ -398,36 +389,36 @@
             // genderOfStudent
             // 
             this.genderOfStudent.AutoSize = true;
-            this.genderOfStudent.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.genderOfStudent.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.genderOfStudent.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.genderOfStudent.Location = new System.Drawing.Point(72, 308);
+            this.genderOfStudent.Location = new System.Drawing.Point(68, 353);
             this.genderOfStudent.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.genderOfStudent.Name = "genderOfStudent";
-            this.genderOfStudent.Size = new System.Drawing.Size(129, 37);
+            this.genderOfStudent.Size = new System.Drawing.Size(110, 31);
             this.genderOfStudent.TabIndex = 39;
             this.genderOfStudent.Text = "Gender";
             // 
             // nameOfStudent
             // 
             this.nameOfStudent.AutoSize = true;
-            this.nameOfStudent.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.nameOfStudent.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.nameOfStudent.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.nameOfStudent.Location = new System.Drawing.Point(73, 53);
+            this.nameOfStudent.Location = new System.Drawing.Point(68, 94);
             this.nameOfStudent.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.nameOfStudent.Name = "nameOfStudent";
-            this.nameOfStudent.Size = new System.Drawing.Size(172, 37);
+            this.nameOfStudent.Size = new System.Drawing.Size(147, 31);
             this.nameOfStudent.TabIndex = 37;
             this.nameOfStudent.Text = "Username";
             // 
             // addressOfStudent
             // 
             this.addressOfStudent.AutoSize = true;
-            this.addressOfStudent.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.addressOfStudent.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.addressOfStudent.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.addressOfStudent.Location = new System.Drawing.Point(72, 253);
+            this.addressOfStudent.Location = new System.Drawing.Point(68, 301);
             this.addressOfStudent.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.addressOfStudent.Name = "addressOfStudent";
-            this.addressOfStudent.Size = new System.Drawing.Size(142, 37);
+            this.addressOfStudent.Size = new System.Drawing.Size(121, 31);
             this.addressOfStudent.TabIndex = 38;
             this.addressOfStudent.Text = "Address";
             // 
@@ -705,22 +696,14 @@
             this.pictureBox1.TabStop = false;
             this.pictureBox1.Click += new System.EventHandler(this.pictureBox1_Click);
             // 
-            // panel2
-            // 
-            this.panel2.BackColor = System.Drawing.Color.Wheat;
-            this.panel2.Location = new System.Drawing.Point(-4, -1);
-            this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(1100, 5);
-            this.panel2.TabIndex = 50;
-            // 
             // pictureBox17
             // 
-            this.pictureBox17.BackColor = System.Drawing.Color.Wheat;
+            this.pictureBox17.BackColor = System.Drawing.Color.Transparent;
             this.pictureBox17.Cursor = System.Windows.Forms.Cursors.Hand;
             this.pictureBox17.Image = global::SMS.Properties.Resources.iconfinder_nerd_43200;
-            this.pictureBox17.Location = new System.Drawing.Point(257, 1);
+            this.pictureBox17.Location = new System.Drawing.Point(3, 5);
             this.pictureBox17.Name = "pictureBox17";
-            this.pictureBox17.Size = new System.Drawing.Size(59, 59);
+            this.pictureBox17.Size = new System.Drawing.Size(119, 107);
             this.pictureBox17.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox17.TabIndex = 51;
             this.pictureBox17.TabStop = false;
@@ -755,18 +738,40 @@
             this.bunifuElipse6.ElipseRadius = 20;
             this.bunifuElipse6.TargetControl = this.pictureBox2;
             // 
+            // pictureBox3
+            // 
+            this.pictureBox3.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox3.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.pictureBox3.Image = global::SMS.Properties.Resources.iconfinder_nerd_43200;
+            this.pictureBox3.Location = new System.Drawing.Point(647, 3);
+            this.pictureBox3.Name = "pictureBox3";
+            this.pictureBox3.Size = new System.Drawing.Size(119, 107);
+            this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox3.TabIndex = 52;
+            this.pictureBox3.TabStop = false;
+            this.pictureBox3.Click += new System.EventHandler(this.pictureBox3_Click_1);
+            // 
+            // button5
+            // 
+            this.button5.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button5.Location = new System.Drawing.Point(674, 453);
+            this.button5.Name = "button5";
+            this.button5.Size = new System.Drawing.Size(85, 32);
+            this.button5.TabIndex = 61;
+            this.button5.Text = "DONE";
+            this.button5.UseVisualStyleBackColor = true;
+            this.button5.Click += new System.EventHandler(this.label4_Click);
+            // 
             // Parent
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(32)))), ((int)(((byte)(34)))), ((int)(((byte)(37)))));
             this.ClientSize = new System.Drawing.Size(1016, 566);
-            this.Controls.Add(this.pictureBox17);
-            this.Controls.Add(this.panel2);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.panel1);
-            this.Controls.Add(this.QueryPanel);
             this.Controls.Add(this.StuPanel);
+            this.Controls.Add(this.QueryPanel);
             this.DoubleBuffered = true;
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
@@ -786,6 +791,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox17)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -806,7 +812,6 @@
         private System.Windows.Forms.Panel panel3;
         private System.Windows.Forms.Button button4;
         private System.Windows.Forms.Button button3;
-        private System.Windows.Forms.Label label4;
         private System.Windows.Forms.TextBox studentEmail;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.TextBox studentPass;
@@ -833,7 +838,6 @@
         private System.Windows.Forms.RadioButton femaleCheckBox;
         private System.Windows.Forms.RadioButton maleCheckBox;
         private System.Windows.Forms.PictureBox pictureBox1;
-        private System.Windows.Forms.Panel panel2;
         private System.Windows.Forms.PictureBox pictureBox17;
         private Bunifu.Framework.UI.BunifuMaterialTextbox toTextBox;
         private Bunifu.Framework.UI.BunifuElipse bunifuElipse1;
@@ -845,5 +849,7 @@
         private Bunifu.Framework.UI.BunifuElipse bunifuElipse5;
         private System.Windows.Forms.PictureBox pictureBox2;
         private Bunifu.Framework.UI.BunifuElipse bunifuElipse6;
+        private System.Windows.Forms.Button button5;
+        private System.Windows.Forms.PictureBox pictureBox3;
     }
 }

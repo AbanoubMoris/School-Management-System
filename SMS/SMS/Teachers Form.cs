@@ -12,6 +12,7 @@ using System.Data.SqlClient;
 using System.Net;
 using System.Net.Mail;
 using WMPLib;
+using System.IO;
 namespace SMS
 {
     public partial class Teachers_Form : Form
@@ -138,6 +139,26 @@ namespace SMS
         {
             InitializeComponent();
             user_name = username;
+
+            using (SqlConnection con = new SqlConnection(stringConnection))
+            {
+                con.Open();
+                SqlCommand cmd = new SqlCommand("Select Picture from Teacher where Name = '" + username + "'", con);
+                SqlDataReader dr = cmd.ExecuteReader();
+                dr.Read();
+                if(dr.HasRows)
+                {
+                    if (dr["Picture"].ToString() != null)
+                    {
+                        byte[] img = (byte[])dr["Picture"];
+                    MemoryStream ms = new MemoryStream(img);
+                    pictureBox2.Image = Image.FromStream(ms);
+                    }
+                }
+
+            }
+
+
         }
 
         private void Teachers_Form_Load(object sender, EventArgs e)

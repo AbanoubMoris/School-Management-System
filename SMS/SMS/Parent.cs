@@ -12,10 +12,32 @@ using System.Data.SqlClient;
 using System.Net;
 using System.Net.Mail;
 using WMPLib;
+using System.IO;
 namespace SMS
 {
     public partial class Parent : Form
     {
+        string PicLocation;
+        void openPic()
+        {
+            try
+            {
+                OpenFileDialog f = new OpenFileDialog();
+                f.InitialDirectory = "C:/Picture/";
+                f.Filter = "All Files|*.*|JPEGs|*.jpg|Bitmaps|*.bmp|GIFs|*.gif";
+                f.FilterIndex = 2;
+                if (f.ShowDialog() == DialogResult.OK)
+                {
+                    pictureBox3.Image = Image.FromFile(f.FileName);
+                    pictureBox3.SizeMode = PictureBoxSizeMode.StretchImage;
+                    pictureBox3.BorderStyle = BorderStyle.Fixed3D;
+                    PicLocation = f.SafeFileName.ToString();
+                }
+            }
+            catch { }
+        }
+
+
         MyMessageBox MSBOX;
         WindowsMediaPlayer playSound = new WindowsMediaPlayer();
         string stringConnection = StringConnection.ConnectionString();
@@ -24,6 +46,24 @@ namespace SMS
         {
             InitializeComponent();
             parent_name = parentName;
+
+            using (SqlConnection con = new SqlConnection(stringConnection))
+            {
+                con.Open();
+                SqlCommand cmd = new SqlCommand("Select Picture from Parent where Name = '" + parentName + "'", con);
+                SqlDataReader dr = cmd.ExecuteReader();
+                dr.Read();
+                if (dr.HasRows)
+                {
+                    if (dr["Picture"].ToString() != null)
+                    {
+                        byte[] img = (byte[])dr["Picture"];
+                        MemoryStream ms = new MemoryStream(img);
+                        pictureBox17.Image = Image.FromStream(ms);
+                    }
+                }
+
+            }
         }
 
         private void button1_Click(object sender, EventArgs e)
@@ -133,10 +173,18 @@ namespace SMS
                         }
                             if (!usernameExists)
                             {
-                                SqlCommand cmd = new SqlCommand("insert into Student (Name,pass,PhoneNumber,Address,Email,Gender,Day,Month,Year,Parent_ID) values ('" + studentName.Text + "','" + studentPass.Text + "'," + studentPhone.Text + ",'" + studentAddress.Text + "','" + studentEmail.Text + "','" + checkGender(maleCheckBox.Checked) + "'," + dayReg.Text + "," + monthReg.Text + "," + yearReg.Text + "," + parentId +");", con);
-                                cmd.ExecuteNonQuery();
+
+                            byte[] img = null;
+                            FileStream fs = new FileStream(PicLocation, FileMode.Open, FileAccess.Read);
+                            BinaryReader br = new BinaryReader(fs);
+                            img = br.ReadBytes((int)fs.Length);
+
+                            SqlCommand cmd = new SqlCommand("insert into Student (Name,pass,PhoneNumber,Address,Email,Gender,Day,Month,Year,Parent_ID,Picture) values ('" + studentName.Text + "','" + studentPass.Text + "'," + studentPhone.Text + ",'" + studentAddress.Text + "','" + studentEmail.Text + "','" + checkGender(maleCheckBox.Checked) + "'," + dayReg.Text + "," + monthReg.Text + "," + yearReg.Text + "," + parentId + ",@img)", con);
+                            cmd.Parameters.Add(new SqlParameter("@img", img));
+                            cmd.ExecuteNonQuery();
                                 MSBOX = new MyMessageBox("Registered Successfully!");
                                 studentName.Text = studentPass.Text = studentAddress.Text = studentEmail.Text = dayReg.Text = monthReg.Text = yearReg.Text = studentPhone.Text = "";
+                            pictureBox3.Image = null;
                                 maleCheckBox.Checked = false;
                                 femaleCheckBox.Checked = false;
                             }
@@ -409,6 +457,11 @@ namespace SMS
         private void pictureBox1_Click(object sender, EventArgs e)
         {
             Application.Exit();
+        }
+
+        private void pictureBox3_Click_1(object sender, EventArgs e)
+        {
+            openPic();
         }
 
         MailMessage msg2;

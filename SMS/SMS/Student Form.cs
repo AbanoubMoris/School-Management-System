@@ -12,6 +12,7 @@ using System.Data.SqlClient;
 using System.Net;
 using System.Net.Mail;
 using WMPLib;
+using System.IO;
 namespace SMS
 {
     public partial class Student_Form : Form 
@@ -93,6 +94,24 @@ namespace SMS
             showCoursesAvailable(comboBox4);
             showCoursesAvailable(comboBox2);
             showCoursesAvailable(comboBox1);
+
+            using (SqlConnection con = new SqlConnection(stringConnection))
+            {
+                con.Open();
+                SqlCommand cmd = new SqlCommand("Select Picture from Student where Name = '" + userName + "'", con);
+                SqlDataReader dr = cmd.ExecuteReader();
+                dr.Read();
+                if (dr.HasRows)
+                {
+                    if (dr["Picture"].ToString() != null)
+                    {
+                        byte[] img = (byte[])dr["Picture"];
+                        MemoryStream ms = new MemoryStream(img);
+                        pictureBox18.Image = Image.FromStream(ms);
+                    }
+                }
+
+            }
         }
 
         private void Student_Form_Load(object sender, EventArgs e)

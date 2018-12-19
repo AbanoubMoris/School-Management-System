@@ -75,7 +75,6 @@
             this.Attendance = new System.Windows.Forms.Label();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
             this.backgroundWorker1 = new System.ComponentModel.BackgroundWorker();
-            this.contactUs1 = new SMS.ContactUs();
             this.ExitPic = new System.Windows.Forms.PictureBox();
             this.Buttons_pnl = new System.Windows.Forms.Panel();
             this.LogOut = new System.Windows.Forms.Label();
@@ -83,9 +82,9 @@
             this.Choosecourses_btn = new System.Windows.Forms.Button();
             this.Showgrades_btn = new System.Windows.Forms.Button();
             this.Attendance_btn = new System.Windows.Forms.Button();
-            this.panel1 = new System.Windows.Forms.Panel();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.bunifuDragControl1 = new Bunifu.Framework.UI.BunifuDragControl(this.components);
+            this.contactUs1 = new SMS.ContactUs();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.notify_pnl.SuspendLayout();
             this.EditData_pnl.SuspendLayout();
@@ -630,14 +629,6 @@
             this.dataGridView1.TabIndex = 11;
             this.dataGridView1.CellEndEdit += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView1_CellEndEdit);
             // 
-            // contactUs1
-            // 
-            this.contactUs1.BackColor = System.Drawing.Color.Transparent;
-            this.contactUs1.Location = new System.Drawing.Point(3, 3);
-            this.contactUs1.Name = "contactUs1";
-            this.contactUs1.Size = new System.Drawing.Size(71, 317);
-            this.contactUs1.TabIndex = 34;
-            // 
             // ExitPic
             // 
             this.ExitPic.BackgroundImage = global::SMS.Properties.Resources.kisspng_computer_icons_button_sleep_mode_symbol_on_off_5ac7d87504b2d2_5348980615230465170193;
@@ -654,6 +645,7 @@
             // Buttons_pnl
             // 
             this.Buttons_pnl.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(32)))), ((int)(((byte)(34)))), ((int)(((byte)(37)))));
+            this.Buttons_pnl.Controls.Add(this.pictureBox2);
             this.Buttons_pnl.Controls.Add(this.LogOut);
             this.Buttons_pnl.Controls.Add(this.EditData_btn);
             this.Buttons_pnl.Controls.Add(this.Choosecourses_btn);
@@ -688,7 +680,7 @@
             this.EditData_btn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.EditData_btn.Font = new System.Drawing.Font("Times New Roman", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.EditData_btn.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(153)))), ((int)(((byte)(170)))), ((int)(((byte)(181)))));
-            this.EditData_btn.Location = new System.Drawing.Point(3, 84);
+            this.EditData_btn.Location = new System.Drawing.Point(3, 122);
             this.EditData_btn.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.EditData_btn.Name = "EditData_btn";
             this.EditData_btn.Size = new System.Drawing.Size(225, 57);
@@ -705,7 +697,7 @@
             this.Choosecourses_btn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.Choosecourses_btn.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Choosecourses_btn.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(153)))), ((int)(((byte)(170)))), ((int)(((byte)(181)))));
-            this.Choosecourses_btn.Location = new System.Drawing.Point(3, 155);
+            this.Choosecourses_btn.Location = new System.Drawing.Point(3, 193);
             this.Choosecourses_btn.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.Choosecourses_btn.Name = "Choosecourses_btn";
             this.Choosecourses_btn.Size = new System.Drawing.Size(225, 57);
@@ -722,7 +714,7 @@
             this.Showgrades_btn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.Showgrades_btn.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Showgrades_btn.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(153)))), ((int)(((byte)(170)))), ((int)(((byte)(181)))));
-            this.Showgrades_btn.Location = new System.Drawing.Point(3, 294);
+            this.Showgrades_btn.Location = new System.Drawing.Point(3, 332);
             this.Showgrades_btn.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.Showgrades_btn.Name = "Showgrades_btn";
             this.Showgrades_btn.Size = new System.Drawing.Size(225, 57);
@@ -739,7 +731,7 @@
             this.Attendance_btn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.Attendance_btn.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Attendance_btn.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(153)))), ((int)(((byte)(170)))), ((int)(((byte)(181)))));
-            this.Attendance_btn.Location = new System.Drawing.Point(3, 224);
+            this.Attendance_btn.Location = new System.Drawing.Point(3, 262);
             this.Attendance_btn.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.Attendance_btn.Name = "Attendance_btn";
             this.Attendance_btn.Size = new System.Drawing.Size(225, 57);
@@ -748,22 +740,14 @@
             this.Attendance_btn.UseVisualStyleBackColor = false;
             this.Attendance_btn.Click += new System.EventHandler(this.grades_btn_Click);
             // 
-            // panel1
-            // 
-            this.panel1.BackColor = System.Drawing.Color.CornflowerBlue;
-            this.panel1.Location = new System.Drawing.Point(0, -1);
-            this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(1000, 5);
-            this.panel1.TabIndex = 34;
-            // 
             // pictureBox2
             // 
-            this.pictureBox2.BackColor = System.Drawing.Color.CornflowerBlue;
+            this.pictureBox2.BackColor = System.Drawing.Color.Transparent;
             this.pictureBox2.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox2.Image")));
-            this.pictureBox2.Location = new System.Drawing.Point(240, 0);
+            this.pictureBox2.Location = new System.Drawing.Point(5, 5);
             this.pictureBox2.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
             this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(59, 69);
+            this.pictureBox2.Size = new System.Drawing.Size(119, 107);
             this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox2.TabIndex = 35;
             this.pictureBox2.TabStop = false;
@@ -775,6 +759,14 @@
             this.bunifuDragControl1.TargetControl = this;
             this.bunifuDragControl1.Vertical = true;
             // 
+            // contactUs1
+            // 
+            this.contactUs1.BackColor = System.Drawing.Color.Transparent;
+            this.contactUs1.Location = new System.Drawing.Point(3, 3);
+            this.contactUs1.Name = "contactUs1";
+            this.contactUs1.Size = new System.Drawing.Size(71, 317);
+            this.contactUs1.TabIndex = 34;
+            // 
             // Teachers_Form
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -782,8 +774,6 @@
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(32)))), ((int)(((byte)(34)))), ((int)(((byte)(37)))));
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(1001, 531);
-            this.Controls.Add(this.pictureBox2);
-            this.Controls.Add(this.panel1);
             this.Controls.Add(this.Buttons_pnl);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.label2);
@@ -876,7 +866,6 @@
         private System.Windows.Forms.Button button2;
         private System.Windows.Forms.Button button3;
         private System.Windows.Forms.Button button4;
-        private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.PictureBox pictureBox2;
         private Bunifu.Framework.UI.BunifuDragControl bunifuDragControl1;
     }

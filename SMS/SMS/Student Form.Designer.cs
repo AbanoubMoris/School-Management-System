@@ -85,7 +85,6 @@
             this.label9 = new System.Windows.Forms.Label();
             this.label10 = new System.Windows.Forms.Label();
             this.grades_pnl = new System.Windows.Forms.Panel();
-            this.panel3 = new System.Windows.Forms.Panel();
             this.bunifuDragControl1 = new Bunifu.Framework.UI.BunifuDragControl(this.components);
             this.Buttons_pnl.SuspendLayout();
             this.flow_pnl.SuspendLayout();
@@ -104,6 +103,7 @@
             // Buttons_pnl
             // 
             this.Buttons_pnl.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(32)))), ((int)(((byte)(34)))), ((int)(((byte)(37)))));
+            this.Buttons_pnl.Controls.Add(this.pictureBox18);
             this.Buttons_pnl.Controls.Add(this.LogOut);
             this.Buttons_pnl.Controls.Add(this.Status_btn);
             this.Buttons_pnl.Controls.Add(this.EditData_btn);
@@ -126,7 +126,7 @@
             this.LogOut.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.LogOut.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.LogOut.ForeColor = System.Drawing.Color.Transparent;
-            this.LogOut.Location = new System.Drawing.Point(67, 501);
+            this.LogOut.Location = new System.Drawing.Point(67, 505);
             this.LogOut.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.LogOut.Name = "LogOut";
             this.LogOut.Size = new System.Drawing.Size(93, 29);
@@ -143,7 +143,7 @@
             this.Status_btn.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.Status_btn.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Status_btn.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(153)))), ((int)(((byte)(170)))), ((int)(((byte)(181)))));
-            this.Status_btn.Location = new System.Drawing.Point(2, 404);
+            this.Status_btn.Location = new System.Drawing.Point(2, 432);
             this.Status_btn.Margin = new System.Windows.Forms.Padding(2);
             this.Status_btn.Name = "Status_btn";
             this.Status_btn.Size = new System.Drawing.Size(224, 57);
@@ -163,7 +163,7 @@
             this.EditData_btn.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.EditData_btn.Font = new System.Drawing.Font("Times New Roman", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.EditData_btn.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(153)))), ((int)(((byte)(170)))), ((int)(((byte)(181)))));
-            this.EditData_btn.Location = new System.Drawing.Point(2, 61);
+            this.EditData_btn.Location = new System.Drawing.Point(3, 125);
             this.EditData_btn.Margin = new System.Windows.Forms.Padding(2);
             this.EditData_btn.Name = "EditData_btn";
             this.EditData_btn.Size = new System.Drawing.Size(224, 57);
@@ -182,7 +182,7 @@
             this.Choosecourses_btn.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.Choosecourses_btn.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Choosecourses_btn.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(153)))), ((int)(((byte)(170)))), ((int)(((byte)(181)))));
-            this.Choosecourses_btn.Location = new System.Drawing.Point(2, 132);
+            this.Choosecourses_btn.Location = new System.Drawing.Point(3, 186);
             this.Choosecourses_btn.Margin = new System.Windows.Forms.Padding(2);
             this.Choosecourses_btn.Name = "Choosecourses_btn";
             this.Choosecourses_btn.Size = new System.Drawing.Size(224, 57);
@@ -201,7 +201,7 @@
             this.ShowCourses_btn.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.ShowCourses_btn.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.ShowCourses_btn.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(153)))), ((int)(((byte)(170)))), ((int)(((byte)(181)))));
-            this.ShowCourses_btn.Location = new System.Drawing.Point(2, 337);
+            this.ShowCourses_btn.Location = new System.Drawing.Point(2, 371);
             this.ShowCourses_btn.Margin = new System.Windows.Forms.Padding(2);
             this.ShowCourses_btn.Name = "ShowCourses_btn";
             this.ShowCourses_btn.Size = new System.Drawing.Size(224, 57);
@@ -220,7 +220,7 @@
             this.Showgrades_btn.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.Showgrades_btn.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Showgrades_btn.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(153)))), ((int)(((byte)(170)))), ((int)(((byte)(181)))));
-            this.Showgrades_btn.Location = new System.Drawing.Point(2, 271);
+            this.Showgrades_btn.Location = new System.Drawing.Point(2, 308);
             this.Showgrades_btn.Margin = new System.Windows.Forms.Padding(2);
             this.Showgrades_btn.Name = "Showgrades_btn";
             this.Showgrades_btn.Size = new System.Drawing.Size(224, 57);
@@ -239,7 +239,7 @@
             this.Attendance_btn.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.Attendance_btn.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Attendance_btn.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(153)))), ((int)(((byte)(170)))), ((int)(((byte)(181)))));
-            this.Attendance_btn.Location = new System.Drawing.Point(2, 201);
+            this.Attendance_btn.Location = new System.Drawing.Point(3, 247);
             this.Attendance_btn.Margin = new System.Windows.Forms.Padding(2);
             this.Attendance_btn.Name = "Attendance_btn";
             this.Attendance_btn.Size = new System.Drawing.Size(224, 57);
@@ -251,7 +251,6 @@
             // flow_pnl
             // 
             this.flow_pnl.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(32)))), ((int)(((byte)(34)))), ((int)(((byte)(37)))));
-            this.flow_pnl.Controls.Add(this.pictureBox18);
             this.flow_pnl.Controls.Add(this.ExitPic);
             this.flow_pnl.Location = new System.Drawing.Point(228, 3);
             this.flow_pnl.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
@@ -261,12 +260,12 @@
             // 
             // pictureBox18
             // 
-            this.pictureBox18.BackColor = System.Drawing.Color.Orange;
+            this.pictureBox18.BackColor = System.Drawing.Color.Transparent;
             this.pictureBox18.Cursor = System.Windows.Forms.Cursors.Hand;
             this.pictureBox18.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox18.Image")));
-            this.pictureBox18.Location = new System.Drawing.Point(28, 0);
+            this.pictureBox18.Location = new System.Drawing.Point(3, 5);
             this.pictureBox18.Name = "pictureBox18";
-            this.pictureBox18.Size = new System.Drawing.Size(50, 64);
+            this.pictureBox18.Size = new System.Drawing.Size(119, 107);
             this.pictureBox18.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox18.TabIndex = 19;
             this.pictureBox18.TabStop = false;
@@ -778,14 +777,6 @@
             this.grades_pnl.TabIndex = 10;
             this.grades_pnl.Paint += new System.Windows.Forms.PaintEventHandler(this.grades_pnl_Paint);
             // 
-            // panel3
-            // 
-            this.panel3.BackColor = System.Drawing.Color.Orange;
-            this.panel3.Location = new System.Drawing.Point(-2, -1);
-            this.panel3.Name = "panel3";
-            this.panel3.Size = new System.Drawing.Size(1000, 5);
-            this.panel3.TabIndex = 33;
-            // 
             // bunifuDragControl1
             // 
             this.bunifuDragControl1.Fixed = true;
@@ -799,7 +790,6 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(998, 546);
-            this.Controls.Add(this.panel3);
             this.Controls.Add(this.flow_pnl);
             this.Controls.Add(this.Buttons_pnl);
             this.Controls.Add(this.status_pnl);
@@ -891,7 +881,6 @@
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Button button2;
-        private System.Windows.Forms.Panel panel3;
         private Bunifu.Framework.UI.BunifuDragControl bunifuDragControl1;
         private System.Windows.Forms.PictureBox pictureBox18;
     }

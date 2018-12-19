@@ -11,12 +11,37 @@ using System.Data.Sql;
 using System.Data.SqlClient;
 using System.Net;
 using System.Net.Mail;
+using System.IO;
 using WMPLib;
 namespace SMS
 {
 
     public partial class Login : Form
     {
+        SqlParameter picture;
+        string PicLocation;
+        void openPic()
+        {
+            try
+            {
+                OpenFileDialog f = new OpenFileDialog();
+                f.InitialDirectory = "C:/Picture/";
+                f.Filter = "All Files|*.*|JPEGs|*.jpg|Bitmaps|*.bmp|GIFs|*.gif";
+                f.FilterIndex = 2;
+                if(f.ShowDialog() == DialogResult.OK)
+                {
+                    pictureBox3.Image = Image.FromFile(f.FileName);
+                    pictureBox3.SizeMode = PictureBoxSizeMode.StretchImage;
+                    pictureBox3.BorderStyle = BorderStyle.Fixed3D;
+                    PicLocation = f.SafeFileName.ToString();
+                }
+            }
+            catch { }
+        }
+
+        
+
+
         WindowsMediaPlayer playSound = new WindowsMediaPlayer();
         
         MyMessageBox MBOX;
@@ -57,6 +82,7 @@ namespace SMS
             this.Width = 350;
             ChoosePanel.Visible = true;
             panel1.Visible = false;
+            picture = new SqlParameter("@Picture", SqlDbType.Image);
         }
 
         private void SignupPanel_Paint(object sender, PaintEventArgs e)
@@ -614,6 +640,16 @@ namespace SMS
             this.Hide();
         }
 
+        private void LoginPanel_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void pictureBox3_Click(object sender, EventArgs e)
+        {
+            openPic();
+        }
+
         private void label7_Click(object sender, EventArgs e)
         {
             LoginPanel.Visible = true;
@@ -629,7 +665,7 @@ namespace SMS
             correctPhone = false;
             validMail = false;
             usernameExists = false;
-            if (usernameReg.Text == "" || passReg.Text == "" || addressReg.Text == "" || mobileReg.Text == "" || emailReg.Text == "" || dayReg.Text == "" || monthReg.Text == "" || yearReg.Text == "")
+            if (usernameReg.Text == "" || passReg.Text == "" || addressReg.Text == "" || mobileReg.Text == "" || emailReg.Text == "" || dayReg.Text == "" || monthReg.Text == "" || yearReg.Text == "" || pictureBox3.Image == null)
             {
                 if (ChoosedTeacher)
                 {
@@ -688,7 +724,14 @@ namespace SMS
                         }
                         if (!usernameExists)
                         {
-                            SqlCommand cmd = new SqlCommand("insert into " + tableName + "(Name,pass,PhoneNumber,Address,Email,Gender,Day,Month,Year) values ('" + usernameReg.Text + "','" + passReg.Text + "'," + mobileReg.Text + ",'" + addressReg.Text + "','" + emailReg.Text + "','" + checkGender(maleReg.Checked) + "'," + dayReg.Text + "," + monthReg.Text + "," + yearReg.Text + ");", con);
+                            byte[] img = null;
+                            FileStream fs = new FileStream(PicLocation, FileMode.Open, FileAccess.Read);
+                            BinaryReader br = new BinaryReader(fs);
+                            img = br.ReadBytes((int)fs.Length);
+
+
+                            SqlCommand cmd = new SqlCommand("insert into " + tableName + "(Name,pass,PhoneNumber,Address,Email,Gender,Day,Month,Year,Picture) values ('" + usernameReg.Text + "','" + passReg.Text + "'," + mobileReg.Text + ",'" + addressReg.Text + "','" + emailReg.Text + "','" + checkGender(maleReg.Checked) + "'," + dayReg.Text + "," + monthReg.Text + "," + yearReg.Text +",@img)", con);
+                            cmd.Parameters.Add(new SqlParameter("@img", img));
                             if (teacherIsClicked)
                             {
                                 SqlCommand c = new SqlCommand("insert into Course (Course_Name) values ('" + courseYouTeachReg.Text + "')", con);
@@ -730,6 +773,7 @@ namespace SMS
                             LoginPanel.Visible = false;
                             LoginPanel.Visible = true;
                             usernameReg.Text = passReg.Text = addressReg.Text = emailReg.Text = dayReg.Text = monthReg.Text = yearReg.Text = mobileReg.Text = courseYouTeachReg.Text = "";
+                            pictureBox3.Image = null;
                             maleReg.Checked = false;
                             femaleReg.Checked = false;
                         }
