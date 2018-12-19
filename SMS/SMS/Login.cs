@@ -661,6 +661,39 @@ namespace SMS
 
         bool usernameExists = false;
 
+
+        int courseId()
+        {
+            int temp = 0;
+            using (SqlConnection con = new SqlConnection(stringConnection))
+            {
+                con.Open();
+                SqlCommand cmd = new SqlCommand("EXEC getCourseID '" + courseYouTeachReg.Text + "'", con);
+                SqlDataReader dr = cmd.ExecuteReader();
+                while (dr.Read())
+                {
+                    temp = Int32.Parse(dr["Course_ID"].ToString());
+                }
+            }
+            return temp;
+        }
+
+        int getTeacherId()
+        {
+            int temp = 0;
+            using (SqlConnection con = new SqlConnection(stringConnection))
+            {
+                con.Open();
+                SqlCommand cmd = new SqlCommand("EXEC getTeacherID '" + usernameReg.Text + "'", con);
+                SqlDataReader dr = cmd.ExecuteReader();
+                while (dr.Read())
+                {
+                    temp = Int32.Parse(dr["Course_ID"].ToString());
+                }
+            }
+            return temp;
+        }
+
         //register fn
         void register(string tableName)
         {
@@ -738,7 +771,7 @@ namespace SMS
                             cmd.Parameters.Add(new SqlParameter("@img", img));
                             if (teacherIsClicked)
                             {
-                                SqlCommand c = new SqlCommand("insert into Teacher_Course (Course_Name) values ('" + courseYouTeachReg.Text + "')", con);
+                                SqlCommand c = new SqlCommand("insert into Teacher_Course (Course_ID,Teacher_ID) values (" + courseId() + "," + getTeacherId() + ")", con);
                                 c.ExecuteNonQuery();
                             }
                             cmd.ExecuteNonQuery();
