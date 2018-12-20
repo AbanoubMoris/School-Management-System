@@ -17,6 +17,8 @@ namespace SMS
 {
     public partial class Teachers_Form : Form
     {
+        int panelwidth;
+        bool hidden;
         string teacherEmail;
         WindowsMediaPlayer playSound = new WindowsMediaPlayer();
         MyMessageBox MSBOX;
@@ -139,7 +141,8 @@ namespace SMS
         {
             InitializeComponent();
             user_name = username;
-
+            hidden = false;
+            panelwidth = Buttons_pnl_Sliding.Width;
             using (SqlConnection con = new SqlConnection(stringConnection))
             {
                 con.Open();
@@ -210,11 +213,6 @@ namespace SMS
             showAttendance();
         }
 
-        private void label8_Click(object sender, EventArgs e)
-        {
-           
-        }
-
         private void label3_Click_1(object sender, EventArgs e)
         {
 
@@ -260,6 +258,8 @@ namespace SMS
             isGradenotify = false;
             isAttendance = false;
             EditData_pnl.Visible = true;
+            panel2.Visible = false;
+            panel3.Visible = false;
             Addgreades_pnl.Visible = false;
             attend_pnl.Visible = false;
             notify_pnl.Visible = false;
@@ -553,6 +553,53 @@ namespace SMS
         private void label21_Click(object sender, EventArgs e)
         {
 
+        }
+
+        private void pictureBox21_Click(object sender, EventArgs e)
+        {
+            timer1.Start();
+        }
+
+        private void timer1_Tick(object sender, EventArgs e)
+        {
+            if (hidden)
+            {
+                Buttons_pnl_Sliding.Width += 10;
+               Addgreades_pnl.Left += 10;
+               attend_pnl.Left += 10;
+               EditData_pnl.Left += 10;
+               notify_pnl.Left += 10;
+               
+                if (Buttons_pnl_Sliding.Width >= panelwidth)
+                {
+                    timer1.Stop();
+                    hidden = false;
+                    this.Refresh();
+                }
+            }
+            else
+            {
+                Buttons_pnl_Sliding.Width -= 10;
+              notify_pnl.Left -= 10;
+             EditData_pnl.Left -= 10;
+              attend_pnl.Left -= 10;
+              Addgreades_pnl.Left -= 10;
+               
+
+                if (Buttons_pnl_Sliding.Width <= 0)
+                {
+                    timer1.Stop();
+                    hidden = true;
+                    this.Refresh();
+                }
+            }
+        }
+
+        private void back_label_Click(object sender, EventArgs e)
+        {
+            panel3.Visible = false;
+            panel2.Visible = false;
+            EditData_pnl.Visible = true;
         }
 
         private void button8_Click(object sender, EventArgs e)

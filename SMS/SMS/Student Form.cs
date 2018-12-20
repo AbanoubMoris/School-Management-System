@@ -19,7 +19,8 @@ namespace SMS
     {
         MyMessageBox MSBOX;
         WindowsMediaPlayer playSound = new WindowsMediaPlayer();
-       
+        int panelwidth;
+        bool hidden;
         string stringConnection = StringConnection.ConnectionString(); string user_name;
         void showCoursesAvailable(ComboBox c)
         {
@@ -94,7 +95,8 @@ namespace SMS
             showCoursesAvailable(comboBox4);
             showCoursesAvailable(comboBox2);
             showCoursesAvailable(comboBox1);
-
+            panelwidth = Buttons_pnl_Sliding.Width;
+            hidden = false;
             using (SqlConnection con = new SqlConnection(stringConnection))
             {
                 con.Open();
@@ -577,15 +579,47 @@ namespace SMS
             Lgin.Show();
             this.Hide();
         }
-
-        private void radioButton1_CheckedChanged(object sender, EventArgs e)
+        
+        private void timer1_Tick(object sender, EventArgs e)
         {
+            if (hidden)
+            {
+                Buttons_pnl_Sliding.Width += 10;
+                courses_pnl.Left += 10;
+                attendance_pnl.Left += 10;
+                grades_pnl.Left += 10;
+                Personal_pnl.Left += 10;
+                ShowCourses_pnl.Left += 10;
+                status_pnl.Left += 10;
+                if (Buttons_pnl_Sliding.Width>=panelwidth)
+                {
+                    timer1.Stop();
+                    hidden = false;
+                    this.Refresh();
+                }
+            }
+            else
+            {
+                Buttons_pnl_Sliding.Width -= 10;
+                courses_pnl.Left -= 10;
+                attendance_pnl.Left -= 10;
+                grades_pnl.Left -= 10;
+                Personal_pnl.Left -= 10;
+                ShowCourses_pnl.Left -= 10;
+                status_pnl.Left -= 10;
 
+                if (Buttons_pnl_Sliding.Width <= 0)
+                {
+                    timer1.Stop();
+                    hidden = true;
+                    this.Refresh();
+                }
+            }
         }
 
-        private void grades_pnl_Paint(object sender, PaintEventArgs e)
+        private void pictureBox21_Click(object sender, EventArgs e)
         {
-
+            timer1.Start();
         }
 
         private void comboBox4_TextChanged_1(object sender, EventArgs e)
