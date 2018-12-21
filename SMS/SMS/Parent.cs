@@ -31,7 +31,8 @@ namespace SMS
                     pictureBox3.Image = Image.FromFile(f.FileName);
                     pictureBox3.SizeMode = PictureBoxSizeMode.StretchImage;
                     pictureBox3.BorderStyle = BorderStyle.Fixed3D;
-                    PicLocation = f.SafeFileName.ToString();
+                    //PicLocation = f.SafeFileName.ToString();
+                    PicLocation = f.FileName.ToString();
                 }
             }
             catch { }
