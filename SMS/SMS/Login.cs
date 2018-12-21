@@ -86,6 +86,8 @@ namespace SMS
             ChoosePanel.Visible = true;
             panel1.Visible = false;
             picture = new SqlParameter("@Picture", SqlDbType.Image);
+            courseYouTeachReg.Items.Remove("Geogrphy");
+            courseYouTeachReg.Items.Add("Geography");
         }
 
         private void SignupPanel_Paint(object sender, PaintEventArgs e)
@@ -772,8 +774,8 @@ namespace SMS
                            
                             cmd.ExecuteNonQuery();
                             MBOX = new MyMessageBox("Registered Successfully!");
-                            MessageBox.Show(getTeacherId().ToString());
-                            MessageBox.Show(courseId().ToString());
+                            //MessageBox.Show(getTeacherId().ToString());
+                            //MessageBox.Show(courseId().ToString());
 
 
                             if (teacherIsClicked)

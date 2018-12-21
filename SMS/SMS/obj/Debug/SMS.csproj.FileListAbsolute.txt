@@ -320,3 +320,10 @@ C:\Users\hs\Desktop\Final-project-isa\SMS\SMS\obj\Debug\SMS.Student_Form.resourc
 C:\Users\hs\Desktop\Final-project-isa\SMS\SMS\obj\Debug\SMS.Teachers_Form.resources
 C:\Users\hs\Desktop\Final-project-isa\SMS\SMS\obj\Debug\SMS.Teachers.resources
 C:\Users\hs\Desktop\Final-project-isa\SMS\SMS\obj\Debug\SMS.csproj.GenerateResource.Cache
+E:\school manegment system\School_management_System\SMS\SMS\bin\Debug\Interop.WMPLib.dll
+E:\school manegment system\School_management_System\SMS\SMS\bin\Debug\AxInterop.WMPLib.dll
+E:\school manegment system\School_management_System\SMS\SMS\obj\Debug\Interop.WMPLib.dll
+E:\school manegment system\School_management_System\SMS\SMS\obj\Debug\AxInterop.WMPLib.dll
+E:\school manegment system\School_management_System\SMS\SMS\obj\Debug\SMS.csproj.ResolveComReference.cache
+E:\school manegment system\School_management_System\SMS\SMS\obj\Debug\SMS.AboutUs.resources
+E:\school manegment system\School_management_System\SMS\SMS\obj\Debug\SMS.UserControl2.resources
