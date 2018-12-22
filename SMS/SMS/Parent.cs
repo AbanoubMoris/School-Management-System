@@ -38,7 +38,8 @@ namespace SMS
             catch { }
         }
 
-
+        bool hidden;
+        int panelwidth;
         MyMessageBox MSBOX;
         WindowsMediaPlayer playSound = new WindowsMediaPlayer();
         string stringConnection = StringConnection.ConnectionString();
@@ -47,7 +48,8 @@ namespace SMS
         {
             InitializeComponent();
             parent_name = parentName;
-
+            hidden = false;
+            panelwidth = panel1_sliding.Width;
             using (SqlConnection con = new SqlConnection(stringConnection))
             {
                 con.Open();
@@ -463,6 +465,41 @@ namespace SMS
         private void pictureBox3_Click_1(object sender, EventArgs e)
         {
             openPic();
+        }
+
+        private void timer1_Tick(object sender, EventArgs e)
+        {
+            if (hidden)
+            {
+                panel1_sliding.Width += 10;
+                 QueryPanel.Left += 10;
+                StuPanel.Left += 10;
+               
+                if (panel1_sliding.Width >= panelwidth)
+                {
+                    timer1.Stop();
+                    hidden = false;
+                    this.Refresh();
+                }
+            }
+            else
+            {
+                panel1_sliding.Width -= 10;
+                QueryPanel.Left -= 10;
+                StuPanel.Left -= 10;
+
+                if ( panel1_sliding.Width <= 0)
+                {
+                    timer1.Stop();
+                    hidden = true;
+                    this.Refresh();
+                }
+            }
+        }
+
+        private void pictureBox21_Click(object sender, EventArgs e)
+        {
+            timer1.Start();
         }
 
         MailMessage msg2;
