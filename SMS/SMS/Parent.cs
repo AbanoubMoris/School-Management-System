@@ -88,10 +88,6 @@ namespace SMS
             showTeacherContactInfo();
         }
 
-        private void pictureBox3_Click(object sender, EventArgs e)
-        {
-            Application.Exit();
-        }
 
         bool usernameExists = false , strongPass = false, correctPhone = false;
 
@@ -462,7 +458,7 @@ namespace SMS
             Application.Exit();
         }
 
-        private void pictureBox3_Click_1(object sender, EventArgs e)
+        private void pictureBox3_Click(object sender, EventArgs e)
         {
             openPic();
         }
@@ -501,6 +497,16 @@ namespace SMS
         {
             timer1.Start();
         }
+
+        private void pictureBox17_Click(object sender, EventArgs e)
+        {
+
+        }
+
+      //  private void pictureBox3_Click(object sender, EventArgs e)
+      //  {
+      //
+      //  }
 
         MailMessage msg2;
         void sendEmailContactTeacher(string to, string from, string subject , string message)
