@@ -1,3 +1,4 @@
+[![HitCount](http://hits.dwyl.io/Abanoub_moris/School-Management-System.svg)](http://hits.dwyl.io/Abanoub_moris/School-Management-System)
 # School_management_System
 ## System requirement 
    - system should be secured so no one can access any data 
